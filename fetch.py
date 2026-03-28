@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Downloads ANATEL antenna licensing data for Marechal Cândido Rondon (PR)
-and converts it to antennas.json for use in index.html.
+and neighboring municipalities, converting to antennas.json for index.html.
 """
 
 import csv
@@ -13,7 +13,14 @@ from datetime import date, timedelta
 from urllib import request, parse
 
 BASE_URL = "https://sistemas.anatel.gov.br/se/public/view/b"
-IBGE_CODE = "4114609"  # Marechal Cândido Rondon, PR
+
+MUNICIPALITIES = [
+    ("4114609", "Marechal Cândido Rondon"),
+    ("4115853", "Mercedes"),
+    ("4117222", "Nova Santa Rosa"),
+    ("4118451", "Pato Bragado"),
+    ("4120853", "Quatro Pontes"),
+]
 
 TECH_MAP = {
     "NR": "5G",
@@ -32,7 +39,7 @@ def get_session_cookie() -> str:
     raise RuntimeError("Could not obtain session cookie")
 
 
-def request_csv_export(cookie: str) -> str:
+def request_csv_export(cookie: str, ibge_code: str) -> str:
     params = parse.urlencode({
         "skip": "0",
         "filter": "-1",
@@ -41,7 +48,7 @@ def request_csv_export(cookie: str) -> str:
         "view": "0",
         "fa_gsearch": "3",
         "fa_uf": "PR",
-        "fa_municipio": IBGE_CODE,
+        "fa_municipio": ibge_code,
     }).encode()
 
     req = request.Request(
@@ -82,9 +89,8 @@ def normalize(value: str) -> str:
     return value.strip().strip('"')
 
 
-def to_json(rows: list[dict]) -> list[dict]:
+def to_json(rows: list[dict], municipio: str, seen: set) -> list[dict]:
     one_year_ago = date.today() - timedelta(days=365)
-    seen: set[tuple] = set()
     antennas = []
 
     for row in rows:
@@ -124,6 +130,7 @@ def to_json(rows: list[dict]) -> list[dict]:
         antennas.append({
             "operadora": entity,
             "tecnologia": tech,
+            "municipio": municipio,
             "lat": lat,
             "lon": lon,
             "data": date_fmt,
@@ -137,17 +144,20 @@ def main():
     print("Obtendo sessão...", file=sys.stderr)
     cookie = get_session_cookie()
 
-    print("Solicitando exportação CSV...", file=sys.stderr)
-    file_path = request_csv_export(cookie)
+    seen: set[tuple] = set()
+    all_antennas = []
 
-    print(f"Baixando CSV ({file_path})...", file=sys.stderr)
-    rows = download_csv(cookie, file_path)
-    print(f"  {len(rows)} registros brutos", file=sys.stderr)
+    for ibge_code, name in MUNICIPALITIES:
+        print(f"Baixando {name} ({ibge_code})...", file=sys.stderr)
+        file_path = request_csv_export(cookie, ibge_code)
+        rows = download_csv(cookie, file_path)
+        antennas = to_json(rows, name, seen)
+        print(f"  {len(rows)} registros → {len(antennas)} antenas únicas", file=sys.stderr)
+        all_antennas.extend(antennas)
 
-    antennas = to_json(rows)
-    print(f"  {len(antennas)} antenas únicas após deduplicação", file=sys.stderr)
+    print(f"\nTotal: {len(all_antennas)} antenas", file=sys.stderr)
 
-    out = json.dumps(antennas, ensure_ascii=False, indent=2)
+    out = json.dumps(all_antennas, ensure_ascii=False, indent=2)
     with open("antennas.json", "w", encoding="utf-8") as f:
         f.write(out)
 
