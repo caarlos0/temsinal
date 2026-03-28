@@ -30,6 +30,29 @@ TECH_MAP = {
 }
 
 
+def infer_tech(row: dict) -> str:
+    """Guess technology from DesignacaoEmissao and FreqTxMHz when Tecnologia is blank."""
+    desig = row.get("DesignacaoEmissao", "").strip().strip('"')
+    freq_s = row.get("FreqTxMHz", "").strip().strip('"')
+
+    try:
+        freq = float(freq_s)
+    except ValueError:
+        freq = 0.0
+
+    # Wide-band digital microwave (D7W / G7W) at > 1 GHz → backhaul link
+    if freq > 1000 and ("D7W" in desig or "G7W" in desig or "Q7W" in desig):
+        return "Backhaul"
+
+    # Narrowband VHF/UHF emissions → land mobile / trunked radio
+    narrow = ("F1E" in desig or "F1D" in desig or "F1W" in desig or
+              "F3E" in desig or "F2D" in desig)
+    if narrow and freq < 500:
+        return "Radio"
+
+    return "?"
+
+
 def get_session_cookie() -> str:
     req = request.Request(f"{BASE_URL}/licenciamento.php")
     with request.urlopen(req) as resp:
@@ -109,7 +132,7 @@ def to_json(rows: list[dict], municipio: str, seen: set) -> list[dict]:
         except ValueError:
             continue
 
-        tech = TECH_MAP.get(raw_tech, raw_tech or "Desconhecida")
+        tech = TECH_MAP.get(raw_tech) or infer_tech(row)
 
         key = (entity, tech, lat, lon)
         if key in seen:

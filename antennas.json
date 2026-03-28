@@ -1,7 +1,7 @@
 [
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.489968,
     "lon": -54.303407,
@@ -10,7 +10,7 @@
   },
   {
     "operadora": "Palsgaard Candon S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.56277778,
     "lon": -54.04944444,
@@ -28,7 +28,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.541152,
     "lon": -54.052456,
@@ -37,7 +37,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.56478,
     "lon": -54.06135,
@@ -46,7 +46,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.52768,
     "lon": -54.04832,
@@ -100,7 +100,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.47889,
     "lon": -54.01267,
@@ -136,7 +136,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.51776,
     "lon": -54.21477,
@@ -154,7 +154,7 @@
   },
   {
     "operadora": "COMPORTEC SEGURANCA E VIGILANCIA LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.542482,
     "lon": -54.048086,
@@ -163,7 +163,7 @@
   },
   {
     "operadora": "COPEL DISTRIBUICAO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.558785,
     "lon": -54.058307,
@@ -172,7 +172,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.560472,
     "lon": -54.077444,
@@ -181,7 +181,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.551528,
     "lon": -54.049611,
@@ -190,7 +190,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.560559,
     "lon": -54.077608,
@@ -199,7 +199,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.562675,
     "lon": -54.211736,
@@ -208,7 +208,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.64575,
     "lon": -54.106722,
@@ -217,7 +217,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.558694,
     "lon": -54.058167,
@@ -226,7 +226,7 @@
   },
   {
     "operadora": "COPEL DISTRIBUICAO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.550272,
     "lon": -54.096486,
@@ -244,7 +244,7 @@
   },
   {
     "operadora": "Marechal Vigilancia e Seguranca Ltda",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.542461111111,
     "lon": -54.048108333333,
@@ -253,7 +253,7 @@
   },
   {
     "operadora": "TV OESTE DO PARANA LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.568194,
     "lon": -54.008889,
@@ -262,7 +262,7 @@
   },
   {
     "operadora": "Cricom do Brasil Ltda",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.558916666667,
     "lon": -54.104555555555,
@@ -271,7 +271,7 @@
   },
   {
     "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.560861,
     "lon": -54.067806,
@@ -280,7 +280,7 @@
   },
   {
     "operadora": "CELSO CLAUDINO DA SILVA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.535461,
     "lon": -54.049103,
@@ -289,7 +289,7 @@
   },
   {
     "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.534778,
     "lon": -54.009044,
@@ -298,7 +298,7 @@
   },
   {
     "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.555136,
     "lon": -54.059069,
@@ -307,7 +307,7 @@
   },
   {
     "operadora": "TELEFONICA BRASIL S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.559722,
     "lon": -54.056944,
@@ -316,7 +316,7 @@
   },
   {
     "operadora": "TELEFONICA BRASIL S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.54055,
     "lon": -54.0525,
@@ -325,7 +325,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.5411,
     "lon": -54.052203,
@@ -334,7 +334,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "?",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.565136,
     "lon": -54.039858,
@@ -343,7 +343,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.56048,
     "lon": -54.0776,
@@ -451,7 +451,7 @@
   },
   {
     "operadora": "MARCIO BICKEL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.690853,
     "lon": -54.061111,
@@ -460,7 +460,7 @@
   },
   {
     "operadora": "DELFINO BICKEL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.724736,
     "lon": -54.033056,
@@ -478,7 +478,7 @@
   },
   {
     "operadora": "ALBERT HENKE XAVIER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.425892,
     "lon": -54.048164,
@@ -487,7 +487,7 @@
   },
   {
     "operadora": "SELMIRO BIER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.55775,
     "lon": -54.051219,
@@ -496,7 +496,7 @@
   },
   {
     "operadora": "SELMIRO BIER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.508681,
     "lon": -54.072819,
@@ -505,7 +505,7 @@
   },
   {
     "operadora": "ELDOR MIGUEL SULZBACHER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.500489,
     "lon": -54.136222,
@@ -514,7 +514,7 @@
   },
   {
     "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.568444,
     "lon": -54.034306,
@@ -523,7 +523,7 @@
   },
   {
     "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.562028,
     "lon": -54.059981,
@@ -577,7 +577,7 @@
   },
   {
     "operadora": "COOP. DE ELETRIF. E DESENV. ECONOMICO DE MAL. CDO. RONDON - CERCAR",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.55,
     "lon": -54.05,
@@ -586,7 +586,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.437222,
     "lon": -54.024722,
@@ -595,7 +595,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.505278,
     "lon": -54.223889,
@@ -604,7 +604,7 @@
   },
   {
     "operadora": "JOSE HUGO SEIDEL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.556836,
     "lon": -54.075853,
@@ -613,7 +613,7 @@
   },
   {
     "operadora": "JOSE HUGO SEIDEL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.698481,
     "lon": -54.043064,
@@ -622,7 +622,7 @@
   },
   {
     "operadora": "PAULO ROHR",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.4371,
     "lon": -54.022186,
@@ -631,7 +631,7 @@
   },
   {
     "operadora": "PAULO ROHR",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.556111,
     "lon": -54.056667,
@@ -640,7 +640,7 @@
   },
   {
     "operadora": "ANA NELI WELP",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.556836,
     "lon": -54.075853,
@@ -649,7 +649,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "?",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.5587,
     "lon": -54.0577,
@@ -658,7 +658,16 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
+    "municipio": "Marechal Cândido Rondon",
+    "lat": -24.5587,
+    "lon": -54.0577,
+    "data": "05/09/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.545694,
     "lon": -54.037639,
@@ -667,7 +676,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.54548,
     "lon": -54.03738,
@@ -676,7 +685,7 @@
   },
   {
     "operadora": "JOELCI JOSÉ DRESCH",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.516111,
     "lon": -54.118611,
@@ -829,7 +838,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.516667,
     "lon": -54.2125,
@@ -838,7 +847,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.707222,
     "lon": -54.0725,
@@ -847,7 +856,16 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "?",
+    "municipio": "Marechal Cândido Rondon",
+    "lat": -24.707222,
+    "lon": -54.0725,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "?",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.490556,
     "lon": -54.306667,
@@ -856,7 +874,16 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
+    "municipio": "Marechal Cândido Rondon",
+    "lat": -24.490556,
+    "lon": -54.306667,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "?",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.548333,
     "lon": -54.265833,
@@ -865,7 +892,16 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
+    "municipio": "Marechal Cândido Rondon",
+    "lat": -24.548333,
+    "lon": -54.265833,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "?",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.649167,
     "lon": -54.124722,
@@ -874,7 +910,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.663333,
     "lon": -54.041667,
@@ -883,7 +919,16 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
+    "municipio": "Marechal Cândido Rondon",
+    "lat": -24.558639,
+    "lon": -54.057528,
+    "data": "22/12/1999",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Backhaul",
     "municipio": "Marechal Cândido Rondon",
     "lat": -24.558639,
     "lon": -54.057528,
@@ -946,7 +991,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Mercedes",
     "lat": -24.4515,
     "lon": -54.1641,
@@ -955,7 +1000,7 @@
   },
   {
     "operadora": "NEXTEL TELECOMUNICACOES LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Mercedes",
     "lat": -24.453497,
     "lon": -54.168297,
@@ -964,7 +1009,7 @@
   },
   {
     "operadora": "PEDREIRA DO TREVO LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.451694,
     "lon": -54.164533,
@@ -973,7 +1018,7 @@
   },
   {
     "operadora": "ENISIO RADDATZ",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.462222,
     "lon": -54.1275,
@@ -982,7 +1027,7 @@
   },
   {
     "operadora": "ENISIO RADDATZ",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.451111,
     "lon": -54.159167,
@@ -991,7 +1036,7 @@
   },
   {
     "operadora": "ELDOR MIGUEL SULZBACHER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.451389,
     "lon": -54.164778,
@@ -1000,7 +1045,7 @@
   },
   {
     "operadora": "HERBERTO FRANZ",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.466944,
     "lon": -54.124444,
@@ -1009,7 +1054,7 @@
   },
   {
     "operadora": "HERBERTO FRANZ",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.453056,
     "lon": -54.175833,
@@ -1018,7 +1063,7 @@
   },
   {
     "operadora": "ELDOR MIGUEL SULZBACHER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.403333,
     "lon": -54.245833,
@@ -1027,7 +1072,7 @@
   },
   {
     "operadora": "ELDOR MIGUEL SULZBACHER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.451667,
     "lon": -54.165278,
@@ -1036,7 +1081,7 @@
   },
   {
     "operadora": "ASSOCIAÇÃO DE MORADORES SANGA GUILHERME",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.451389,
     "lon": -54.165,
@@ -1045,7 +1090,7 @@
   },
   {
     "operadora": "ASSOCIAÇÃO DE MORADORES SANGA GUILHERME",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.408611,
     "lon": -54.177833,
@@ -1054,7 +1099,7 @@
   },
   {
     "operadora": "JOELCI JOSÉ DRESCH",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.484444,
     "lon": -54.133611,
@@ -1063,7 +1108,7 @@
   },
   {
     "operadora": "ECOBAT RECICLAGEM LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.451783,
     "lon": -54.16535,
@@ -1072,7 +1117,7 @@
   },
   {
     "operadora": "ECOBAT RECICLAGEM LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.402358,
     "lon": -54.245394,
@@ -1081,7 +1126,7 @@
   },
   {
     "operadora": "ANTONIO BALDUINO BACKES",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.448339,
     "lon": -54.157525,
@@ -1090,7 +1135,7 @@
   },
   {
     "operadora": "ANTONIO BALDUINO BACKES",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.421678,
     "lon": -54.214175,
@@ -1099,7 +1144,7 @@
   },
   {
     "operadora": "MINISTÉRIO DA JUSTIÇA - DEPARTAMENTO DE POLICIA ROD. FEDERAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Mercedes",
     "lat": -24.4515,
     "lon": -54.164111,
@@ -1108,7 +1153,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.390833,
     "lon": -54.248611,
@@ -1117,7 +1162,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.45,
     "lon": -54.133333,
@@ -1126,7 +1171,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Mercedes",
     "lat": -24.442472,
     "lon": -54.245139,
@@ -1171,7 +1216,7 @@
   },
   {
     "operadora": "MINISTÉRIO DA JUSTIÇA - DEPARTAMENTO DE POLICIA ROD. FEDERAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "?",
     "municipio": "Mercedes",
     "lat": -24.4515,
     "lon": -54.164111111111,
@@ -1180,7 +1225,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Mercedes",
     "lat": -24.44907,
     "lon": -54.16405,
@@ -1198,7 +1243,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Mercedes",
     "lat": -24.45158,
     "lon": -54.1643,
@@ -1261,7 +1306,7 @@
   },
   {
     "operadora": "NEXTEL TELECOMUNICACOES LTDA",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Nova Santa Rosa",
     "lat": -24.469556,
     "lon": -53.956417,
@@ -1270,7 +1315,7 @@
   },
   {
     "operadora": "ALBERT HENKE XAVIER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Nova Santa Rosa",
     "lat": -24.403325,
     "lon": -54.046572,
@@ -1279,7 +1324,7 @@
   },
   {
     "operadora": "LUIZ CARLOS BORCHARDT",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Nova Santa Rosa",
     "lat": -24.467861,
     "lon": -53.950611,
@@ -1288,7 +1333,7 @@
   },
   {
     "operadora": "LUIZ CARLOS BORCHARDT",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Nova Santa Rosa",
     "lat": -24.416583,
     "lon": -53.9025,
@@ -1297,7 +1342,7 @@
   },
   {
     "operadora": "ALTAIR LUIS JONER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Nova Santa Rosa",
     "lat": -24.467861,
     "lon": -53.950611,
@@ -1306,7 +1351,7 @@
   },
   {
     "operadora": "ALTAIR LUIS JONER",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Nova Santa Rosa",
     "lat": -24.389389,
     "lon": -53.959764,
@@ -1378,7 +1423,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Nova Santa Rosa",
     "lat": -24.4696,
     "lon": -53.9564,
@@ -1414,7 +1459,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Nova Santa Rosa",
     "lat": -24.464719,
     "lon": -53.959167,
@@ -1423,7 +1468,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Nova Santa Rosa",
     "lat": -24.465667,
     "lon": -53.956556,
@@ -1459,7 +1504,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "?",
     "municipio": "Pato Bragado",
     "lat": -24.626667,
     "lon": -54.224722,
@@ -1504,7 +1549,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Pato Bragado",
     "lat": -24.626667,
     "lon": -54.224611,
@@ -1513,7 +1558,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Pato Bragado",
     "lat": -24.626834,
     "lon": -54.224709,
@@ -1558,7 +1603,7 @@
   },
   {
     "operadora": "CLARO S.A.",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Quatro Pontes",
     "lat": -24.5726,
     "lon": -53.9763,
@@ -1567,7 +1612,7 @@
   },
   {
     "operadora": "ALCEU JOAO SAUSEN",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Quatro Pontes",
     "lat": -24.573111,
     "lon": -53.974778,
@@ -1576,7 +1621,7 @@
   },
   {
     "operadora": "ALCEU JOAO SAUSEN",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Quatro Pontes",
     "lat": -24.558917,
     "lon": -53.968889,
@@ -1585,7 +1630,7 @@
   },
   {
     "operadora": "ANTONIO MENDES NARDI",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Quatro Pontes",
     "lat": -24.5521,
     "lon": -53.999447,
@@ -1594,7 +1639,7 @@
   },
   {
     "operadora": "JOAO CARLOS KUHN",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Quatro Pontes",
     "lat": -24.576217,
     "lon": -53.974497,
@@ -1603,7 +1648,7 @@
   },
   {
     "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Radio",
     "municipio": "Quatro Pontes",
     "lat": -24.643333,
     "lon": -53.975278,
@@ -1648,7 +1693,7 @@
   },
   {
     "operadora": "TIM S A",
-    "tecnologia": "Desconhecida",
+    "tecnologia": "Backhaul",
     "municipio": "Quatro Pontes",
     "lat": -24.570642,
     "lon": -53.97117,
