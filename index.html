@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antenas – Marechal Cândido Rondon</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100dvh;
+      background: #1a1a2e;
+      color: #e0e0e0;
+    }
+
+    header {
+      padding: 10px 16px;
+      background: #16213e;
+      border-bottom: 1px solid #0f3460;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e94560;
+      white-space: nowrap;
+    }
+
+    #filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: #0f3460;
+      color: #e0e0e0;
+      transition: opacity 0.2s;
+    }
+    .filter-btn:hover { opacity: 0.8; }
+    .filter-btn.active { border-color: white; }
+    .filter-btn[data-tech="Todos"]   { background: #555; }
+    .filter-btn[data-tech="5G"]      { background: #e94560; }
+    .filter-btn[data-tech="4G"]      { background: #0f9b8e; }
+    .filter-btn[data-tech="3G"]      { background: #e6a817; }
+    .filter-btn[data-tech="2G"]      { background: #7c6fcd; }
+    .filter-btn[data-tech="nova"]    { background: #ff6b35; border-style: dashed; }
+
+    #stats {
+      margin-left: auto;
+      font-size: 0.75rem;
+      color: #aaa;
+      white-space: nowrap;
+    }
+
+    #map { flex: 1; }
+
+    /* Custom marker dots */
+    .dot {
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.6);
+      opacity: 0.9;
+    }
+    .dot.nova {
+      border: 3px dashed white;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📡 Antenas — Marechal Cândido Rondon</h1>
+  <div id="filters">
+    <button class="filter-btn active" data-tech="Todos">Todos</button>
+    <button class="filter-btn" data-tech="5G">5G</button>
+    <button class="filter-btn" data-tech="4G">4G</button>
+    <button class="filter-btn" data-tech="3G">3G</button>
+    <button class="filter-btn" data-tech="2G">2G</button>
+    <button class="filter-btn" data-tech="nova">🆕 Novas</button>
+  </div>
+  <span id="stats"></span>
+</header>
+
+<div id="map"></div>
+
+<script>
+const TECH_COLOR = {
+  "5G": "#e94560",
+  "4G": "#0f9b8e",
+  "3G": "#e6a817",
+  "2G": "#7c6fcd",
+};
+
+function colorFor(antenna) {
+  return TECH_COLOR[antenna.tecnologia] || "#888";
+}
+
+function makeIcon(antenna) {
+  const color = colorFor(antenna);
+  const isNew = antenna.nova;
+  const size = isNew ? 14 : 10;
+  return L.divIcon({
+    className: "",
+    html: `<div class="dot${isNew ? " nova" : ""}" style="width:${size}px;height:${size}px;background:${color}"></div>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+  });
+}
+
+const map = L.map("map").setView([-24.554, -54.053], 13);
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+let allMarkers = [];
+let activeFilter = "Todos";
+
+function applyFilter(tech) {
+  activeFilter = tech;
+  let visible = 0;
+  for (const { marker, antenna } of allMarkers) {
+    const show =
+      tech === "Todos" ||
+      (tech === "nova" && antenna.nova) ||
+      antenna.tecnologia === tech;
+    if (show) { marker.addTo(map); visible++; }
+    else        marker.remove();
+  }
+  document.getElementById("stats").textContent = `${visible} / ${allMarkers.length} antenas`;
+}
+
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    applyFilter(btn.dataset.tech);
+  });
+});
+
+fetch("antennas.json")
+  .then(r => r.json())
+  .then(data => {
+    for (const antenna of data) {
+      const marker = L.marker([antenna.lat, antenna.lon], { icon: makeIcon(antenna) });
+      marker.bindPopup(`
+        <strong>${antenna.operadora}</strong><br>
+        Tecnologia: <b>${antenna.tecnologia}</b><br>
+        Licenciada: ${antenna.data || "—"}<br>
+        ${antenna.nova ? "<span style='color:#ff6b35;font-weight:bold'>🆕 Nova (último ano)</span>" : ""}
+      `);
+      allMarkers.push({ marker, antenna });
+    }
+    applyFilter("Todos");
+  })
+  .catch(err => {
+    document.getElementById("stats").textContent = "Erro ao carregar antennas.json";
+    console.error(err);
+  });
+</script>
+</body>
+</html>

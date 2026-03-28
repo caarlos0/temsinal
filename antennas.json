@@ -1,0 +1,818 @@
+[
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.489968,
+    "lon": -54.303407,
+    "data": "11/02/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Palsgaard Candon S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.56277778,
+    "lon": -54.04944444,
+    "data": "03/11/2025",
+    "nova": true
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.707444,
+    "lon": -54.074425,
+    "data": "17/09/2025",
+    "nova": true
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.541152,
+    "lon": -54.052456,
+    "data": "08/06/2025",
+    "nova": true
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.56478,
+    "lon": -54.06135,
+    "data": "15/01/2025",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.52768,
+    "lon": -54.04832,
+    "data": "02/01/2025",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.52908,
+    "lon": -54.05217,
+    "data": "05/12/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.52908,
+    "lon": -54.05217,
+    "data": "05/12/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.56365,
+    "lon": -54.06385,
+    "data": "21/11/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.47889,
+    "lon": -54.01267,
+    "data": "01/07/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.47889,
+    "lon": -54.01267,
+    "data": "01/07/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.47889,
+    "lon": -54.01267,
+    "data": "21/05/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.547194,
+    "lon": -54.267611,
+    "data": "02/04/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.51776,
+    "lon": -54.21477,
+    "data": "21/03/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.51776,
+    "lon": -54.21477,
+    "data": "21/03/2024",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.51776,
+    "lon": -54.21477,
+    "data": "21/03/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.649581,
+    "lon": -54.122719,
+    "data": "27/02/2024",
+    "nova": false
+  },
+  {
+    "operadora": "COMPORTEC SEGURANCA E VIGILANCIA LTDA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.542482,
+    "lon": -54.048086,
+    "data": "19/02/2024",
+    "nova": false
+  },
+  {
+    "operadora": "COPEL DISTRIBUICAO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.558785,
+    "lon": -54.058307,
+    "data": "04/01/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.560472,
+    "lon": -54.077444,
+    "data": "24/11/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.551528,
+    "lon": -54.049611,
+    "data": "24/11/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.560559,
+    "lon": -54.077608,
+    "data": "24/11/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.562675,
+    "lon": -54.211736,
+    "data": "19/09/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.64575,
+    "lon": -54.106722,
+    "data": "08/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "Desconhecida",
+    "lat": -24.558694,
+    "lon": -54.058167,
+    "data": "28/02/2023",
+    "nova": false
+  },
+  {
+    "operadora": "COPEL DISTRIBUICAO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.550272,
+    "lon": -54.096486,
+    "data": "24/01/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.562667,
+    "lon": -54.211667,
+    "data": "04/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "Marechal Vigilancia e Seguranca Ltda",
+    "tecnologia": "Desconhecida",
+    "lat": -24.542461111111,
+    "lon": -54.048108333333,
+    "data": "06/06/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TV OESTE DO PARANA LTDA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.568194,
+    "lon": -54.008889,
+    "data": "02/12/2021",
+    "nova": false
+  },
+  {
+    "operadora": "Cricom do Brasil Ltda",
+    "tecnologia": "Desconhecida",
+    "lat": -24.558916666667,
+    "lon": -54.104555555555,
+    "data": "21/07/2021",
+    "nova": false
+  },
+  {
+    "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.560861,
+    "lon": -54.067806,
+    "data": "06/12/2019",
+    "nova": false
+  },
+  {
+    "operadora": "CELSO CLAUDINO DA SILVA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.535461,
+    "lon": -54.049103,
+    "data": "30/10/2018",
+    "nova": false
+  },
+  {
+    "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.534778,
+    "lon": -54.009044,
+    "data": "05/04/2018",
+    "nova": false
+  },
+  {
+    "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.555136,
+    "lon": -54.059069,
+    "data": "05/04/2018",
+    "nova": false
+  },
+  {
+    "operadora": "TELEFONICA BRASIL S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.559722,
+    "lon": -54.056944,
+    "data": "31/10/2017",
+    "nova": false
+  },
+  {
+    "operadora": "TELEFONICA BRASIL S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.54055,
+    "lon": -54.0525,
+    "data": "31/10/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.5411,
+    "lon": -54.052203,
+    "data": "27/10/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.565136,
+    "lon": -54.039858,
+    "data": "27/10/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.56048,
+    "lon": -54.0776,
+    "data": "27/10/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.54112,
+    "lon": -54.05251,
+    "data": "27/07/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.54112,
+    "lon": -54.05251,
+    "data": "27/07/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "3G",
+    "lat": -24.54112,
+    "lon": -54.05251,
+    "data": "27/07/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.56048,
+    "lon": -54.0776,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.56048,
+    "lon": -54.0776,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "3G",
+    "lat": -24.56048,
+    "lon": -54.0776,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.56513,
+    "lon": -54.03986,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.56513,
+    "lon": -54.03986,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "3G",
+    "lat": -24.56513,
+    "lon": -54.03986,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "3G",
+    "lat": -24.48972,
+    "lon": -54.30333,
+    "data": "30/09/2016",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.48972,
+    "lon": -54.30333,
+    "data": "30/09/2016",
+    "nova": false
+  },
+  {
+    "operadora": "MARCIO BICKEL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.690853,
+    "lon": -54.061111,
+    "data": "25/02/2016",
+    "nova": false
+  },
+  {
+    "operadora": "DELFINO BICKEL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.724736,
+    "lon": -54.033056,
+    "data": "23/02/2016",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "3G",
+    "lat": -24.64556,
+    "lon": -54.10667,
+    "data": "29/01/2016",
+    "nova": false
+  },
+  {
+    "operadora": "ALBERT HENKE XAVIER",
+    "tecnologia": "Desconhecida",
+    "lat": -24.425892,
+    "lon": -54.048164,
+    "data": "15/05/2015",
+    "nova": false
+  },
+  {
+    "operadora": "SELMIRO BIER",
+    "tecnologia": "Desconhecida",
+    "lat": -24.55775,
+    "lon": -54.051219,
+    "data": "04/12/2014",
+    "nova": false
+  },
+  {
+    "operadora": "SELMIRO BIER",
+    "tecnologia": "Desconhecida",
+    "lat": -24.508681,
+    "lon": -54.072819,
+    "data": "04/12/2014",
+    "nova": false
+  },
+  {
+    "operadora": "ELDOR MIGUEL SULZBACHER",
+    "tecnologia": "Desconhecida",
+    "lat": -24.500489,
+    "lon": -54.136222,
+    "data": "04/12/2014",
+    "nova": false
+  },
+  {
+    "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.568444,
+    "lon": -54.034306,
+    "data": "14/08/2014",
+    "nova": false
+  },
+  {
+    "operadora": "PARANA SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
+    "tecnologia": "Desconhecida",
+    "lat": -24.562028,
+    "lon": -54.059981,
+    "data": "14/08/2014",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "3G",
+    "lat": -24.560472,
+    "lon": -54.077444,
+    "data": "01/11/2012",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "2G",
+    "lat": -24.560472,
+    "lon": -54.077444,
+    "data": "01/11/2012",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.560472,
+    "lon": -54.077444,
+    "data": "01/11/2012",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "5G",
+    "lat": -24.560472,
+    "lon": -54.077444,
+    "data": "01/11/2012",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.551528,
+    "lon": -54.049611,
+    "data": "24/06/2011",
+    "nova": false
+  },
+  {
+    "operadora": "COOP. DE ELETRIF. E DESENV. ECONOMICO DE MAL. CDO. RONDON - CERCAR",
+    "tecnologia": "Desconhecida",
+    "lat": -24.55,
+    "lon": -54.05,
+    "data": "25/03/2009",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.437222,
+    "lon": -54.024722,
+    "data": "20/02/2009",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.505278,
+    "lon": -54.223889,
+    "data": "20/02/2009",
+    "nova": false
+  },
+  {
+    "operadora": "JOSE HUGO SEIDEL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.556836,
+    "lon": -54.075853,
+    "data": "03/11/2008",
+    "nova": false
+  },
+  {
+    "operadora": "JOSE HUGO SEIDEL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.698481,
+    "lon": -54.043064,
+    "data": "03/11/2008",
+    "nova": false
+  },
+  {
+    "operadora": "PAULO ROHR",
+    "tecnologia": "Desconhecida",
+    "lat": -24.4371,
+    "lon": -54.022186,
+    "data": "18/01/2007",
+    "nova": false
+  },
+  {
+    "operadora": "PAULO ROHR",
+    "tecnologia": "Desconhecida",
+    "lat": -24.556111,
+    "lon": -54.056667,
+    "data": "18/01/2007",
+    "nova": false
+  },
+  {
+    "operadora": "ANA NELI WELP",
+    "tecnologia": "Desconhecida",
+    "lat": -24.556836,
+    "lon": -54.075853,
+    "data": "04/12/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.5587,
+    "lon": -54.0577,
+    "data": "05/09/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.545694,
+    "lon": -54.037639,
+    "data": "05/09/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "Desconhecida",
+    "lat": -24.54548,
+    "lon": -54.03738,
+    "data": "05/09/2006",
+    "nova": false
+  },
+  {
+    "operadora": "JOELCI JOSÉ DRESCH",
+    "tecnologia": "Desconhecida",
+    "lat": -24.516111,
+    "lon": -54.118611,
+    "data": "08/07/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "3G",
+    "lat": -24.54548,
+    "lon": -54.03738,
+    "data": "12/06/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.54548,
+    "lon": -54.03738,
+    "data": "12/06/2006",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.54548,
+    "lon": -54.03738,
+    "data": "12/06/2006",
+    "nova": false
+  },
+  {
+    "operadora": "Telefonica Brasil S.a.",
+    "tecnologia": "2G",
+    "lat": -24.560294,
+    "lon": -54.057377,
+    "data": "31/01/2006",
+    "nova": false
+  },
+  {
+    "operadora": "Telefonica Brasil S.a.",
+    "tecnologia": "3G",
+    "lat": -24.560294,
+    "lon": -54.057377,
+    "data": "31/01/2006",
+    "nova": false
+  },
+  {
+    "operadora": "Telefonica Brasil S.a.",
+    "tecnologia": "4G",
+    "lat": -24.560294,
+    "lon": -54.057377,
+    "data": "31/01/2006",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.541039,
+    "lon": -54.052392,
+    "data": "18/10/2005",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "2G",
+    "lat": -24.541039,
+    "lon": -54.052392,
+    "data": "18/10/2005",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "3G",
+    "lat": -24.541039,
+    "lon": -54.052392,
+    "data": "18/10/2005",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "5G",
+    "lat": -24.541039,
+    "lon": -54.052392,
+    "data": "18/10/2005",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "2G",
+    "lat": -24.5587,
+    "lon": -54.0577,
+    "data": "29/01/2004",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "4G",
+    "lat": -24.5587,
+    "lon": -54.0577,
+    "data": "29/01/2004",
+    "nova": false
+  },
+  {
+    "operadora": "CLARO S.A.",
+    "tecnologia": "3G",
+    "lat": -24.5587,
+    "lon": -54.0577,
+    "data": "29/01/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TELEFONICA BRASIL S.A.",
+    "tecnologia": "3G",
+    "lat": -24.5405555,
+    "lon": -54.0525,
+    "data": "19/09/2001",
+    "nova": false
+  },
+  {
+    "operadora": "TELEFONICA BRASIL S.A.",
+    "tecnologia": "2G",
+    "lat": -24.5405555,
+    "lon": -54.0525,
+    "data": "19/09/2001",
+    "nova": false
+  },
+  {
+    "operadora": "TELEFONICA BRASIL S.A.",
+    "tecnologia": "4G",
+    "lat": -24.5405555,
+    "lon": -54.0525,
+    "data": "19/09/2001",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.516667,
+    "lon": -54.2125,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.707222,
+    "lon": -54.0725,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.490556,
+    "lon": -54.306667,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.548333,
+    "lon": -54.265833,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.649167,
+    "lon": -54.124722,
+    "data": "04/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.663333,
+    "lon": -54.041667,
+    "data": "22/12/1999",
+    "nova": false
+  },
+  {
+    "operadora": "OI S.A.-EM RECUPERAÇÃO JUDICIAL",
+    "tecnologia": "Desconhecida",
+    "lat": -24.558639,
+    "lon": -54.057528,
+    "data": "22/12/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "4G",
+    "lat": -24.55876,
+    "lon": -54.057786,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "2G",
+    "lat": -24.55876,
+    "lon": -54.057786,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM S A",
+    "tecnologia": "3G",
+    "lat": -24.55876,
+    "lon": -54.057786,
+    "data": "04/11/1999",
+    "nova": false
+  }
+]
