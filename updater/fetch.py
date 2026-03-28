@@ -10,6 +10,7 @@ import json
 import sys
 import zipfile
 from datetime import date, timedelta
+from pathlib import Path
 from urllib import request, parse
 
 BASE_URL = "https://sistemas.anatel.gov.br/se/public/view/b"
@@ -227,8 +228,9 @@ def main():
 
     print(f"\nTotal: {len(all_antennas)} antenas", file=sys.stderr)
 
+    out_path = Path(__file__).parent.parent / "antennas.json"
     out = json.dumps(all_antennas, ensure_ascii=False, indent=2)
-    with open("antennas.json", "w", encoding="utf-8") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         f.write(out)
 
     print("antennas.json gerado com sucesso.", file=sys.stderr)
