@@ -119,17 +119,55 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 50%;
-      background: rgba(0,0,0,0.55);
+      border-radius: 4px;
+      background: rgba(15,15,15,0.85);
       border: 1.5px solid currentColor;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      font-size: 10px;
+      font-weight: 700;
+      font-family: system-ui, sans-serif;
+      letter-spacing: 0.03em;
+      padding: 2px 5px;
+      white-space: nowrap;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.5);
       backdrop-filter: blur(2px);
     }
-    .marker-icon svg { display: block; }
     .marker-icon.nova {
-      background: rgba(0,0,0,0.75);
-      border-width: 2px;
-      box-shadow: 0 0 10px currentColor, 0 2px 8px rgba(0,0,0,0.6);
+      box-shadow: 0 0 8px currentColor, 0 1px 4px rgba(0,0,0,0.5);
+    }
+
+    #legend {
+      position: absolute;
+      bottom: 28px;
+      right: 10px;
+      z-index: 1000;
+      background: rgba(20,20,20,0.9);
+      border: 1px solid #2a2a2a;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font-size: 0.72rem;
+      backdrop-filter: blur(4px);
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      pointer-events: none;
+    }
+    .legend-row {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: #ccc;
+    }
+    .legend-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 3px;
+      border: 1.5px solid currentColor;
+      font-size: 9px;
+      font-weight: 700;
+      padding: 1px 5px;
+      background: rgba(15,15,15,0.85);
+      min-width: 28px;
     }
 
     .leaflet-popup-content-wrapper {
@@ -182,6 +220,17 @@
 
 <div id="map"></div>
 
+<div id="legend">
+  <div class="legend-row"><span class="legend-badge" style="color:#f04">5G</span> NR (5G)</div>
+  <div class="legend-row"><span class="legend-badge" style="color:#0c9">4G</span> LTE (4G)</div>
+  <div class="legend-row"><span class="legend-badge" style="color:#fa0">3G</span> WCDMA (3G)</div>
+  <div class="legend-row"><span class="legend-badge" style="color:#88f">2G</span> GSM (2G)</div>
+  <div class="legend-row"><span class="legend-badge" style="color:#888">?</span> Sem classificação</div>
+  <div class="legend-row" style="margin-top:2px;border-top:1px solid #2a2a2a;padding-top:5px">
+    <span class="legend-badge" style="color:#0c9;box-shadow:0 0 6px #0c9">4G</span> licenciada no último ano
+  </div>
+</div>
+
 <script>
 const TECH_COLOR = { "5G": "#f04", "4G": "#0c9", "3G": "#fa0", "2G": "#88f" };
 
@@ -194,14 +243,14 @@ function colorFor(a) { return TECH_COLOR[a.tecnologia] || "#888"; }
 
 function makeIcon(antenna) {
   const color = colorFor(antenna);
-  const s = antenna.nova ? 32 : 26;
-  const svg = ICON_RSS.replace('<svg ', `<svg width="${s - 8}" height="${s - 8}" `);
+  const label = antenna.tecnologia === "Desconhecida" ? "?" : antenna.tecnologia;
+  const w = label.length <= 2 ? 28 : label.length * 8 + 10;
   return L.divIcon({
     className: "",
-    html: `<div class="marker-icon${antenna.nova ? " nova" : ""}" style="width:${s}px;height:${s}px;color:${color}">${svg}</div>`,
-    iconSize: [s, s],
-    iconAnchor: [s / 2, s / 2],
-    popupAnchor: [0, -(s / 2 + 4)],
+    html: `<div class="marker-icon${antenna.nova ? " nova" : ""}" style="color:${color};min-width:${w}px">${label}</div>`,
+    iconSize: [w, 20],
+    iconAnchor: [w / 2, 10],
+    popupAnchor: [0, -14],
   });
 }
 
