@@ -15,12 +15,44 @@ from urllib import request, parse
 BASE_URL = "https://sistemas.anatel.gov.br/se/public/view/b"
 
 MUNICIPALITIES = [
+    # Already in
     ("4114609", "Marechal Cândido Rondon"),
     ("4115853", "Mercedes"),
     ("4117222", "Nova Santa Rosa"),
     ("4118451", "Pato Bragado"),
     ("4120853", "Quatro Pontes"),
+    # Explicitly requested
+    ("4127700", "Toledo"),
+    ("4104808", "Cascavel"),
+    ("4108809", "Guaíra"),
+    ("4127403", "Terra Roxa"),
+    # Guaíra → Cascavel corridor
+    ("4117909", "Palotina"),
+    ("4123501", "Santa Helena"),
+    ("4115358", "Maripá"),
+    ("4107538", "Entre Rios do Oeste"),
+    ("4125456", "São José das Palmeiras"),
+    ("4107157", "Diamante D'Oeste"),
+    ("4125753", "São Pedro do Iguaçu"),
+    ("4128559", "Vera Cruz do Oeste"),
+    ("4117453", "Ouro Verde do Oeste"),
+    ("4127957", "Tupãssi"),
+    ("4112751", "Jesuítas"),
+    ("4108205", "Formosa do Oeste"),
+    ("4102000", "Assis Chateaubriand"),
+    ("4116703", "Nova Aurora"),
+    ("4103453", "Cafelândia"),
+    ("4106308", "Corbélia"),
+    ("4105003", "Catanduvas"),
+    ("4104600", "Capitão Leônidas Marques"),
+    ("4109302", "Guaraniaçu"),
+    ("4109757", "Ibema"),
+    ("4103354", "Braganey"),
+    ("4101051", "Anahy"),
 ]
+
+# Technologies shown to end users — infrastructure-only types are excluded
+USER_FACING_TECH = {"5G", "4G", "3G", "2G"}
 
 TECH_MAP = {
     "NR": "5G",
@@ -133,6 +165,9 @@ def to_json(rows: list[dict], municipio: str, seen: set) -> list[dict]:
             continue
 
         tech = TECH_MAP.get(raw_tech) or infer_tech(row)
+
+        if tech not in USER_FACING_TECH:
+            continue
 
         key = (entity, tech, lat, lon)
         if key in seen:
