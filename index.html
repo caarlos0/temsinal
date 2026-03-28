@@ -75,12 +75,14 @@
     /* Custom marker dots */
     .dot {
       border-radius: 50%;
-      border: 2px solid rgba(255,255,255,0.6);
-      opacity: 0.9;
+      border: 3px solid rgba(255,255,255,0.7);
+      opacity: 0.95;
+      box-shadow: 0 0 6px rgba(0,0,0,0.6);
     }
     .dot.nova {
       border: 3px dashed white;
       opacity: 1;
+      box-shadow: 0 0 10px rgba(255,107,53,0.8);
     }
   </style>
 </head>
@@ -116,7 +118,7 @@ function colorFor(antenna) {
 function makeIcon(antenna) {
   const color = colorFor(antenna);
   const isNew = antenna.nova;
-  const size = isNew ? 14 : 10;
+  const size = isNew ? 20 : 16;
   return L.divIcon({
     className: "",
     html: `<div class="dot${isNew ? " nova" : ""}" style="width:${size}px;height:${size}px;background:${color}"></div>`,
@@ -127,8 +129,9 @@ function makeIcon(antenna) {
 
 const map = L.map("map").setView([-24.554, -54.053], 13);
 
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
+  subdomains: "abcd",
   maxZoom: 19,
 }).addTo(map);
 
