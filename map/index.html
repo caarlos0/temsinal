@@ -98,41 +98,6 @@
         opacity: 0.9;
       }
 
-      #legend {
-        position: absolute;
-        bottom: 28px;
-        right: 10px;
-        z-index: 1000;
-        background: rgba(20, 20, 20, 0.9);
-        border: 1px solid #2a2a2a;
-        border-radius: 6px;
-        padding: 8px 10px;
-        font-size: 0.72rem;
-        backdrop-filter: blur(4px);
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        pointer-events: none;
-      }
-      .legend-row {
-        display: flex;
-        align-items: center;
-        gap: 7px;
-        color: #ccc;
-      }
-      .legend-badge {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 3px;
-        border: 1.5px solid currentColor;
-        font-size: 9px;
-        font-weight: 700;
-        padding: 1px 5px;
-        background: rgba(15, 15, 15, 0.85);
-        min-width: 28px;
-      }
-
       .leaflet-popup-content-wrapper {
         background: #1a1a1a;
         color: #ddd;
@@ -306,21 +271,6 @@
     </header>
 
     <div id="map"></div>
-
-    <div id="legend">
-      <div class="legend-row">
-        <span class="legend-badge" style="color: #f04">5G</span> 5G
-      </div>
-      <div class="legend-row">
-        <span class="legend-badge" style="color: #0c9">4G</span> 4G
-      </div>
-      <div class="legend-row">
-        <span class="legend-badge" style="color: #fa0">3G</span> 3G
-      </div>
-      <div class="legend-row">
-        <span class="legend-badge" style="color: #88f">2G</span> 2G
-      </div>
-    </div>
 
     <script>
       // ── Map logic ────────────────────────────────────────────────────────────────
