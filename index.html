@@ -288,12 +288,14 @@ function makeIcon(antenna) {
 
 const map = L.map("map").setView([-24.8, -53.5], 9);
 
-if (navigator.geolocation) {
+if (navigator.geolocation && window.isSecureContext) {
   navigator.geolocation.getCurrentPosition(
     pos => map.setView([pos.coords.latitude, pos.coords.longitude], 13),
     err => console.warn("Geolocation failed:", err.message),
     { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
   );
+} else if (!window.isSecureContext) {
+  console.warn("Geolocation unavailable: page must be served over HTTPS.");
 }
 
 L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
