@@ -506,8 +506,6 @@ function applyFilter(tech, op) {
   const label     = tech === 'Todos' ? 'Todas as gerações' : tech;
   const techColor = TECH_COLOR[tech] ?? 'var(--muted)';
 
-  document.getElementById('section-heading').textContent =
-    `Torres ${tech === 'Todos' ? '' : tech + ' '}por habitante`;
   document.getElementById('chart-per-capita-title').textContent =
     `Torres ${label} por 10 mil hab. — por município`;
   document.getElementById('th-towers').textContent =
