@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estatísticas – Conectividade Costa Oeste</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='%230c9'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z'/%3E%3C/svg%3E" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d1117;
+      --surface:  #161b22;
+      --border:   #30363d;
+      --text:     #e6edf3;
+      --muted:    #8b949e;
+      --accent:   #00cc99;
+      --claro:    #e05c2a;
+      --tim:      #0050a0;
+      --vivo:     #660099;
+      --g5:       #00cc99;
+      --g4:       #3b82f6;
+      --g3:       #f59e0b;
+      --g2:       #6b7280;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100dvh;
+    }
+
+    header {
+      padding: 1.5rem 2rem 1rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    header h1 svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      stroke: var(--accent);
+    }
+
+    header a {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    header a:hover { color: var(--text); }
+
+    .filter-group {
+      display: flex;
+      gap: .35rem;
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: .3rem .65rem;
+      cursor: pointer;
+      transition: color .15s, border-color .15s, background .15s;
+    }
+
+    .filter-btn:hover { color: var(--text); border-color: #555; }
+    .filter-btn.active {
+      color: var(--bg);
+      border-color: transparent;
+    }
+    .filter-btn[data-tech="Todos"].active { background: var(--muted); }
+    .filter-btn[data-tech="5G"].active    { background: var(--g5); }
+    .filter-btn[data-tech="4G"].active    { background: var(--g4); }
+    .filter-btn[data-tech="3G"].active    { background: var(--g3); }
+    .filter-btn[data-tech="2G"].active    { background: var(--g2); }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    /* ── Summary cards ───────────────────────────────── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+    }
+
+    .card .label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: .35rem;
+    }
+
+    .card .value {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1.2;
+    }
+
+    .card .sub {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: .2rem;
+    }
+
+    /* ── Section headings ────────────────────────────── */
+    section h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Charts ──────────────────────────────────────── */
+    .charts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .chart-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+
+    .chart-box h3 {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .chart-box canvas { width: 100% !important; }
+
+    /* ── Table ───────────────────────────────────────── */
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+
+    thead th {
+      background: var(--surface);
+      padding: .65rem .9rem;
+      text-align: left;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid var(--border);
+    }
+
+    thead th:hover { color: var(--text); }
+    thead th.sorted { color: var(--accent); }
+    thead th .sort-icon { opacity: 0.5; margin-left: 3px; }
+    thead th.sorted .sort-icon { opacity: 1; }
+
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,.03); }
+
+    tbody td {
+      padding: .6rem .9rem;
+      white-space: nowrap;
+    }
+
+    td.city-name { font-weight: 500; }
+
+    .badge-5g {
+      display: inline-block;
+      background: rgba(0,204,153,.15);
+      color: var(--accent);
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 1px 5px;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+
+    .bar {
+      display: inline-block;
+      height: 8px;
+      border-radius: 3px;
+      vertical-align: middle;
+    }
+
+    .per-capita-bar {
+      background: var(--accent);
+      opacity: 0.75;
+    }
+
+    /* operator / tech mini-bars */
+    .stack {
+      display: flex;
+      gap: 2px;
+      width: 100%;
+      min-width: 90px;
+    }
+
+    .stack span {
+      height: 10px;
+      border-radius: 2px;
+      display: inline-block;
+    }
+
+    .num { text-align: right; }
+    .hl  { color: var(--accent); font-weight: 600; }
+
+    /* ── Ranking pills ───────────────────────────────── */
+    .ranking {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .ranking { grid-template-columns: 1fr; }
+    }
+
+    .rank-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+    }
+
+    .rank-box h3 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: .75rem;
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+    }
+
+    .rank-box h3 svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    .rank-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .3rem 0;
+      font-size: 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .rank-item:last-child { border-bottom: none; }
+    .rank-item .rank-val { color: var(--accent); font-weight: 600; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
+    Estatísticas de Conectividade
+  </h1>
+  <a href="../index.html">← Mapa</a>
+  <div class="filter-group">
+    <button class="filter-btn active" data-tech="Todos">Todos</button>
+    <button class="filter-btn" data-tech="5G">5G</button>
+    <button class="filter-btn" data-tech="4G">4G</button>
+    <button class="filter-btn" data-tech="3G">3G</button>
+    <button class="filter-btn" data-tech="2G">2G</button>
+  </div>
+</header>
+
+<main>
+  <div class="cards" id="summary-cards"></div>
+
+  <section>
+    <h2 id="section-heading">Torres por habitante</h2>
+    <div class="charts">
+      <div class="chart-box">
+        <h3 id="chart-per-capita-title">Torres por 10 mil hab. — por município</h3>
+        <canvas id="chart-per-capita" height="320"></canvas>
+      </div>
+      <div class="chart-box">
+        <h3>Distribuição de tecnologia por município</h3>
+        <canvas id="chart-tech" height="320"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Destaques</h2>
+    <div class="ranking" id="ranking"></div>
+  </section>
+
+  <section>
+    <h2>Tabela completa</h2>
+    <div class="table-wrap">
+      <table id="main-table">
+        <thead>
+          <tr>
+            <th data-col="city"     data-type="str">Município <span class="sort-icon">↕</span></th>
+            <th data-col="pop"      data-type="num" class="num">População <span class="sort-icon">↕</span></th>
+            <th data-col="total"    data-type="num" class="num"><span id="th-towers">Torres</span> <span class="sort-icon">↕</span></th>
+            <th data-col="per10k"   data-type="num" class="num sorted">/ 10 mil hab. <span class="sort-icon">↓</span></th>
+            <th data-col="newPct"   data-type="num" class="num">Novas (%) <span class="sort-icon">↕</span></th>
+            <th>Operadoras</th>
+            <th>Tecnologias</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Antenas: <a href="https://sistemas.anatel.gov.br" target="_blank">ANATEL</a> &nbsp;·&nbsp;
+  População: <a id="ibge-link" href="#" target="_blank">IBGE</a>
+</footer>
+
+<script>
+const ICON_RSS     = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg>`;
+const ICON_TROPHY  = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16 4h2a2 2 0 012 2v1c0 2.97-2.143 5.449-5 5.91V15h2a1 1 0 010 2H7a1 1 0 010-2h2v-2.09C6.143 12.449 4 9.97 4 7V6a2 2 0 012-2h2m8 0V3a1 1 0 00-1-1H9a1 1 0 00-1 1v1m8 0H8"/></svg>`;
+const ICON_TREND_DOWN = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/></svg>`;
+const ICON_SIGNAL  = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>`;
+const ICON_SPARK   = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>`;
+const TECH_COLOR = { '5G': '#00cc99', '4G': '#3b82f6', '3G': '#f59e0b', '2G': '#6b7280' };
+const OP_COLOR   = { 'Claro': '#e05c2a', 'TIM': '#0050a0', 'Vivo': '#660099' };
+const ALL_TECHS  = ['5G', '4G', '3G', '2G'];
+
+const fmt  = n => n.toLocaleString('pt-BR');
+const fmtF = (n, d=1) => n.toLocaleString('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d });
+
+function stackBar(counts, palette, total) {
+  if (!total) return '<span style="color:var(--muted)">—</span>';
+  return '<div class="stack">' +
+    Object.entries(counts).sort((a,b) => b[1]-a[1]).map(([k, v]) => {
+      const w = Math.max(1, Math.round(v / total * 100));
+      const c = palette[k] || '#555';
+      return `<span style="width:${w}%;background:${c}" title="${k}: ${v}"></span>`;
+    }).join('') +
+  '</div>';
+}
+
+// ── state ─────────────────────────────────────────────────────────────────────
+let activeTech = 'Todos';
+let allRows    = [];   // full aggregation per city (all techs)
+let popData;
+let chartPerCapita, chartTech;
+let sortCol = 'per10k', sortDir = -1;
+
+// ── data loading ──────────────────────────────────────────────────────────────
+async function load() {
+  const [antData, pd] = await Promise.all([
+    fetch('../antennas.json').then(r => r.json()),
+    fetch('../population.json').then(r => r.json()),
+  ]);
+  popData = pd;
+  document.getElementById('ibge-link').href = popData.url;
+
+  // Pre-aggregate: for each city keep a Map of sites per technology
+  // site key = rounded lat/lon (~100 m), value = is-new boolean
+  const byCity = {};
+  for (const a of antData) {
+    if (!ALL_TECHS.includes(a.tecnologia)) continue;
+    const c = a.municipio;
+    if (!byCity[c]) {
+      byCity[c] = {
+        techSites: Object.fromEntries(ALL_TECHS.map(t => [t, new Map()])),
+        allSites: new Map(),
+        ops: {}, techs: {},
+      };
+    }
+    const key = `${a.lat.toFixed(3)},${a.lon.toFixed(3)}`;
+
+    // per-tech dedup
+    if (!byCity[c].techSites[a.tecnologia].has(key))
+      byCity[c].techSites[a.tecnologia].set(key, false);
+    if (a.nova) byCity[c].techSites[a.tecnologia].set(key, true);
+
+    // all-techs dedup
+    if (!byCity[c].allSites.has(key)) byCity[c].allSites.set(key, false);
+    if (a.nova) byCity[c].allSites.set(key, true);
+
+    byCity[c].ops[a.operadora]    = (byCity[c].ops[a.operadora]    || 0) + 1;
+    byCity[c].techs[a.tecnologia] = (byCity[c].techs[a.tecnologia] || 0) + 1;
+  }
+
+  allRows = Object.entries(popData.municipios).map(([city, info]) => {
+    const d = byCity[city];
+    return {
+      city,
+      pop: info.populacao,
+      ops:   d?.ops   ?? {},
+      techs: d?.techs ?? {},
+      // pre-computed sites map per tech + all
+      _techSites: d ? d.techSites : Object.fromEntries(ALL_TECHS.map(t => [t, new Map()])),
+      _allSites:  d ? d.allSites  : new Map(),
+    };
+  });
+
+  initCharts();
+  applyFilter('Todos');
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilter(btn.dataset.tech);
+    });
+  });
+}
+
+// ── derive rows for the active tech filter ────────────────────────────────────
+function deriveRows(tech) {
+  return allRows.map(r => {
+    const sites = tech === 'Todos' ? r._allSites : r._techSites[tech];
+    const total    = sites.size;
+    const newSites = [...sites.values()].filter(Boolean).length;
+    const per10k   = total ? +(total / r.pop * 10000).toFixed(1) : 0;
+    const newPct   = total ? +(newSites / total * 100).toFixed(1) : 0;
+    return { ...r, total, new: newSites, per10k, newPct,
+             has5g: r._techSites['5G'].size > 0 };
+  });
+}
+
+// ── apply filter & re-render everything ───────────────────────────────────────
+function applyFilter(tech) {
+  activeTech = tech;
+  const label = tech === 'Todos' ? 'Todas as gerações' : tech;
+  const techColor = TECH_COLOR[tech] ?? 'var(--muted)';
+
+  // update headings
+  document.getElementById('section-heading').textContent =
+    `Torres ${tech === 'Todos' ? '' : tech + ' '}por habitante`;
+  document.getElementById('chart-per-capita-title').textContent =
+    `Torres ${label} por 10 mil hab. — por município`;
+  document.getElementById('th-towers').textContent =
+    `Torres ${tech === 'Todos' ? '' : tech}`.trim();
+
+  const rows = deriveRows(tech);
+  const totalPop    = Object.values(popData.municipios).reduce((s, m) => s + m.populacao, 0);
+  const totalTowers = rows.reduce((s, r) => s + r.total, 0);
+  const totalNew    = rows.reduce((s, r) => s + r.new, 0);
+  const globalPer   = +(totalTowers / totalPop * 10000).toFixed(2);
+  const cities5g    = rows.filter(r => r.has5g).length;
+  const operators   = [...new Set(allRows.flatMap(r => Object.keys(r.ops)))];
+
+  // ── Summary cards
+  const towerLabel = tech === 'Todos' ? 'Torres (todas)' : `Torres ${tech}`;
+  document.getElementById('summary-cards').innerHTML = [
+    { label: 'Municípios',           value: rows.length,    sub: `${cities5g} com 5G` },
+    { label: towerLabel,             value: fmt(totalTowers), sub: `${fmt(totalNew)} novas (≤1 ano)` },
+    { label: 'População total',      value: fmt(totalPop),  sub: popData.municipios[rows[0]?.city]?.ano ?? '' },
+    { label: 'Torres / 10 mil hab.', value: fmtF(globalPer), sub: label },
+    { label: 'Operadoras',           value: operators.length, sub: operators.join(', ') },
+  ].map(c => `<div class="card">
+    <div class="label">${c.label}</div>
+    <div class="value">${c.value}</div>
+    <div class="sub">${c.sub}</div>
+  </div>`).join('');
+
+  // ── Table
+  const maxPer10k = Math.max(...rows.map(r => r.per10k), 1);
+  const barColor  = tech === 'Todos' ? 'var(--accent)' : (TECH_COLOR[tech] ?? 'var(--accent)');
+  renderTable(sortedRows(rows), maxPer10k, barColor);
+
+  // ── Per-capita chart (reactive)
+  const ordered = [...rows].sort((a, b) => b.per10k - a.per10k);
+  chartPerCapita.data.labels = ordered.map(r => r.city);
+  chartPerCapita.data.datasets[0].label = `Torres ${label} / 10 mil hab.`;
+  chartPerCapita.data.datasets[0].data  = ordered.map(r => r.per10k);
+  chartPerCapita.data.datasets[0].backgroundColor =
+    tech === 'Todos'
+      ? ordered.map(r => r.has5g ? 'rgba(0,204,153,.75)' : 'rgba(59,130,246,.6)')
+      : ordered.map(() => techColor + 'bf'); // bf = 75% opacity in hex
+  chartPerCapita.update();
+
+  // ── Ranking
+  const byPer10k = [...rows].filter(r => r.total > 0).sort((a, b) => b.per10k - a.per10k);
+  const byNew    = [...rows].filter(r => r.new > 0).sort((a, b) => b.newPct - a.newPct).slice(0, 5);
+  const by5g     = [...allRows].map(r => ({ ...r, v5g: r._techSites['5G'].size }))
+                               .sort((a, b) => b.v5g - a.v5g).slice(0, 5);
+
+  function rankBox(title, items, valFn) {
+    return `<div class="rank-box"><h3>${title}</h3>${
+      items.map(r => `<div class="rank-item"><span>${r.city}</span><span class="rank-val">${valFn(r)}</span></div>`).join('')
+    }</div>`;
+  }
+
+  document.getElementById('ranking').innerHTML = [
+    rankBox(`${ICON_TROPHY} Mais torres / 10 mil hab.`, byPer10k.slice(0, 5),  r => fmtF(r.per10k)),
+    rankBox(`${ICON_TREND_DOWN} Menos torres / 10 mil hab.`, byPer10k.slice(-5).reverse(), r => fmtF(r.per10k)),
+    rankBox(`${ICON_SIGNAL} Mais torres 5G`, by5g, r => `${r.v5g} torres`),
+    rankBox(`${ICON_SPARK} Mais novas (% do total)`, byNew, r => fmtF(r.newPct) + '%'),
+  ].join('');
+}
+
+// ── table ─────────────────────────────────────────────────────────────────────
+function sortedRows(rows) {
+  return [...rows].sort((a, b) => {
+    const av = a[sortCol], bv = b[sortCol];
+    return typeof av === 'string'
+      ? sortDir * av.localeCompare(bv, 'pt-BR')
+      : sortDir * (bv - av);
+  });
+}
+
+function renderTable(data, maxPer10k, barColor) {
+  document.getElementById('table-body').innerHTML = data.map(r => `
+    <tr>
+      <td class="city-name">${r.city}${r.has5g ? '<span class="badge-5g">5G</span>' : ''}</td>
+      <td class="num">${fmt(r.pop)}</td>
+      <td class="num hl">${r.total}</td>
+      <td class="num">
+        <span class="bar" style="display:inline-block;width:${Math.round(r.per10k/maxPer10k*60)}px;height:8px;border-radius:3px;vertical-align:middle;background:${barColor};opacity:.75"></span>
+        ${fmtF(r.per10k)}
+      </td>
+      <td class="num">${r.newPct > 0 ? fmtF(r.newPct) + '%' : '—'}</td>
+      <td>${stackBar(r.ops, OP_COLOR, Object.values(r.ops).reduce((s,v)=>s+v,0))}</td>
+      <td>${stackBar(r.techs, TECH_COLOR, Object.values(r.techs).reduce((s,v)=>s+v,0))}</td>
+    </tr>`).join('');
+}
+
+document.querySelectorAll('thead th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (sortCol === col) { sortDir *= -1; }
+    else { sortCol = col; sortDir = col === 'city' ? 1 : -1; }
+    document.querySelectorAll('thead th').forEach(t => {
+      t.classList.remove('sorted');
+      const ic = t.querySelector('.sort-icon');
+      if (ic) ic.textContent = '↕';
+    });
+    th.classList.add('sorted');
+    th.querySelector('.sort-icon').textContent = sortDir === -1 ? '↓' : '↑';
+    const rows = deriveRows(activeTech);
+    renderTable(sortedRows(rows), Math.max(...rows.map(r => r.per10k), 1),
+      activeTech === 'Todos' ? 'var(--accent)' : (TECH_COLOR[activeTech] ?? 'var(--accent)'));
+  });
+});
+
+// ── charts (init once, data updated reactively) ───────────────────────────────
+function initCharts() {
+  chartPerCapita = new Chart(document.getElementById('chart-per-capita'), {
+    type: 'bar',
+    data: { labels: [], datasets: [{ label: '', data: [], backgroundColor: [], borderRadius: 3 }] },
+    options: {
+      indexAxis: 'y', responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,.05)' }, ticks: { color: '#8b949e' } },
+        y: { grid: { display: false }, ticks: { color: '#e6edf3', font: { size: 11 } } },
+      },
+    },
+  });
+
+  // Tech distribution chart is static (always all techs, ordered by Todos per10k)
+  const initRows = deriveRows('Todos');
+  const ordered  = [...initRows].sort((a, b) => b.per10k - a.per10k);
+  chartTech = new Chart(document.getElementById('chart-tech'), {
+    type: 'bar',
+    data: {
+      labels: ordered.map(r => r.city),
+      datasets: ALL_TECHS.map(t => ({
+        label: t,
+        data: ordered.map(r => r.techs[t] || 0),
+        backgroundColor: TECH_COLOR[t],
+        borderRadius: 2,
+      })),
+    },
+    options: {
+      indexAxis: 'y', responsive: true,
+      plugins: { legend: { position: 'top', labels: { color: '#8b949e', boxWidth: 12 } } },
+      scales: {
+        x: { stacked: true, grid: { color: 'rgba(255,255,255,.05)' }, ticks: { color: '#8b949e' } },
+        y: { stacked: true, grid: { display: false }, ticks: { color: '#e6edf3', font: { size: 11 } } },
+      },
+    },
+  });
+}
+
+load().catch(err => {
+  document.querySelector('main').innerHTML =
+    `<p style="color:#f85149;padding:2rem">Erro ao carregar dados: ${err.message}</p>`;
+});
+</script>
+</body>
+</html>
