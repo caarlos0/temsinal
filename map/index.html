@@ -487,12 +487,15 @@
                 data: a.data,
                 allTechs: new Set([a.tecnologia]),
                 allOps: new Set([a.operadora]),
+                opTechs: { [a.operadora]: new Set([a.tecnologia]) },
               });
             } else {
               const s = siteMap.get(key);
               s.tecnologia = bestTech(s.tecnologia, a.tecnologia);
               s.allTechs.add(a.tecnologia);
               s.allOps.add(a.operadora);
+              if (!s.opTechs[a.operadora]) s.opTechs[a.operadora] = new Set();
+              s.opTechs[a.operadora].add(a.tecnologia);
               if (a.nova) {
                 s.nova = true;
                 s.data = a.data;
@@ -522,18 +525,28 @@
           }
 
           for (const antenna of siteMap.values()) {
-            const techList = TECH_PRIORITY.filter((t) =>
-              antenna.allTechs.has(t),
-            ).join(" · ");
-            const opList = [...antenna.allOps].sort().join(", ");
+            const opLines = [...antenna.allOps]
+              .sort()
+              .map((op) => {
+                const techs = TECH_PRIORITY.filter((t) =>
+                  antenna.opTechs[op].has(t),
+                )
+                  .map(
+                    (t) =>
+                      `<span style="color:${TECH_COLOR[t]};font-weight:600">${t}</span>`,
+                  )
+                  .join(" ");
+                return `<div class="popup-row">${ICON_RSS}<strong>${op}</strong> <span style="margin-left:4px">${techs}</span></div>`;
+              })
+              .join("");
             const marker = L.marker([antenna.lat, antenna.lon], {
               icon: makeIcon(antenna),
               zIndexOffset: TECH_ZINDEX[antenna.tecnologia] || 0,
             });
             marker._antenna = antenna;
             marker.bindPopup(`
-        <div class="popup-row">${ICON_RSS}${opList}</div>
-        <div class="popup-row">${ICON_CHIP}${techList} · ${antenna.municipio}</div>
+        ${opLines}
+        <div class="popup-row">${ICON_CHIP}${antenna.municipio}</div>
         <div class="popup-row">${ICON_CAL}${antenna.data || "—"}${antenna.nova ? " &nbsp;<span style='color:#f73'>nova</span>" : ""}</div>
       `);
             allMarkers.push({ marker, antenna });
