@@ -146,9 +146,11 @@ def normalize(value: str) -> str:
 
 
 ENTITY_ALIASES = {
-    "TELEFÔNICA BRASIL S.A.": "Telefônica Brasil S.A.",
-    "TELEFONICA BRASIL S.A.": "Telefônica Brasil S.A.",
-    "Telefonica Brasil S.a.": "Telefônica Brasil S.A.",
+    "TELEFÔNICA BRASIL S.A.": "Vivo",
+    "TELEFONICA BRASIL S.A.": "Vivo",
+    "Telefonica Brasil S.a.": "Vivo",
+    "CLARO S.A.": "Claro",
+    "TIM S A": "TIM",
 }
 
 
