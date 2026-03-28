@@ -307,7 +307,8 @@ let activeTech = "Todos";
 let activeOp = "";
 
 const clusterGroup = L.markerClusterGroup({
-  disableClusteringAtZoom: 15,
+  disableClusteringAtZoom: 13,
+  maxClusterRadius: 50,
   showCoverageOnHover: false,
   iconCreateFunction(cluster) {
     const counts = {};
