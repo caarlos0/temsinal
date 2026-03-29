@@ -901,6 +901,13 @@
           }
         });
 
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "/" && document.activeElement !== input) {
+            e.preventDefault();
+            input.focus();
+          }
+        });
+
         document.addEventListener("click", (e) => {
           if (!e.target.closest("#scope-selector"))
             results.style.display = "none";
