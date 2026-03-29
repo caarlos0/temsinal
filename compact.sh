@@ -22,3 +22,8 @@ done
 for f in data/stats/*.json; do
   [ -f "$f" ] && { jq -c . "$f" >"$tmp" && mv "$tmp" "$f"; }
 done
+
+# Tile files
+for f in data/tiles/*.json; do
+  [ -f "$f" ] && { jq -c . "$f" >"$tmp" && mv "$tmp" "$f"; }
+done
