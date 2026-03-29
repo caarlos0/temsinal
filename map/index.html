@@ -101,6 +101,17 @@
         font-weight: 600;
         opacity: 0.9;
       }
+      .cluster-md {
+        font-size: 13px;
+        padding: 6px 10px;
+        border-color: #c62828;
+      }
+      .cluster-lg {
+        font-size: 15px;
+        padding: 8px 12px;
+        border-color: #ff5252;
+        background: rgba(40, 10, 10, 0.95);
+      }
 
       .leaflet-popup-content-wrapper {
         background: #1a1a1a;
@@ -504,22 +515,40 @@
 
       // ── Cluster ────────────────────────────────────────────────────────────────
       const clusterGroup = L.markerClusterGroup({
-        disableClusteringAtZoom: 13,
-        maxClusterRadius: 50,
+        disableClusteringAtZoom: 16,
+        maxClusterRadius: 80,
         showCoverageOnHover: false,
+        chunkedLoading: true,
+        chunkInterval: 100,
+        chunkDelay: 10,
+        animate: false,
         iconCreateFunction(cluster) {
+          const n = cluster.getChildCount();
           const counts = {};
-          for (const m of cluster.getAllChildMarkers()) {
-            const t = m._antenna.tecnologia;
-            counts[t] = (counts[t] || 0) + 1;
+          // only itemize tech breakdown for small clusters
+          if (n <= 200) {
+            for (const m of cluster.getAllChildMarkers()) {
+              const t = m._antenna.tecnologia;
+              counts[t] = (counts[t] || 0) + 1;
+            }
           }
-          const parts = TECH_PRIORITY.filter((t) => counts[t]).map(
-            (t) =>
-              `<span style="color:${TECH_COLOR[t]}">${counts[t]}<small>${t}</small></span>`,
-          );
+          const hasCounts = Object.keys(counts).length > 0;
+          if (hasCounts) {
+            const parts = TECH_PRIORITY.filter((t) => counts[t]).map(
+              (t) =>
+                `<span style="color:${TECH_COLOR[t]}">${counts[t]}<small>${t}</small></span>`,
+            );
+            return L.divIcon({
+              className: "",
+              html: `<div class="cluster-icon">${parts.join("")}</div>`,
+              iconSize: null,
+            });
+          }
+          // large clusters: just show total count
+          const size = n > 5000 ? "lg" : n > 500 ? "md" : "sm";
           return L.divIcon({
             className: "",
-            html: `<div class="cluster-icon">${parts.join("")}</div>`,
+            html: `<div class="cluster-icon cluster-${size}"><span>${n.toLocaleString("pt-BR")}</span></div>`,
             iconSize: null,
           });
         },
@@ -529,12 +558,14 @@
       // ── Filters ────────────────────────────────────────────────────────────────
       function applyFilters() {
         clusterGroup.clearLayers();
+        const batch = [];
         for (const { marker, antenna } of allMarkers) {
           const techOk =
             activeTech === "Todos" || antenna.tecnologia === activeTech;
           const opOk = !activeOp || antenna.allOps.has(activeOp);
-          if (techOk && opOk) clusterGroup.addLayer(marker);
+          if (techOk && opOk) batch.push(marker);
         }
+        clusterGroup.addLayers(batch);
       }
 
       document.querySelectorAll(".filter-btn[data-tech]").forEach((b) => {
