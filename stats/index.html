@@ -477,10 +477,10 @@
 
       const POP_THRESHOLD = 5000;
       const TECH_COLOR = {
-        "5G": "#f04",
-        "4G": "#0c9",
-        "3G": "#fa0",
-        "2G": "#88f",
+        "5G": "#ff0044",
+        "4G": "#00cc99",
+        "3G": "#ffaa00",
+        "2G": "#8888ff",
       };
       const OP_COLOR = { Claro: "#e05c2a", TIM: "#0050a0", Vivo: "#660099" };
       const ALL_TECHS = ["5G", "4G", "3G", "2G"];
@@ -1199,13 +1199,14 @@
 
         // Rankings
         const byPer10k = [...rows]
-          .filter((r) => r.total > 0)
+          .filter((r) => r.total > 0 && r.pop >= POP_THRESHOLD)
           .sort((a, b) => b.per10k - a.per10k);
         const byNew = [...rows]
-          .filter((r) => r.new > 0)
+          .filter((r) => r.new > 0 && r.pop >= POP_THRESHOLD)
           .sort((a, b) => b.newPct - a.newPct)
           .slice(0, 5);
         const by5g = [...allRows]
+          .filter((r) => r.pop >= POP_THRESHOLD)
           .map((r) => ({
             ...r,
             v5g: r._sites.filter((s) => s.techs.has("5G")).length,
