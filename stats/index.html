@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estatísticas – AntennaMap Brasil</title>
+    <title>Estatísticas – Conectividade Brasil</title>
     <link
       rel="icon"
       type="image/svg+xml"
@@ -1117,14 +1117,14 @@
         document.querySelector("main").innerHTML = `
           <div class="cards" id="summary-cards"></div>
           <section>
-            <h2>Antenas por estado</h2>
+            <h2>Torres por estado</h2>
             <div class="charts">
               <div class="chart-box">
                 <h3>Torres por 10 mil hab. — por estado</h3>
                 <canvas id="chart-per-capita" height="500"></canvas>
               </div>
               <div class="chart-box">
-                <h3>Total de antenas por estado</h3>
+                <h3>Total de torres por estado</h3>
                 <canvas id="chart-total" height="500"></canvas>
               </div>
             </div>
@@ -1211,7 +1211,7 @@
             labels: byTotal.map((r) => r.uf),
             datasets: [
               {
-                label: "Total de antenas",
+                label: "Total de torres",
                 data: byTotal.map((r) => r.total),
                 backgroundColor: "rgba(59,130,246,.6)",
                 borderRadius: 3,

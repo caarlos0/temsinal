@@ -3,25 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AntennaMap Brasil</title>
+    <title>Conectividade Brasil</title>
     <link
       rel="icon"
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='%230c9'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z'/%3E%3C/svg%3E"
     />
 
-    <meta property="og:title" content="AntennaMap Brasil" />
+    <meta property="og:title" content="Conectividade Brasil" />
     <meta
       property="og:description"
-      content="Mapa de antenas licenciadas pela ANATEL em todo o Brasil."
+      content="Mapa de torres de telecomunicação licenciadas pela ANATEL em todo o Brasil."
     />
     <meta property="og:image" content="../og-image.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="AntennaMap Brasil" />
+    <meta name="twitter:title" content="Conectividade Brasil" />
     <meta
       name="twitter:description"
-      content="Mapa de antenas licenciadas pela ANATEL em todo o Brasil."
+      content="Mapa de torres de telecomunicação licenciadas pela ANATEL em todo o Brasil."
     />
     <meta name="twitter:image" content="../og-image.png" />
 
@@ -421,9 +421,9 @@
       </div>
       <div id="loading-indicator">
         <div class="loading-spinner"></div>
-        <span>Carregando antenas…</span>
+        <span>Carregando torres…</span>
       </div>
-      <div id="zoom-hint">Aproxime para ver as antenas</div>
+      <div id="zoom-hint">Aproxime para ver as torres</div>
     </div>
 
     <script>
@@ -794,6 +794,14 @@
         document.addEventListener("click", (e) => {
           if (!e.target.closest("#search-container")) {
             results.style.display = "none";
+          }
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "/" && document.activeElement !== input) {
+            e.preventDefault();
+            input.focus();
+            return;
           }
         });
 
