@@ -1150,29 +1150,48 @@
             : (TECH_COLOR[tech] ?? "var(--accent)");
         renderStateTable(sortedRows(rows), maxPer10k, barColor);
 
-        // Update charts
+        // Update charts (top 20 only)
+        const TOP_N = 20;
         const ordered = [...rows].sort((a, b) => b.per10k - a.per10k);
+        const top = ordered.slice(0, TOP_N);
         if (chartPerCapita) {
-          chartPerCapita.data.labels = ordered.map((r) =>
+          chartPerCapita.data.labels = top.map((r) =>
             r.pop < POP_THRESHOLD ? r.city + " *" : r.city,
           );
           chartPerCapita.data.datasets[0].label = `Torres ${label} / 10 mil hab.`;
-          chartPerCapita.data.datasets[0].data = ordered.map((r) => r.per10k);
+          chartPerCapita.data.datasets[0].data = top.map((r) => r.per10k);
           chartPerCapita.data.datasets[0].backgroundColor =
             tech === "Todos"
-              ? ordered.map((r) =>
+              ? top.map((r) =>
                   r.pop < POP_THRESHOLD
                     ? "rgba(255,255,255,.18)"
                     : r.has5g
                       ? "rgba(0,204,153,.75)"
                       : "rgba(59,130,246,.6)",
                 )
-              : ordered.map((r) =>
+              : top.map((r) =>
                   r.pop < POP_THRESHOLD
                     ? "rgba(255,255,255,.18)"
                     : techColor + "bf",
                 );
           chartPerCapita.update();
+        }
+
+        if (chartTech) {
+          const byTotal = [...rows]
+            .sort((a, b) => {
+              const ta = Object.values(a.techs).reduce((s, v) => s + v, 0);
+              const tb = Object.values(b.techs).reduce((s, v) => s + v, 0);
+              return tb - ta;
+            })
+            .slice(0, TOP_N);
+          chartTech.data.labels = byTotal.map((r) => r.city);
+          ALL_TECHS.forEach((t, i) => {
+            chartTech.data.datasets[i].data = byTotal.map(
+              (r) => r.techs[t] || 0,
+            );
+          });
+          chartTech.update();
         }
 
         // Rankings
@@ -1316,11 +1335,13 @@
         );
 
         const initRows = deriveStateRows("Todos", "");
-        const ordered = [...initRows].sort((a, b) => {
-          const ta = Object.values(a.techs).reduce((s, v) => s + v, 0);
-          const tb = Object.values(b.techs).reduce((s, v) => s + v, 0);
-          return tb - ta;
-        });
+        const ordered = [...initRows]
+          .sort((a, b) => {
+            const ta = Object.values(a.techs).reduce((s, v) => s + v, 0);
+            const tb = Object.values(b.techs).reduce((s, v) => s + v, 0);
+            return tb - ta;
+          })
+          .slice(0, 20);
         chartTech = new Chart(document.getElementById("chart-tech"), {
           type: "bar",
           data: {
