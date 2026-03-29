@@ -631,6 +631,7 @@
 
       // ── State ───────────────────────────────────────────────────────────────────
       const selection = { states: new Set(), cities: [] };
+      const MAX_CITIES = 10;
       let viewMode = "national"; // national | single-state | comparison
       let activeTech = localStorage.getItem("antennamap-tech") || "Todos";
       if (activeTech === "nova") activeTech = "Todos";
@@ -750,8 +751,6 @@
             ? "Adicionar..."
             : "Buscar estado ou cidade...";
         };
-
-        const MAX_CITIES = 10;
 
         function addItem(type, data) {
           if (type === "state") {
