@@ -196,9 +196,9 @@ def rows_to_antennas(rows: list[dict]) -> list[dict]:
             date_fmt = ""
 
         antennas.append({
-            "operadora": html.escape(entity),
+            "operadora": entity,
             "tecnologia": tech,
-            "municipio": html.escape(municipio) if municipio else "Desconhecido",
+            "municipio": municipio if municipio else "Desconhecido",
             "lat": lat,
             "lon": lon,
             "data": date_fmt,
