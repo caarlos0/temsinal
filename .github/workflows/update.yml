@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
+    inputs:
+      uf:
+        description: "States to fetch (space-separated, e.g. 'PR SP'). Empty = all."
+        required: false
 
 permissions:
   contents: write
@@ -11,12 +15,23 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
-      - run: uv run fetch.py
+      - name: Fetch ANATEL data
         working-directory: updater
-      - run: uv run ibge.py
+        run: |
+          if [ -n "${{ github.event.inputs.uf }}" ]; then
+            uv run anatel.py --uf ${{ github.event.inputs.uf }}
+          else
+            uv run anatel.py --resume
+          fi
+      - name: Fetch IBGE population data
+        run: uv run ibge.py
+        working-directory: updater
+      - name: Build municipalities index
+        run: uv run municipalities.py
         working-directory: updater
       - run: ./compact.sh
       - uses: stefanzweifel/git-auto-commit-action@v5
