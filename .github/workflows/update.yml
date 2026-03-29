@@ -33,6 +33,9 @@ jobs:
       - name: Build municipalities index
         run: uv run municipalities.py
         working-directory: updater
+      - name: Generate tiles
+        run: uv run tile.py
+        working-directory: updater
       - run: ./compact.sh
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

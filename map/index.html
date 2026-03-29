@@ -715,11 +715,14 @@
         const results = document.getElementById("search-results");
         if (!input || !results || !municipalitiesIndex) return;
 
+        const stripAccents = (s) =>
+          s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
         const entries = Object.values(municipalitiesIndex)
           .filter((m) => m.lat)
           .map((m) => ({
             label: `${m.nome} – ${m.uf}`,
-            search: `${m.nome} ${m.uf}`.toLowerCase(),
+            search: stripAccents(`${m.nome} ${m.uf}`.toLowerCase()),
             lat: m.lat,
             lon: m.lon,
             antenas: m.antenas || 0,
@@ -730,7 +733,7 @@
         input.addEventListener("input", () => {
           clearTimeout(debounceTimer);
           debounceTimer = setTimeout(() => {
-            const q = input.value.trim().toLowerCase();
+            const q = stripAccents(input.value.trim().toLowerCase());
             if (q.length < 2) {
               results.style.display = "none";
               return;
