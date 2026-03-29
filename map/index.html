@@ -549,15 +549,11 @@
         clusterGroup.addLayers(batch);
       }
 
-      document.querySelectorAll(".filter-btn[data-tech]").forEach((b) => {
-        b.classList.toggle("active", b.dataset.tech === activeTech);
-      });
-
-      document.querySelectorAll(".filter-btn[data-tech]").forEach((btn) => {
+      const techBtns = document.querySelectorAll(".filter-btn[data-tech]");
+      techBtns.forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.tech === activeTech);
         btn.addEventListener("click", () => {
-          document
-            .querySelectorAll(".filter-btn[data-tech]")
-            .forEach((b) => b.classList.remove("active"));
+          techBtns.forEach((b) => b.classList.remove("active"));
           btn.classList.add("active");
           activeTech = btn.dataset.tech;
           saveFilters();
