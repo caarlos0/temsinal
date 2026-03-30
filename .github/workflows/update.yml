@@ -33,8 +33,14 @@ jobs:
       - name: Build municipalities index
         run: uv run municipalities.py
         working-directory: updater
-      - name: Generate tiles
-        run: uv run tile.py
+      - name: Install tippecanoe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libsqlite3-dev zlib1g-dev
+          git clone --depth=1 https://github.com/felt/tippecanoe.git /tmp/tippecanoe
+          cd /tmp/tippecanoe && make -j$(nproc) && sudo make install
+      - name: Generate PMTiles
+        run: uv run pmtiles.py
         working-directory: updater
       - run: ./compact.sh
       - uses: stefanzweifel/git-auto-commit-action@v5

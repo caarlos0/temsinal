@@ -28,14 +28,10 @@
     <link rel="stylesheet" href="../shared.css" />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
     />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
-    />
-    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/pmtiles@4.2.1/dist/pmtiles.js"></script>
 
     <style>
       body {
@@ -53,84 +49,32 @@
         height: 100%;
       }
 
-      /* ── Markers ─────────────────────────────── */
-      .marker-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 4px;
-        background: rgba(15, 15, 15, 0.85);
-        border: 1.5px solid currentColor;
-        font-size: 10px;
-        font-weight: 700;
-        font-family: system-ui, sans-serif;
-        letter-spacing: 0.03em;
-        padding: 2px 5px;
-        white-space: nowrap;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(2px);
-      }
-      .marker-icon.nova {
-        box-shadow:
-          0 0 8px currentColor,
-          0 1px 4px rgba(0, 0, 0, 0.5);
-      }
-
-      .cluster-icon {
-        display: flex;
-        gap: 5px;
-        align-items: center;
-        background: rgba(15, 15, 15, 0.92);
-        color: #eee;
-        border: 1.5px solid #444;
-        border-radius: 6px;
-        padding: 4px 8px;
-        font-size: 11px;
-        font-weight: 700;
-        font-family: system-ui, sans-serif;
-        white-space: nowrap;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-        backdrop-filter: blur(3px);
-      }
-      .cluster-icon span {
-        display: flex;
-        align-items: baseline;
-        gap: 2px;
-      }
-      .cluster-icon small {
-        font-size: 9px;
-        font-weight: 600;
-        opacity: 0.9;
-      }
-      .cluster-md {
-        font-size: 13px;
-        padding: 6px 10px;
-        border-color: #c62828;
-      }
-      .cluster-lg {
-        font-size: 15px;
-        padding: 8px 12px;
-        border-color: #ff5252;
-        background: rgba(40, 10, 10, 0.95);
-      }
-
-      .leaflet-popup-content-wrapper {
-        background: #1a1a1a;
+      /* ── Popup ──────────────────────── */
+      .maplibregl-popup-content {
+        background: #1a1a1a !important;
         color: #ddd;
         border: 1px solid #333;
         border-radius: 6px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-      }
-      .leaflet-popup-tip {
-        background: #1a1a1a;
-      }
-      .leaflet-popup-content {
+        padding: 10px 14px;
         font-size: 0.8rem;
         line-height: 1.8;
-        margin: 10px 14px;
       }
-      .leaflet-popup-content strong {
+      .maplibregl-popup-content strong {
         color: #fff;
+      }
+      .maplibregl-popup-tip {
+        border-top-color: #1a1a1a !important;
+      }
+      .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+        border-top-color: #1a1a1a !important;
+      }
+      .maplibregl-popup-anchor-top .maplibregl-popup-tip {
+        border-bottom-color: #1a1a1a !important;
+      }
+      .maplibregl-popup-close-button {
+        color: #888;
+        font-size: 18px;
       }
       .popup-row {
         display: flex;
@@ -208,59 +152,6 @@
       .search-name {
         color: #e6edf3;
         font-weight: 500;
-      }
-      .search-meta {
-        color: #555;
-        font-size: 0.75rem;
-      }
-
-      /* ── Loading ────────────────────── */
-      #loading-indicator {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1000;
-        display: none;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 16px;
-        background: rgba(15, 15, 15, 0.9);
-        border: 1px solid #333;
-        border-radius: 6px;
-        color: #aaa;
-        font-size: 0.8rem;
-        backdrop-filter: blur(4px);
-      }
-      .loading-spinner {
-        width: 14px;
-        height: 14px;
-        border: 2px solid #333;
-        border-top-color: #0c9;
-        border-radius: 50%;
-        animation: spin 0.6s linear infinite;
-      }
-      @keyframes spin {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      /* ── Zoom hint ──────────────────── */
-      #zoom-hint {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 999;
-        padding: 12px 24px;
-        background: rgba(15, 15, 15, 0.85);
-        border: 1px solid #333;
-        border-radius: 8px;
-        color: #888;
-        font-size: 0.9rem;
-        pointer-events: none;
-        backdrop-filter: blur(4px);
       }
 
       @media (max-width: 599px) {
@@ -422,11 +313,6 @@
         />
         <div id="search-results"></div>
       </div>
-      <div id="loading-indicator">
-        <div class="loading-spinner"></div>
-        <span>Carregando torres…</span>
-      </div>
-      <div id="zoom-hint">Aproxime para ver as torres</div>
     </div>
 
     <script>
@@ -437,59 +323,14 @@
         "3G": "#fa0",
         "2G": "#88f",
       };
-      const USER_FACING_TECH = new Set(Object.keys(TECH_COLOR));
+      const TECH_PRIORITY = ["5G", "4G", "3G", "2G"];
       const ICON_RSS = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg>`;
       const ICON_CHIP = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>`;
-      const ICON_CAL = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>`;
-      const TECH_PRIORITY = ["5G", "4G", "3G", "2G"];
-      const TECH_ZINDEX = { "5G": 400, "4G": 300, "3G": 200, "2G": 100 };
-      const MIN_TILE_ZOOM = 7;
-      const TILE_BASE = "../data/tiles/";
+      const PMTILES_URL = "../data/towers.pmtiles";
+      const BASEMAP_STYLE =
+        "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json";
 
-      function bestTech(a, b) {
-        return TECH_PRIORITY.indexOf(a) <= TECH_PRIORITY.indexOf(b) ? a : b;
-      }
-      function colorFor(a) {
-        return TECH_COLOR[a.tecnologia] || "#888";
-      }
-
-      function makeIcon(antenna) {
-        const color = colorFor(antenna);
-        const label =
-          antenna.tecnologia === "Desconhecida" ? "?" : antenna.tecnologia;
-        const w = label.length <= 2 ? 28 : label.length * 8 + 10;
-        return L.divIcon({
-          className: "",
-          html: `<div class="marker-icon${antenna.nova ? " nova" : ""}" style="color:${color};min-width:${w}px">${label}</div>`,
-          iconSize: [w, 20],
-          iconAnchor: [w / 2, 10],
-          popupAnchor: [0, -14],
-        });
-      }
-
-      function buildPopup(antenna) {
-        const opLines = [...antenna.allOps]
-          .sort()
-          .map((op) => {
-            const techs = TECH_PRIORITY.filter((t) =>
-              antenna.opTechs[op].has(t),
-            )
-              .map(
-                (t) =>
-                  `<span style="color:${TECH_COLOR[t]};font-weight:600">${t}</span>`,
-              )
-              .join(" ");
-            return `<div class="popup-row">${ICON_RSS}<strong>${op}</strong> <span style="margin-left:4px">${techs}</span></div>`;
-          })
-          .join("");
-        return `
-          ${opLines}
-          <div class="popup-row">${ICON_CHIP}${antenna.municipio}</div>
-          <div class="popup-row">${ICON_CAL}${antenna.data || "—"}${antenna.nova ? " &nbsp;<span style='color:#f73'>nova</span>" : ""}</div>
-        `;
-      }
-
-      // ── URL hash for shareable view ────────────────────────────────────────────
+      // ── URL hash ───────────────────────────────────────────────────────────────
       function parseHash() {
         const m = location.hash.match(
           /^#(-?\d+\.?\d*),(-?\d+\.?\d*),(\d+\.?\d*)z$/,
@@ -498,85 +339,88 @@
         return { lat: +m[1], lon: +m[2], zoom: +m[3] };
       }
 
-      // ── Map ────────────────────────────────────────────────────────────────────
       const DEFAULT_VIEW = { lat: -14.2, lon: -51.9, zoom: 4 };
       const { lat, lon, zoom } = parseHash() || DEFAULT_VIEW;
       const hasHashView = location.hash.length > 1;
-      const map = L.map("map", { zoomControl: false }).setView(
-        [lat, lon],
-        zoom,
-      );
-      L.control.zoom({ position: "bottomright" }).addTo(map);
 
-      L.tileLayer(
-        "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-        {
-          attribution:
-            '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
-          subdomains: "abcd",
-          maxZoom: 19,
-        },
-      ).addTo(map);
+      // ── PMTiles protocol ───────────────────────────────────────────────────────
+      const protocol = new pmtiles.Protocol();
+      maplibregl.addProtocol("pmtiles", protocol.tile);
+
+      // ── Map ────────────────────────────────────────────────────────────────────
+      const map = new maplibregl.Map({
+        container: "map",
+        style: BASEMAP_STYLE,
+        center: [lon, lat],
+        zoom: zoom,
+        attributionControl: false,
+      });
+      map.addControl(
+        new maplibregl.AttributionControl({ compact: true }),
+        "bottom-left",
+      );
+      map.addControl(new maplibregl.NavigationControl(), "bottom-right");
 
       function syncHash() {
         const c = map.getCenter();
         history.replaceState(
           null,
           "",
-          `#${c.lat.toFixed(4)},${c.lng.toFixed(4)},${map.getZoom()}z`,
+          `#${c.lat.toFixed(4)},${c.lng.toFixed(4)},${map.getZoom().toFixed(0)}z`,
         );
       }
+      map.on("moveend", syncHash);
 
       // ── State ──────────────────────────────────────────────────────────────────
-      let allMarkers = [];
       let activeTech = localStorage.getItem("temsinal-tech") || "Todos";
       if (activeTech === "nova") activeTech = "Todos";
       let activeOp = localStorage.getItem("temsinal-op") || "";
-      const knownOps = new Set();
-      let manifest = null;
       let municipalitiesIndex = null;
-      const loadedTiles = new Set();
-      let isLoading = false;
 
       function saveFilters() {
         localStorage.setItem("temsinal-tech", activeTech);
         localStorage.setItem("temsinal-op", activeOp);
       }
 
-      // ── Cluster ────────────────────────────────────────────────────────────────
-      const clusterGroup = L.markerClusterGroup({
-        disableClusteringAtZoom: 16,
-        maxClusterRadius: 80,
-        showCoverageOnHover: false,
-        chunkedLoading: true,
-        chunkInterval: 100,
-        chunkDelay: 10,
-        animate: false,
-        iconCreateFunction(cluster) {
-          const n = cluster.getChildCount();
-          const size = n > 5000 ? "lg" : n > 500 ? "md" : "sm";
-          return L.divIcon({
-            className: "",
-            html: `<div class="cluster-icon cluster-${size}"><span>${n.toLocaleString("pt-BR")}</span></div>`,
-            iconSize: null,
-          });
-        },
-      });
-      clusterGroup.addTo(map);
+      // ── Build filter expression ────────────────────────────────────────────────
+      function buildFilter() {
+        const conditions = [];
 
-      // ── Filters ────────────────────────────────────────────────────────────────
-      function applyFilters() {
-        clusterGroup.clearLayers();
-        const batch = [];
-        for (const { marker, antenna } of allMarkers) {
-          const techOk =
-            activeTech === "Todos" || antenna.tecnologia === activeTech;
-          const opOk = !activeOp || antenna.allOps.has(activeOp);
-          if (techOk && opOk) batch.push(marker);
+        if (activeTech !== "Todos") {
+          conditions.push([
+            "==",
+            ["get", `has_${activeTech.toLowerCase()}`],
+            true,
+          ]);
         }
-        clusterGroup.addLayers(batch);
+
+        if (activeOp) {
+          conditions.push([
+            "==",
+            ["get", `has_${activeOp.toLowerCase()}`],
+            true,
+          ]);
+        }
+
+        if (conditions.length === 0) return null;
+        if (conditions.length === 1) return conditions[0];
+        return ["all", ...conditions];
       }
 
+      function applyFilters() {
+        if (!map.getSource("towers")) return;
+        const filter = buildFilter();
+        [
+          "clusters",
+          "cluster-count",
+          "unclustered-point",
+          "unclustered-label",
+        ].forEach((id) => {
+          if (map.getLayer(id)) map.setFilter(id, filter);
+        });
+      }
+
+      // ── Filter buttons ─────────────────────────────────────────────────────────
       const techBtns = document.querySelectorAll(".filter-btn[data-tech]");
       techBtns.forEach((btn) => {
         btn.classList.toggle("active", btn.dataset.tech === activeTech);
@@ -589,150 +433,156 @@
         });
       });
 
-      document
-        .getElementById("op-filter-group")
-        .addEventListener("click", (e) => {
-          const btn = e.target.closest(".filter-btn[data-op]");
-          if (!btn) return;
-          document
-            .querySelectorAll("#op-filter-group .filter-btn")
-            .forEach((b) => b.classList.remove("active"));
-          btn.classList.add("active");
-          activeOp = btn.dataset.op;
-          saveFilters();
-          applyFilters();
+      // Operator buttons — pre-populate all three
+      const opGroup = document.getElementById("op-filter-group");
+      ["Vivo", "Claro", "TIM"].forEach((op) => {
+        const btn = document.createElement("button");
+        btn.className = "filter-btn" + (op === activeOp ? " active" : "");
+        btn.dataset.op = op;
+        btn.textContent = op;
+        opGroup.appendChild(btn);
+      });
+      if (!activeOp) {
+        opGroup.querySelector('[data-op=""]')?.classList.add("active");
+      }
+      opGroup.addEventListener("click", (e) => {
+        const btn = e.target.closest(".filter-btn[data-op]");
+        if (!btn) return;
+        opGroup
+          .querySelectorAll(".filter-btn")
+          .forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        activeOp = btn.dataset.op;
+        saveFilters();
+        applyFilters();
+      });
+
+      // ── Popup ──────────────────────────────────────────────────────────────────
+      function buildPopup(props) {
+        const ops = (props.ops || "").split(",").filter(Boolean);
+        const techs = (props.techs || "").split(",").filter(Boolean);
+
+        const opLines = ops
+          .map((op) => {
+            const techBadges = techs
+              .map(
+                (t) =>
+                  `<span style="color:${TECH_COLOR[t] || "#888"};font-weight:600">${t}</span>`,
+              )
+              .join(" ");
+            return `<div class="popup-row">${ICON_RSS}<strong>${op}</strong> <span style="margin-left:4px">${techBadges}</span></div>`;
+          })
+          .join("");
+
+        const novaTag = props.nova
+          ? ` &nbsp;<span style='color:#f73'>nova</span>`
+          : "";
+
+        return `
+          ${opLines}
+          <div class="popup-row">${ICON_CHIP}${props.municipio || "—"} – ${props.uf || ""}</div>
+          ${props.data ? `<div class="popup-row">${ICON_CHIP}${props.data}${novaTag}</div>` : ""}
+        `;
+      }
+
+      // ── Map layers ─────────────────────────────────────────────────────────────
+      map.on("load", () => {
+        map.addSource("towers", {
+          type: "vector",
+          url: `pmtiles://${PMTILES_URL}`,
+          promoteId: { towers: "id" },
         });
 
-      // ── Loading & zoom hint ────────────────────────────────────────────────────
-      const loadingEl = document.getElementById("loading-indicator");
-      const zoomHintEl = document.getElementById("zoom-hint");
+        // Clustered circle layer
+        map.addLayer({
+          id: "unclustered-point",
+          type: "circle",
+          source: "towers",
+          "source-layer": "towers",
+          paint: {
+            "circle-color": [
+              "match",
+              ["get", "tech"],
+              "5G",
+              TECH_COLOR["5G"],
+              "4G",
+              TECH_COLOR["4G"],
+              "3G",
+              TECH_COLOR["3G"],
+              "2G",
+              TECH_COLOR["2G"],
+              "#888",
+            ],
+            "circle-radius": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              4,
+              1.5,
+              8,
+              3,
+              12,
+              5,
+              16,
+              8,
+            ],
+            "circle-opacity": 0.85,
+            "circle-stroke-width": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              4,
+              0,
+              10,
+              0.5,
+              14,
+              1,
+            ],
+            "circle-stroke-color": "rgba(0,0,0,0.3)",
+          },
+        });
 
-      function showLoading(show) {
-        isLoading = show;
-        if (loadingEl) loadingEl.style.display = show ? "flex" : "none";
-      }
-      function updateZoomHint() {
-        if (!zoomHintEl) return;
-        const show = map.getZoom() < MIN_TILE_ZOOM && allMarkers.length === 0;
-        zoomHintEl.style.display = show ? "flex" : "none";
-      }
+        // Label at high zoom
+        map.addLayer({
+          id: "unclustered-label",
+          type: "symbol",
+          source: "towers",
+          "source-layer": "towers",
+          minzoom: 13,
+          layout: {
+            "text-field": ["get", "tech"],
+            "text-size": 10,
+            "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
+            "text-offset": [0, -1.2],
+            "text-allow-overlap": false,
+          },
+          paint: {
+            "text-color": "#fff",
+            "text-halo-color": "rgba(0,0,0,0.7)",
+            "text-halo-width": 1,
+          },
+        });
 
-      // ── Tile loading ───────────────────────────────────────────────────────────
-      function boundsIntersect(tileBounds, mapBounds) {
-        const [[minLat, minLon], [maxLat, maxLon]] = tileBounds;
-        return !(
-          maxLat < mapBounds.getSouth() ||
-          minLat > mapBounds.getNorth() ||
-          maxLon < mapBounds.getWest() ||
-          minLon > mapBounds.getEast()
-        );
-      }
+        // Click → popup
+        map.on("click", "unclustered-point", (e) => {
+          if (!e.features || !e.features.length) return;
+          const f = e.features[0];
+          const coords = f.geometry.coordinates.slice();
+          new maplibregl.Popup({ offset: 10, maxWidth: "280px" })
+            .setLngLat(coords)
+            .setHTML(buildPopup(f.properties))
+            .addTo(map);
+        });
 
-      function processAntennas(data) {
-        const siteMap = new Map();
-        for (const a of data) {
-          if (!USER_FACING_TECH.has(a.tecnologia)) continue;
-          const key = `${a.lat.toFixed(3)},${a.lon.toFixed(3)}`;
-          if (!siteMap.has(key)) {
-            siteMap.set(key, {
-              lat: a.lat,
-              lon: a.lon,
-              tecnologia: a.tecnologia,
-              municipio: a.municipio,
-              nova: a.nova,
-              data: a.data,
-              allTechs: new Set([a.tecnologia]),
-              allOps: new Set([a.operadora]),
-              opTechs: { [a.operadora]: new Set([a.tecnologia]) },
-            });
-          } else {
-            const s = siteMap.get(key);
-            s.tecnologia = bestTech(s.tecnologia, a.tecnologia);
-            s.allTechs.add(a.tecnologia);
-            s.allOps.add(a.operadora);
-            if (!s.opTechs[a.operadora]) s.opTechs[a.operadora] = new Set();
-            s.opTechs[a.operadora].add(a.tecnologia);
-            if (a.nova) {
-              s.nova = true;
-              if (!s.data || a.data > s.data) s.data = a.data;
-            }
-          }
-          knownOps.add(a.operadora);
-        }
+        map.on("mouseenter", "unclustered-point", () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+        map.on("mouseleave", "unclustered-point", () => {
+          map.getCanvas().style.cursor = "";
+        });
 
-        for (const antenna of siteMap.values()) {
-          const marker = L.marker([antenna.lat, antenna.lon], {
-            icon: makeIcon(antenna),
-            zIndexOffset: TECH_ZINDEX[antenna.tecnologia] || 0,
-          });
-          marker._antenna = antenna;
-          marker.bindPopup(buildPopup(antenna));
-          allMarkers.push({ marker, antenna });
-        }
-      }
-
-      function updateOperatorButtons() {
-        const opGroup = document.getElementById("op-filter-group");
-        const existing = new Set(
-          [...opGroup.querySelectorAll("[data-op]")].map((b) => b.dataset.op),
-        );
-        for (const op of [...knownOps].sort()) {
-          if (existing.has(op)) continue;
-          const btn = document.createElement("button");
-          btn.className = "filter-btn" + (op === activeOp ? " active" : "");
-          btn.dataset.op = op;
-          btn.textContent = op;
-          opGroup.appendChild(btn);
-        }
-        if (activeOp) {
-          opGroup.querySelector('[data-op=""]')?.classList.remove("active");
-        } else {
-          opGroup.querySelector('[data-op=""]')?.classList.add("active");
-        }
-      }
-
-      async function loadVisibleTiles() {
-        if (!manifest) return;
-        updateZoomHint();
-
-        if (map.getZoom() < MIN_TILE_ZOOM) return;
-
-        const mapBounds = map.getBounds();
-        const tilesToLoad = [];
-
-        for (const tiles of Object.values(manifest)) {
-          for (const tile of tiles) {
-            if (loadedTiles.has(tile.file)) continue;
-            if (!boundsIntersect(tile.bounds, mapBounds)) continue;
-            tilesToLoad.push(tile);
-          }
-        }
-
-        if (tilesToLoad.length === 0) return;
-
-        showLoading(true);
-        try {
-          for (let i = 0; i < tilesToLoad.length; i += 10) {
-            const batch = tilesToLoad.slice(i, i + 10);
-            const results = await Promise.all(
-              batch.map(async (tile) => {
-                const data = await fetch(TILE_BASE + tile.file).then((r) =>
-                  r.json(),
-                );
-                return { tile, data };
-              }),
-            );
-            for (const { tile, data } of results) {
-              loadedTiles.add(tile.file);
-              processAntennas(data);
-            }
-          }
-          updateOperatorButtons();
-          applyFilters();
-        } finally {
-          showLoading(false);
-        }
-      }
+        applyFilters();
+      });
 
       // ── Search ─────────────────────────────────────────────────────────────────
       function initSearch() {
@@ -768,10 +618,13 @@
 
         function selectItem(item) {
           if (!item || !item.dataset.lat) return;
-          map.flyTo(
-            [parseFloat(item.dataset.lat), parseFloat(item.dataset.lon)],
-            13,
-          );
+          map.flyTo({
+            center: [
+              parseFloat(item.dataset.lon),
+              parseFloat(item.dataset.lat),
+            ],
+            zoom: 13,
+          });
           input.value = "";
           results.style.display = "none";
           activeIdx = -1;
@@ -794,7 +647,7 @@
 
             if (matches.length === 0) {
               results.innerHTML =
-                '<div class="search-item"><span class="search-meta">Nenhum resultado</span></div>';
+                '<div class="search-item"><span style="color:#555">Nenhum resultado</span></div>';
               results.style.display = "block";
               return;
             }
@@ -860,7 +713,7 @@
           (pos) => {
             const { latitude, longitude } = pos.coords;
             if (isInBrazil(latitude, longitude)) {
-              map.flyTo([latitude, longitude], 12);
+              map.flyTo({ center: [longitude, latitude], zoom: 12 });
             }
           },
           () => {},
@@ -870,28 +723,14 @@
 
       // ── Init ───────────────────────────────────────────────────────────────────
       async function init() {
-        showLoading(true);
         try {
-          [manifest, municipalitiesIndex] = await Promise.all([
-            fetch(TILE_BASE + "manifest.json").then((r) => r.json()),
-            fetch("../data/municipalities.json").then((r) => r.json()),
-          ]);
+          municipalitiesIndex = await fetch("../data/municipalities.json").then(
+            (r) => r.json(),
+          );
           initSearch();
-          let tileTimer;
-          map.on("moveend", () => {
-            clearTimeout(tileTimer);
-            tileTimer = setTimeout(loadVisibleTiles, 200);
-            syncHash();
-          });
-          updateZoomHint();
-          await loadVisibleTiles();
           if (!hasHashView) tryGeolocation();
         } catch (err) {
           console.error("erro ao inicializar", err);
-          document.getElementById("map").innerHTML =
-            '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#f85149;padding:2rem;text-align:center">Erro ao carregar dados. Tente recarregar a página.</div>';
-        } finally {
-          showLoading(false);
         }
       }
 
