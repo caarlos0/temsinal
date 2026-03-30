@@ -9,6 +9,14 @@ Criado por [Carlos A Becker](https://caarlos0.dev) usando [GitHub Copilot](https
 - **[ANATEL](https://sistemas.anatel.gov.br)** — Dados de torres
 - **[IBGE](https://www.ibge.gov.br)** — Dados de população
 
+## Cobertura
+
+Apenas as três grandes operadoras são incluídas: **Vivo**, **Claro** e **TIM**.
+
+Somente torres de acesso ao usuário final são exibidas (2G, 3G, 4G e 5G).
+Torres de backhaul, backbone, enlaces ponto-a-ponto e outras tecnologias de
+infraestrutura são excluídas.
+
 ## Desenvolvimento
 
 Os dados são coletados e processados por scripts Python no diretório `updater/`:
