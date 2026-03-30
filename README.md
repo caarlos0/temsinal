@@ -12,10 +12,16 @@ Criado por [Carlos A Becker](https://caarlos0.dev) usando [GitHub Copilot](https
 ## Cobertura
 
 Apenas as três grandes operadoras são incluídas: **Vivo**, **Claro** e **TIM**.
+A Oi Móvel não é incluída pois sua rede está sendo desativada e transferida
+para as demais operadoras desde 2022.
 
 Somente torres de acesso ao usuário final são exibidas (2G, 3G, 4G e 5G).
 Torres de backhaul, backbone, enlaces ponto-a-ponto e outras tecnologias de
 infraestrutura são excluídas.
+
+O mapa mostra apenas a localização das torres — não é possível estimar o raio
+de cobertura pois a ANATEL não disponibiliza dados de potência de transmissão,
+altura da antena ou ganho.
 
 ## Desenvolvimento
 
