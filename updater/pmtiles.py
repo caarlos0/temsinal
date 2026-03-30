@@ -121,8 +121,8 @@ def main() -> None:
         "2",  # min zoom
         "-l",
         "towers",  # layer name
-        "--cluster-distance=50",
-        "--cluster-densest-as-needed",
+        "-r1",  # don't drop any features at max zoom
+        "--drop-densest-as-needed",  # thin at lower zooms only
         "--extend-zooms-if-still-dropping",
         "--force",  # overwrite
         geojson_path,
