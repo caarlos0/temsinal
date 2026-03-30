@@ -111,6 +111,20 @@
       </div>
       <div class="header-filters">
         <div class="filter-row">
+          <div id="search-container">
+            <div id="search-wrap">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Buscar"
+                autocomplete="off"
+              />
+            </div>
+            <div id="search-results"></div>
+          </div>
+        </div>
+        <div class="sep"></div>
+        <div class="filter-row">
           <span class="filter-label">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -170,29 +184,6 @@
 
     <div id="map-wrap">
       <div id="map"></div>
-      <div id="search-container">
-        <svg
-          class="search-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="2"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          />
-        </svg>
-        <input
-          type="text"
-          id="search-input"
-          placeholder="Buscar..."
-          autocomplete="off"
-        />
-        <div id="search-results"></div>
-      </div>
     </div>
 
     <script src="main.js"></script>
