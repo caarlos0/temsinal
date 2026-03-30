@@ -3,6 +3,6 @@ revision = 3
 requires-python = ">=3.12"
 
 [[package]]
-name = "antennamap"
+name = "temsinal"
 version = "0.1.0"
 source = { virtual = "." }

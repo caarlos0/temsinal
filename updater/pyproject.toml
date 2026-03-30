@@ -1,5 +1,5 @@
 [project]
-name = "antennamap"
+name = "temsinal"
 version = "0.1.0"
 description = "ANATEL antenna map for Costa Oeste Paraná"
 readme = "README.md"

@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Conectividade Brasil</title>
+    <title>Tem Sinal?</title>
     <link
       rel="icon"
       type="image/svg+xml"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='%230c9'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z'/%3E%3C/svg%3E"
     />
 
-    <meta property="og:title" content="Conectividade Brasil" />
+    <meta property="og:title" content="Tem Sinal?" />
     <meta
       property="og:description"
       content="Mapa de torres de telecomunicação licenciadas pela ANATEL em todo o Brasil."
@@ -18,7 +18,7 @@
     <meta property="og:image" content="../og-image.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Conectividade Brasil" />
+    <meta name="twitter:title" content="Tem Sinal?" />
     <meta
       name="twitter:description"
       content="Mapa de torres de telecomunicação licenciadas pela ANATEL em todo o Brasil."
@@ -289,7 +289,7 @@
               d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"
             />
           </svg>
-          Conectividade Brasil
+          Tem Sinal?
         </h1>
         <nav class="header-nav">
           <a class="tab active" href="./">
@@ -529,9 +529,9 @@
 
       // ── State ──────────────────────────────────────────────────────────────────
       let allMarkers = [];
-      let activeTech = localStorage.getItem("antennamap-tech") || "Todos";
+      let activeTech = localStorage.getItem("temsinal-tech") || "Todos";
       if (activeTech === "nova") activeTech = "Todos";
-      let activeOp = localStorage.getItem("antennamap-op") || "";
+      let activeOp = localStorage.getItem("temsinal-op") || "";
       const knownOps = new Set();
       let manifest = null;
       let municipalitiesIndex = null;
@@ -539,8 +539,8 @@
       let isLoading = false;
 
       function saveFilters() {
-        localStorage.setItem("antennamap-tech", activeTech);
-        localStorage.setItem("antennamap-op", activeOp);
+        localStorage.setItem("temsinal-tech", activeTech);
+        localStorage.setItem("temsinal-op", activeOp);
       }
 
       // ── Cluster ────────────────────────────────────────────────────────────────

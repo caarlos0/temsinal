@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estatísticas – Conectividade Brasil</title>
+    <title>Estatísticas – Tem Sinal?</title>
     <link
       rel="icon"
       type="image/svg+xml"
@@ -371,7 +371,7 @@
               d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z"
             />
           </svg>
-          Conectividade Brasil
+          Tem Sinal?
         </h1>
         <nav class="header-nav">
           <a class="tab" href="../map/">
@@ -633,9 +633,9 @@
       const selection = { states: new Set(), cities: [] };
       const MAX_CITIES = 10;
       let viewMode = "national"; // national | single-state | comparison
-      let activeTech = localStorage.getItem("antennamap-tech") || "Todos";
+      let activeTech = localStorage.getItem("temsinal-tech") || "Todos";
       if (activeTech === "nova") activeTech = "Todos";
-      let activeOp = localStorage.getItem("antennamap-op") || "";
+      let activeOp = localStorage.getItem("temsinal-op") || "";
       let allRows = [];
       let chartPerCapita, chartTech;
       let sortCol = "per10k",
@@ -653,8 +653,8 @@
       }
 
       function saveFilters() {
-        localStorage.setItem("antennamap-tech", activeTech);
-        localStorage.setItem("antennamap-op", activeOp);
+        localStorage.setItem("temsinal-tech", activeTech);
+        localStorage.setItem("temsinal-op", activeOp);
       }
 
       function syncUrl() {
