@@ -396,7 +396,7 @@ function tryGeolocation() {
 // ── Init ───────────────────────────────────────────────────────────────────
 async function init() {
   try {
-    municipalitiesIndex = await fetch("../data/municipalities.json").then((r) =>
+    municipalitiesIndex = await fetch("data/municipalities.json").then((r) =>
       r.json(),
     );
     initSearch();
