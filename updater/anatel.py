@@ -284,7 +284,7 @@ def main() -> None:
             antennas = rows_to_antennas(rows)
 
             out_path = DATA_DIR / f"{uf}.json"
-            out = json.dumps(antennas, ensure_ascii=False)
+            out = json.dumps(antennas, ensure_ascii=False, indent=2)
             out_path.write_text(out, encoding="utf-8")
 
             size_kb = len(out.encode()) / 1024

@@ -145,7 +145,7 @@ def main() -> None:
                 "antenas": centroid["antennas"],
             }
 
-    out = json.dumps(index, ensure_ascii=False)
+    out = json.dumps(index, ensure_ascii=False, indent=2)
     OUT_PATH.write_text(out, encoding="utf-8")
 
     with_coords = sum(1 for v in index.values() if "lat" in v)

@@ -19,13 +19,15 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57 # v8.0.0
+      - name: Clean existing data
+        run: rm -f data/antennas/*.json data/population.json data/municipalities.json
       - name: Fetch ANATEL data
         working-directory: updater
         run: |
           if [ -n "${{ github.event.inputs.uf }}" ]; then
             uv run anatel.py --uf ${{ github.event.inputs.uf }}
           else
-            uv run anatel.py --resume
+            uv run anatel.py
           fi
       - name: Fetch IBGE population data
         run: uv run ibge.py
@@ -48,7 +50,6 @@ jobs:
           command: r2 object put temsinal-data/towers.pmtiles --file=data/towers.pmtiles
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      - run: ./compact.sh
       - uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           commit_message: "chore: update antennas and population data"
