@@ -27,7 +27,7 @@ const { lat, lon, zoom } = parseHash() || DEFAULT_VIEW;
 const hasHashView = location.hash.length > 1;
 
 // ── PMTiles protocol ───────────────────────────────────────────────────────
-const protocol = new pmtiles.Protocol();
+const protocol = new pmtiles.Protocol({ metadata: true });
 maplibregl.addProtocol("pmtiles", protocol.tile);
 
 // ── Map ────────────────────────────────────────────────────────────────────
@@ -165,7 +165,6 @@ map.on("load", () => {
   map.addSource("towers", {
     type: "vector",
     url: `pmtiles://${PMTILES_URL}`,
-    promoteId: { towers: "id" },
   });
 
   // Clustered circle layer
