@@ -25,9 +25,9 @@ jobs:
         working-directory: updater
         run: |
           if [ -n "${{ github.event.inputs.uf }}" ]; then
-            uv run anatel.py --uf ${{ github.event.inputs.uf }}
+            uv run anatel.py --workers 4 --uf ${{ github.event.inputs.uf }}
           else
-            uv run anatel.py
+            uv run anatel.py --workers 4
           fi
       - name: Fetch IBGE population data
         run: uv run ibge.py
@@ -50,6 +50,8 @@ jobs:
           command: r2 object put temsinal-data/towers.pmtiles --file=data/towers.pmtiles
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Pull latest changes
+        run: git pull --rebase
       - uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           commit_message: "chore: update antennas and population data"
