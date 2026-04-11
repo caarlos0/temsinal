@@ -113,8 +113,8 @@ UF_CODES = {
     "TO": 17,
 }
 
-MAX_RETRIES = 3
-RETRY_DELAY = 5
+MAX_RETRIES = 5
+RETRY_DELAY = 10
 
 
 def _log(msg: str, **kwargs) -> None:
@@ -196,7 +196,7 @@ def export_state_csv(cookie: str, uf: str) -> str:
             "Content-Type": "application/x-www-form-urlencoded",
         },
     )
-    with request.urlopen(req, timeout=120) as resp:
+    with request.urlopen(req, timeout=300) as resp:
         body = json.loads(resp.read())
 
     redirect = body.get("redirectUrl") or body.get("submitUrl")
