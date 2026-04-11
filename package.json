@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "mkdir -p vendor && cp node_modules/maplibre-gl/dist/maplibre-gl.js vendor/ && cp node_modules/maplibre-gl/dist/maplibre-gl.css vendor/ && cp node_modules/pmtiles/dist/pmtiles.js vendor/ && cp node_modules/chart.js/dist/chart.umd.js vendor/"
+    "build": "mkdir -p vendor && cp node_modules/maplibre-gl/dist/maplibre-gl.js vendor/ && cp node_modules/maplibre-gl/dist/maplibre-gl.css vendor/ && cp node_modules/pmtiles/dist/pmtiles.js vendor/ && cp node_modules/chart.js/dist/chart.umd.js vendor/",
+    "update": "cd updater && uv run anatel.py && uv run ibge.py && uv run municipalities.py && uv run pmtiles.py"
   },
   "dependencies": {
     "chart.js": "4.5.1",
