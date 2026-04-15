@@ -14,6 +14,7 @@ import json
 import subprocess
 import sys
 import tempfile
+from datetime import datetime
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -21,6 +22,11 @@ ANTENNAS_DIR = DATA_DIR / "antennas"
 OUTPUT = DATA_DIR / "towers.pmtiles"
 
 TECH_PRIORITY = ["5G", "4G", "3G", "2G"]
+
+
+def parse_date(d: str) -> datetime:
+    """Parse a dd/mm/yyyy date string into a datetime for proper comparison."""
+    return datetime.strptime(d, "%d/%m/%Y")
 
 
 def best_tech(a: str, b: str) -> str:
@@ -64,8 +70,11 @@ def main() -> None:
             s["op_techs"].setdefault(a["operadora"], set()).add(a["tecnologia"])
             if a.get("nova"):
                 s["nova"] = True
-                if not s["data"] or a.get("data", "") > s["data"]:
-                    s["data"] = a.get("data")
+                a_data = a.get("data", "")
+                if a_data and (
+                    not s["data"] or parse_date(a_data) > parse_date(s["data"])
+                ):
+                    s["data"] = a_data
 
     print(f"{total:,} antennas → {len(sites):,} unique sites", file=sys.stderr)
 
