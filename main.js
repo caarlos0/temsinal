@@ -134,11 +134,22 @@ opGroup.addEventListener("click", (e) => {
 
 // ── Popup ──────────────────────────────────────────────────────────────────
 function buildPopup(props) {
+  // Parse per-operator techs: "Claro:4G,5G|TIM:4G|Vivo:3G,4G"
+  const opTechMap = {};
+  (props.op_techs || "")
+    .split("|")
+    .filter(Boolean)
+    .forEach((part) => {
+      const [op, techs] = part.split(":");
+      opTechMap[op] = techs ? techs.split(",") : [];
+    });
+
   const ops = (props.ops || "").split(",").filter(Boolean);
-  const techs = (props.techs || "").split(",").filter(Boolean);
+  const allTechs = (props.techs || "").split(",").filter(Boolean);
 
   const opLines = ops
     .map((op) => {
+      const techs = opTechMap[op] || allTechs;
       const techBadges = techs
         .map(
           (t) =>
