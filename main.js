@@ -1,3 +1,10 @@
+// ── Helpers ──────────────────────────────────────────────────────────────
+function esc(s) {
+  const d = document.createElement("div");
+  d.textContent = s;
+  return d.innerHTML;
+}
+
 // ── Constants ──────────────────────────────────────────────────────────────
 const TECH_COLOR = {
   "5G": "#f04",
@@ -142,10 +149,10 @@ function buildPopup(props) {
       const techBadges = techs
         .map(
           (t) =>
-            `<span style="color:${TECH_COLOR[t] || "#888"};font-weight:600">${t}</span>`,
+            `<span style="color:${TECH_COLOR[t] || "#888"};font-weight:600">${esc(t)}</span>`,
         )
         .join(" ");
-      return `<div class="popup-row">${ICON_RSS}<strong>${op}</strong> <span style="margin-left:4px">${techBadges}</span></div>`;
+      return `<div class="popup-row">${ICON_RSS}<strong>${esc(op)}</strong> <span style="margin-left:4px">${techBadges}</span></div>`;
     })
     .join("");
 
@@ -155,8 +162,8 @@ function buildPopup(props) {
 
   return `
           ${opLines}
-          <div class="popup-row">${ICON_CHIP}${props.municipio || "—"} – ${props.uf || ""}</div>
-          ${props.data ? `<div class="popup-row">${ICON_CHIP}${props.data}${novaTag}</div>` : ""}
+          <div class="popup-row">${ICON_CHIP}${esc(props.municipio || "—")} – ${esc(props.uf || "")}</div>
+          ${props.data ? `<div class="popup-row">${ICON_CHIP}${esc(props.data)}${novaTag}</div>` : ""}
         `;
 }
 
