@@ -51,6 +51,7 @@ def main() -> None:
                     "tech": a["tecnologia"],
                     "techs": set(),
                     "ops": set(),
+                    "op_techs": {},
                     "municipio": a["municipio"],
                     "uf": a.get("uf", path.stem),
                     "nova": False,
@@ -60,6 +61,7 @@ def main() -> None:
             s["tech"] = best_tech(s["tech"], a["tecnologia"])
             s["techs"].add(a["tecnologia"])
             s["ops"].add(a["operadora"])
+            s["op_techs"].setdefault(a["operadora"], set()).add(a["tecnologia"])
             if a.get("nova"):
                 s["nova"] = True
                 if not s["data"] or a.get("data", "") > s["data"]:
@@ -72,10 +74,17 @@ def main() -> None:
     for s in sites.values():
         techs_sorted = [t for t in TECH_PRIORITY if t in s["techs"]]
         ops_sorted = sorted(s["ops"])
+        # Per-operator techs: "Claro:4G,5G|TIM:4G|Vivo:3G,4G"
+        op_tech_parts = []
+        for op in ops_sorted:
+            op_ts = [t for t in TECH_PRIORITY if t in s["op_techs"].get(op, set())]
+            op_tech_parts.append(f"{op}:{','.join(op_ts)}")
+
         props = {
             "tech": s["tech"],
             "techs": ",".join(techs_sorted),
             "ops": ",".join(ops_sorted),
+            "op_techs": "|".join(op_tech_parts),
             "municipio": s["municipio"],
             "uf": s["uf"],
         }
