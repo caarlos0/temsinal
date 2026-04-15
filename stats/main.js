@@ -1,8 +1,3 @@
-// ── Helpers ───────────────────────────────────────────────────────────────────
-function escapeAttr(s) {
-  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-}
-
 // ── Icons ────────────────────────────────────────────────────────────────────
 const ICON_TROPHY = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16 4h2a2 2 0 012 2v1c0 2.97-2.143 5.449-5 5.91V15h2a1 1 0 010 2H7a1 1 0 010-2h2v-2.09C6.143 12.449 4 9.97 4 7V6a2 2 0 012-2h2m8 0V3a1 1 0 00-1-1H9a1 1 0 00-1 1v1m8 0H8"/></svg>`;
 const ICON_TREND_DOWN = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/></svg>`;
@@ -221,13 +216,30 @@ function initScopeSelector() {
     for (const uf of selection.states) {
       const chip = document.createElement("span");
       chip.className = "scope-chip state";
-      chip.innerHTML = `${uf} <button data-type="state" data-uf="${uf}">\u00d7</button>`;
+      chip.textContent = uf + " ";
+      const btn = document.createElement("button");
+      btn.dataset.type = "state";
+      btn.dataset.uf = uf;
+      btn.textContent = "\u00d7";
+      chip.appendChild(btn);
       wrap.insertBefore(chip, input);
     }
     selection.cities.forEach((c, i) => {
       const chip = document.createElement("span");
       chip.className = "scope-chip city";
-      chip.innerHTML = `${escapeAttr(c.name)} <span style="color:var(--muted)">(${escapeAttr(c.uf)})</span> <button data-type="city" data-idx="${i}">\u00d7</button>`;
+      chip.append(
+        c.name + " ",
+        Object.assign(document.createElement("span"), {
+          style: "color:var(--muted)",
+          textContent: `(${c.uf})`,
+        }),
+        " ",
+        Object.assign(document.createElement("button"), {
+          textContent: "\u00d7",
+        }),
+      );
+      chip.querySelector("button").dataset.type = "city";
+      chip.querySelector("button").dataset.idx = i;
       wrap.insertBefore(chip, input);
     });
   };
@@ -307,26 +319,40 @@ function initScopeSelector() {
         return;
       }
 
-      let html = "";
+      results.replaceChildren();
+      function makeItem(cls, text, dataset) {
+        const div = document.createElement("div");
+        div.className = cls;
+        div.textContent = text;
+        Object.assign(div.dataset, dataset);
+        return div;
+      }
       if (stateMatches.length) {
-        html += '<div class="scope-group-label">Estados</div>';
-        html += stateMatches
-          .map(
-            (e) =>
-              `<div class="scope-item" data-type="state" data-uf="${escapeAttr(e.uf)}">${escapeAttr(e.label)}</div>`,
-          )
-          .join("");
+        const label = document.createElement("div");
+        label.className = "scope-group-label";
+        label.textContent = "Estados";
+        results.append(
+          label,
+          ...stateMatches.map((e) =>
+            makeItem("scope-item", e.label, { type: "state", uf: e.uf }),
+          ),
+        );
       }
       if (cityMatches.length) {
-        html += '<div class="scope-group-label">Cidades</div>';
-        html += cityMatches
-          .map(
-            (e) =>
-              `<div class="scope-item" data-type="city" data-name="${escapeAttr(e.name)}" data-uf="${escapeAttr(e.uf)}">${escapeAttr(e.label)}</div>`,
-          )
-          .join("");
+        const label = document.createElement("div");
+        label.className = "scope-group-label";
+        label.textContent = "Cidades";
+        results.append(
+          label,
+          ...cityMatches.map((e) =>
+            makeItem("scope-item", e.label, {
+              type: "city",
+              name: e.name,
+              uf: e.uf,
+            }),
+          ),
+        );
       }
-      results.innerHTML = html;
       results.style.display = "block";
     }, 150);
   });
