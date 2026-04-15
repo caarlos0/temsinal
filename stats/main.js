@@ -216,13 +216,13 @@ function initScopeSelector() {
     for (const uf of selection.states) {
       const chip = document.createElement("span");
       chip.className = "scope-chip state";
-      chip.innerHTML = `${uf} <button data-type="state" data-uf="${uf}">\u00d7</button>`;
+      chip.innerHTML = `${uf} <button data-type="state" data-uf="${uf}" aria-label="Remover ${uf}">\u00d7</button>`;
       wrap.insertBefore(chip, input);
     }
     selection.cities.forEach((c, i) => {
       const chip = document.createElement("span");
       chip.className = "scope-chip city";
-      chip.innerHTML = `${c.name} <span style="color:var(--muted)">(${c.uf})</span> <button data-type="city" data-idx="${i}">\u00d7</button>`;
+      chip.innerHTML = `${c.name} <span style="color:var(--muted)">(${c.uf})</span> <button data-type="city" data-idx="${i}" aria-label="Remover ${c.name}">\u00d7</button>`;
       wrap.insertBefore(chip, input);
     });
   };
@@ -743,19 +743,27 @@ function renderDetailView(tableHeading, entityLabel) {
   const ops = [...new Set(allRows.flatMap((r) => Object.keys(r.ops)))].sort();
   const opGroup = document.getElementById("op-filter-group");
   opGroup.innerHTML =
-    '<button class="filter-btn active" data-op="">Todos</button>';
+    '<button class="filter-btn active" data-op="" aria-pressed="true">Todos</button>';
   ops.forEach((op) => {
     const btn = document.createElement("button");
-    btn.className = "filter-btn" + (op === activeOp ? " active" : "");
+    const isActive = op === activeOp;
+    btn.className = "filter-btn" + (isActive ? " active" : "");
     btn.dataset.op = op;
     btn.textContent = op;
+    btn.setAttribute("aria-pressed", String(isActive));
     opGroup.appendChild(btn);
   });
   if (activeOp)
     opGroup.querySelector('[data-op=""]')?.classList.remove("active");
+  if (activeOp)
+    opGroup
+      .querySelector('[data-op=""]')
+      ?.setAttribute("aria-pressed", "false");
 
   document.querySelectorAll("#tech-filter-group .filter-btn").forEach((b) => {
-    b.classList.toggle("active", b.dataset.tech === activeTech);
+    const isActive = b.dataset.tech === activeTech;
+    b.classList.toggle("active", isActive);
+    b.setAttribute("aria-pressed", String(isActive));
   });
 
   const showRankings = viewMode === "single-state";
@@ -810,8 +818,12 @@ function renderDetailView(tableHeading, entityLabel) {
       if (!btn) return;
       document
         .querySelectorAll("#tech-filter-group .filter-btn")
-        .forEach((b) => b.classList.remove("active"));
+        .forEach((b) => {
+          b.classList.remove("active");
+          b.setAttribute("aria-pressed", "false");
+        });
       btn.classList.add("active");
+      btn.setAttribute("aria-pressed", "true");
       activeTech = btn.dataset.tech;
       saveFilters();
       applyFilter(activeTech, activeOp);
@@ -822,8 +834,12 @@ function renderDetailView(tableHeading, entityLabel) {
     if (!btn) return;
     document
       .querySelectorAll("#op-filter-group .filter-btn")
-      .forEach((b) => b.classList.remove("active"));
+      .forEach((b) => {
+        b.classList.remove("active");
+        b.setAttribute("aria-pressed", "false");
+      });
     btn.classList.add("active");
+    btn.setAttribute("aria-pressed", "true");
     activeOp = btn.dataset.op;
     saveFilters();
     applyFilter(activeTech, activeOp);

@@ -98,10 +98,16 @@ function applyFilters() {
 // ── Filter buttons ─────────────────────────────────────────────────────────
 const techBtns = document.querySelectorAll(".filter-btn[data-tech]");
 techBtns.forEach((btn) => {
-  btn.classList.toggle("active", btn.dataset.tech === activeTech);
+  const isActive = btn.dataset.tech === activeTech;
+  btn.classList.toggle("active", isActive);
+  btn.setAttribute("aria-pressed", String(isActive));
   btn.addEventListener("click", () => {
-    techBtns.forEach((b) => b.classList.remove("active"));
+    techBtns.forEach((b) => {
+      b.classList.remove("active");
+      b.setAttribute("aria-pressed", "false");
+    });
     btn.classList.add("active");
+    btn.setAttribute("aria-pressed", "true");
     activeTech = btn.dataset.tech;
     saveFilters();
     applyFilters();
@@ -112,21 +118,27 @@ techBtns.forEach((btn) => {
 const opGroup = document.getElementById("op-filter-group");
 ["Vivo", "Claro", "TIM"].forEach((op) => {
   const btn = document.createElement("button");
-  btn.className = "filter-btn" + (op === activeOp ? " active" : "");
+  const isActive = op === activeOp;
+  btn.className = "filter-btn" + (isActive ? " active" : "");
   btn.dataset.op = op;
   btn.textContent = op;
+  btn.setAttribute("aria-pressed", String(isActive));
   opGroup.appendChild(btn);
 });
 if (!activeOp) {
-  opGroup.querySelector('[data-op=""]')?.classList.add("active");
+  const todosBtn = opGroup.querySelector('[data-op=""]');
+  todosBtn?.classList.add("active");
+  todosBtn?.setAttribute("aria-pressed", "true");
 }
 opGroup.addEventListener("click", (e) => {
   const btn = e.target.closest(".filter-btn[data-op]");
   if (!btn) return;
-  opGroup
-    .querySelectorAll(".filter-btn")
-    .forEach((b) => b.classList.remove("active"));
+  opGroup.querySelectorAll(".filter-btn").forEach((b) => {
+    b.classList.remove("active");
+    b.setAttribute("aria-pressed", "false");
+  });
   btn.classList.add("active");
+  btn.setAttribute("aria-pressed", "true");
   activeOp = btn.dataset.op;
   saveFilters();
   applyFilters();
