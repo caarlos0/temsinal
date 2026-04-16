@@ -102,13 +102,8 @@ function buildFilter() {
 function applyFilters() {
   if (!map.getSource("towers")) return;
   const filter = buildFilter();
-  [
-    "clusters",
-    "cluster-count",
-    "unclustered-point",
-    "unclustered-label",
-  ].forEach((id) => {
-    if (map.getLayer(id)) map.setFilter(id, filter);
+  ["unclustered-point", "unclustered-label"].forEach((id) => {
+    map.setFilter(id, filter);
   });
 }
 
