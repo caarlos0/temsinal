@@ -47,6 +47,14 @@ def resolve_alias(name: str, uf: str) -> str:
     return NAME_ALIASES.get(f"{name}|{uf}", NAME_ALIASES.get(name, name))
 
 
+_HTML_UNSAFE = re.compile(r'[<>"]')
+
+
+def sanitize_name(s: str) -> str:
+    """Strip characters that should never appear in municipality names."""
+    return _HTML_UNSAFE.sub("", s)
+
+
 def normalize_name(s: str) -> str:
     """Normalize for matching: unescape HTML, strip accents, lowercase."""
     s = html.unescape(s)
@@ -77,7 +85,7 @@ def compute_centroids() -> dict[str, dict]:
 
         for a in antennas:
             raw_name = html.unescape(a["municipio"])
-            name = resolve_alias(raw_name, uf)
+            name = sanitize_name(resolve_alias(raw_name, uf))
             key = normalize_name(f"{name}|{uf}")
             if key not in centroids:
                 centroids[key] = {
