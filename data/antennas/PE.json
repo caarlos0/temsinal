@@ -28122,7 +28122,7 @@
     "lat": -8.150972,
     "lon": -34.923194,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -28131,7 +28131,7 @@
     "lat": -8.01251,
     "lon": -34.91553,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -28140,7 +28140,7 @@
     "lat": -8.01251,
     "lon": -34.91553,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

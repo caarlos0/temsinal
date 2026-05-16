@@ -38631,6 +38631,15 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Brasília",
+    "lat": -15.7759,
+    "lon": -47.9085,
+    "data": "19/12/2003",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
     "lat": -15.7614,
     "lon": -47.7838,
     "data": "19/12/2003",
@@ -42102,6 +42111,33 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Brasília",
+    "lat": -16.0265,
+    "lon": -48.06696,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -16.0265,
+    "lon": -48.06696,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -16.0265,
+    "lon": -48.06696,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Brasília",
@@ -42134,6 +42170,15 @@
     "municipio": "Brasília",
     "lat": -15.614361,
     "lon": -47.6435,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -16.0265,
+    "lon": -48.06696,
     "data": "22/04/2026",
     "nova": true
   },

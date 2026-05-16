@@ -3663,6 +3663,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.72392,
+    "lon": -53.71942,
+    "data": "01/11/2016",
+    "nova": false
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Curitiba",
@@ -7965,6 +7974,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.74274,
+    "lon": -53.72194,
+    "data": "03/11/2011",
+    "nova": false
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Agudos do Sul",
@@ -10586,6 +10604,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Umuarama",
+    "lat": -23.74992,
+    "lon": -53.30179,
+    "data": "04/07/2018",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Umuarama",
     "lat": -23.74992,
     "lon": -53.30179,
@@ -19908,6 +19935,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Pinhais",
+    "lat": -25.44749,
+    "lon": -49.16661,
+    "data": "04/12/2018",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Curitiba",
@@ -27237,6 +27273,15 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Curitiba",
+    "lat": -25.50471,
+    "lon": -49.34497,
+    "data": "07/02/2017",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Curitiba",
     "lat": -25.50088,
     "lon": -49.27842,
     "data": "07/02/2017",
@@ -30845,6 +30890,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Umuarama",
+    "lat": -23.76722,
+    "lon": -53.29805,
+    "data": "08/03/2017",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Umuarama",
     "lat": -23.76722,
     "lon": -53.29805,
@@ -35787,8 +35841,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Curitiba",
-    "lat": -25.42125,
-    "lon": -49.33567,
+    "lat": -25.42126,
+    "lon": -49.33568,
     "data": "08/11/2016",
     "nova": false
   },
@@ -35904,8 +35958,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Curitiba",
-    "lat": -25.42125,
-    "lon": -49.33567,
+    "lat": -25.42126,
+    "lon": -49.33568,
     "data": "08/11/2016",
     "nova": false
   },
@@ -36005,6 +36059,24 @@
     "municipio": "Curitiba",
     "lat": -25.43552,
     "lon": -49.35417,
+    "data": "08/11/2016",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Curitiba",
+    "lat": -25.42491,
+    "lon": -49.34323,
+    "data": "08/11/2016",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Curitiba",
+    "lat": -25.42126,
+    "lon": -49.33568,
     "data": "08/11/2016",
     "nova": false
   },
@@ -37472,6 +37544,15 @@
     "municipio": "Guarapuava",
     "lat": -25.24644,
     "lon": -51.5531,
+    "data": "09/01/2006",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Guarapuava",
+    "lat": -25.3591,
+    "lon": -51.4997,
     "data": "09/01/2006",
     "nova": false
   },
@@ -40521,8 +40602,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Arapongas",
-    "lat": -23.362417,
-    "lon": -51.402139,
+    "lat": -23.36281,
+    "lon": -51.40274,
     "data": "09/12/2004",
     "nova": false
   },
@@ -40548,8 +40629,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Arapongas",
-    "lat": -23.362417,
-    "lon": -51.402139,
+    "lat": -23.36281,
+    "lon": -51.40274,
     "data": "09/12/2004",
     "nova": false
   },
@@ -40575,8 +40656,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Arapongas",
-    "lat": -23.362417,
-    "lon": -51.402139,
+    "lat": -23.36281,
+    "lon": -51.40274,
     "data": "09/12/2004",
     "nova": false
   },
@@ -40595,6 +40676,15 @@
     "municipio": "Arapongas",
     "lat": -23.3934,
     "lon": -51.44912,
+    "data": "09/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Arapongas",
+    "lat": -23.36281,
+    "lon": -51.40274,
     "data": "09/12/2004",
     "nova": false
   },
@@ -43525,6 +43615,15 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Guarapuava",
+    "lat": -25.35083,
+    "lon": -51.43088,
+    "data": "09/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Guaratuba",
     "lat": -25.9612,
@@ -45074,6 +45173,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Pinhais",
+    "lat": -25.4573,
+    "lon": -49.17752,
+    "data": "09/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Pinhais",
     "lat": -25.4573,
     "lon": -49.17752,
@@ -46425,8 +46533,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Umuarama",
-    "lat": -23.77091,
-    "lon": -53.26985,
+    "lat": -23.77133,
+    "lon": -53.27063,
     "data": "09/12/2004",
     "nova": false
   },
@@ -46506,8 +46614,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Umuarama",
-    "lat": -23.77091,
-    "lon": -53.26985,
+    "lat": -23.77133,
+    "lon": -53.27063,
     "data": "09/12/2004",
     "nova": false
   },
@@ -46587,8 +46695,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Umuarama",
-    "lat": -23.77091,
-    "lon": -53.26985,
+    "lat": -23.77133,
+    "lon": -53.27063,
     "data": "09/12/2004",
     "nova": false
   },
@@ -46641,6 +46749,15 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Umuarama",
+    "lat": -23.77792,
+    "lon": -53.32389,
+    "data": "09/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Umuarama",
     "lat": -23.77375,
     "lon": -53.29626,
     "data": "09/12/2004",
@@ -46650,8 +46767,26 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Umuarama",
+    "lat": -23.77133,
+    "lon": -53.27063,
+    "data": "09/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Umuarama",
     "lat": -23.7623,
     "lon": -53.3203,
+    "data": "09/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Umuarama",
+    "lat": -23.76139,
+    "lon": -53.31056,
     "data": "09/12/2004",
     "nova": false
   },
@@ -49556,6 +49691,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Toledo",
+    "lat": -24.71664,
+    "lon": -53.73492,
+    "data": "10/10/2016",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Toledo",
     "lat": -24.71664,
     "lon": -53.73492,
@@ -55533,7 +55677,7 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Curitiba",
-    "lat": -25.49805,
+    "lat": -25.49806,
     "lon": -49.31283,
     "data": "12/05/2017",
     "nova": false
@@ -55641,7 +55785,7 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Curitiba",
-    "lat": -25.49805,
+    "lat": -25.49806,
     "lon": -49.31283,
     "data": "12/05/2017",
     "nova": false
@@ -55742,6 +55886,15 @@
     "municipio": "Curitiba",
     "lat": -25.51461,
     "lon": -49.28831,
+    "data": "12/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Curitiba",
+    "lat": -25.49806,
+    "lon": -49.31283,
     "data": "12/05/2017",
     "nova": false
   },
@@ -56072,6 +56225,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Fazenda Rio Grande",
+    "lat": -25.68,
+    "lon": -49.31639,
+    "data": "12/06/2006",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Fazenda Rio Grande",
     "lat": -25.68,
     "lon": -49.31639,
@@ -57936,8 +58098,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Paranaguá",
-    "lat": -25.54582,
-    "lon": -48.52946,
+    "lat": -25.54583,
+    "lon": -48.52947,
     "data": "12/09/2016",
     "nova": false
   },
@@ -57954,7 +58116,7 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Paranaguá",
-    "lat": -25.53197,
+    "lat": -25.53198,
     "lon": -48.50586,
     "data": "12/09/2016",
     "nova": false
@@ -57972,8 +58134,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Paranaguá",
-    "lat": -25.54582,
-    "lon": -48.52946,
+    "lat": -25.54583,
+    "lon": -48.52947,
     "data": "12/09/2016",
     "nova": false
   },
@@ -57990,7 +58152,7 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Paranaguá",
-    "lat": -25.53197,
+    "lat": -25.53198,
     "lon": -48.50586,
     "data": "12/09/2016",
     "nova": false
@@ -58008,8 +58170,26 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Paranaguá",
+    "lat": -25.54583,
+    "lon": -48.52947,
+    "data": "12/09/2016",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Paranaguá",
     "lat": -25.54451,
     "lon": -48.56778,
+    "data": "12/09/2016",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Paranaguá",
+    "lat": -25.53198,
+    "lon": -48.50586,
     "data": "12/09/2016",
     "nova": false
   },
@@ -60837,7 +61017,7 @@
     "lat": -24.20196,
     "lon": -53.39269,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60846,7 +61026,7 @@
     "lat": -24.20196,
     "lon": -53.39269,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60855,7 +61035,7 @@
     "lat": -23.52826,
     "lon": -51.45577,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60864,7 +61044,7 @@
     "lat": -24.12887,
     "lon": -49.84224,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60873,7 +61053,7 @@
     "lat": -24.12887,
     "lon": -49.84224,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60882,7 +61062,7 @@
     "lat": -24.01002,
     "lon": -52.34713,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60891,7 +61071,7 @@
     "lat": -24.04351,
     "lon": -52.38258,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60900,7 +61080,7 @@
     "lat": -24.01002,
     "lon": -52.34713,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60909,7 +61089,7 @@
     "lat": -25.4975,
     "lon": -49.35264,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60918,7 +61098,7 @@
     "lat": -25.4975,
     "lon": -49.35264,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60927,7 +61107,7 @@
     "lat": -25.4975,
     "lon": -49.35264,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60936,7 +61116,7 @@
     "lat": -26.06899,
     "lon": -53.06291,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60945,7 +61125,7 @@
     "lat": -26.08992,
     "lon": -53.05733,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60954,7 +61134,7 @@
     "lat": -26.08992,
     "lon": -53.05733,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60963,7 +61143,7 @@
     "lat": -26.06899,
     "lon": -53.06291,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60972,7 +61152,7 @@
     "lat": -25.4321,
     "lon": -49.99076,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60981,7 +61161,7 @@
     "lat": -25.02024,
     "lon": -50.12015,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60990,7 +61170,7 @@
     "lat": -25.02024,
     "lon": -50.12015,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -60999,7 +61179,7 @@
     "lat": -23.26121,
     "lon": -52.14989,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61008,7 +61188,7 @@
     "lat": -23.26121,
     "lon": -52.14989,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61017,7 +61197,7 @@
     "lat": -23.31658,
     "lon": -51.356,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61026,7 +61206,7 @@
     "lat": -23.45564,
     "lon": -51.87083,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61035,7 +61215,7 @@
     "lat": -25.55461,
     "lon": -49.02991,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61044,7 +61224,7 @@
     "lat": -25.55461,
     "lon": -49.02991,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61053,7 +61233,7 @@
     "lat": -22.82723,
     "lon": -53.22165,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61062,7 +61242,7 @@
     "lat": -22.82723,
     "lon": -53.22165,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61071,7 +61251,7 @@
     "lat": -24.72213,
     "lon": -53.52597,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -61080,7 +61260,7 @@
     "lat": -24.72213,
     "lon": -53.52597,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -63075,8 +63255,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Toledo",
-    "lat": -24.73238,
-    "lon": -53.70438,
+    "lat": -24.73239,
+    "lon": -53.70439,
     "data": "13/12/2017",
     "nova": false
   },
@@ -63084,8 +63264,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Toledo",
-    "lat": -24.73238,
-    "lon": -53.70438,
+    "lat": -24.73239,
+    "lon": -53.70439,
     "data": "13/12/2017",
     "nova": false
   },
@@ -63093,8 +63273,17 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Toledo",
-    "lat": -24.73238,
-    "lon": -53.70438,
+    "lat": -24.73239,
+    "lon": -53.70439,
+    "data": "13/12/2017",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.73239,
+    "lon": -53.70439,
     "data": "13/12/2017",
     "nova": false
   },
@@ -80370,6 +80559,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.71588,
+    "lon": -53.73891,
+    "data": "18/08/2023",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Campina Grande do Sul",
@@ -88779,6 +88977,15 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Curitiba",
+    "lat": -25.42957,
+    "lon": -49.35988,
+    "data": "19/05/2017",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Curitiba",
     "lat": -25.42444,
     "lon": -49.26354,
     "data": "19/05/2017",
@@ -96561,6 +96768,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Guarapuava",
+    "lat": -25.39535,
+    "lon": -51.52157,
+    "data": "21/02/2006",
+    "nova": false
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Apucarana",
@@ -99756,6 +99972,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Umuarama",
+    "lat": -23.78916,
+    "lon": -53.29873,
+    "data": "22/02/2022",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Colombo",
@@ -100663,6 +100888,411 @@
     "lon": -54.55713,
     "data": "22/04/2025",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cascavel",
+    "lat": -24.98604,
+    "lon": -53.44766,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Cascavel",
+    "lat": -24.98604,
+    "lon": -53.44766,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Londrina",
+    "lat": -23.31116,
+    "lon": -51.12017,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Londrina",
+    "lat": -23.31056,
+    "lon": -51.10838,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Londrina",
+    "lat": -23.31116,
+    "lon": -51.12017,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Londrina",
+    "lat": -23.31056,
+    "lon": -51.10838,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Londrina",
+    "lat": -23.26294,
+    "lon": -51.18003,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Londrina",
+    "lat": -23.31116,
+    "lon": -51.12017,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Londrina",
+    "lat": -23.31056,
+    "lon": -51.10838,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Londrina",
+    "lat": -23.26294,
+    "lon": -51.18003,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Maringá",
+    "lat": -23.38008,
+    "lon": -51.94705,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Maringá",
+    "lat": -23.37747,
+    "lon": -51.92982,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Maringá",
+    "lat": -23.38008,
+    "lon": -51.94705,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Maringá",
+    "lat": -23.37747,
+    "lon": -51.92982,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Maringá",
+    "lat": -23.38008,
+    "lon": -51.94705,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Maringá",
+    "lat": -23.37747,
+    "lon": -51.92982,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Morretes",
+    "lat": -25.46797,
+    "lon": -48.82933,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Morretes",
+    "lat": -25.46797,
+    "lon": -48.82933,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Morretes",
+    "lat": -25.46797,
+    "lon": -48.82933,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Palmas",
+    "lat": -26.47762,
+    "lon": -51.9862,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Palmas",
+    "lat": -26.47762,
+    "lon": -51.9862,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Pinhais",
+    "lat": -25.43824,
+    "lon": -49.20102,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Pinhais",
+    "lat": -25.43824,
+    "lon": -49.20102,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Pinhão",
+    "lat": -25.71332,
+    "lon": -51.63432,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Pinhão",
+    "lat": -25.71332,
+    "lon": -51.63432,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Pinhão",
+    "lat": -25.71332,
+    "lon": -51.63432,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Piraquara",
+    "lat": -25.44961,
+    "lon": -49.04872,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Piraquara",
+    "lat": -25.44961,
+    "lon": -49.04872,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Piraquara",
+    "lat": -25.44961,
+    "lon": -49.04872,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Rolândia",
+    "lat": -23.33152,
+    "lon": -51.38983,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Rolândia",
+    "lat": -23.33152,
+    "lon": -51.38983,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.58362,
+    "lon": -49.1782,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.60684,
+    "lon": -49.17023,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.55681,
+    "lon": -49.17081,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.5233,
+    "lon": -49.14356,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.60684,
+    "lon": -49.17023,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.58362,
+    "lon": -49.1782,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.55681,
+    "lon": -49.17081,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.5233,
+    "lon": -49.14356,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.60684,
+    "lon": -49.17023,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.58362,
+    "lon": -49.1782,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.55681,
+    "lon": -49.17081,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.5233,
+    "lon": -49.14356,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São Mateus do Sul",
+    "lat": -25.88139,
+    "lon": -50.3964,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São Mateus do Sul",
+    "lat": -25.88139,
+    "lon": -50.3964,
+    "data": "22/04/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",
@@ -103169,6 +103799,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Fazenda Rio Grande",
+    "lat": -25.64478,
+    "lon": -49.33194,
+    "data": "22/10/2012",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Fazenda Rio Grande",
     "lat": -25.64478,
     "lon": -49.33194,
@@ -112987,6 +113626,15 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Almirante Tamandaré",
+    "lat": -25.34707,
+    "lon": -49.27795,
+    "data": "24/10/2018",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Colombo",
     "lat": -25.36201,
@@ -113090,6 +113738,15 @@
     "municipio": "Guarapuava",
     "lat": -25.37667,
     "lon": -51.285,
+    "data": "24/10/2018",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Guarapuava",
+    "lat": -25.4129,
+    "lon": -51.47949,
     "data": "24/10/2018",
     "nova": false
   },
@@ -116242,33 +116899,6 @@
     "lon": -49.2738,
     "data": "25/09/2025",
     "nova": true
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "2G",
-    "municipio": "Bocaiúva do Sul",
-    "lat": -25.221167,
-    "lon": -49.10575,
-    "data": "25/10/2007",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Bocaiúva do Sul",
-    "lat": -25.221167,
-    "lon": -49.10575,
-    "data": "25/10/2007",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Bocaiúva do Sul",
-    "lat": -25.221167,
-    "lon": -49.10575,
-    "data": "25/10/2007",
-    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -125586,6 +126216,258 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Balsa Nova",
+    "lat": -25.46431,
+    "lon": -49.62264,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Balsa Nova",
+    "lat": -25.46431,
+    "lon": -49.62264,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Balsa Nova",
+    "lat": -25.46431,
+    "lon": -49.62264,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Colombo",
+    "lat": -25.28876,
+    "lon": -49.19546,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Colombo",
+    "lat": -25.28876,
+    "lon": -49.19546,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Colombo",
+    "lat": -25.28876,
+    "lon": -49.19546,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Francisco Beltrão",
+    "lat": -26.04602,
+    "lon": -53.03552,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Francisco Beltrão",
+    "lat": -26.04602,
+    "lon": -53.03552,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Francisco Beltrão",
+    "lat": -26.04602,
+    "lon": -53.03552,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Londrina",
+    "lat": -23.36989,
+    "lon": -51.13073,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Londrina",
+    "lat": -23.36989,
+    "lon": -51.13073,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Londrina",
+    "lat": -23.36989,
+    "lon": -51.13073,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Maringá",
+    "lat": -23.44782,
+    "lon": -51.93314,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Maringá",
+    "lat": -23.44782,
+    "lon": -51.93314,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Maringá",
+    "lat": -23.44782,
+    "lon": -51.93314,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Prudentópolis",
+    "lat": -25.21334,
+    "lon": -51.01337,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Prudentópolis",
+    "lat": -25.21334,
+    "lon": -51.01337,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Prudentópolis",
+    "lat": -25.21334,
+    "lon": -51.01337,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Rio Negro",
+    "lat": -26.0878,
+    "lon": -49.78581,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Rio Negro",
+    "lat": -26.0878,
+    "lon": -49.78581,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.5285,
+    "lon": -49.13145,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.5285,
+    "lon": -49.13145,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São José dos Pinhais",
+    "lat": -25.5285,
+    "lon": -49.13145,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Toledo",
+    "lat": -24.76018,
+    "lon": -53.74697,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Toledo",
+    "lat": -24.76018,
+    "lon": -53.74697,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Toledo",
+    "lat": -24.7421,
+    "lon": -53.70368,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.76018,
+    "lon": -53.74697,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.7421,
+    "lon": -53.70368,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "São José dos Pinhais",
@@ -125913,8 +126795,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Rolândia",
-    "lat": -23.3725,
-    "lon": -51.45806,
+    "lat": -23.37286,
+    "lon": -51.45822,
     "data": "28/05/2018",
     "nova": false
   },
@@ -125922,8 +126804,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Rolândia",
-    "lat": -23.3725,
-    "lon": -51.45806,
+    "lat": -23.37286,
+    "lon": -51.45822,
     "data": "28/05/2018",
     "nova": false
   },
@@ -125931,8 +126813,17 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Rolândia",
-    "lat": -23.3725,
-    "lon": -51.45806,
+    "lat": -23.37286,
+    "lon": -51.45822,
+    "data": "28/05/2018",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Rolândia",
+    "lat": -23.37286,
+    "lon": -51.45822,
     "data": "28/05/2018",
     "nova": false
   },

@@ -4320,6 +4320,42 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Costa Rica",
+    "lat": -18.53049,
+    "lon": -53.14833,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Nova Andradina",
+    "lat": -21.75677,
+    "lon": -53.26842,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Nova Andradina",
+    "lat": -21.75677,
+    "lon": -53.26842,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Paranaíba",
+    "lat": -19.65954,
+    "lon": -51.19294,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Campo Grande",
@@ -11436,7 +11472,7 @@
     "lat": -19.955178,
     "lon": -52.176869,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -11445,7 +11481,7 @@
     "lat": -19.78646,
     "lon": -51.94685,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -11454,7 +11490,7 @@
     "lat": -19.73275,
     "lon": -51.88475,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -27718,6 +27754,78 @@
     "lon": -54.579694,
     "data": "28/02/2020",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Campo Grande",
+    "lat": -20.47843,
+    "lon": -54.62091,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Campo Grande",
+    "lat": -20.39217,
+    "lon": -54.58064,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.47843,
+    "lon": -54.62091,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.4233,
+    "lon": -54.64482,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.39217,
+    "lon": -54.58064,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.47843,
+    "lon": -54.62091,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.4233,
+    "lon": -54.64482,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.39217,
+    "lon": -54.58064,
+    "data": "28/04/2026",
+    "nova": true
   },
   {
     "operadora": "Vivo",

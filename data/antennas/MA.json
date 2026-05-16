@@ -17268,7 +17268,7 @@
     "lat": -2.55985,
     "lon": -44.22524,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -17277,7 +17277,7 @@
     "lat": -2.55985,
     "lon": -44.22524,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

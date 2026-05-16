@@ -6112,6 +6112,141 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Alto Taquari",
+    "lat": -17.83902,
+    "lon": -53.28284,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Barra do Garças",
+    "lat": -15.864,
+    "lon": -52.4225,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Barra do Garças",
+    "lat": -15.864,
+    "lon": -52.4225,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Canarana",
+    "lat": -13.53977,
+    "lon": -52.88063,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Canarana",
+    "lat": -13.53977,
+    "lon": -52.88063,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Cuiabá",
+    "lat": -15.63178,
+    "lon": -56.04194,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cuiabá",
+    "lat": -15.63178,
+    "lon": -56.04194,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Cáceres",
+    "lat": -16.05992,
+    "lon": -57.68656,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cáceres",
+    "lat": -16.05992,
+    "lon": -57.68656,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "General Carneiro",
+    "lat": -15.57335,
+    "lon": -53.41955,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "General Carneiro",
+    "lat": -15.57335,
+    "lon": -53.41955,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Itiquira",
+    "lat": -17.32726,
+    "lon": -54.65632,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Itiquira",
+    "lat": -17.32726,
+    "lon": -54.65632,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Nova Ubiratã",
+    "lat": -12.45516,
+    "lon": -54.34977,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Nova Ubiratã",
+    "lat": -12.45516,
+    "lon": -54.34977,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Porto dos Gaúchos",
     "lat": -11.6383,
@@ -40381,6 +40516,33 @@
     "lon": -55.4555,
     "data": "28/04/2023",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Cuiabá",
+    "lat": -15.56711,
+    "lon": -56.01603,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cuiabá",
+    "lat": -15.56711,
+    "lon": -56.01603,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Cuiabá",
+    "lat": -15.56711,
+    "lon": -56.01603,
+    "data": "28/04/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",

@@ -261,6 +261,24 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Domingos Martins",
+    "lat": -20.383039,
+    "lon": -40.987081,
+    "data": "01/02/2024",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Domingos Martins",
+    "lat": -20.353811,
+    "lon": -40.705161,
+    "data": "01/02/2024",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Vila Velha",
@@ -2998,24 +3016,6 @@
   },
   {
     "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Serra",
-    "lat": -20.235,
-    "lon": -40.276481,
-    "data": "02/08/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Serra",
-    "lat": -20.235,
-    "lon": -40.276481,
-    "data": "02/08/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Vitória",
     "lat": -20.282281,
@@ -4424,15 +4424,6 @@
     "municipio": "Linhares",
     "lat": -19.376225,
     "lon": -40.051506,
-    "data": "03/02/2023",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Vila Velha",
-    "lat": -20.369128,
-    "lon": -40.301936,
     "data": "03/02/2023",
     "nova": false
   },
@@ -9011,24 +9002,6 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
-    "municipio": "Domingos Martins",
-    "lat": -20.383039,
-    "lon": -40.987081,
-    "data": "07/02/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Domingos Martins",
-    "lat": -20.353811,
-    "lon": -40.705161,
-    "data": "07/02/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
     "municipio": "Santa Leopoldina",
     "lat": -20.10275,
     "lon": -40.519661,
@@ -11054,6 +11027,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "3G",
+    "municipio": "Serra",
+    "lat": -20.132361,
+    "lon": -40.207333,
+    "data": "08/12/2023",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
     "municipio": "Serra",
     "lat": -20.132361,
     "lon": -40.207333,
@@ -22206,15 +22188,6 @@
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Serra",
-    "lat": -20.174297,
-    "lon": -40.210481,
-    "data": "14/08/2021",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Serra",
     "lat": -20.171468,
     "lon": -40.246708,
     "data": "14/08/2021",
@@ -22586,15 +22559,6 @@
     "municipio": "Serra",
     "lat": -20.182408,
     "lon": -40.230825,
-    "data": "14/08/2021",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Serra",
-    "lat": -20.174297,
-    "lon": -40.210481,
     "data": "14/08/2021",
     "nova": false
   },
@@ -23779,15 +23743,6 @@
   },
   {
     "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Cariacica",
-    "lat": -20.34305,
-    "lon": -40.385111,
-    "data": "14/08/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Cariacica",
     "lat": -20.29801,
@@ -23801,15 +23756,6 @@
     "municipio": "Cariacica",
     "lat": -20.29801,
     "lon": -40.37056,
-    "data": "14/08/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Guarapari",
-    "lat": -20.65209,
-    "lon": -40.47873,
     "data": "14/08/2024",
     "nova": false
   },
@@ -23952,15 +23898,6 @@
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Domingos Martins",
-    "lat": -20.41589,
-    "lon": -41.04219,
-    "data": "14/11/2023",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Domingos Martins",
     "lat": -20.32941,
     "lon": -41.03119,
     "data": "14/11/2023",
@@ -24008,15 +23945,6 @@
     "municipio": "Guarapari",
     "lat": -20.648322,
     "lon": -40.483806,
-    "data": "14/11/2023",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Guarapari",
-    "lat": -20.53576,
-    "lon": -40.45109,
     "data": "14/11/2023",
     "nova": false
   },
@@ -24193,7 +24121,7 @@
   },
   {
     "operadora": "Vivo",
-    "tecnologia": "5G",
+    "tecnologia": "4G",
     "municipio": "Vila Velha",
     "lat": -20.369128,
     "lon": -40.301936,
@@ -24202,10 +24130,10 @@
   },
   {
     "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Vitória",
-    "lat": -20.30839,
-    "lon": -40.29588,
+    "tecnologia": "5G",
+    "municipio": "Vila Velha",
+    "lat": -20.369128,
+    "lon": -40.301936,
     "data": "14/11/2023",
     "nova": false
   },
@@ -42779,33 +42707,6 @@
   {
     "operadora": "Vivo",
     "tecnologia": "2G",
-    "municipio": "Serra",
-    "lat": -20.12333,
-    "lon": -40.17861,
-    "data": "20/11/2013",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Serra",
-    "lat": -20.12333,
-    "lon": -40.17861,
-    "data": "20/11/2013",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Serra",
-    "lat": -20.12333,
-    "lon": -40.17861,
-    "data": "20/11/2013",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "2G",
     "municipio": "Viana",
     "lat": -20.346856,
     "lon": -40.425161,
@@ -43124,15 +43025,6 @@
     "municipio": "Pinheiros",
     "lat": -18.374622,
     "lon": -39.948911,
-    "data": "21/02/2025",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Vila Velha",
-    "lat": -20.350922,
-    "lon": -40.2877,
     "data": "21/02/2025",
     "nova": false
   },
@@ -44922,15 +44814,6 @@
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Vila Velha",
-    "lat": -20.469167,
-    "lon": -41.144722,
-    "data": "22/04/2020",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Vila Velha",
     "lat": -20.374333,
     "lon": -40.309583,
     "data": "22/04/2020",
@@ -44942,15 +44825,6 @@
     "municipio": "Vila Velha",
     "lat": -20.374333,
     "lon": -40.309583,
-    "data": "22/04/2020",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "5G",
-    "municipio": "Vila Velha",
-    "lat": -20.334959,
-    "lon": -40.30868,
     "data": "22/04/2020",
     "nova": false
   },
@@ -49017,15 +48891,6 @@
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Guarapari",
-    "lat": -20.633419,
-    "lon": -40.435661,
-    "data": "24/07/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Guarapari",
     "lat": -20.554039,
     "lon": -40.414081,
     "data": "24/07/2024",
@@ -49362,6 +49227,24 @@
     "lat": -20.21258,
     "lon": -40.23366,
     "data": "24/09/2021",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "3G",
+    "municipio": "Serra",
+    "lat": -20.235,
+    "lon": -40.276481,
+    "data": "24/09/2024",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Serra",
+    "lat": -20.235,
+    "lon": -40.276481,
+    "data": "24/09/2024",
     "nova": false
   },
   {
@@ -50343,42 +50226,6 @@
     "lat": -19.19833,
     "lon": -40.29222,
     "data": "25/06/2015",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Cariacica",
-    "lat": -20.34705,
-    "lon": -40.36734,
-    "data": "25/07/2023",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Cariacica",
-    "lat": -20.34705,
-    "lon": -40.36734,
-    "data": "25/07/2023",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "2G",
-    "municipio": "Serra",
-    "lat": -20.132361,
-    "lon": -40.207333,
-    "data": "25/07/2023",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Serra",
-    "lat": -20.132361,
-    "lon": -40.207333,
-    "data": "25/07/2023",
     "nova": false
   },
   {
@@ -54036,6 +53883,24 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Aracruz",
+    "lat": -19.92576,
+    "lon": -40.28326,
+    "data": "27/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Santa Teresa",
+    "lat": -19.935517,
+    "lon": -40.614689,
+    "data": "27/04/2026",
+    "nova": true
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Cariacica",
@@ -54556,15 +54421,6 @@
     "lon": -41.05452,
     "data": "27/11/2025",
     "nova": true
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Domingos Martins",
-    "lat": -20.329411,
-    "lon": -41.031189,
-    "data": "27/12/2023",
-    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -58307,6 +58163,15 @@
     "municipio": "Afonso Cláudio",
     "lat": -20.06528,
     "lon": -41.11194,
+    "data": "29/10/2019",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Afonso Cláudio",
+    "lat": -20.095,
+    "lon": -41.11583,
     "data": "29/10/2019",
     "nova": false
   },
@@ -65989,15 +65854,6 @@
   },
   {
     "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Cachoeiro de Itapemirim",
-    "lat": -20.846,
-    "lon": -41.125681,
-    "data": "31/07/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Guarapari",
     "lat": -20.728139,
@@ -66016,7 +65872,7 @@
   },
   {
     "operadora": "Vivo",
-    "tecnologia": "5G",
+    "tecnologia": "4G",
     "municipio": "Guarapari",
     "lat": -20.633419,
     "lon": -40.435661,
@@ -66026,9 +65882,9 @@
   {
     "operadora": "Vivo",
     "tecnologia": "5G",
-    "municipio": "Itapemirim",
-    "lat": -20.894231,
-    "lon": -40.777402,
+    "municipio": "Guarapari",
+    "lat": -20.633419,
+    "lon": -40.435661,
     "data": "31/07/2024",
     "nova": false
   },
@@ -66146,15 +66002,6 @@
     "municipio": "Vila Velha",
     "lat": -20.361096,
     "lon": -40.295914,
-    "data": "31/07/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Vitória",
-    "lat": -20.278823,
-    "lon": -40.243841,
     "data": "31/07/2024",
     "nova": false
   },

@@ -11319,7 +11319,7 @@
     "lat": -5.456478,
     "lon": -37.723869,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -11328,7 +11328,7 @@
     "lat": -5.521806,
     "lon": -37.487592,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -11337,7 +11337,7 @@
     "lat": -5.492419,
     "lon": -37.241775,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

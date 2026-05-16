@@ -289,6 +289,15 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Santa Cruz do Sul",
+    "lat": -29.718,
+    "lon": -52.4252,
+    "data": "01/01/1999",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Soledade",
     "lat": -28.81735,
@@ -16891,6 +16900,24 @@
     "lon": -53.79507,
     "data": "05/05/2009",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Cruz Alta",
+    "lat": -28.69122,
+    "lon": -53.29003,
+    "data": "05/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cruz Alta",
+    "lat": -28.69122,
+    "lon": -53.29003,
+    "data": "05/05/2026",
+    "nova": true
   },
   {
     "operadora": "Vivo",
@@ -47073,8 +47100,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.72889,
-    "lon": -52.44528,
+    "lat": -29.72895,
+    "lon": -52.44549,
     "data": "09/01/2018",
     "nova": false
   },
@@ -47082,8 +47109,17 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.72889,
-    "lon": -52.44528,
+    "lat": -29.72895,
+    "lon": -52.44549,
+    "data": "09/01/2018",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Santa Cruz do Sul",
+    "lat": -29.72895,
+    "lon": -52.44549,
     "data": "09/01/2018",
     "nova": false
   },
@@ -53606,6 +53642,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Guaporé",
+    "lat": -28.8432,
+    "lon": -51.8859,
+    "data": "10/03/2000",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Guaporé",
     "lat": -28.8432,
     "lon": -51.8859,
@@ -69405,7 +69450,7 @@
     "lat": -29.35749,
     "lon": -50.79814,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -69414,7 +69459,7 @@
     "lat": -29.35749,
     "lon": -50.79814,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -69423,7 +69468,7 @@
     "lat": -29.154736,
     "lon": -51.17915,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -111213,6 +111258,33 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Caxias do Sul",
+    "lat": -29.16433,
+    "lon": -51.12593,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Caxias do Sul",
+    "lat": -29.16433,
+    "lon": -51.12593,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Caxias do Sul",
+    "lat": -29.16433,
+    "lon": -51.12593,
+    "data": "22/04/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Frederico Westphalen",
@@ -138283,6 +138355,42 @@
     "lon": -56.01041,
     "data": "28/04/2025",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cachoeirinha",
+    "lat": -29.9198,
+    "lon": -51.09676,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Cachoeirinha",
+    "lat": -29.9198,
+    "lon": -51.09676,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Santa Cruz do Sul",
+    "lat": -29.69597,
+    "lon": -52.412,
+    "data": "28/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Santa Cruz do Sul",
+    "lat": -29.69597,
+    "lon": -52.412,
+    "data": "28/04/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",

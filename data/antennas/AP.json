@@ -3030,7 +3030,7 @@
     "lat": 0.02587,
     "lon": -51.05491,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -3039,7 +3039,7 @@
     "lat": 0.02587,
     "lon": -51.05491,
     "data": "13/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
