@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "chart.js": "4.5.1",
-    "maplibre-gl": "5.22.0",
+    "maplibre-gl": "5.24.0",
     "pmtiles": "4.4.1"
   }
 }
