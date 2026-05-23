@@ -667,6 +667,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Paço do Lumiar",
+    "lat": -2.520056,
+    "lon": -44.174389,
+    "data": "02/06/2005",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "São José de Ribamar",
     "lat": -2.572139,
@@ -11423,6 +11432,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "São José de Ribamar",
+    "lat": -2.567778,
+    "lon": -44.185361,
+    "data": "09/03/2009",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "São José de Ribamar",
     "lat": -2.567778,
     "lon": -44.185361,
@@ -22492,6 +22510,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Caxias",
+    "lat": -4.867583,
+    "lon": -43.336306,
+    "data": "17/09/2009",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Santa Inês",
     "lat": -3.670947,
@@ -30808,6 +30835,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Pinheiro",
+    "lat": -2.530306,
+    "lon": -45.086694,
+    "data": "22/02/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Santa Luzia",
     "lat": -3.970367,
@@ -38278,6 +38314,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São José de Ribamar",
+    "lat": -2.5305,
+    "lon": -44.054778,
+    "data": "25/10/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Timon",
     "lat": -5.113083,
@@ -41996,6 +42041,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Chapadinha",
+    "lat": -3.738472,
+    "lon": -43.357278,
+    "data": "28/07/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Chapadinha",
     "lat": -3.738472,
     "lon": -43.357278,
@@ -48116,6 +48170,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Caxias",
+    "lat": -4.869667,
+    "lon": -43.378611,
+    "data": "30/12/2008",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Caxias",
     "lat": -4.869667,
     "lon": -43.378611,

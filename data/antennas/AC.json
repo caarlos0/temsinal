@@ -3498,7 +3498,7 @@
     "lat": -9.08167,
     "lon": -68.67778,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -3507,7 +3507,7 @@
     "lat": -9.08167,
     "lon": -68.67778,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",

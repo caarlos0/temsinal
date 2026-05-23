@@ -2658,8 +2658,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Marabá",
-    "lat": -5.28861,
-    "lon": -49.07639,
+    "lat": -5.288767,
+    "lon": -49.076477,
+    "data": "03/10/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Marabá",
+    "lat": -5.288767,
+    "lon": -49.076477,
     "data": "03/10/2022",
     "nova": false
   },
@@ -39241,6 +39250,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São Félix do Xingu",
+    "lat": -6.64194,
+    "lon": -51.97472,
+    "data": "17/10/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Vitória do Xingu",
     "lat": -3.42194,
@@ -39926,6 +39944,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Paragominas",
+    "lat": -2.984861,
+    "lon": -47.451889,
+    "data": "17/12/2002",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Paragominas",
     "lat": -2.984861,
     "lon": -47.451889,
@@ -47440,6 +47467,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Tucuruí",
+    "lat": -3.843339,
+    "lon": -49.681689,
+    "data": "20/02/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Vigia",
     "lat": -0.856833,
@@ -48075,7 +48111,7 @@
     "lat": -7.2975,
     "lon": -55.31209,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -48084,7 +48120,7 @@
     "lat": -7.2975,
     "lon": -55.31209,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -48093,7 +48129,7 @@
     "lat": -3.64351,
     "lon": -51.89147,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -48102,7 +48138,7 @@
     "lat": -3.64351,
     "lon": -51.89147,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -52143,7 +52179,7 @@
     "lat": -1.374639,
     "lon": -48.371472,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -52152,7 +52188,7 @@
     "lat": -1.42945,
     "lon": -48.47777,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -52161,7 +52197,7 @@
     "lat": -1.39794,
     "lon": -48.44888,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -59760,6 +59796,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Tucuruí",
+    "lat": -3.822583,
+    "lon": -49.674639,
+    "data": "26/06/2012",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Abaetetuba",
@@ -63937,6 +63982,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Paragominas",
+    "lat": -2.99161,
+    "lon": -47.37611,
+    "data": "27/12/2007",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Parauapebas",
     "lat": -6.08556,
@@ -66872,6 +66926,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Marituba",
+    "lat": -1.35694,
+    "lon": -48.33506,
+    "data": "29/03/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Marituba",
     "lat": -1.35694,
     "lon": -48.33506,

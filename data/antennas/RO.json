@@ -4402,6 +4402,24 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Jaru",
+    "lat": -10.43404,
+    "lon": -62.45441,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Jaru",
+    "lat": -10.43404,
+    "lon": -62.45441,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Ji-Paraná",
     "lat": -10.8902,
@@ -7932,8 +7950,17 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Porto Velho",
-    "lat": -8.436235,
-    "lon": -63.500062,
+    "lat": -8.43625,
+    "lon": -63.500055,
+    "data": "14/11/2025",
+    "nova": true
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Porto Velho",
+    "lat": -8.43625,
+    "lon": -63.500055,
     "data": "14/11/2025",
     "nova": true
   },
@@ -7943,6 +7970,15 @@
     "municipio": "Porto Velho",
     "lat": -8.436235,
     "lon": -63.500062,
+    "data": "14/11/2025",
+    "nova": true
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Porto Velho",
+    "lat": -8.43625,
+    "lon": -63.500055,
     "data": "14/11/2025",
     "nova": true
   },
@@ -10446,7 +10482,7 @@
     "lat": -8.722693,
     "lon": -63.854361,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -10455,7 +10491,7 @@
     "lat": -8.722693,
     "lon": -63.854361,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -15361,6 +15397,24 @@
     "lon": -61.939778,
     "data": "30/01/2024",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Pimenta Bueno",
+    "lat": -11.69354,
+    "lon": -61.17085,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Pimenta Bueno",
+    "lat": -11.69354,
+    "lon": -61.17085,
+    "data": "30/04/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",

@@ -11088,6 +11088,24 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Picos",
+    "lat": -7.067945,
+    "lon": -41.459932,
+    "data": "12/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Picos",
+    "lat": -7.067945,
+    "lon": -41.459932,
+    "data": "12/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Teresina",
@@ -19203,7 +19221,7 @@
     "lat": -6.514669,
     "lon": -41.7615,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -19212,7 +19230,7 @@
     "lat": -6.4127,
     "lon": -41.741,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

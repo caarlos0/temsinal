@@ -14793,7 +14793,7 @@
     "lat": -5.954,
     "lon": -35.254,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -14802,7 +14802,7 @@
     "lat": -5.954,
     "lon": -35.254,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -22659,7 +22659,7 @@
     "lat": -5.782167,
     "lon": -37.958517,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",

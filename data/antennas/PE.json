@@ -11952,6 +11952,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Recife",
+    "lat": -8.054389,
+    "lon": -34.869472,
+    "data": "06/05/2024",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Taquaritinga do Norte",
@@ -47067,7 +47076,7 @@
     "lat": -8.503789,
     "lon": -39.317083,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47076,7 +47085,7 @@
     "lat": -3.866327,
     "lon": -32.426347,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47085,7 +47094,7 @@
     "lat": -3.856844,
     "lon": -32.428724,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47094,7 +47103,7 @@
     "lat": -3.847986,
     "lon": -32.433527,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47103,7 +47112,7 @@
     "lat": -3.846858,
     "lon": -32.431165,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47112,7 +47121,7 @@
     "lat": -3.839957,
     "lon": -32.410292,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47121,7 +47130,7 @@
     "lat": -3.834918,
     "lon": -32.400107,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -47130,7 +47139,7 @@
     "lat": -8.7756,
     "lon": -39.716296,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -62781,7 +62790,7 @@
     "lat": -8.88296,
     "lon": -36.49084,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -62790,7 +62799,7 @@
     "lat": -8.88296,
     "lon": -36.49084,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -66423,8 +66432,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Toritama",
-    "lat": -8.00083,
-    "lon": -36.06056,
+    "lat": -8.000972,
+    "lon": -36.060583,
+    "data": "23/10/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Toritama",
+    "lat": -8.000972,
+    "lon": -36.060583,
     "data": "23/10/2019",
     "nova": false
   },
@@ -80274,8 +80292,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Toritama",
-    "lat": -8.00889,
-    "lon": -36.05556,
+    "lat": -8.008889,
+    "lon": -36.055556,
     "data": "27/10/1999",
     "nova": false
   },
@@ -80283,8 +80301,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Toritama",
-    "lat": -8.00889,
-    "lon": -36.05556,
+    "lat": -8.008889,
+    "lon": -36.055556,
     "data": "27/10/1999",
     "nova": false
   },
@@ -80292,8 +80310,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Toritama",
-    "lat": -8.00889,
-    "lon": -36.05556,
+    "lat": -8.008889,
+    "lon": -36.055556,
+    "data": "27/10/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Toritama",
+    "lat": -8.008889,
+    "lon": -36.055556,
     "data": "27/10/1999",
     "nova": false
   },
@@ -84179,6 +84206,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Toritama",
+    "lat": -8.008889,
+    "lon": -36.064194,
+    "data": "28/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Toritama",
     "lat": -8.008889,
     "lon": -36.064194,

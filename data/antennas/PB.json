@@ -12285,6 +12285,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Patos",
+    "lat": -7.014111,
+    "lon": -37.295583,
+    "data": "12/06/2015",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Queimadas",
@@ -16895,6 +16904,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Patos",
+    "lat": -7.022969,
+    "lon": -37.26295,
+    "data": "15/05/2015",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Patos",
     "lat": -7.022969,
     "lon": -37.26295,
@@ -22317,7 +22335,7 @@
     "lat": -6.351078,
     "lon": -37.498139,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -22326,7 +22344,7 @@
     "lat": -7.3047,
     "lon": -38.155107,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22335,7 +22353,7 @@
     "lat": -7.0826,
     "lon": -34.8393,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22344,7 +22362,7 @@
     "lat": -7.15189,
     "lon": -34.83276,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22353,7 +22371,7 @@
     "lat": -7.0826,
     "lon": -34.8393,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22362,7 +22380,7 @@
     "lat": -7.15189,
     "lon": -34.83276,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22371,7 +22389,7 @@
     "lat": -7.0826,
     "lon": -34.8393,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22380,7 +22398,7 @@
     "lat": -6.81381,
     "lon": -34.91611,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -22389,7 +22407,7 @@
     "lat": -6.81381,
     "lon": -34.91611,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -24833,6 +24851,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Pombal",
+    "lat": -6.775806,
+    "lon": -37.806972,
+    "data": "21/06/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Pombal",
     "lat": -6.775806,
     "lon": -37.806972,
@@ -34662,8 +34689,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Pombal",
-    "lat": -6.765014,
-    "lon": -37.797406,
+    "lat": -6.76475,
+    "lon": -37.797222,
     "data": "28/12/2010",
     "nova": false
   },
@@ -34671,8 +34698,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Pombal",
-    "lat": -6.765014,
-    "lon": -37.797406,
+    "lat": -6.76475,
+    "lon": -37.797222,
     "data": "28/12/2010",
     "nova": false
   },
@@ -34680,8 +34707,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Pombal",
-    "lat": -6.765014,
-    "lon": -37.797406,
+    "lat": -6.76475,
+    "lon": -37.797222,
+    "data": "28/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Pombal",
+    "lat": -6.76475,
+    "lon": -37.797222,
     "data": "28/12/2010",
     "nova": false
   },
@@ -36246,8 +36282,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Pombal",
-    "lat": -6.771081,
-    "lon": -37.799217,
+    "lat": -6.771111,
+    "lon": -37.799167,
     "data": "30/10/2000",
     "nova": false
   },
@@ -36255,8 +36291,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Pombal",
-    "lat": -6.771081,
-    "lon": -37.799217,
+    "lat": -6.771111,
+    "lon": -37.799167,
     "data": "30/10/2000",
     "nova": false
   },
@@ -36264,8 +36300,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Pombal",
-    "lat": -6.771081,
-    "lon": -37.799217,
+    "lat": -6.771111,
+    "lon": -37.799167,
+    "data": "30/10/2000",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Pombal",
+    "lat": -6.771111,
+    "lon": -37.799167,
     "data": "30/10/2000",
     "nova": false
   },

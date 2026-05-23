@@ -1701,6 +1701,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Simões Filho",
+    "lat": -12.811139,
+    "lon": -38.443333,
+    "data": "01/11/2006",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "São Desidério",
@@ -6608,6 +6617,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Simões Filho",
+    "lat": -12.693111,
+    "lon": -38.387944,
+    "data": "03/04/2006",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Simões Filho",
     "lat": -12.693111,
     "lon": -38.387944,
@@ -26073,6 +26091,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Simões Filho",
+    "lat": -12.767944,
+    "lon": -38.400889,
+    "data": "08/07/2015",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Santa Brígida",
@@ -36741,8 +36768,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Lauro de Freitas",
-    "lat": -12.895372,
-    "lon": -38.342028,
+    "lat": -12.895261,
+    "lon": -38.341969,
     "data": "11/09/2023",
     "nova": false
   },
@@ -36750,8 +36777,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Lauro de Freitas",
-    "lat": -12.895372,
-    "lon": -38.342028,
+    "lat": -12.895261,
+    "lon": -38.341969,
+    "data": "11/09/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Lauro de Freitas",
+    "lat": -12.895261,
+    "lon": -38.341969,
     "data": "11/09/2023",
     "nova": false
   },
@@ -38257,6 +38293,24 @@
     "lon": -41.24973,
     "data": "12/05/2017",
     "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Conde",
+    "lat": -11.761561,
+    "lon": -37.749939,
+    "data": "12/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Milagres",
+    "lat": -12.97367,
+    "lon": -39.67996,
+    "data": "12/05/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",
@@ -44885,6 +44939,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Simões Filho",
+    "lat": -12.80583,
+    "lon": -38.39417,
+    "data": "13/11/2015",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Simões Filho",
     "lat": -12.80583,
     "lon": -38.39417,
@@ -70944,7 +71007,7 @@
     "lat": -11.31353,
     "lon": -41.86096,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70953,7 +71016,7 @@
     "lat": -11.3036,
     "lon": -41.8479,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70962,7 +71025,7 @@
     "lat": -11.30237,
     "lon": -41.87495,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70971,7 +71034,7 @@
     "lat": -11.31353,
     "lon": -41.86096,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70980,7 +71043,7 @@
     "lat": -11.3036,
     "lon": -41.8479,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70989,7 +71052,7 @@
     "lat": -11.30237,
     "lon": -41.87495,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -70998,7 +71061,7 @@
     "lat": -12.91963,
     "lon": -38.35621,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -71007,7 +71070,7 @@
     "lat": -12.91963,
     "lon": -38.35621,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -90334,6 +90397,24 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "2G",
+    "municipio": "Feira de Santana",
+    "lat": -12.252326,
+    "lon": -38.952151,
+    "data": "24/09/2008",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Feira de Santana",
+    "lat": -12.252326,
+    "lon": -38.952151,
+    "data": "24/09/2008",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Alcobaça",
     "lat": -17.530139,
@@ -92559,8 +92640,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Feira de Santana",
-    "lat": -12.219736,
-    "lon": -38.987445,
+    "lat": -12.219739,
+    "lon": -38.986339,
     "data": "25/10/2024",
     "nova": false
   },
@@ -92568,8 +92649,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Feira de Santana",
-    "lat": -12.219736,
-    "lon": -38.987445,
+    "lat": -12.219739,
+    "lon": -38.986339,
     "data": "25/10/2024",
     "nova": false
   },
@@ -92595,8 +92676,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Feira de Santana",
-    "lat": -12.219736,
-    "lon": -38.987445,
+    "lat": -12.219739,
+    "lon": -38.986339,
     "data": "25/10/2024",
     "nova": false
   },
@@ -92651,6 +92732,15 @@
     "municipio": "Feira de Santana",
     "lat": -12.245439,
     "lon": -38.911031,
+    "data": "25/10/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Feira de Santana",
+    "lat": -12.219739,
+    "lon": -38.986339,
     "data": "25/10/2024",
     "nova": false
   },

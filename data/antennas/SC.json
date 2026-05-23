@@ -13503,8 +13503,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Lages",
-    "lat": -27.79167,
-    "lon": -50.29128,
+    "lat": -27.79168,
+    "lon": -50.29125,
     "data": "04/01/2019",
     "nova": false
   },
@@ -13512,8 +13512,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Lages",
-    "lat": -27.79167,
-    "lon": -50.29128,
+    "lat": -27.79168,
+    "lon": -50.29125,
     "data": "04/01/2019",
     "nova": false
   },
@@ -13521,8 +13521,17 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Lages",
-    "lat": -27.79167,
-    "lon": -50.29128,
+    "lat": -27.79168,
+    "lon": -50.29125,
+    "data": "04/01/2019",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Lages",
+    "lat": -27.79168,
+    "lon": -50.29125,
     "data": "04/01/2019",
     "nova": false
   },
@@ -17195,6 +17204,15 @@
     "municipio": "Florianópolis",
     "lat": -27.61175,
     "lon": -48.59342,
+    "data": "05/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Florianópolis",
+    "lat": -27.60122,
+    "lon": -48.51372,
     "data": "05/06/2023",
     "nova": false
   },
@@ -21035,6 +21053,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Palhoça",
+    "lat": -27.636167,
+    "lon": -48.64925,
+    "data": "06/11/2016",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Palhoça",
     "lat": -27.636167,
     "lon": -48.64925,
@@ -25054,6 +25081,141 @@
     "lon": -49.29056,
     "data": "08/05/2019",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Bombinhas",
+    "lat": -27.18336,
+    "lon": -48.50741,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Bombinhas",
+    "lat": -27.18336,
+    "lon": -48.50741,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Bombinhas",
+    "lat": -27.18336,
+    "lon": -48.50741,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Bombinhas",
+    "lat": -27.18336,
+    "lon": -48.50741,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Braço do Norte",
+    "lat": -28.30306,
+    "lon": -49.14495,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Braço do Norte",
+    "lat": -28.30306,
+    "lon": -49.14495,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Braço do Norte",
+    "lat": -28.30306,
+    "lon": -49.14495,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Florianópolis",
+    "lat": -27.60322,
+    "lon": -48.53454,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Florianópolis",
+    "lat": -27.68843,
+    "lon": -48.48845,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Florianópolis",
+    "lat": -27.60322,
+    "lon": -48.53454,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Florianópolis",
+    "lat": -27.68843,
+    "lon": -48.48845,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Florianópolis",
+    "lat": -27.60322,
+    "lon": -48.53454,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "São João Batista",
+    "lat": -27.26115,
+    "lon": -48.84369,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São João Batista",
+    "lat": -27.26115,
+    "lon": -48.84369,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "São João Batista",
+    "lat": -27.26115,
+    "lon": -48.84369,
+    "data": "08/05/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",
@@ -33977,33 +34139,6 @@
   {
     "operadora": "Claro",
     "tecnologia": "2G",
-    "municipio": "Palmitos",
-    "lat": -27.07217,
-    "lon": -53.16119,
-    "data": "09/12/2004",
-    "nova": false
-  },
-  {
-    "operadora": "Claro",
-    "tecnologia": "3G",
-    "municipio": "Palmitos",
-    "lat": -27.07217,
-    "lon": -53.16119,
-    "data": "09/12/2004",
-    "nova": false
-  },
-  {
-    "operadora": "Claro",
-    "tecnologia": "4G",
-    "municipio": "Palmitos",
-    "lat": -27.07217,
-    "lon": -53.16119,
-    "data": "09/12/2004",
-    "nova": false
-  },
-  {
-    "operadora": "Claro",
-    "tecnologia": "2G",
     "municipio": "Papanduva",
     "lat": -26.39285,
     "lon": -50.1507,
@@ -34392,8 +34527,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Rodeio",
-    "lat": -26.92528,
-    "lon": -49.37361,
+    "lat": -26.92582,
+    "lon": -49.37427,
     "data": "09/12/2004",
     "nova": false
   },
@@ -34401,8 +34536,8 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Rodeio",
-    "lat": -26.92528,
-    "lon": -49.37361,
+    "lat": -26.92582,
+    "lon": -49.37427,
     "data": "09/12/2004",
     "nova": false
   },
@@ -34410,8 +34545,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Rodeio",
-    "lat": -26.92528,
-    "lon": -49.37361,
+    "lat": -26.92582,
+    "lon": -49.37427,
     "data": "09/12/2004",
     "nova": false
   },
@@ -38486,6 +38621,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Brusque",
+    "lat": -27.145,
+    "lon": -48.895278,
+    "data": "11/06/2001",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Brusque",
     "lat": -27.145,
     "lon": -48.895278,
@@ -42924,8 +43068,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Florianópolis",
-    "lat": -27.603056,
-    "lon": -48.502778,
+    "lat": -27.601625,
+    "lon": -48.50055,
     "data": "13/06/2024",
     "nova": false
   },
@@ -42933,8 +43077,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Florianópolis",
-    "lat": -27.603056,
-    "lon": -48.502778,
+    "lat": -27.601625,
+    "lon": -48.50055,
     "data": "13/06/2024",
     "nova": false
   },
@@ -42942,8 +43086,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Florianópolis",
-    "lat": -27.603056,
-    "lon": -48.502778,
+    "lat": -27.601625,
+    "lon": -48.50055,
+    "data": "13/06/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Florianópolis",
+    "lat": -27.601625,
+    "lon": -48.50055,
     "data": "13/06/2024",
     "nova": false
   },
@@ -52517,6 +52670,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Palhoça",
+    "lat": -27.693889,
+    "lon": -48.659722,
+    "data": "16/02/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Palhoça",
     "lat": -27.693889,
     "lon": -48.659722,
@@ -62166,6 +62328,15 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Palhoça",
+    "lat": -27.643583,
+    "lon": -48.667278,
+    "data": "18/12/2015",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Palhoça",
     "lat": -27.634083,
     "lon": -48.670333,
     "data": "18/12/2015",
@@ -63515,6 +63686,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Brusque",
+    "lat": -27.07528,
+    "lon": -48.90778,
+    "data": "19/08/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Brusque",
     "lat": -27.07528,
     "lon": -48.90778,
@@ -68235,7 +68415,7 @@
     "lat": -27.0954,
     "lon": -48.61501,
     "data": "21/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70440,7 +70620,7 @@
     "lat": -27.07808,
     "lon": -52.6322,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70449,7 +70629,7 @@
     "lat": -27.07808,
     "lon": -52.6322,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70458,7 +70638,7 @@
     "lat": -27.07808,
     "lon": -52.6322,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70467,7 +70647,7 @@
     "lat": -28.20475,
     "lon": -48.70561,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70476,7 +70656,7 @@
     "lat": -28.20475,
     "lon": -48.70561,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -70485,7 +70665,7 @@
     "lat": -27.13715,
     "lon": -48.59673,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -95943,7 +96123,7 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Araquari",
-    "lat": -26.40375,
+    "lat": -26.40376,
     "lon": -48.80551,
     "data": "29/05/2018",
     "nova": false
@@ -95952,7 +96132,7 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Araquari",
-    "lat": -26.40375,
+    "lat": -26.40376,
     "lon": -48.80551,
     "data": "29/05/2018",
     "nova": false
@@ -95961,7 +96141,7 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Araquari",
-    "lat": -26.40375,
+    "lat": -26.40376,
     "lon": -48.80551,
     "data": "29/05/2018",
     "nova": false
@@ -96778,6 +96958,33 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Lages",
+    "lat": -27.830167,
+    "lon": -50.340822,
+    "data": "29/11/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Lages",
+    "lat": -27.830167,
+    "lon": -50.340822,
+    "data": "29/11/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Lages",
+    "lat": -27.830167,
+    "lon": -50.340822,
+    "data": "29/11/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Paial",
     "lat": -27.258032,
@@ -97108,6 +97315,51 @@
     "lon": -48.67693,
     "data": "30/04/2020",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Itapema",
+    "lat": -27.14374,
+    "lon": -48.58862,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Pomerode",
+    "lat": -26.66253,
+    "lon": -49.18682,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Pomerode",
+    "lat": -26.66253,
+    "lon": -49.18682,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "São João do Itaperiú",
+    "lat": -26.61801,
+    "lon": -48.78836,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "São João do Itaperiú",
+    "lat": -26.61801,
+    "lon": -48.78836,
+    "data": "30/04/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",

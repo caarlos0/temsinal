@@ -3826,6 +3826,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Nossa Senhora do Socorro",
+    "lat": -10.831306,
+    "lon": -37.067111,
+    "data": "06/09/2000",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Moita Bonita",
     "lat": -10.579336,
@@ -7589,6 +7598,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Itabaiana",
+    "lat": -10.690667,
+    "lon": -37.422583,
+    "data": "13/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Itabaiana",
     "lat": -10.690667,
     "lon": -37.422583,
@@ -21584,6 +21602,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Nossa Senhora do Socorro",
+    "lat": -10.86056,
+    "lon": -37.08444,
+    "data": "30/12/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Nossa Senhora do Socorro",
     "lat": -10.86056,
     "lon": -37.08444,

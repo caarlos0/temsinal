@@ -3054,8 +3054,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Macapá",
-    "lat": 0.044507,
-    "lon": -51.126769,
+    "lat": 0.045864,
+    "lon": -51.130369,
     "data": "13/06/2023",
     "nova": false
   },
@@ -3072,8 +3072,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Macapá",
-    "lat": 0.044507,
-    "lon": -51.126769,
+    "lat": 0.045864,
+    "lon": -51.130369,
     "data": "13/06/2023",
     "nova": false
   },
@@ -3090,8 +3090,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Macapá",
-    "lat": 0.044507,
-    "lon": -51.126769,
+    "lat": 0.045864,
+    "lon": -51.130369,
+    "data": "13/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Macapá",
+    "lat": 0.045864,
+    "lon": -51.130369,
     "data": "13/06/2023",
     "nova": false
   },
@@ -3765,6 +3774,15 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Macapá",
+    "lat": 0.044507,
+    "lon": -51.126769,
+    "data": "14/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "2G",
+    "municipio": "Macapá",
     "lat": 0.091694,
     "lon": -51.065861,
     "data": "14/06/2023",
@@ -3810,6 +3828,15 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Macapá",
+    "lat": 0.044507,
+    "lon": -51.126769,
+    "data": "14/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Macapá",
     "lat": 0.091694,
     "lon": -51.065861,
     "data": "14/06/2023",
@@ -3839,6 +3866,15 @@
     "municipio": "Macapá",
     "lat": 0.026583,
     "lon": -51.054833,
+    "data": "14/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Macapá",
+    "lat": 0.044507,
+    "lon": -51.126769,
     "data": "14/06/2023",
     "nova": false
   },
@@ -5361,7 +5397,7 @@
     "lat": 1.72842,
     "lon": -50.87689,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -5370,7 +5406,7 @@
     "lat": 1.72842,
     "lon": -50.87689,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

@@ -197,7 +197,7 @@
     "populacao": 243906,
     "lat": -9.7519,
     "lon": -36.6553,
-    "antenas": 292
+    "antenas": 294
   },
   "2700409": {
     "nome": "Atalaia",
@@ -549,7 +549,7 @@
     "populacao": 994952,
     "lat": -9.6201,
     "lon": -35.728,
-    "antenas": 1598
+    "antenas": 1600
   },
   "2704401": {
     "nome": "Major Isidoro",
@@ -1555,9 +1555,9 @@
     "nome": "Macapá",
     "uf": "AP",
     "populacao": 489676,
-    "lat": 0.035,
-    "lon": -51.0754,
-    "antenas": 745
+    "lat": 0.0351,
+    "lon": -51.0757,
+    "antenas": 749
   },
   "1600402": {
     "nome": "Mazagão",
@@ -2451,9 +2451,9 @@
     "nome": "Conde",
     "uf": "BA",
     "populacao": 24460,
-    "lat": -11.8258,
-    "lon": -37.6375,
-    "antenas": 18
+    "lat": -11.8224,
+    "lon": -37.6434,
+    "antenas": 19
   },
   "2908705": {
     "nome": "Condeúba",
@@ -2660,8 +2660,8 @@
     "uf": "BA",
     "populacao": 660806,
     "lat": -12.2497,
-    "lon": -38.9507,
-    "antenas": 749
+    "lon": -38.9508,
+    "antenas": 752
   },
   "2910859": {
     "nome": "Filadélfia",
@@ -3460,8 +3460,8 @@
     "uf": "BA",
     "populacao": 219564,
     "lat": -12.8838,
-    "lon": -38.3155,
-    "antenas": 269
+    "lon": -38.3156,
+    "antenas": 270
   },
   "2919306": {
     "nome": "Lençóis",
@@ -3667,9 +3667,9 @@
     "nome": "Milagres",
     "uf": "BA",
     "populacao": 11436,
-    "lat": -12.86,
-    "lon": -39.8586,
-    "antenas": 8
+    "lat": -12.8727,
+    "lon": -39.8388,
+    "antenas": 9
   },
   "2921401": {
     "nome": "Mirangaba",
@@ -4627,9 +4627,9 @@
     "nome": "Simões Filho",
     "uf": "BA",
     "populacao": 120419,
-    "lat": -12.7938,
+    "lat": -12.7933,
     "lon": -38.403,
-    "antenas": 180
+    "antenas": 184
   },
   "2930758": {
     "nome": "Sítio do Mato",
@@ -5355,9 +5355,9 @@
     "nome": "Crato",
     "uf": "CE",
     "populacao": 139027,
-    "lat": -7.229,
-    "lon": -39.4167,
-    "antenas": 134
+    "lat": -7.2291,
+    "lon": -39.4166,
+    "antenas": 135
   },
   "2304236": {
     "nome": "Croatá",
@@ -5421,7 +5421,7 @@
     "populacao": 2578483,
     "lat": -3.767,
     "lon": -38.5295,
-    "antenas": 4087
+    "antenas": 4088
   },
   "2304459": {
     "nome": "Fortim",
@@ -5563,9 +5563,9 @@
     "nome": "Iguatu",
     "uf": "CE",
     "populacao": 102588,
-    "lat": -6.3652,
+    "lat": -6.365,
     "lon": -39.3025,
-    "antenas": 75
+    "antenas": 76
   },
   "2305605": {
     "nome": "Independência",
@@ -5739,8 +5739,8 @@
     "nome": "Juazeiro do Norte",
     "uf": "CE",
     "populacao": 305531,
-    "lat": -7.2231,
-    "lon": -39.312,
+    "lat": -7.223,
+    "lon": -39.3122,
     "antenas": 294
   },
   "2307403": {
@@ -5763,9 +5763,9 @@
     "nome": "Limoeiro do Norte",
     "uf": "CE",
     "populacao": 62623,
-    "lat": -5.1351,
-    "lon": -38.1074,
-    "antenas": 32
+    "lat": -5.1352,
+    "lon": -38.1071,
+    "antenas": 33
   },
   "2307635": {
     "nome": "Madalena",
@@ -6427,9 +6427,9 @@
     "nome": "Brasília",
     "uf": "DF",
     "populacao": 2996899,
-    "lat": -15.8147,
-    "lon": -47.9379,
-    "antenas": 6555
+    "lat": -15.8145,
+    "lon": -47.9376,
+    "antenas": 6534
   },
   "3200102": {
     "nome": "Afonso Cláudio",
@@ -7107,9 +7107,9 @@
     "nome": "Águas Lindas de Goiás",
     "uf": "GO",
     "populacao": 245352,
-    "lat": -15.7459,
+    "lat": -15.7461,
     "lon": -48.2814,
-    "antenas": 202
+    "antenas": 204
   },
   "5200308": {
     "nome": "Alexânia",
@@ -7204,8 +7204,8 @@
     "uf": "GO",
     "populacao": 556021,
     "lat": -16.7867,
-    "lon": -49.2769,
-    "antenas": 721
+    "lon": -49.2766,
+    "antenas": 724
   },
   "5201454": {
     "nome": "Aparecida do Rio Doce",
@@ -7435,9 +7435,9 @@
     "nome": "Caldas Novas",
     "uf": "GO",
     "populacao": 106820,
-    "lat": -17.7364,
-    "lon": -48.6207,
-    "antenas": 189
+    "lat": -17.7366,
+    "lon": -48.6205,
+    "antenas": 190
   },
   "5204557": {
     "nome": "Caldazinha",
@@ -7524,8 +7524,8 @@
     "uf": "GO",
     "populacao": 122760,
     "lat": -18.1634,
-    "lon": -47.9285,
-    "antenas": 118
+    "lon": -47.9291,
+    "antenas": 123
   },
   "5205208": {
     "nome": "Caturaí",
@@ -7571,9 +7571,9 @@
     "nome": "Cidade Ocidental",
     "uf": "GO",
     "populacao": 101570,
-    "lat": -16.0912,
-    "lon": -47.8997,
-    "antenas": 66
+    "lat": -16.0913,
+    "lon": -47.9004,
+    "antenas": 68
   },
   "5205513": {
     "nome": "Cocalzinho de Goiás",
@@ -7755,9 +7755,9 @@
     "nome": "Formosa",
     "uf": "GO",
     "populacao": 121559,
-    "lat": -15.5065,
-    "lon": -47.3135,
-    "antenas": 152
+    "lat": -15.5066,
+    "lon": -47.3148,
+    "antenas": 157
   },
   "5208103": {
     "nome": "Formoso",
@@ -7803,17 +7803,17 @@
     "nome": "Goianésia",
     "uf": "GO",
     "populacao": 78009,
-    "lat": -15.3036,
+    "lat": -15.3038,
     "lon": -49.1315,
-    "antenas": 71
+    "antenas": 72
   },
   "5208707": {
     "nome": "Goiânia",
     "uf": "GO",
     "populacao": 1503256,
-    "lat": -16.6795,
+    "lat": -16.6793,
     "lon": -49.2779,
-    "antenas": 2465
+    "antenas": 2472
   },
   "5208806": {
     "nome": "Goianira",
@@ -8043,9 +8043,9 @@
     "nome": "Itumbiara",
     "uf": "GO",
     "populacao": 113322,
-    "lat": -18.4015,
-    "lon": -49.2436,
-    "antenas": 175
+    "lat": -18.4016,
+    "lon": -49.2435,
+    "antenas": 176
   },
   "5211602": {
     "nome": "Ivolândia",
@@ -8251,9 +8251,9 @@
     "nome": "Morrinhos",
     "uf": "GO",
     "populacao": 54326,
-    "lat": -17.7263,
-    "lon": -49.1294,
-    "antenas": 49
+    "lat": -17.7303,
+    "lon": -49.1328,
+    "antenas": 51
   },
   "5213855": {
     "nome": "Morro Agudo de Goiás",
@@ -8388,8 +8388,8 @@
     "uf": "GO",
     "populacao": 107663,
     "lat": -16.0744,
-    "lon": -48.051,
-    "antenas": 85
+    "lon": -48.0509,
+    "antenas": 89
   },
   "5215256": {
     "nome": "Novo Planalto",
@@ -8643,9 +8643,9 @@
     "nome": "Rubiataba",
     "uf": "GO",
     "populacao": 20186,
-    "lat": -15.186,
-    "lon": -49.8294,
-    "antenas": 14
+    "lat": -15.185,
+    "lon": -49.8283,
+    "antenas": 15
   },
   "5219001": {
     "nome": "Sanclerlândia",
@@ -8755,9 +8755,9 @@
     "nome": "Santo Antônio do Descoberto",
     "uf": "GO",
     "populacao": 75221,
-    "lat": -15.9759,
-    "lon": -48.2776,
-    "antenas": 60
+    "lat": -15.9756,
+    "lon": -48.2775,
+    "antenas": 61
   },
   "5219803": {
     "nome": "São Domingos",
@@ -8912,9 +8912,9 @@
     "nome": "Trindade",
     "uf": "GO",
     "populacao": 153560,
-    "lat": -16.6449,
-    "lon": -49.4632,
-    "antenas": 147
+    "lat": -16.6446,
+    "lon": -49.4629,
+    "antenas": 150
   },
   "5221452": {
     "nome": "Trombas",
@@ -8960,9 +8960,9 @@
     "nome": "Uruana",
     "uf": "GO",
     "populacao": 13857,
-    "lat": -15.5373,
-    "lon": -49.6629,
-    "antenas": 21
+    "lat": -15.5337,
+    "lon": -49.665,
+    "antenas": 23
   },
   "5221809": {
     "nome": "Urutaí",
@@ -8976,9 +8976,9 @@
     "nome": "Valparaíso de Goiás",
     "uf": "GO",
     "populacao": 218416,
-    "lat": -16.0725,
+    "lat": -16.0724,
     "lon": -47.9888,
-    "antenas": 174
+    "antenas": 175
   },
   "5221908": {
     "nome": "Varjão",
@@ -9432,9 +9432,9 @@
     "nome": "Caxias",
     "uf": "MA",
     "populacao": 163546,
-    "lat": -4.8717,
-    "lon": -43.346,
-    "antenas": 82
+    "lat": -4.8716,
+    "lon": -43.3463,
+    "antenas": 84
   },
   "2103109": {
     "nome": "Cedral",
@@ -9472,9 +9472,9 @@
     "nome": "Chapadinha",
     "uf": "MA",
     "populacao": 84395,
-    "lat": -3.7581,
-    "lon": -43.3551,
-    "antenas": 52
+    "lat": -3.7577,
+    "lon": -43.3552,
+    "antenas": 53
   },
   "2103257": {
     "nome": "Cidelândia",
@@ -10056,9 +10056,9 @@
     "nome": "Paço do Lumiar",
     "uf": "MA",
     "populacao": 153158,
-    "lat": -2.5303,
-    "lon": -44.1552,
-    "antenas": 138
+    "lat": -2.5302,
+    "lon": -44.1553,
+    "antenas": 139
   },
   "2107605": {
     "nome": "Palmeirândia",
@@ -10168,9 +10168,9 @@
     "nome": "Pinheiro",
     "uf": "MA",
     "populacao": 88091,
-    "lat": -2.5291,
-    "lon": -45.101,
-    "antenas": 36
+    "lat": -2.5292,
+    "lon": -45.1007,
+    "antenas": 37
   },
   "2108702": {
     "nome": "Pio XII",
@@ -10488,9 +10488,9 @@
     "nome": "São José de Ribamar",
     "uf": "MA",
     "populacao": 259164,
-    "lat": -2.5349,
-    "lon": -44.1557,
-    "antenas": 272
+    "lat": -2.535,
+    "lon": -44.1555,
+    "antenas": 274
   },
   "2111250": {
     "nome": "São José dos Basílios",
@@ -11280,9 +11280,9 @@
     "nome": "Belo Horizonte",
     "uf": "MG",
     "populacao": 2415872,
-    "lat": -19.9124,
-    "lon": -43.9547,
-    "antenas": 4514
+    "lat": -19.9125,
+    "lon": -43.9546,
+    "antenas": 4512
   },
   "3106309": {
     "nome": "Belo Oriente",
@@ -13273,8 +13273,8 @@
     "uf": "MG",
     "populacao": 266561,
     "lat": -18.8623,
-    "lon": -41.9686,
-    "antenas": 325
+    "lon": -41.9685,
+    "antenas": 326
   },
   "3127800": {
     "nome": "Grão Mogol",
@@ -13609,8 +13609,8 @@
     "uf": "MG",
     "populacao": 235311,
     "lat": -19.4764,
-    "lon": -42.551,
-    "antenas": 351
+    "lon": -42.5509,
+    "antenas": 352
   },
   "3131406": {
     "nome": "Ipiaçu",
@@ -14105,7 +14105,7 @@
     "uf": "MG",
     "populacao": 33249,
     "lat": -19.9581,
-    "lon": -44.3456,
+    "lon": -44.3454,
     "antenas": 50
   },
   "3136702": {
@@ -14248,9 +14248,9 @@
     "nome": "Lavras",
     "uf": "MG",
     "populacao": 110682,
-    "lat": -21.2444,
+    "lat": -21.2442,
     "lon": -45.0064,
-    "antenas": 135
+    "antenas": 136
   },
   "3138302": {
     "nome": "Leandro Ferreira",
@@ -14754,7 +14754,7 @@
     "populacao": 437601,
     "lat": -16.7079,
     "lon": -43.8645,
-    "antenas": 496
+    "antenas": 497
   },
   "3143401": {
     "nome": "Monte Sião",
@@ -14952,9 +14952,9 @@
     "nome": "Nova Serrana",
     "uf": "MG",
     "populacao": 114791,
-    "lat": -19.87,
-    "lon": -44.9774,
-    "antenas": 110
+    "lat": -19.8701,
+    "lon": -44.977,
+    "antenas": 111
   },
   "3145307": {
     "nome": "Novo Cruzeiro",
@@ -15224,9 +15224,9 @@
     "nome": "Passos",
     "uf": "MG",
     "populacao": 116951,
-    "lat": -20.7216,
-    "lon": -46.6016,
-    "antenas": 122
+    "lat": -20.7215,
+    "lon": -46.6017,
+    "antenas": 123
   },
   "3147956": {
     "nome": "Patis",
@@ -15600,9 +15600,9 @@
     "nome": "Pocrane",
     "uf": "MG",
     "populacao": 8438,
-    "lat": -19.6088,
-    "lon": -41.5719,
-    "antenas": 14
+    "lat": -19.6065,
+    "lon": -41.5781,
+    "antenas": 15
   },
   "3152006": {
     "nome": "Pompéu",
@@ -16816,9 +16816,9 @@
     "nome": "São Sebastião do Maranhão",
     "uf": "MG",
     "populacao": 10218,
-    "lat": -18.0861,
-    "lon": -42.5665,
-    "antenas": 11
+    "lat": -18.0907,
+    "lon": -42.5608,
+    "antenas": 12
   },
   "3164605": {
     "nome": "São Sebastião do Oeste",
@@ -17738,7 +17738,7 @@
     "populacao": 962883,
     "lat": -20.4819,
     "lon": -54.6093,
-    "antenas": 1550
+    "antenas": 1554
   },
   "5002803": {
     "nome": "Caracol",
@@ -17832,9 +17832,9 @@
     "nome": "Dourados",
     "uf": "MS",
     "populacao": 264017,
-    "lat": -22.2207,
-    "lon": -54.803,
-    "antenas": 354
+    "lat": -22.2201,
+    "lon": -54.8015,
+    "antenas": 357
   },
   "5003751": {
     "nome": "Eldorado",
@@ -18200,9 +18200,9 @@
     "nome": "Três Lagoas",
     "uf": "MS",
     "populacao": 143523,
-    "lat": -20.7783,
-    "lon": -51.7067,
-    "antenas": 213
+    "lat": -20.7784,
+    "lon": -51.7064,
+    "antenas": 214
   },
   "5008404": {
     "nome": "Vicentina",
@@ -18781,9 +18781,9 @@
     "nome": "Nossa Senhora do Livramento",
     "uf": "MT",
     "populacao": 11658,
-    "lat": -15.8461,
-    "lon": -56.3319,
-    "antenas": 16
+    "lat": -15.839,
+    "lon": -56.3757,
+    "antenas": 18
   },
   "5106158": {
     "nome": "Nova Bandeirantes",
@@ -19126,8 +19126,8 @@
     "uf": "MT",
     "populacao": 263708,
     "lat": -16.467,
-    "lon": -54.6353,
-    "antenas": 395
+    "lon": -54.6352,
+    "antenas": 396
   },
   "5107701": {
     "nome": "Rosário Oeste",
@@ -19214,8 +19214,8 @@
     "uf": "MT",
     "populacao": 223780,
     "lat": -11.8626,
-    "lon": -55.5061,
-    "antenas": 258
+    "lon": -55.506,
+    "antenas": 260
   },
   "5107925": {
     "nome": "Sorriso",
@@ -19869,9 +19869,9 @@
     "nome": "Marabá",
     "uf": "PA",
     "populacao": 290975,
-    "lat": -5.379,
-    "lon": -49.1551,
-    "antenas": 408
+    "lat": -5.3788,
+    "lon": -49.1549,
+    "antenas": 409
   },
   "1504307": {
     "nome": "Maracanã",
@@ -19893,9 +19893,9 @@
     "nome": "Marituba",
     "uf": "PA",
     "populacao": 119437,
-    "lat": -1.3702,
+    "lat": -1.3701,
     "lon": -48.3349,
-    "antenas": 145
+    "antenas": 146
   },
   "1504455": {
     "nome": "Medicilândia",
@@ -20053,9 +20053,9 @@
     "nome": "Paragominas",
     "uf": "PA",
     "populacao": 113498,
-    "lat": -3.0243,
-    "lon": -47.3993,
-    "antenas": 117
+    "lat": -3.0237,
+    "lon": -47.3996,
+    "antenas": 119
   },
   "1505536": {
     "nome": "Parauapebas",
@@ -20301,9 +20301,9 @@
     "nome": "São Félix do Xingu",
     "uf": "PA",
     "populacao": 64651,
-    "lat": -6.5795,
-    "lon": -51.8619,
-    "antenas": 53
+    "lat": -6.5807,
+    "lon": -51.864,
+    "antenas": 54
   },
   "1507409": {
     "nome": "São Francisco do Pará",
@@ -20445,9 +20445,9 @@
     "nome": "Tucuruí",
     "uf": "PA",
     "populacao": 96119,
-    "lat": -3.7874,
+    "lat": -3.7883,
     "lon": -49.6752,
-    "antenas": 104
+    "antenas": 106
   },
   "1508126": {
     "nome": "Ulianópolis",
@@ -21581,9 +21581,9 @@
     "nome": "Patos",
     "uf": "PB",
     "populacao": 108104,
-    "lat": -7.0296,
+    "lat": -7.0295,
     "lon": -37.2817,
-    "antenas": 120
+    "antenas": 122
   },
   "2510907": {
     "nome": "Paulista",
@@ -21701,9 +21701,9 @@
     "nome": "Pombal",
     "uf": "PB",
     "populacao": 33866,
-    "lat": -6.7709,
-    "lon": -37.7993,
-    "antenas": 19
+    "lat": -6.7708,
+    "lon": -37.7995,
+    "antenas": 22
   },
   "2512200": {
     "nome": "Prata",
@@ -23335,7 +23335,7 @@
     "populacao": 1588376,
     "lat": -8.0667,
     "lon": -34.9097,
-    "antenas": 2792
+    "antenas": 2793
   },
   "2611705": {
     "nome": "Riacho das Almas",
@@ -23661,9 +23661,9 @@
     "nome": "Toritama",
     "uf": "PE",
     "populacao": 43921,
-    "lat": -8.0028,
-    "lon": -36.0614,
-    "antenas": 25
+    "lat": -8.0032,
+    "lon": -36.0613,
+    "antenas": 28
   },
   "2615508": {
     "nome": "Tracunhaém",
@@ -25037,9 +25037,9 @@
     "nome": "Picos",
     "uf": "PI",
     "populacao": 86701,
-    "lat": -7.078,
-    "lon": -41.4623,
-    "antenas": 56
+    "lat": -7.0776,
+    "lon": -41.4622,
+    "antenas": 58
   },
   "2208106": {
     "nome": "Pimenteiras",
@@ -25581,9 +25581,9 @@
     "nome": "Almirante Tamandaré",
     "uf": "PR",
     "populacao": 125861,
-    "lat": -25.3206,
-    "lon": -49.2894,
-    "antenas": 107
+    "lat": -25.3195,
+    "lon": -49.2893,
+    "antenas": 111
   },
   "4100459": {
     "nome": "Altamira do Paraná",
@@ -25693,9 +25693,9 @@
     "nome": "Arapongas",
     "uf": "PR",
     "populacao": 124838,
-    "lat": -23.4042,
-    "lon": -51.4372,
-    "antenas": 152
+    "lat": -23.4039,
+    "lon": -51.4376,
+    "antenas": 153
   },
   "4101606": {
     "nome": "Arapoti",
@@ -25725,9 +25725,9 @@
     "nome": "Araucária",
     "uf": "PR",
     "populacao": 162247,
-    "lat": -25.5773,
-    "lon": -49.3901,
-    "antenas": 211
+    "lat": -25.5771,
+    "lon": -49.3898,
+    "antenas": 214
   },
   "4101853": {
     "nome": "Ariranha do Ivaí",
@@ -25749,9 +25749,9 @@
     "nome": "Assis Chateaubriand",
     "uf": "PR",
     "populacao": 38357,
-    "lat": -24.4023,
-    "lon": -53.5353,
-    "antenas": 31
+    "lat": -24.4012,
+    "lon": -53.5345,
+    "antenas": 33
   },
   "4102109": {
     "nome": "Astorga",
@@ -25861,9 +25861,9 @@
     "nome": "Boa Vista da Aparecida",
     "uf": "PR",
     "populacao": 8023,
-    "lat": -25.4311,
-    "lon": -53.4104,
-    "antenas": 10
+    "lat": -25.4429,
+    "lon": -53.4033,
+    "antenas": 12
   },
   "4103107": {
     "nome": "Bocaiúva do Sul",
@@ -25965,9 +25965,9 @@
     "nome": "Cambé",
     "uf": "PR",
     "populacao": 110923,
-    "lat": -23.2805,
-    "lon": -51.2621,
-    "antenas": 86
+    "lat": -23.2803,
+    "lon": -51.2626,
+    "antenas": 88
   },
   "4103800": {
     "nome": "Cambira",
@@ -26021,9 +26021,9 @@
     "nome": "Campo Largo",
     "uf": "PR",
     "populacao": 144504,
-    "lat": -25.4478,
-    "lon": -49.5166,
-    "antenas": 185
+    "lat": -25.4474,
+    "lon": -49.5162,
+    "antenas": 188
   },
   "4104253": {
     "nome": "Campo Magro",
@@ -26157,9 +26157,9 @@
     "nome": "Cianorte",
     "uf": "PR",
     "populacao": 82988,
-    "lat": -23.6683,
-    "lon": -52.6073,
-    "antenas": 93
+    "lat": -23.6685,
+    "lon": -52.6075,
+    "antenas": 96
   },
   "4105607": {
     "nome": "Cidade Gaúcha",
@@ -26183,7 +26183,7 @@
     "populacao": 241672,
     "lat": -25.3554,
     "lon": -49.1834,
-    "antenas": 307
+    "antenas": 308
   },
   "4105904": {
     "nome": "Colorado",
@@ -26303,7 +26303,7 @@
     "populacao": 1830795,
     "lat": -25.453,
     "lon": -49.2766,
-    "antenas": 3776
+    "antenas": 3785
   },
   "4107009": {
     "nome": "Curiúva",
@@ -26421,9 +26421,9 @@
     "nome": "Fazenda Rio Grande",
     "uf": "PR",
     "populacao": 165943,
-    "lat": -25.6577,
-    "lon": -49.3104,
-    "antenas": 92
+    "lat": -25.657,
+    "lon": -49.3099,
+    "antenas": 95
   },
   "4107702": {
     "nome": "Fênix",
@@ -26661,9 +26661,9 @@
     "nome": "Ibaiti",
     "uf": "PR",
     "populacao": 29464,
-    "lat": -23.8195,
-    "lon": -50.217,
-    "antenas": 20
+    "lat": -23.822,
+    "lon": -50.2154,
+    "antenas": 22
   },
   "4109757": {
     "nome": "Ibema",
@@ -26773,9 +26773,9 @@
     "nome": "Irati",
     "uf": "PR",
     "populacao": 61004,
-    "lat": -25.4816,
-    "lon": -50.6755,
-    "antenas": 71
+    "lat": -25.481,
+    "lon": -50.6753,
+    "antenas": 73
   },
   "4110805": {
     "nome": "Iretama",
@@ -26829,9 +26829,9 @@
     "nome": "Itaperuçu",
     "uf": "PR",
     "populacao": 33310,
-    "lat": -25.2112,
-    "lon": -49.3601,
-    "antenas": 16
+    "lat": -25.211,
+    "lon": -49.3574,
+    "antenas": 18
   },
   "4111308": {
     "nome": "Itaúna do Sul",
@@ -26845,9 +26845,9 @@
     "nome": "Ivaí",
     "uf": "PR",
     "populacao": 13476,
-    "lat": -25.0116,
-    "lon": -50.8426,
-    "antenas": 8
+    "lat": -25.0191,
+    "lon": -50.827,
+    "antenas": 10
   },
   "4111506": {
     "nome": "Ivaiporã",
@@ -27078,8 +27078,8 @@
     "uf": "PR",
     "populacao": 581382,
     "lat": -23.3185,
-    "lon": -51.1637,
-    "antenas": 884
+    "lon": -51.164,
+    "antenas": 894
   },
   "4113734": {
     "nome": "Luiziana",
@@ -27149,9 +27149,9 @@
     "nome": "Manfrinópolis",
     "uf": "PR",
     "populacao": 2790,
-    "lat": -26.1325,
-    "lon": -53.3086,
-    "antenas": 8
+    "lat": -26.1251,
+    "lon": -53.3133,
+    "antenas": 9
   },
   "4114401": {
     "nome": "Mangueirinha",
@@ -27221,9 +27221,9 @@
     "nome": "Maringá",
     "uf": "PR",
     "populacao": 429660,
-    "lat": -23.4203,
+    "lat": -23.4202,
     "lon": -51.9382,
-    "antenas": 602
+    "antenas": 603
   },
   "4115309": {
     "nome": "Mariópolis",
@@ -27357,9 +27357,9 @@
     "nome": "Munhoz de Melo",
     "uf": "PR",
     "populacao": 4057,
-    "lat": -23.151,
-    "lon": -51.7757,
-    "antenas": 10
+    "lat": -23.1485,
+    "lon": -51.7682,
+    "antenas": 11
   },
   "4116406": {
     "nome": "Nossa Senhora das Graças",
@@ -27389,9 +27389,9 @@
     "nome": "Nova Aurora",
     "uf": "PR",
     "populacao": 14331,
-    "lat": -24.5167,
-    "lon": -53.2727,
-    "antenas": 15
+    "lat": -24.5077,
+    "lon": -53.2662,
+    "antenas": 17
   },
   "4116802": {
     "nome": "Nova Cantu",
@@ -27477,9 +27477,9 @@
     "nome": "Nova Tebas",
     "uf": "PR",
     "populacao": 6852,
-    "lat": -24.4586,
-    "lon": -51.9528,
-    "antenas": 11
+    "lat": -24.448,
+    "lon": -51.9538,
+    "antenas": 12
   },
   "4117297": {
     "nome": "Novo Itacolomi",
@@ -27573,9 +27573,9 @@
     "nome": "Paranaguá",
     "uf": "PR",
     "populacao": 150104,
-    "lat": -25.546,
+    "lat": -25.5456,
     "lon": -48.5334,
-    "antenas": 210
+    "antenas": 212
   },
   "4118303": {
     "nome": "Paranapoema",
@@ -27589,9 +27589,9 @@
     "nome": "Paranavaí",
     "uf": "PR",
     "populacao": 96209,
-    "lat": -23.0751,
-    "lon": -52.4657,
-    "antenas": 94
+    "lat": -23.0747,
+    "lon": -52.4673,
+    "antenas": 97
   },
   "4118451": {
     "nome": "Pato Bragado",
@@ -27669,9 +27669,9 @@
     "nome": "Pinhais",
     "uf": "PR",
     "populacao": 131255,
-    "lat": -25.4304,
-    "lon": -49.1763,
-    "antenas": 140
+    "lat": -25.4305,
+    "lon": -49.1761,
+    "antenas": 142
   },
   "4119202": {
     "nome": "Pinhalão",
@@ -27709,17 +27709,17 @@
     "nome": "Piraquara",
     "uf": "PR",
     "populacao": 127433,
-    "lat": -25.4525,
-    "lon": -49.0895,
-    "antenas": 88
+    "lat": -25.4528,
+    "lon": -49.0883,
+    "antenas": 90
   },
   "4119608": {
     "nome": "Pitanga",
     "uf": "PR",
     "populacao": 34527,
-    "lat": -24.7343,
-    "lon": -51.7773,
-    "antenas": 30
+    "lat": -24.734,
+    "lon": -51.7859,
+    "antenas": 31
   },
   "4119657": {
     "nome": "Pitangueiras",
@@ -28157,9 +28157,9 @@
     "nome": "Santa Izabel do Oeste",
     "uf": "PR",
     "populacao": 14462,
-    "lat": -25.8039,
-    "lon": -53.4566,
-    "antenas": 19
+    "lat": -25.7992,
+    "lon": -53.4537,
+    "antenas": 20
   },
   "4123824": {
     "nome": "Santa Lúcia",
@@ -28429,9 +28429,9 @@
     "nome": "Sarandi",
     "uf": "PR",
     "populacao": 128106,
-    "lat": -23.4414,
-    "lon": -51.8707,
-    "antenas": 58
+    "lat": -23.441,
+    "lon": -51.8701,
+    "antenas": 61
   },
   "4126272": {
     "nome": "Saudade do Iguaçu",
@@ -28445,9 +28445,9 @@
     "nome": "Sengés",
     "uf": "PR",
     "populacao": 17256,
-    "lat": -24.134,
-    "lon": -49.4614,
-    "antenas": 10
+    "lat": -24.182,
+    "lon": -49.4488,
+    "antenas": 12
   },
   "4126355": {
     "nome": "Serranópolis do Iguaçu",
@@ -28461,9 +28461,9 @@
     "nome": "Sertaneja",
     "uf": "PR",
     "populacao": 5654,
-    "lat": -23.0038,
-    "lon": -50.829,
-    "antenas": 13
+    "lat": -22.9936,
+    "lon": -50.8306,
+    "antenas": 14
   },
   "4126504": {
     "nome": "Sertanópolis",
@@ -28765,9 +28765,9 @@
     "nome": "Araruama",
     "uf": "RJ",
     "populacao": 137906,
-    "lat": -22.8533,
-    "lon": -42.3224,
-    "antenas": 195
+    "lat": -22.8527,
+    "lon": -42.3214,
+    "antenas": 199
   },
   "3300225": {
     "nome": "Areal",
@@ -28797,17 +28797,17 @@
     "nome": "Barra do Piraí",
     "uf": "RJ",
     "populacao": 98506,
-    "lat": -22.4637,
-    "lon": -43.8433,
-    "antenas": 108
+    "lat": -22.464,
+    "lon": -43.8425,
+    "antenas": 110
   },
   "3300407": {
     "nome": "Barra Mansa",
     "uf": "RJ",
     "populacao": 181679,
-    "lat": -22.5339,
-    "lon": -44.1722,
-    "antenas": 181
+    "lat": -22.534,
+    "lon": -44.1719,
+    "antenas": 184
   },
   "3300456": {
     "nome": "Belford Roxo",
@@ -28877,9 +28877,9 @@
     "nome": "Campos dos Goytacazes",
     "uf": "RJ",
     "populacao": 519259,
-    "lat": -21.7699,
-    "lon": -41.3159,
-    "antenas": 883
+    "lat": -21.7704,
+    "lon": -41.3155,
+    "antenas": 885
   },
   "3301108": {
     "nome": "Cantagalo",
@@ -28942,8 +28942,8 @@
     "uf": "RJ",
     "populacao": 866225,
     "lat": -22.7168,
-    "lon": -43.2889,
-    "antenas": 1179
+    "lon": -43.289,
+    "antenas": 1177
   },
   "3301801": {
     "nome": "Engenheiro Paulo de Frontin",
@@ -28957,9 +28957,9 @@
     "nome": "Guapimirim",
     "uf": "RJ",
     "populacao": 54311,
-    "lat": -22.5635,
-    "lon": -42.9874,
-    "antenas": 73
+    "lat": -22.5627,
+    "lon": -42.9875,
+    "antenas": 75
   },
   "3301876": {
     "nome": "Iguaba Grande",
@@ -28982,8 +28982,8 @@
     "uf": "RJ",
     "populacao": 124021,
     "lat": -22.8752,
-    "lon": -43.798,
-    "antenas": 172
+    "lon": -43.7976,
+    "antenas": 174
   },
   "3302056": {
     "nome": "Italva",
@@ -29005,9 +29005,9 @@
     "nome": "Itaperuna",
     "uf": "RJ",
     "populacao": 107297,
-    "lat": -21.2067,
-    "lon": -41.926,
-    "antenas": 102
+    "lat": -21.2078,
+    "lon": -41.9232,
+    "antenas": 103
   },
   "3302254": {
     "nome": "Itatiaia",
@@ -29022,8 +29022,8 @@
     "uf": "RJ",
     "populacao": 102171,
     "lat": -22.6718,
-    "lon": -43.6196,
-    "antenas": 66
+    "lon": -43.6188,
+    "antenas": 69
   },
   "3302304": {
     "nome": "Laje do Muriaé",
@@ -29037,9 +29037,9 @@
     "nome": "Macaé",
     "uf": "RJ",
     "populacao": 264439,
-    "lat": -22.3625,
-    "lon": -41.805,
-    "antenas": 524
+    "lat": -22.3618,
+    "lon": -41.804,
+    "antenas": 526
   },
   "3302452": {
     "nome": "Macuco",
@@ -29061,17 +29061,17 @@
     "nome": "Mangaratiba",
     "uf": "RJ",
     "populacao": 43660,
-    "lat": -22.9592,
-    "lon": -44.0319,
-    "antenas": 169
+    "lat": -22.9597,
+    "lon": -44.0327,
+    "antenas": 170
   },
   "3302700": {
     "nome": "Maricá",
     "uf": "RJ",
     "populacao": 212470,
     "lat": -22.9343,
-    "lon": -42.8554,
-    "antenas": 251
+    "lon": -42.8552,
+    "antenas": 252
   },
   "3302809": {
     "nome": "Mendes",
@@ -29085,9 +29085,9 @@
     "nome": "Mesquita",
     "uf": "RJ",
     "populacao": 178830,
-    "lat": -22.7848,
+    "lat": -22.7847,
     "lon": -43.4241,
-    "antenas": 128
+    "antenas": 129
   },
   "3302908": {
     "nome": "Miguel Pereira",
@@ -29119,7 +29119,7 @@
     "populacao": 155500,
     "lat": -22.8091,
     "lon": -43.4158,
-    "antenas": 103
+    "antenas": 104
   },
   "3303302": {
     "nome": "Niterói",
@@ -29133,9 +29133,9 @@
     "nome": "Nova Friburgo",
     "uf": "RJ",
     "populacao": 203417,
-    "lat": -22.2822,
-    "lon": -42.5241,
-    "antenas": 329
+    "lat": -22.2823,
+    "lon": -42.5235,
+    "antenas": 334
   },
   "3303500": {
     "nome": "Nova Iguaçu",
@@ -29229,9 +29229,9 @@
     "nome": "Queimados",
     "uf": "RJ",
     "populacao": 149135,
-    "lat": -22.7193,
-    "lon": -43.5731,
-    "antenas": 142
+    "lat": -22.719,
+    "lon": -43.5729,
+    "antenas": 144
   },
   "3304151": {
     "nome": "Quissamã",
@@ -29245,9 +29245,9 @@
     "nome": "Resende",
     "uf": "RJ",
     "populacao": 137697,
-    "lat": -22.4651,
-    "lon": -44.4658,
-    "antenas": 158
+    "lat": -22.4654,
+    "lon": -44.4654,
+    "antenas": 162
   },
   "3304300": {
     "nome": "Rio Bonito",
@@ -29277,9 +29277,9 @@
     "nome": "Rio das Ostras",
     "uf": "RJ",
     "populacao": 168455,
-    "lat": -22.5058,
-    "lon": -41.9422,
-    "antenas": 203
+    "lat": -22.5056,
+    "lon": -41.9418,
+    "antenas": 205
   },
   "3304557": {
     "nome": "Rio de Janeiro",
@@ -29287,7 +29287,7 @@
     "populacao": 6730729,
     "lat": -22.9248,
     "lon": -43.321,
-    "antenas": 12596
+    "antenas": 12597
   },
   "3304607": {
     "nome": "Santa Maria Madalena",
@@ -29365,9 +29365,9 @@
     "nome": "São Pedro da Aldeia",
     "uf": "RJ",
     "populacao": 110677,
-    "lat": -22.8327,
-    "lon": -42.0965,
-    "antenas": 124
+    "lat": -22.8326,
+    "lon": -42.0963,
+    "antenas": 127
   },
   "3305307": {
     "nome": "São Sebastião do Alto",
@@ -29429,9 +29429,9 @@
     "nome": "Teresópolis",
     "uf": "RJ",
     "populacao": 176735,
-    "lat": -22.3869,
+    "lat": -22.387,
     "lon": -42.9384,
-    "antenas": 325
+    "antenas": 326
   },
   "3305901": {
     "nome": "Trajano de Moraes",
@@ -30901,9 +30901,9 @@
     "nome": "Jaru",
     "uf": "RO",
     "populacao": 55682,
-    "lat": -10.4649,
-    "lon": -62.4876,
-    "antenas": 37
+    "lat": -10.4633,
+    "lon": -62.4859,
+    "antenas": 39
   },
   "1100122": {
     "nome": "Ji-Paraná",
@@ -30941,17 +30941,17 @@
     "nome": "Pimenta Bueno",
     "uf": "RO",
     "populacao": 39220,
-    "lat": -11.6814,
-    "lon": -61.1774,
-    "antenas": 32
+    "lat": -11.6821,
+    "lon": -61.177,
+    "antenas": 34
   },
   "1100205": {
     "nome": "Porto Velho",
     "uf": "RO",
     "populacao": 517709,
-    "lat": -8.7867,
-    "lon": -63.9054,
-    "antenas": 770
+    "lat": -8.7858,
+    "lon": -63.9044,
+    "antenas": 772
   },
   "1100254": {
     "nome": "Presidente Médici",
@@ -31845,9 +31845,9 @@
     "nome": "Cachoeirinha",
     "uf": "RS",
     "populacao": 141503,
-    "lat": -29.9257,
-    "lon": -51.088,
-    "antenas": 165
+    "lat": -29.9255,
+    "lon": -51.0879,
+    "antenas": 166
   },
   "4303202": {
     "nome": "Cacique Doble",
@@ -31991,7 +31991,7 @@
     "populacao": 359840,
     "lat": -29.9167,
     "lon": -51.1736,
-    "antenas": 420
+    "antenas": 421
   },
   "4304614": {
     "nome": "Canudos do Vale",
@@ -33955,8 +33955,8 @@
     "uf": "RS",
     "populacao": 1388794,
     "lat": -30.0525,
-    "lon": -51.1876,
-    "antenas": 2966
+    "lon": -51.1877,
+    "antenas": 2967
   },
   "4315008": {
     "nome": "Porto Lucena",
@@ -34554,9 +34554,9 @@
     "nome": "São Luiz Gonzaga",
     "uf": "RS",
     "populacao": 35865,
-    "lat": -28.4056,
-    "lon": -54.9598,
-    "antenas": 28
+    "lat": -28.4051,
+    "lon": -54.9649,
+    "antenas": 29
   },
   "4319000": {
     "nome": "São Marcos",
@@ -35138,9 +35138,9 @@
     "nome": "Uruguaiana",
     "uf": "RS",
     "populacao": 120819,
-    "lat": -29.7867,
-    "lon": -57.0035,
-    "antenas": 155
+    "lat": -29.7865,
+    "lon": -57.0004,
+    "antenas": 156
   },
   "4322509": {
     "nome": "Vacaria",
@@ -35226,9 +35226,9 @@
     "nome": "Viamão",
     "uf": "RS",
     "populacao": 231996,
-    "lat": -30.0986,
-    "lon": -51.0107,
-    "antenas": 298
+    "lat": -30.098,
+    "lon": -51.0117,
+    "antenas": 302
   },
   "4323101": {
     "nome": "Vicente Dutra",
@@ -35634,9 +35634,9 @@
     "nome": "Bombinhas",
     "uf": "SC",
     "populacao": 28738,
-    "lat": -27.1588,
-    "lon": -48.5091,
-    "antenas": 79
+    "lat": -27.16,
+    "lon": -48.509,
+    "antenas": 83
   },
   "4202503": {
     "nome": "Bom Jardim da Serra",
@@ -35682,9 +35682,9 @@
     "nome": "Braço do Norte",
     "uf": "SC",
     "populacao": 35985,
-    "lat": -28.2742,
-    "lon": -49.1485,
-    "antenas": 22
+    "lat": -28.2777,
+    "lon": -49.148,
+    "antenas": 25
   },
   "4202859": {
     "nome": "Braço do Trombudo",
@@ -35707,8 +35707,8 @@
     "uf": "SC",
     "populacao": 155307,
     "lat": -27.1059,
-    "lon": -48.9105,
-    "antenas": 234
+    "lon": -48.9104,
+    "antenas": 236
   },
   "4203006": {
     "nome": "Caçador",
@@ -36026,9 +36026,9 @@
     "nome": "Florianópolis",
     "uf": "SC",
     "populacao": 587486,
-    "lat": -27.5669,
+    "lat": -27.5672,
     "lon": -48.5112,
-    "antenas": 1349
+    "antenas": 1356
   },
   "4205431": {
     "nome": "Formosa do Sul",
@@ -36338,9 +36338,9 @@
     "nome": "Itapema",
     "uf": "SC",
     "populacao": 86116,
-    "lat": -27.1164,
-    "lon": -48.6075,
-    "antenas": 148
+    "lat": -27.1166,
+    "lon": -48.6073,
+    "antenas": 149
   },
   "4208401": {
     "nome": "Itapiranga",
@@ -36450,9 +36450,9 @@
     "nome": "Lages",
     "uf": "SC",
     "populacao": 172458,
-    "lat": -27.8119,
-    "lon": -50.3184,
-    "antenas": 256
+    "lat": -27.812,
+    "lon": -50.3186,
+    "antenas": 260
   },
   "4209409": {
     "nome": "Laguna",
@@ -36770,9 +36770,9 @@
     "nome": "Palhoça",
     "uf": "SC",
     "populacao": 253469,
-    "lat": -27.7084,
+    "lat": -27.7078,
     "lon": -48.6574,
-    "antenas": 262
+    "antenas": 265
   },
   "4212007": {
     "nome": "Palma Sola",
@@ -36794,9 +36794,9 @@
     "nome": "Palmitos",
     "uf": "SC",
     "populacao": 15781,
-    "lat": -27.0738,
-    "lon": -53.1663,
-    "antenas": 13
+    "lat": -27.0743,
+    "lon": -53.1678,
+    "antenas": 10
   },
   "4212205": {
     "nome": "Papanduva",
@@ -36922,9 +36922,9 @@
     "nome": "Pomerode",
     "uf": "SC",
     "populacao": 37003,
-    "lat": -26.7487,
-    "lon": -49.1698,
-    "antenas": 59
+    "lat": -26.7458,
+    "lon": -49.1703,
+    "antenas": 61
   },
   "4213302": {
     "nome": "Ponte Alta",
@@ -37106,8 +37106,8 @@
     "nome": "Rodeio",
     "uf": "SC",
     "populacao": 13491,
-    "lat": -26.9297,
-    "lon": -49.37,
+    "lat": -26.9298,
+    "lon": -49.3701,
     "antenas": 17
   },
   "4215208": {
@@ -37282,17 +37282,17 @@
     "nome": "São João Batista",
     "uf": "SC",
     "populacao": 35336,
-    "lat": -27.3059,
-    "lon": -48.8683,
-    "antenas": 21
+    "lat": -27.3003,
+    "lon": -48.8652,
+    "antenas": 24
   },
   "4216354": {
     "nome": "São João do Itaperiú",
     "uf": "SC",
     "populacao": 4827,
-    "lat": -26.6193,
-    "lon": -48.7626,
-    "antenas": 9
+    "lat": -26.619,
+    "lon": -48.7673,
+    "antenas": 11
   },
   "4216404": {
     "nome": "São João do Sul",
@@ -37899,8 +37899,8 @@
     "uf": "SE",
     "populacao": 109250,
     "lat": -10.6963,
-    "lon": -37.4295,
-    "antenas": 83
+    "lon": -37.4294,
+    "antenas": 84
   },
   "2803005": {
     "nome": "Itabaianinha",
@@ -38058,9 +38058,9 @@
     "nome": "Nossa Senhora do Socorro",
     "uf": "SE",
     "populacao": 204081,
-    "lat": -10.8688,
-    "lon": -37.1002,
-    "antenas": 186
+    "lat": -10.8686,
+    "lon": -37.1,
+    "antenas": 188
   },
   "2804904": {
     "nome": "Pacatuba",
@@ -38330,9 +38330,9 @@
     "nome": "Águas de Santa Bárbara",
     "uf": "SP",
     "populacao": 7460,
-    "lat": -22.836,
-    "lon": -49.2738,
-    "antenas": 41
+    "lat": -22.8373,
+    "lon": -49.2722,
+    "antenas": 43
   },
   "3500600": {
     "nome": "Águas de São Pedro",
@@ -38354,17 +38354,17 @@
     "nome": "Alambari",
     "uf": "SP",
     "populacao": 6373,
-    "lat": -23.5544,
-    "lon": -47.8737,
-    "antenas": 21
+    "lat": -23.5542,
+    "lon": -47.8749,
+    "antenas": 22
   },
   "3500808": {
     "nome": "Alfredo Marcondes",
     "uf": "SP",
     "populacao": 4574,
-    "lat": -21.9559,
-    "lon": -51.4147,
-    "antenas": 11
+    "lat": -21.956,
+    "lon": -51.4145,
+    "antenas": 12
   },
   "3500907": {
     "nome": "Altair",
@@ -38386,9 +38386,9 @@
     "nome": "Alto Alegre",
     "uf": "SP",
     "populacao": 3874,
-    "lat": -21.5873,
-    "lon": -50.1896,
-    "antenas": 15
+    "lat": -21.587,
+    "lon": -50.1881,
+    "antenas": 16
   },
   "3501152": {
     "nome": "Alumínio",
@@ -38426,25 +38426,25 @@
     "nome": "Alvinlândia",
     "uf": "SP",
     "populacao": 2919,
-    "lat": -22.4433,
-    "lon": -49.7632,
-    "antenas": 6
+    "lat": -22.4434,
+    "lon": -49.7633,
+    "antenas": 7
   },
   "3501608": {
     "nome": "Americana",
     "uf": "SP",
     "populacao": 247571,
-    "lat": -22.7365,
-    "lon": -47.3187,
-    "antenas": 289
+    "lat": -22.7364,
+    "lon": -47.3191,
+    "antenas": 296
   },
   "3501707": {
     "nome": "Américo Brasiliense",
     "uf": "SP",
     "populacao": 33708,
-    "lat": -21.7352,
-    "lon": -48.0966,
-    "antenas": 30
+    "lat": -21.7348,
+    "lon": -48.0949,
+    "antenas": 32
   },
   "3501806": {
     "nome": "Américo de Campos",
@@ -38458,9 +38458,9 @@
     "nome": "Amparo",
     "uf": "SP",
     "populacao": 69792,
-    "lat": -22.7112,
-    "lon": -46.7876,
-    "antenas": 120
+    "lat": -22.711,
+    "lon": -46.7871,
+    "antenas": 121
   },
   "3502002": {
     "nome": "Analândia",
@@ -38474,17 +38474,17 @@
     "nome": "Andradina",
     "uf": "SP",
     "populacao": 61625,
-    "lat": -20.8964,
-    "lon": -51.3636,
-    "antenas": 55
+    "lat": -20.8965,
+    "lon": -51.3639,
+    "antenas": 56
   },
   "3502200": {
     "nome": "Angatuba",
     "uf": "SP",
     "populacao": 24573,
-    "lat": -23.5192,
-    "lon": -48.4134,
-    "antenas": 52
+    "lat": -23.5189,
+    "lon": -48.4133,
+    "antenas": 53
   },
   "3502309": {
     "nome": "Anhembi",
@@ -38516,15 +38516,15 @@
     "populacao": 4112,
     "lat": -20.4501,
     "lon": -50.8812,
-    "antenas": 14
+    "antenas": 15
   },
   "3502705": {
     "nome": "Apiaí",
     "uf": "SP",
     "populacao": 24857,
-    "lat": -24.4682,
-    "lon": -48.8834,
-    "antenas": 27
+    "lat": -24.4637,
+    "lon": -48.8832,
+    "antenas": 29
   },
   "3502754": {
     "nome": "Araçariguama",
@@ -38540,15 +38540,15 @@
     "populacao": 208415,
     "lat": -21.1932,
     "lon": -50.4521,
-    "antenas": 305
+    "antenas": 306
   },
   "3502903": {
     "nome": "Araçoiaba da Serra",
     "uf": "SP",
     "populacao": 33832,
-    "lat": -23.5283,
-    "lon": -47.6217,
-    "antenas": 76
+    "lat": -23.5288,
+    "lon": -47.6211,
+    "antenas": 78
   },
   "3503000": {
     "nome": "Aramina",
@@ -38578,17 +38578,17 @@
     "nome": "Araraquara",
     "uf": "SP",
     "populacao": 253474,
-    "lat": -21.7842,
-    "lon": -48.1768,
-    "antenas": 374
+    "lat": -21.7841,
+    "lon": -48.1767,
+    "antenas": 376
   },
   "3503307": {
     "nome": "Araras",
     "uf": "SP",
     "populacao": 135744,
-    "lat": -22.358,
+    "lat": -22.3578,
     "lon": -47.3733,
-    "antenas": 153
+    "antenas": 158
   },
   "3503356": {
     "nome": "Arco-Íris",
@@ -38596,7 +38596,7 @@
     "populacao": 2089,
     "lat": -21.7727,
     "lon": -50.4681,
-    "antenas": 4
+    "antenas": 5
   },
   "3503406": {
     "nome": "Arealva",
@@ -38612,23 +38612,23 @@
     "populacao": 3617,
     "lat": -22.5788,
     "lon": -44.6936,
-    "antenas": 11
+    "antenas": 12
   },
   "3503604": {
     "nome": "Areiópolis",
     "uf": "SP",
     "populacao": 10242,
-    "lat": -22.6749,
-    "lon": -48.6662,
-    "antenas": 12
+    "lat": -22.6751,
+    "lon": -48.6703,
+    "antenas": 15
   },
   "3503703": {
     "nome": "Ariranha",
     "uf": "SP",
     "populacao": 7621,
-    "lat": -21.1955,
-    "lon": -48.7954,
-    "antenas": 14
+    "lat": -21.195,
+    "lon": -48.7948,
+    "antenas": 15
   },
   "3503802": {
     "nome": "Artur Nogueira",
@@ -38658,25 +38658,25 @@
     "nome": "Assis",
     "uf": "SP",
     "populacao": 104858,
-    "lat": -22.6524,
-    "lon": -50.4255,
-    "antenas": 112
+    "lat": -22.652,
+    "lon": -50.4258,
+    "antenas": 116
   },
   "3504107": {
     "nome": "Atibaia",
     "uf": "SP",
     "populacao": 167161,
-    "lat": -23.1203,
-    "lon": -46.5755,
-    "antenas": 303
+    "lat": -23.1201,
+    "lon": -46.5754,
+    "antenas": 306
   },
   "3504206": {
     "nome": "Auriflama",
     "uf": "SP",
     "populacao": 13856,
-    "lat": -20.6755,
-    "lon": -50.5455,
-    "antenas": 14
+    "lat": -20.6763,
+    "lon": -50.5459,
+    "antenas": 15
   },
   "3504305": {
     "nome": "Avaí",
@@ -38698,9 +38698,9 @@
     "nome": "Avaré",
     "uf": "SP",
     "populacao": 96450,
-    "lat": -23.0816,
-    "lon": -48.9178,
-    "antenas": 126
+    "lat": -23.0852,
+    "lon": -48.9195,
+    "antenas": 131
   },
   "3504602": {
     "nome": "Bady Bassitt",
@@ -38714,9 +38714,9 @@
     "nome": "Balbinos",
     "uf": "SP",
     "populacao": 3969,
-    "lat": -21.9014,
-    "lon": -49.3551,
-    "antenas": 4
+    "lat": -21.9013,
+    "lon": -49.355,
+    "antenas": 5
   },
   "3504800": {
     "nome": "Bálsamo",
@@ -38730,9 +38730,9 @@
     "nome": "Bananal",
     "uf": "SP",
     "populacao": 10097,
-    "lat": -22.6819,
-    "lon": -44.3109,
-    "antenas": 19
+    "lat": -22.6818,
+    "lon": -44.3114,
+    "antenas": 20
   },
   "3505005": {
     "nome": "Barão de Antonina",
@@ -38740,7 +38740,7 @@
     "populacao": 3632,
     "lat": -23.6284,
     "lon": -49.5641,
-    "antenas": 4
+    "antenas": 5
   },
   "3505104": {
     "nome": "Barbosa",
@@ -38770,25 +38770,25 @@
     "nome": "Barra do Chapéu",
     "uf": "SP",
     "populacao": 5254,
-    "lat": -24.4776,
-    "lon": -49.04,
-    "antenas": 17
+    "lat": -24.4773,
+    "lon": -49.039,
+    "antenas": 18
   },
   "3505401": {
     "nome": "Barra do Turvo",
     "uf": "SP",
     "populacao": 6894,
-    "lat": -24.8747,
-    "lon": -48.4424,
-    "antenas": 33
+    "lat": -24.8678,
+    "lon": -48.4457,
+    "antenas": 35
   },
   "3505500": {
     "nome": "Barretos",
     "uf": "SP",
     "populacao": 126957,
-    "lat": -20.5501,
-    "lon": -48.5868,
-    "antenas": 200
+    "lat": -20.5503,
+    "lon": -48.5864,
+    "antenas": 203
   },
   "3505609": {
     "nome": "Barrinha",
@@ -38803,8 +38803,8 @@
     "uf": "SP",
     "populacao": 333737,
     "lat": -23.5016,
-    "lon": -46.86,
-    "antenas": 521
+    "lon": -46.8601,
+    "antenas": 522
   },
   "3505807": {
     "nome": "Bastos",
@@ -38827,16 +38827,16 @@
     "uf": "SP",
     "populacao": 392947,
     "lat": -22.3228,
-    "lon": -49.067,
-    "antenas": 559
+    "lon": -49.0669,
+    "antenas": 567
   },
   "3506102": {
     "nome": "Bebedouro",
     "uf": "SP",
     "populacao": 78257,
     "lat": -20.9397,
-    "lon": -48.4888,
-    "antenas": 103
+    "lon": -48.4883,
+    "antenas": 104
   },
   "3506201": {
     "nome": "Bento de Abreu",
@@ -38874,9 +38874,9 @@
     "nome": "Birigui",
     "uf": "SP",
     "populacao": 123340,
-    "lat": -21.2926,
-    "lon": -50.3428,
-    "antenas": 111
+    "lat": -21.2927,
+    "lon": -50.3432,
+    "antenas": 114
   },
   "3506607": {
     "nome": "Biritiba Mirim",
@@ -38898,9 +38898,9 @@
     "nome": "Bocaina",
     "uf": "SP",
     "populacao": 11480,
-    "lat": -22.1462,
-    "lon": -48.5097,
-    "antenas": 23
+    "lat": -22.1458,
+    "lon": -48.5096,
+    "antenas": 24
   },
   "3506904": {
     "nome": "Bofete",
@@ -38915,8 +38915,8 @@
     "uf": "SP",
     "populacao": 63850,
     "lat": -23.2932,
-    "lon": -47.6746,
-    "antenas": 71
+    "lon": -47.6753,
+    "antenas": 72
   },
   "3507100": {
     "nome": "Bom Jesus dos Perdões",
@@ -38946,41 +38946,41 @@
     "nome": "Boracéia",
     "uf": "SP",
     "populacao": 4838,
-    "lat": -22.1944,
-    "lon": -48.7796,
+    "lat": -22.1939,
+    "lon": -48.7804,
     "antenas": 11
   },
   "3507407": {
     "nome": "Borborema",
     "uf": "SP",
     "populacao": 14405,
-    "lat": -21.6269,
-    "lon": -49.0887,
-    "antenas": 19
+    "lat": -21.6261,
+    "lon": -49.088,
+    "antenas": 21
   },
   "3507456": {
     "nome": "Borebi",
     "uf": "SP",
     "populacao": 2801,
     "lat": -22.5705,
-    "lon": -48.9719,
-    "antenas": 7
+    "lon": -48.9718,
+    "antenas": 8
   },
   "3507506": {
     "nome": "Botucatu",
     "uf": "SP",
     "populacao": 151053,
     "lat": -22.8837,
-    "lon": -48.4503,
-    "antenas": 264
+    "lon": -48.4505,
+    "antenas": 265
   },
   "3507605": {
     "nome": "Bragança Paulista",
     "uf": "SP",
     "populacao": 185688,
-    "lat": -22.951,
-    "lon": -46.5588,
-    "antenas": 261
+    "lat": -22.9509,
+    "lon": -46.5583,
+    "antenas": 266
   },
   "3507704": {
     "nome": "Braúna",
@@ -39018,9 +39018,9 @@
     "nome": "Buri",
     "uf": "SP",
     "populacao": 20731,
-    "lat": -23.7877,
-    "lon": -48.5835,
-    "antenas": 13
+    "lat": -23.7889,
+    "lon": -48.5851,
+    "antenas": 14
   },
   "3508108": {
     "nome": "Buritama",
@@ -39058,9 +39058,9 @@
     "nome": "Caçapava",
     "uf": "SP",
     "populacao": 100071,
-    "lat": -23.1151,
-    "lon": -45.7062,
-    "antenas": 109
+    "lat": -23.1156,
+    "lon": -45.7074,
+    "antenas": 114
   },
   "3508603": {
     "nome": "Cachoeira Paulista",
@@ -39082,9 +39082,9 @@
     "nome": "Cafelândia",
     "uf": "SP",
     "populacao": 16907,
-    "lat": -21.7881,
-    "lon": -49.6157,
-    "antenas": 39
+    "lat": -21.7847,
+    "lon": -49.6109,
+    "antenas": 41
   },
   "3508900": {
     "nome": "Caiabu",
@@ -39098,9 +39098,9 @@
     "nome": "Caieiras",
     "uf": "SP",
     "populacao": 98549,
-    "lat": -23.3701,
-    "lon": -46.7447,
-    "antenas": 101
+    "lat": -23.3703,
+    "lon": -46.7438,
+    "antenas": 104
   },
   "3509106": {
     "nome": "Caiuá",
@@ -39130,9 +39130,9 @@
     "nome": "Cajobi",
     "uf": "SP",
     "populacao": 9210,
-    "lat": -20.8726,
-    "lon": -48.8173,
-    "antenas": 13
+    "lat": -20.8732,
+    "lon": -48.8168,
+    "antenas": 14
   },
   "3509403": {
     "nome": "Cajuru",
@@ -39155,8 +39155,8 @@
     "uf": "SP",
     "populacao": 1187974,
     "lat": -22.9048,
-    "lon": -47.0748,
-    "antenas": 1887
+    "lon": -47.0749,
+    "antenas": 1889
   },
   "3509601": {
     "nome": "Campo Limpo Paulista",
@@ -39170,9 +39170,9 @@
     "nome": "Campos do Jordão",
     "uf": "SP",
     "populacao": 47956,
-    "lat": -22.7335,
-    "lon": -45.5814,
-    "antenas": 235
+    "lat": -22.7337,
+    "lon": -45.5818,
+    "antenas": 237
   },
   "3509809": {
     "nome": "Campos Novos Paulista",
@@ -39194,17 +39194,17 @@
     "nome": "Canas",
     "uf": "SP",
     "populacao": 5068,
-    "lat": -22.7085,
-    "lon": -45.0553,
-    "antenas": 14
+    "lat": -22.7083,
+    "lon": -45.0551,
+    "antenas": 15
   },
   "3510005": {
     "nome": "Cândido Mota",
     "uf": "SP",
     "populacao": 30157,
-    "lat": -22.7553,
-    "lon": -50.3829,
-    "antenas": 41
+    "lat": -22.7574,
+    "lon": -50.3861,
+    "antenas": 42
   },
   "3510104": {
     "nome": "Cândido Rodrigues",
@@ -39226,9 +39226,9 @@
     "nome": "Capão Bonito",
     "uf": "SP",
     "populacao": 47409,
-    "lat": -23.9939,
-    "lon": -48.3472,
-    "antenas": 44
+    "lat": -23.9942,
+    "lon": -48.3473,
+    "antenas": 45
   },
   "3510302": {
     "nome": "Capela do Alto",
@@ -39242,33 +39242,33 @@
     "nome": "Capivari",
     "uf": "SP",
     "populacao": 51369,
-    "lat": -22.989,
-    "lon": -47.482,
-    "antenas": 75
+    "lat": -22.9893,
+    "lon": -47.4817,
+    "antenas": 76
   },
   "3510500": {
     "nome": "Caraguatatuba",
     "uf": "SP",
     "populacao": 142248,
-    "lat": -23.6249,
-    "lon": -45.389,
-    "antenas": 297
+    "lat": -23.6247,
+    "lon": -45.3889,
+    "antenas": 301
   },
   "3510609": {
     "nome": "Carapicuíba",
     "uf": "SP",
     "populacao": 398236,
-    "lat": -23.5434,
+    "lat": -23.5437,
     "lon": -46.8398,
-    "antenas": 320
+    "antenas": 326
   },
   "3510708": {
     "nome": "Cardoso",
     "uf": "SP",
     "populacao": 11476,
-    "lat": -20.0787,
-    "lon": -49.9349,
-    "antenas": 17
+    "lat": -20.0761,
+    "lon": -49.9408,
+    "antenas": 18
   },
   "3510807": {
     "nome": "Casa Branca",
@@ -39290,17 +39290,17 @@
     "nome": "Castilho",
     "uf": "SP",
     "populacao": 20485,
-    "lat": -20.8281,
-    "lon": -51.5184,
-    "antenas": 22
+    "lat": -20.8238,
+    "lon": -51.5218,
+    "antenas": 23
   },
   "3511102": {
     "nome": "Catanduva",
     "uf": "SP",
     "populacao": 119275,
-    "lat": -21.1458,
-    "lon": -48.9715,
-    "antenas": 164
+    "lat": -21.1453,
+    "lon": -48.9714,
+    "antenas": 169
   },
   "3511201": {
     "nome": "Catiguá",
@@ -39330,17 +39330,17 @@
     "nome": "Cerquilho",
     "uf": "SP",
     "populacao": 46391,
-    "lat": -23.1736,
-    "lon": -47.7524,
-    "antenas": 43
+    "lat": -23.1733,
+    "lon": -47.7521,
+    "antenas": 45
   },
   "3511607": {
     "nome": "Cesário Lange",
     "uf": "SP",
     "populacao": 19707,
-    "lat": -23.2375,
-    "lon": -47.9418,
-    "antenas": 43
+    "lat": -23.237,
+    "lon": -47.9411,
+    "antenas": 44
   },
   "3511706": {
     "nome": "Charqueada",
@@ -39411,8 +39411,8 @@
     "uf": "SP",
     "populacao": 4271,
     "lat": -23.6324,
-    "lon": -49.3121,
-    "antenas": 11
+    "lon": -49.3123,
+    "antenas": 12
   },
   "3512704": {
     "nome": "Corumbataí",
@@ -39434,9 +39434,9 @@
     "nome": "Cosmorama",
     "uf": "SP",
     "populacao": 9019,
-    "lat": -20.4761,
-    "lon": -49.7707,
-    "antenas": 15
+    "lat": -20.4765,
+    "lon": -49.7712,
+    "antenas": 16
   },
   "3513009": {
     "nome": "Cotia",
@@ -39444,15 +39444,15 @@
     "populacao": 289493,
     "lat": -23.6136,
     "lon": -46.9102,
-    "antenas": 398
+    "antenas": 399
   },
   "3513108": {
     "nome": "Cravinhos",
     "uf": "SP",
     "populacao": 34307,
-    "lat": -21.3394,
-    "lon": -47.7445,
-    "antenas": 50
+    "lat": -21.3383,
+    "lon": -47.7446,
+    "antenas": 51
   },
   "3513207": {
     "nome": "Cristais Paulista",
@@ -39468,15 +39468,15 @@
     "populacao": 2123,
     "lat": -22.7409,
     "lon": -50.7922,
-    "antenas": 7
+    "antenas": 8
   },
   "3513405": {
     "nome": "Cruzeiro",
     "uf": "SP",
     "populacao": 76444,
     "lat": -22.586,
-    "lon": -44.9605,
-    "antenas": 75
+    "lon": -44.9606,
+    "antenas": 77
   },
   "3513504": {
     "nome": "Cubatão",
@@ -39498,9 +39498,9 @@
     "nome": "Descalvado",
     "uf": "SP",
     "populacao": 32663,
-    "lat": -21.9171,
-    "lon": -47.6241,
-    "antenas": 38
+    "lat": -21.9168,
+    "lon": -47.6239,
+    "antenas": 39
   },
   "3513801": {
     "nome": "Diadema",
@@ -39514,9 +39514,9 @@
     "nome": "Dirce Reis",
     "uf": "SP",
     "populacao": 1639,
-    "lat": -20.4657,
-    "lon": -50.6082,
-    "antenas": 4
+    "lat": -20.4656,
+    "lon": -50.6081,
+    "antenas": 5
   },
   "3513900": {
     "nome": "Divinolândia",
@@ -39538,9 +39538,9 @@
     "nome": "Dois Córregos",
     "uf": "SP",
     "populacao": 24847,
-    "lat": -22.3555,
-    "lon": -48.3829,
-    "antenas": 22
+    "lat": -22.3565,
+    "lon": -48.3826,
+    "antenas": 23
   },
   "3514205": {
     "nome": "Dolcinópolis",
@@ -39570,25 +39570,25 @@
     "nome": "Duartina",
     "uf": "SP",
     "populacao": 12532,
-    "lat": -22.3824,
-    "lon": -49.4057,
-    "antenas": 21
+    "lat": -22.3839,
+    "lon": -49.4058,
+    "antenas": 22
   },
   "3514601": {
     "nome": "Dumont",
     "uf": "SP",
     "populacao": 9764,
-    "lat": -21.2359,
+    "lat": -21.2361,
     "lon": -47.9731,
-    "antenas": 10
+    "antenas": 11
   },
   "3514700": {
     "nome": "Echaporã",
     "uf": "SP",
     "populacao": 6291,
-    "lat": -22.4507,
-    "lon": -50.2284,
-    "antenas": 11
+    "lat": -22.4494,
+    "lon": -50.2259,
+    "antenas": 12
   },
   "3514809": {
     "nome": "Eldorado",
@@ -39602,9 +39602,9 @@
     "nome": "Elias Fausto",
     "uf": "SP",
     "populacao": 18168,
-    "lat": -23.0738,
-    "lon": -47.3624,
-    "antenas": 29
+    "lat": -23.0728,
+    "lon": -47.3629,
+    "antenas": 30
   },
   "3514924": {
     "nome": "Elisiário",
@@ -39626,9 +39626,9 @@
     "nome": "Embu das Artes",
     "uf": "SP",
     "populacao": 259788,
-    "lat": -23.6512,
-    "lon": -46.8395,
-    "antenas": 258
+    "lat": -23.6513,
+    "lon": -46.8391,
+    "antenas": 261
   },
   "3515103": {
     "nome": "Embu-Guaçu",
@@ -39642,17 +39642,17 @@
     "nome": "Emilianópolis",
     "uf": "SP",
     "populacao": 3061,
-    "lat": -21.8308,
+    "lat": -21.8309,
     "lon": -51.4825,
-    "antenas": 7
+    "antenas": 8
   },
   "3515152": {
     "nome": "Engenheiro Coelho",
     "uf": "SP",
     "populacao": 20261,
-    "lat": -22.493,
-    "lon": -47.2017,
-    "antenas": 19
+    "lat": -22.4948,
+    "lon": -47.1958,
+    "antenas": 22
   },
   "3515186": {
     "nome": "Espírito Santo do Pinhal",
@@ -39682,9 +39682,9 @@
     "nome": "Estrela do Norte",
     "uf": "SP",
     "populacao": 2751,
-    "lat": -22.4858,
+    "lat": -22.486,
     "lon": -51.6618,
-    "antenas": 7
+    "antenas": 8
   },
   "3515350": {
     "nome": "Euclides da Cunha Paulista",
@@ -39707,8 +39707,8 @@
     "uf": "SP",
     "populacao": 73508,
     "lat": -20.2767,
-    "lon": -50.2519,
-    "antenas": 103
+    "lon": -50.2518,
+    "antenas": 105
   },
   "3515608": {
     "nome": "Fernando Prestes",
@@ -39722,17 +39722,17 @@
     "nome": "Fernão",
     "uf": "SP",
     "populacao": 1692,
-    "lat": -22.3522,
-    "lon": -49.5025,
-    "antenas": 10
+    "lat": -22.3529,
+    "lon": -49.5041,
+    "antenas": 11
   },
   "3515707": {
     "nome": "Ferraz de Vasconcelos",
     "uf": "SP",
     "populacao": 186479,
-    "lat": -23.5426,
-    "lon": -46.3728,
-    "antenas": 108
+    "lat": -23.5427,
+    "lon": -46.3731,
+    "antenas": 113
   },
   "3515806": {
     "nome": "Flora Rica",
@@ -39740,7 +39740,7 @@
     "populacao": 1483,
     "lat": -21.6756,
     "lon": -51.3796,
-    "antenas": 8
+    "antenas": 9
   },
   "3515905": {
     "nome": "Floreal",
@@ -39762,9 +39762,9 @@
     "nome": "Florínea",
     "uf": "SP",
     "populacao": 4022,
-    "lat": -22.8998,
-    "lon": -50.7168,
-    "antenas": 10
+    "lat": -22.8999,
+    "lon": -50.7175,
+    "antenas": 11
   },
   "3516200": {
     "nome": "Franca",
@@ -39772,39 +39772,39 @@
     "populacao": 365494,
     "lat": -20.5316,
     "lon": -47.4025,
-    "antenas": 478
+    "antenas": 479
   },
   "3516309": {
     "nome": "Francisco Morato",
     "uf": "SP",
     "populacao": 171476,
-    "lat": -23.2782,
-    "lon": -46.7374,
-    "antenas": 132
+    "lat": -23.2781,
+    "lon": -46.737,
+    "antenas": 136
   },
   "3516408": {
     "nome": "Franco da Rocha",
     "uf": "SP",
     "populacao": 150241,
-    "lat": -23.3195,
-    "lon": -46.7289,
-    "antenas": 126
+    "lat": -23.3194,
+    "lon": -46.729,
+    "antenas": 129
   },
   "3516507": {
     "nome": "Gabriel Monteiro",
     "uf": "SP",
     "populacao": 2813,
-    "lat": -21.5236,
-    "lon": -50.5511,
-    "antenas": 6
+    "lat": -21.5246,
+    "lon": -50.5517,
+    "antenas": 7
   },
   "3516606": {
     "nome": "Gália",
     "uf": "SP",
     "populacao": 6413,
-    "lat": -22.3042,
-    "lon": -49.5375,
-    "antenas": 11
+    "lat": -22.3027,
+    "lon": -49.5376,
+    "antenas": 12
   },
   "3516705": {
     "nome": "Garça",
@@ -39819,8 +39819,8 @@
     "uf": "SP",
     "populacao": 3203,
     "lat": -20.7982,
-    "lon": -50.189,
-    "antenas": 11
+    "lon": -50.1889,
+    "antenas": 12
   },
   "3516853": {
     "nome": "Gavião Peixoto",
@@ -39834,49 +39834,49 @@
     "nome": "General Salgado",
     "uf": "SP",
     "populacao": 10437,
-    "lat": -20.6301,
-    "lon": -50.4126,
-    "antenas": 15
+    "lat": -20.6314,
+    "lon": -50.4094,
+    "antenas": 16
   },
   "3517000": {
     "nome": "Getulina",
     "uf": "SP",
     "populacao": 10337,
-    "lat": -21.7991,
-    "lon": -49.9597,
-    "antenas": 19
+    "lat": -21.7964,
+    "lon": -49.9672,
+    "antenas": 20
   },
   "3517109": {
     "nome": "Glicério",
     "uf": "SP",
     "populacao": 4158,
     "lat": -21.3668,
-    "lon": -50.2031,
+    "lon": -50.2032,
     "antenas": 24
   },
   "3517208": {
     "nome": "Guaiçara",
     "uf": "SP",
     "populacao": 11478,
-    "lat": -21.6177,
-    "lon": -49.7907,
-    "antenas": 19
+    "lat": -21.6179,
+    "lon": -49.791,
+    "antenas": 20
   },
   "3517307": {
     "nome": "Guaimbê",
     "uf": "SP",
     "populacao": 5609,
-    "lat": -21.8905,
-    "lon": -49.8907,
-    "antenas": 15
+    "lat": -21.8919,
+    "lon": -49.8912,
+    "antenas": 16
   },
   "3517406": {
     "nome": "Guaíra",
     "uf": "SP",
     "populacao": 40489,
-    "lat": -20.329,
-    "lon": -48.3215,
-    "antenas": 32
+    "lat": -20.3287,
+    "lon": -48.3213,
+    "antenas": 33
   },
   "3517505": {
     "nome": "Guapiaçu",
@@ -39890,9 +39890,9 @@
     "nome": "Guapiara",
     "uf": "SP",
     "populacao": 17225,
-    "lat": -24.1889,
-    "lon": -48.5229,
-    "antenas": 13
+    "lat": -24.1886,
+    "lon": -48.5233,
+    "antenas": 14
   },
   "3517703": {
     "nome": "Guará",
@@ -39906,17 +39906,17 @@
     "nome": "Guaraçaí",
     "uf": "SP",
     "populacao": 7453,
-    "lat": -21.0481,
-    "lon": -51.22,
-    "antenas": 10
+    "lat": -21.0465,
+    "lon": -51.2192,
+    "antenas": 11
   },
   "3517901": {
     "nome": "Guaraci",
     "uf": "SP",
     "populacao": 10554,
-    "lat": -20.4505,
-    "lon": -48.9687,
-    "antenas": 16
+    "lat": -20.4535,
+    "lon": -48.9672,
+    "antenas": 17
   },
   "3518008": {
     "nome": "Guarani d'Oeste",
@@ -39930,9 +39930,9 @@
     "nome": "Guarantã",
     "uf": "SP",
     "populacao": 6532,
-    "lat": -21.8929,
-    "lon": -49.5663,
-    "antenas": 19
+    "lat": -21.8927,
+    "lon": -49.5673,
+    "antenas": 20
   },
   "3518206": {
     "nome": "Guararapes",
@@ -39954,9 +39954,9 @@
     "nome": "Guaratinguetá",
     "uf": "SP",
     "populacao": 121916,
-    "lat": -22.8028,
-    "lon": -45.191,
-    "antenas": 182
+    "lat": -22.8025,
+    "lon": -45.1906,
+    "antenas": 187
   },
   "3518503": {
     "nome": "Guareí",
@@ -40002,17 +40002,17 @@
     "nome": "Guzolândia",
     "uf": "SP",
     "populacao": 4259,
-    "lat": -20.6371,
-    "lon": -50.7056,
-    "antenas": 20
+    "lat": -20.6377,
+    "lon": -50.7036,
+    "antenas": 21
   },
   "3519006": {
     "nome": "Herculândia",
     "uf": "SP",
     "populacao": 9316,
-    "lat": -21.9895,
-    "lon": -50.3876,
-    "antenas": 13
+    "lat": -21.9909,
+    "lon": -50.3877,
+    "antenas": 14
   },
   "3519055": {
     "nome": "Holambra",
@@ -40026,17 +40026,17 @@
     "nome": "Hortolândia",
     "uf": "SP",
     "populacao": 248842,
-    "lat": -22.8807,
-    "lon": -47.2068,
-    "antenas": 217
+    "lat": -22.8808,
+    "lon": -47.2067,
+    "antenas": 220
   },
   "3519105": {
     "nome": "Iacanga",
     "uf": "SP",
     "populacao": 10648,
-    "lat": -21.9079,
-    "lon": -49.0313,
-    "antenas": 13
+    "lat": -21.9067,
+    "lon": -49.0305,
+    "antenas": 14
   },
   "3519204": {
     "nome": "Iacri",
@@ -40066,33 +40066,33 @@
     "nome": "Ibirá",
     "uf": "SP",
     "populacao": 11952,
-    "lat": -21.061,
-    "lon": -49.2164,
-    "antenas": 19
+    "lat": -21.062,
+    "lon": -49.2176,
+    "antenas": 20
   },
   "3519501": {
     "nome": "Ibirarema",
     "uf": "SP",
     "populacao": 6450,
-    "lat": -22.8106,
-    "lon": -50.068,
-    "antenas": 14
+    "lat": -22.8107,
+    "lon": -50.0681,
+    "antenas": 11
   },
   "3519600": {
     "nome": "Ibitinga",
     "uf": "SP",
     "populacao": 62143,
-    "lat": -21.764,
-    "lon": -48.8472,
-    "antenas": 47
+    "lat": -21.7633,
+    "lon": -48.8467,
+    "antenas": 49
   },
   "3519709": {
     "nome": "Ibiúna",
     "uf": "SP",
     "populacao": 77801,
-    "lat": -23.6696,
-    "lon": -47.2396,
-    "antenas": 125
+    "lat": -23.6698,
+    "lon": -47.2393,
+    "antenas": 129
   },
   "3519808": {
     "nome": "Icém",
@@ -40122,9 +40122,9 @@
     "nome": "Igarapava",
     "uf": "SP",
     "populacao": 26696,
-    "lat": -20.0401,
-    "lon": -47.761,
-    "antenas": 35
+    "lat": -20.0403,
+    "lon": -47.7611,
+    "antenas": 36
   },
   "3520202": {
     "nome": "Igaratá",
@@ -40154,17 +40154,17 @@
     "nome": "Ilha Comprida",
     "uf": "SP",
     "populacao": 14104,
-    "lat": -24.7806,
-    "lon": -47.6083,
-    "antenas": 25
+    "lat": -24.7774,
+    "lon": -47.6035,
+    "antenas": 27
   },
   "3520442": {
     "nome": "Ilha Solteira",
     "uf": "SP",
     "populacao": 26257,
-    "lat": -20.4203,
-    "lon": -51.3338,
-    "antenas": 23
+    "lat": -20.4205,
+    "lon": -51.3342,
+    "antenas": 24
   },
   "3520509": {
     "nome": "Indaiatuba",
@@ -40172,7 +40172,7 @@
     "populacao": 269657,
     "lat": -23.0958,
     "lon": -47.2132,
-    "antenas": 295
+    "antenas": 297
   },
   "3520608": {
     "nome": "Indiana",
@@ -40194,25 +40194,25 @@
     "nome": "Inúbia Paulista",
     "uf": "SP",
     "populacao": 3671,
-    "lat": -21.7698,
+    "lat": -21.77,
     "lon": -50.9597,
-    "antenas": 8
+    "antenas": 9
   },
   "3520905": {
     "nome": "Ipaussu",
     "uf": "SP",
     "populacao": 13935,
-    "lat": -23.067,
-    "lon": -49.6174,
-    "antenas": 18
+    "lat": -23.0664,
+    "lon": -49.6179,
+    "antenas": 19
   },
   "3521002": {
     "nome": "Iperó",
     "uf": "SP",
     "populacao": 38277,
-    "lat": -23.389,
-    "lon": -47.6441,
-    "antenas": 28
+    "lat": -23.3875,
+    "lon": -47.6456,
+    "antenas": 29
   },
   "3521101": {
     "nome": "Ipeúna",
@@ -40306,65 +40306,65 @@
     "nome": "Itanhaém",
     "uf": "SP",
     "populacao": 118495,
-    "lat": -24.1826,
-    "lon": -46.8037,
-    "antenas": 205
+    "lat": -24.1836,
+    "lon": -46.8054,
+    "antenas": 210
   },
   "3522158": {
     "nome": "Itaoca",
     "uf": "SP",
     "populacao": 3497,
-    "lat": -24.6448,
-    "lon": -48.8291,
-    "antenas": 16
+    "lat": -24.6446,
+    "lon": -48.8296,
+    "antenas": 17
   },
   "3522208": {
     "nome": "Itapecerica da Serra",
     "uf": "SP",
     "populacao": 163003,
-    "lat": -23.7217,
-    "lon": -46.8388,
-    "antenas": 235
+    "lat": -23.7214,
+    "lon": -46.8386,
+    "antenas": 239
   },
   "3522307": {
     "nome": "Itapetininga",
     "uf": "SP",
     "populacao": 164256,
-    "lat": -23.5963,
-    "lon": -48.0551,
-    "antenas": 223
+    "lat": -23.5991,
+    "lon": -48.0575,
+    "antenas": 233
   },
   "3522406": {
     "nome": "Itapeva",
     "uf": "SP",
     "populacao": 92393,
-    "lat": -23.9723,
-    "lon": -48.8718,
-    "antenas": 82
+    "lat": -23.9739,
+    "lon": -48.8711,
+    "antenas": 83
   },
   "3522505": {
     "nome": "Itapevi",
     "uf": "SP",
     "populacao": 242995,
-    "lat": -23.5456,
-    "lon": -46.9477,
-    "antenas": 225
+    "lat": -23.5454,
+    "lon": -46.9479,
+    "antenas": 229
   },
   "3522604": {
     "nome": "Itapira",
     "uf": "SP",
     "populacao": 74038,
-    "lat": -22.4425,
-    "lon": -46.7942,
-    "antenas": 91
+    "lat": -22.4419,
+    "lon": -46.7937,
+    "antenas": 92
   },
   "3522653": {
     "nome": "Itapirapuã Paulista",
     "uf": "SP",
     "populacao": 4420,
-    "lat": -24.5518,
-    "lon": -49.1846,
-    "antenas": 8
+    "lat": -24.5538,
+    "lon": -49.1831,
+    "antenas": 9
   },
   "3522703": {
     "nome": "Itápolis",
@@ -40386,9 +40386,9 @@
     "nome": "Itapuí",
     "uf": "SP",
     "populacao": 14035,
-    "lat": -22.2458,
-    "lon": -48.7174,
-    "antenas": 22
+    "lat": -22.2485,
+    "lon": -48.7165,
+    "antenas": 23
   },
   "3523008": {
     "nome": "Itapura",
@@ -40402,17 +40402,17 @@
     "nome": "Itaquaquecetuba",
     "uf": "SP",
     "populacao": 382983,
-    "lat": -23.4658,
+    "lat": -23.4657,
     "lon": -46.3348,
-    "antenas": 369
+    "antenas": 376
   },
   "3523206": {
     "nome": "Itararé",
     "uf": "SP",
     "populacao": 45213,
-    "lat": -24.0756,
-    "lon": -49.3444,
-    "antenas": 33
+    "lat": -24.0719,
+    "lon": -49.3421,
+    "antenas": 34
   },
   "3523305": {
     "nome": "Itariri",
@@ -40427,16 +40427,16 @@
     "uf": "SP",
     "populacao": 127112,
     "lat": -23.0052,
-    "lon": -46.8181,
-    "antenas": 270
+    "lon": -46.8174,
+    "antenas": 272
   },
   "3523503": {
     "nome": "Itatinga",
     "uf": "SP",
     "populacao": 19462,
-    "lat": -23.0647,
-    "lon": -48.6167,
-    "antenas": 56
+    "lat": -23.0651,
+    "lon": -48.615,
+    "antenas": 57
   },
   "3523602": {
     "nome": "Itirapina",
@@ -40466,17 +40466,17 @@
     "nome": "Itu",
     "uf": "SP",
     "populacao": 175047,
-    "lat": -23.2974,
-    "lon": -47.3137,
-    "antenas": 377
+    "lat": -23.297,
+    "lon": -47.3135,
+    "antenas": 381
   },
   "3524006": {
     "nome": "Itupeva",
     "uf": "SP",
     "populacao": 74994,
-    "lat": -23.1393,
-    "lon": -47.0583,
-    "antenas": 132
+    "lat": -23.1398,
+    "lon": -47.0579,
+    "antenas": 135
   },
   "3524105": {
     "nome": "Ituverava",
@@ -40506,9 +40506,9 @@
     "nome": "Jacareí",
     "uf": "SP",
     "populacao": 250952,
-    "lat": -23.3009,
-    "lon": -45.9806,
-    "antenas": 332
+    "lat": -23.3011,
+    "lon": -45.9807,
+    "antenas": 340
   },
   "3524501": {
     "nome": "Jaci",
@@ -40546,17 +40546,17 @@
     "nome": "Jambeiro",
     "uf": "SP",
     "populacao": 6611,
-    "lat": -23.3001,
-    "lon": -45.7248,
-    "antenas": 30
+    "lat": -23.2985,
+    "lon": -45.7253,
+    "antenas": 32
   },
   "3525003": {
     "nome": "Jandira",
     "uf": "SP",
     "populacao": 121550,
-    "lat": -23.5376,
+    "lat": -23.5377,
     "lon": -46.9045,
-    "antenas": 96
+    "antenas": 97
   },
   "3525102": {
     "nome": "Jardinópolis",
@@ -40634,9 +40634,9 @@
     "nome": "Jundiaí",
     "uf": "SP",
     "populacao": 463039,
-    "lat": -23.181,
+    "lat": -23.1809,
     "lon": -46.9046,
-    "antenas": 727
+    "antenas": 728
   },
   "3526001": {
     "nome": "Junqueirópolis",
@@ -40674,17 +40674,17 @@
     "nome": "Laranjal Paulista",
     "uf": "SP",
     "populacao": 27044,
-    "lat": -23.0361,
-    "lon": -47.8579,
-    "antenas": 44
+    "lat": -23.0367,
+    "lon": -47.8575,
+    "antenas": 46
   },
   "3526506": {
     "nome": "Lavínia",
     "uf": "SP",
     "populacao": 9940,
-    "lat": -21.1522,
-    "lon": -51.0313,
-    "antenas": 16
+    "lat": -21.1532,
+    "lon": -51.0319,
+    "antenas": 17
   },
   "3526605": {
     "nome": "Lavrinhas",
@@ -40706,17 +40706,17 @@
     "nome": "Lençóis Paulista",
     "uf": "SP",
     "populacao": 68568,
-    "lat": -22.6017,
+    "lat": -22.6015,
     "lon": -48.8029,
-    "antenas": 89
+    "antenas": 90
   },
   "3526902": {
     "nome": "Limeira",
     "uf": "SP",
     "populacao": 301292,
-    "lat": -22.5784,
-    "lon": -47.4001,
-    "antenas": 417
+    "lat": -22.5785,
+    "lon": -47.3999,
+    "antenas": 419
   },
   "3527009": {
     "nome": "Lindóia",
@@ -40730,17 +40730,17 @@
     "nome": "Lins",
     "uf": "SP",
     "populacao": 76844,
-    "lat": -21.6684,
-    "lon": -49.7426,
-    "antenas": 92
+    "lat": -21.6685,
+    "lon": -49.7429,
+    "antenas": 93
   },
   "3527207": {
     "nome": "Lorena",
     "uf": "SP",
     "populacao": 87468,
-    "lat": -22.7364,
+    "lat": -22.7367,
     "lon": -45.1136,
-    "antenas": 67
+    "antenas": 68
   },
   "3527256": {
     "nome": "Lourdes",
@@ -40748,15 +40748,15 @@
     "populacao": 1962,
     "lat": -20.9684,
     "lon": -50.2247,
-    "antenas": 5
+    "antenas": 6
   },
   "3527306": {
     "nome": "Louveira",
     "uf": "SP",
     "populacao": 54865,
-    "lat": -23.0866,
-    "lon": -46.9538,
-    "antenas": 70
+    "lat": -23.0869,
+    "lon": -46.9541,
+    "antenas": 71
   },
   "3527405": {
     "nome": "Lucélia",
@@ -40810,9 +40810,9 @@
     "nome": "Macatuba",
     "uf": "SP",
     "populacao": 17140,
-    "lat": -22.5103,
-    "lon": -48.725,
-    "antenas": 26
+    "lat": -22.51,
+    "lon": -48.7245,
+    "antenas": 27
   },
   "3528106": {
     "nome": "Macaubal",
@@ -40834,33 +40834,33 @@
     "nome": "Magda",
     "uf": "SP",
     "populacao": 3211,
-    "lat": -20.6413,
-    "lon": -50.2267,
-    "antenas": 10
+    "lat": -20.6417,
+    "lon": -50.2268,
+    "antenas": 11
   },
   "3528403": {
     "nome": "Mairinque",
     "uf": "SP",
     "populacao": 51888,
-    "lat": -23.5101,
-    "lon": -47.2045,
-    "antenas": 85
+    "lat": -23.5092,
+    "lon": -47.2044,
+    "antenas": 86
   },
   "3528502": {
     "nome": "Mairiporã",
     "uf": "SP",
     "populacao": 97835,
-    "lat": -23.3174,
-    "lon": -46.5793,
-    "antenas": 163
+    "lat": -23.3168,
+    "lon": -46.5797,
+    "antenas": 166
   },
   "3528601": {
     "nome": "Manduri",
     "uf": "SP",
     "populacao": 10122,
-    "lat": -23.0069,
-    "lon": -49.3109,
-    "antenas": 13
+    "lat": -23.0094,
+    "lon": -49.3071,
+    "antenas": 14
   },
   "3528700": {
     "nome": "Marabá Paulista",
@@ -40890,25 +40890,25 @@
     "nome": "Mariápolis",
     "uf": "SP",
     "populacao": 3526,
-    "lat": -21.7852,
+    "lat": -21.786,
     "lon": -51.1813,
-    "antenas": 13
+    "antenas": 14
   },
   "3529005": {
     "nome": "Marília",
     "uf": "SP",
     "populacao": 247348,
-    "lat": -22.2071,
-    "lon": -49.9535,
-    "antenas": 381
+    "lat": -22.2074,
+    "lon": -49.9532,
+    "antenas": 385
   },
   "3529104": {
     "nome": "Marinópolis",
     "uf": "SP",
     "populacao": 1862,
-    "lat": -20.4425,
-    "lon": -50.8247,
-    "antenas": 8
+    "lat": -20.4424,
+    "lon": -50.8246,
+    "antenas": 9
   },
   "3529203": {
     "nome": "Martinópolis",
@@ -40922,25 +40922,25 @@
     "nome": "Matão",
     "uf": "SP",
     "populacao": 81075,
-    "lat": -21.5975,
-    "lon": -48.3885,
-    "antenas": 115
+    "lat": -21.5976,
+    "lon": -48.3883,
+    "antenas": 116
   },
   "3529401": {
     "nome": "Mauá",
     "uf": "SP",
     "populacao": 429014,
-    "lat": -23.6676,
-    "lon": -46.4521,
-    "antenas": 399
+    "lat": -23.6677,
+    "lon": -46.452,
+    "antenas": 404
   },
   "3529500": {
     "nome": "Mendonça",
     "uf": "SP",
     "populacao": 6420,
     "lat": -21.1829,
-    "lon": -49.5834,
-    "antenas": 9
+    "lon": -49.583,
+    "antenas": 10
   },
   "3529609": {
     "nome": "Meridiano",
@@ -40978,9 +40978,9 @@
     "nome": "Miracatu",
     "uf": "SP",
     "populacao": 18610,
-    "lat": -24.2168,
-    "lon": -47.3726,
-    "antenas": 82
+    "lat": -24.2176,
+    "lon": -47.3732,
+    "antenas": 81
   },
   "3530003": {
     "nome": "Mira Estrela",
@@ -40994,41 +40994,41 @@
     "nome": "Mirandópolis",
     "uf": "SP",
     "populacao": 28754,
-    "lat": -21.0771,
-    "lon": -51.1047,
-    "antenas": 25
+    "lat": -21.0792,
+    "lon": -51.1046,
+    "antenas": 26
   },
   "3530201": {
     "nome": "Mirante do Paranapanema",
     "uf": "SP",
     "populacao": 16031,
     "lat": -22.2971,
-    "lon": -51.9669,
-    "antenas": 20
+    "lon": -51.964,
+    "antenas": 21
   },
   "3530300": {
     "nome": "Mirassol",
     "uf": "SP",
     "populacao": 65811,
-    "lat": -20.8275,
-    "lon": -49.5002,
-    "antenas": 72
+    "lat": -20.8274,
+    "lon": -49.4996,
+    "antenas": 73
   },
   "3530409": {
     "nome": "Mirassolândia",
     "uf": "SP",
     "populacao": 4783,
-    "lat": -20.6144,
-    "lon": -49.462,
-    "antenas": 7
+    "lat": -20.6147,
+    "lon": -49.4622,
+    "antenas": 8
   },
   "3530508": {
     "nome": "Mococa",
     "uf": "SP",
     "populacao": 69372,
-    "lat": -21.4741,
+    "lat": -21.4743,
     "lon": -47.0112,
-    "antenas": 72
+    "antenas": 73
   },
   "3530607": {
     "nome": "Mogi das Cruzes",
@@ -41036,31 +41036,31 @@
     "populacao": 470302,
     "lat": -23.535,
     "lon": -46.1945,
-    "antenas": 623
+    "antenas": 625
   },
   "3530706": {
     "nome": "Mogi Guaçu",
     "uf": "SP",
     "populacao": 160318,
-    "lat": -22.3391,
-    "lon": -46.9497,
-    "antenas": 166
+    "lat": -22.3389,
+    "lon": -46.9485,
+    "antenas": 174
   },
   "3530805": {
     "nome": "Mogi Mirim",
     "uf": "SP",
     "populacao": 95742,
     "lat": -22.4438,
-    "lon": -46.9622,
-    "antenas": 110
+    "lon": -46.9616,
+    "antenas": 116
   },
   "3530904": {
     "nome": "Mombuca",
     "uf": "SP",
     "populacao": 3830,
-    "lat": -22.9292,
-    "lon": -47.5672,
-    "antenas": 12
+    "lat": -22.9291,
+    "lon": -47.567,
+    "antenas": 13
   },
   "3531001": {
     "nome": "Monções",
@@ -41068,7 +41068,7 @@
     "populacao": 1947,
     "lat": -20.8509,
     "lon": -50.0911,
-    "antenas": 8
+    "antenas": 9
   },
   "3531100": {
     "nome": "Mongaguá",
@@ -41082,17 +41082,17 @@
     "nome": "Monte Alegre do Sul",
     "uf": "SP",
     "populacao": 8923,
-    "lat": -22.7016,
-    "lon": -46.6737,
-    "antenas": 16
+    "lat": -22.7011,
+    "lon": -46.6743,
+    "antenas": 17
   },
   "3531308": {
     "nome": "Monte Alto",
     "uf": "SP",
     "populacao": 48758,
-    "lat": -21.2638,
-    "lon": -48.505,
-    "antenas": 45
+    "lat": -21.2637,
+    "lon": -48.5047,
+    "antenas": 46
   },
   "3531407": {
     "nome": "Monte Aprazível",
@@ -41114,32 +41114,32 @@
     "nome": "Monte Castelo",
     "uf": "SP",
     "populacao": 4306,
-    "lat": -21.2902,
-    "lon": -51.5666,
-    "antenas": 11
+    "lat": -21.2909,
+    "lon": -51.5676,
+    "antenas": 12
   },
   "3531704": {
     "nome": "Monteiro Lobato",
     "uf": "SP",
     "populacao": 4205,
-    "lat": -22.9338,
-    "lon": -45.8248,
-    "antenas": 31
+    "lat": -22.9347,
+    "lon": -45.8247,
+    "antenas": 32
   },
   "3531803": {
     "nome": "Monte Mor",
     "uf": "SP",
     "populacao": 67832,
     "lat": -22.9401,
-    "lon": -47.2861,
+    "lon": -47.2862,
     "antenas": 71
   },
   "3531902": {
     "nome": "Morro Agudo",
     "uf": "SP",
     "populacao": 28521,
-    "lat": -20.7193,
-    "lon": -48.0767,
+    "lat": -20.7192,
+    "lon": -48.0758,
     "antenas": 21
   },
   "3532009": {
@@ -41202,9 +41202,9 @@
     "nome": "Neves Paulista",
     "uf": "SP",
     "populacao": 9953,
-    "lat": -20.8509,
-    "lon": -49.6378,
-    "antenas": 13
+    "lat": -20.8503,
+    "lon": -49.6372,
+    "antenas": 14
   },
   "3532603": {
     "nome": "Nhandeara",
@@ -41218,9 +41218,9 @@
     "nome": "Nipoã",
     "uf": "SP",
     "populacao": 4876,
-    "lat": -20.911,
-    "lon": -49.7809,
-    "antenas": 12
+    "lat": -20.9112,
+    "lon": -49.7806,
+    "antenas": 13
   },
   "3532801": {
     "nome": "Nova Aliança",
@@ -41258,9 +41258,9 @@
     "nome": "Nova Europa",
     "uf": "SP",
     "populacao": 9459,
-    "lat": -21.7778,
-    "lon": -48.5613,
-    "antenas": 11
+    "lat": -21.778,
+    "lon": -48.5614,
+    "antenas": 12
   },
   "3533007": {
     "nome": "Nova Granada",
@@ -41276,7 +41276,7 @@
     "populacao": 2188,
     "lat": -21.3349,
     "lon": -51.6449,
-    "antenas": 7
+    "antenas": 8
   },
   "3533205": {
     "nome": "Nova Independência",
@@ -41306,9 +41306,9 @@
     "nome": "Nova Odessa",
     "uf": "SP",
     "populacao": 64596,
-    "lat": -22.7877,
-    "lon": -47.2874,
-    "antenas": 97
+    "lat": -22.7874,
+    "lon": -47.287,
+    "antenas": 98
   },
   "3533502": {
     "nome": "Novo Horizonte",
@@ -41330,9 +41330,9 @@
     "nome": "Ocauçu",
     "uf": "SP",
     "populacao": 4418,
-    "lat": -22.4339,
-    "lon": -49.9037,
-    "antenas": 15
+    "lat": -22.4343,
+    "lon": -49.9048,
+    "antenas": 16
   },
   "3533809": {
     "nome": "Óleo",
@@ -41354,9 +41354,9 @@
     "nome": "Onda Verde",
     "uf": "SP",
     "populacao": 4942,
-    "lat": -20.6084,
+    "lat": -20.6083,
     "lon": -49.2956,
-    "antenas": 9
+    "antenas": 10
   },
   "3534104": {
     "nome": "Oriente",
@@ -41370,9 +41370,9 @@
     "nome": "Orindiúva",
     "uf": "SP",
     "populacao": 6157,
-    "lat": -20.199,
-    "lon": -49.3565,
-    "antenas": 16
+    "lat": -20.198,
+    "lon": -49.3562,
+    "antenas": 17
   },
   "3534302": {
     "nome": "Orlândia",
@@ -41386,9 +41386,9 @@
     "nome": "Osasco",
     "uf": "SP",
     "populacao": 759524,
-    "lat": -23.5321,
-    "lon": -46.7849,
-    "antenas": 910
+    "lat": -23.532,
+    "lon": -46.785,
+    "antenas": 915
   },
   "3534500": {
     "nome": "Oscar Bressane",
@@ -41410,9 +41410,9 @@
     "nome": "Ourinhos",
     "uf": "SP",
     "populacao": 106911,
-    "lat": -22.977,
-    "lon": -49.871,
-    "antenas": 133
+    "lat": -22.9766,
+    "lon": -49.8713,
+    "antenas": 135
   },
   "3534757": {
     "nome": "Ouroeste",
@@ -41442,9 +41442,9 @@
     "nome": "Palestina",
     "uf": "SP",
     "populacao": 11704,
-    "lat": -20.3446,
-    "lon": -49.4514,
-    "antenas": 16
+    "lat": -20.3473,
+    "lon": -49.4503,
+    "antenas": 17
   },
   "3535101": {
     "nome": "Palmares Paulista",
@@ -41458,9 +41458,9 @@
     "nome": "Palmeira d'Oeste",
     "uf": "SP",
     "populacao": 8971,
-    "lat": -20.4326,
-    "lon": -50.7609,
-    "antenas": 11
+    "lat": -20.4308,
+    "lon": -50.7614,
+    "antenas": 12
   },
   "3535309": {
     "nome": "Palmital",
@@ -41490,7 +41490,7 @@
     "nome": "Paraibuna",
     "uf": "SP",
     "populacao": 17959,
-    "lat": -23.4625,
+    "lat": -23.4687,
     "lon": -45.5943,
     "antenas": 81
   },
@@ -41506,9 +41506,9 @@
     "nome": "Paranapanema",
     "uf": "SP",
     "populacao": 19853,
-    "lat": -23.4115,
-    "lon": -48.8175,
-    "antenas": 47
+    "lat": -23.411,
+    "lon": -48.8156,
+    "antenas": 48
   },
   "3535903": {
     "nome": "Paranapuã",
@@ -41522,9 +41522,9 @@
     "nome": "Parapuã",
     "uf": "SP",
     "populacao": 10720,
-    "lat": -21.8214,
-    "lon": -50.8169,
-    "antenas": 16
+    "lat": -21.8194,
+    "lon": -50.8155,
+    "antenas": 17
   },
   "3536109": {
     "nome": "Pardinho",
@@ -41546,9 +41546,9 @@
     "nome": "Parisi",
     "uf": "SP",
     "populacao": 3030,
-    "lat": -20.3034,
-    "lon": -50.0138,
-    "antenas": 7
+    "lat": -20.3035,
+    "lon": -50.0139,
+    "antenas": 8
   },
   "3536307": {
     "nome": "Patrocínio Paulista",
@@ -41586,9 +41586,9 @@
     "nome": "Paulo de Faria",
     "uf": "SP",
     "populacao": 7390,
-    "lat": -20.0487,
-    "lon": -49.4233,
-    "antenas": 15
+    "lat": -20.048,
+    "lon": -49.4226,
+    "antenas": 16
   },
   "3536703": {
     "nome": "Pederneiras",
@@ -41618,25 +41618,25 @@
     "nome": "Pedregulho",
     "uf": "SP",
     "populacao": 15737,
-    "lat": -20.2135,
-    "lon": -47.46,
-    "antenas": 25
+    "lat": -20.2151,
+    "lon": -47.4607,
+    "antenas": 26
   },
   "3537107": {
     "nome": "Pedreira",
     "uf": "SP",
     "populacao": 44385,
-    "lat": -22.7378,
-    "lon": -46.8953,
-    "antenas": 43
+    "lat": -22.7379,
+    "lon": -46.8951,
+    "antenas": 44
   },
   "3537156": {
     "nome": "Pedrinhas Paulista",
     "uf": "SP",
     "populacao": 2833,
     "lat": -22.8143,
-    "lon": -50.7911,
-    "antenas": 7
+    "lon": -50.7912,
+    "antenas": 8
   },
   "3537206": {
     "nome": "Pedro de Toledo",
@@ -41650,9 +41650,9 @@
     "nome": "Penápolis",
     "uf": "SP",
     "populacao": 63426,
-    "lat": -21.4126,
-    "lon": -50.0855,
-    "antenas": 67
+    "lat": -21.4128,
+    "lon": -50.0853,
+    "antenas": 68
   },
   "3537404": {
     "nome": "Pereira Barreto",
@@ -41690,33 +41690,33 @@
     "nome": "Piedade",
     "uf": "SP",
     "populacao": 54266,
-    "lat": -23.7308,
-    "lon": -47.4344,
-    "antenas": 72
+    "lat": -23.7299,
+    "lon": -47.4292,
+    "antenas": 78
   },
   "3537909": {
     "nome": "Pilar do Sul",
     "uf": "SP",
     "populacao": 28459,
-    "lat": -23.8067,
-    "lon": -47.7221,
-    "antenas": 31
+    "lat": -23.8069,
+    "lon": -47.7219,
+    "antenas": 32
   },
   "3538006": {
     "nome": "Pindamonhangaba",
     "uf": "SP",
     "populacao": 172681,
-    "lat": -22.9343,
-    "lon": -45.4412,
-    "antenas": 247
+    "lat": -22.9344,
+    "lon": -45.4413,
+    "antenas": 250
   },
   "3538105": {
     "nome": "Pindorama",
     "uf": "SP",
     "populacao": 14704,
-    "lat": -21.204,
-    "lon": -48.9304,
-    "antenas": 20
+    "lat": -21.2064,
+    "lon": -48.9322,
+    "antenas": 22
   },
   "3538204": {
     "nome": "Pinhalzinho",
@@ -41754,9 +41754,9 @@
     "nome": "Piracicaba",
     "uf": "SP",
     "populacao": 440835,
-    "lat": -22.7192,
+    "lat": -22.7191,
     "lon": -47.645,
-    "antenas": 570
+    "antenas": 574
   },
   "3538808": {
     "nome": "Piraju",
@@ -41802,17 +41802,17 @@
     "nome": "Pirassununga",
     "uf": "SP",
     "populacao": 75594,
-    "lat": -21.9891,
-    "lon": -47.4055,
-    "antenas": 119
+    "lat": -21.9893,
+    "lon": -47.4057,
+    "antenas": 120
   },
   "3539400": {
     "nome": "Piratininga",
     "uf": "SP",
     "populacao": 15657,
-    "lat": -22.4011,
-    "lon": -49.1714,
-    "antenas": 32
+    "lat": -22.4019,
+    "lon": -49.1689,
+    "antenas": 34
   },
   "3539509": {
     "nome": "Pitangueiras",
@@ -41842,9 +41842,9 @@
     "nome": "Poá",
     "uf": "SP",
     "populacao": 106355,
-    "lat": -23.5271,
-    "lon": -46.3457,
-    "antenas": 104
+    "lat": -23.5276,
+    "lon": -46.3459,
+    "antenas": 109
   },
   "3539905": {
     "nome": "Poloni",
@@ -41868,7 +41868,7 @@
     "populacao": 3440,
     "lat": -21.7347,
     "lon": -49.3574,
-    "antenas": 11
+    "antenas": 12
   },
   "3540200": {
     "nome": "Pontal",
@@ -41906,17 +41906,17 @@
     "nome": "Porangaba",
     "uf": "SP",
     "populacao": 10850,
-    "lat": -23.198,
-    "lon": -48.1294,
-    "antenas": 28
+    "lat": -23.199,
+    "lon": -48.1305,
+    "antenas": 29
   },
   "3540606": {
     "nome": "Porto Feliz",
     "uf": "SP",
     "populacao": 58605,
-    "lat": -23.2772,
-    "lon": -47.5409,
-    "antenas": 119
+    "lat": -23.2765,
+    "lon": -47.5405,
+    "antenas": 126
   },
   "3540705": {
     "nome": "Porto Ferreira",
@@ -41930,9 +41930,9 @@
     "nome": "Potim",
     "uf": "SP",
     "populacao": 20801,
-    "lat": -22.8373,
-    "lon": -45.255,
-    "antenas": 11
+    "lat": -22.8372,
+    "lon": -45.2551,
+    "antenas": 12
   },
   "3540804": {
     "nome": "Potirendaba",
@@ -41986,9 +41986,9 @@
     "nome": "Presidente Bernardes",
     "uf": "SP",
     "populacao": 14803,
-    "lat": -22.0274,
-    "lon": -51.5633,
-    "antenas": 18
+    "lat": -22.0265,
+    "lon": -51.5629,
+    "antenas": 19
   },
   "3541307": {
     "nome": "Presidente Epitácio",
@@ -42004,7 +42004,7 @@
     "populacao": 234706,
     "lat": -22.1212,
     "lon": -51.4044,
-    "antenas": 352
+    "antenas": 354
   },
   "3541505": {
     "nome": "Presidente Venceslau",
@@ -42074,9 +42074,9 @@
     "nome": "Rancharia",
     "uf": "SP",
     "populacao": 29387,
-    "lat": -22.3212,
-    "lon": -50.9181,
-    "antenas": 44
+    "lat": -22.3191,
+    "lon": -50.9176,
+    "antenas": 45
   },
   "3542305": {
     "nome": "Redenção da Serra",
@@ -42090,17 +42090,17 @@
     "nome": "Regente Feijó",
     "uf": "SP",
     "populacao": 20620,
-    "lat": -22.2348,
-    "lon": -51.3096,
-    "antenas": 38
+    "lat": -22.2345,
+    "lon": -51.3105,
+    "antenas": 39
   },
   "3542503": {
     "nome": "Reginópolis",
     "uf": "SP",
     "populacao": 7820,
-    "lat": -21.8956,
-    "lon": -49.2149,
-    "antenas": 13
+    "lat": -21.8952,
+    "lon": -49.2158,
+    "antenas": 14
   },
   "3542602": {
     "nome": "Registro",
@@ -42170,33 +42170,33 @@
     "nome": "Ribeirão Grande",
     "uf": "SP",
     "populacao": 7571,
-    "lat": -24.1073,
-    "lon": -48.3705,
-    "antenas": 15
+    "lat": -24.1091,
+    "lon": -48.3714,
+    "antenas": 16
   },
   "3543303": {
     "nome": "Ribeirão Pires",
     "uf": "SP",
     "populacao": 118954,
-    "lat": -23.702,
-    "lon": -46.4056,
-    "antenas": 174
+    "lat": -23.7013,
+    "lon": -46.405,
+    "antenas": 175
   },
   "3543402": {
     "nome": "Ribeirão Preto",
     "uf": "SP",
     "populacao": 731639,
-    "lat": -21.1809,
-    "lon": -47.8022,
-    "antenas": 1005
+    "lat": -21.1811,
+    "lon": -47.8023,
+    "antenas": 1012
   },
   "3543501": {
     "nome": "Riversul",
     "uf": "SP",
     "populacao": 5628,
-    "lat": -23.8336,
-    "lon": -49.4395,
-    "antenas": 11
+    "lat": -23.8338,
+    "lon": -49.4397,
+    "antenas": 12
   },
   "3543600": {
     "nome": "Rifaina",
@@ -42219,16 +42219,16 @@
     "uf": "SP",
     "populacao": 9334,
     "lat": -21.7241,
-    "lon": -50.722,
-    "antenas": 13
+    "lon": -50.7219,
+    "antenas": 14
   },
   "3543907": {
     "nome": "Rio Claro",
     "uf": "SP",
     "populacao": 210323,
-    "lat": -22.3965,
+    "lat": -22.3966,
     "lon": -47.5692,
-    "antenas": 218
+    "antenas": 220
   },
   "3544004": {
     "nome": "Rio das Pedras",
@@ -42258,9 +42258,9 @@
     "nome": "Rosana",
     "uf": "SP",
     "populacao": 17434,
-    "lat": -22.5545,
-    "lon": -52.9966,
-    "antenas": 20
+    "lat": -22.5557,
+    "lon": -52.9996,
+    "antenas": 21
   },
   "3544301": {
     "nome": "Roseira",
@@ -42282,9 +42282,9 @@
     "nome": "Rubinéia",
     "uf": "SP",
     "populacao": 3998,
-    "lat": -20.1956,
-    "lon": -51.012,
-    "antenas": 13
+    "lat": -20.1938,
+    "lon": -51.0111,
+    "antenas": 14
   },
   "3544608": {
     "nome": "Sabino",
@@ -42346,9 +42346,9 @@
     "nome": "Salto",
     "uf": "SP",
     "populacao": 141111,
-    "lat": -23.1884,
-    "lon": -47.2976,
-    "antenas": 164
+    "lat": -23.1881,
+    "lon": -47.2977,
+    "antenas": 167
   },
   "3545308": {
     "nome": "Salto de Pirapora",
@@ -42394,9 +42394,9 @@
     "nome": "Santa Bárbara d'Oeste",
     "uf": "SP",
     "populacao": 189456,
-    "lat": -22.7545,
-    "lon": -47.4001,
-    "antenas": 208
+    "lat": -22.7544,
+    "lon": -47.3997,
+    "antenas": 213
   },
   "3546009": {
     "nome": "Santa Branca",
@@ -42515,16 +42515,16 @@
     "uf": "SP",
     "populacao": 163787,
     "lat": -23.4489,
-    "lon": -46.8918,
-    "antenas": 233
+    "lon": -46.8915,
+    "antenas": 234
   },
   "3547403": {
     "nome": "Santa Rita d'Oeste",
     "uf": "SP",
     "populacao": 2796,
-    "lat": -20.1359,
-    "lon": -50.8195,
-    "antenas": 10
+    "lat": -20.1368,
+    "lon": -50.8207,
+    "antenas": 11
   },
   "3547502": {
     "nome": "Santa Rita do Passa Quatro",
@@ -42586,17 +42586,17 @@
     "nome": "Santo Antônio do Aracanguá",
     "uf": "SP",
     "populacao": 8593,
-    "lat": -20.9321,
-    "lon": -50.4792,
-    "antenas": 21
+    "lat": -20.9322,
+    "lon": -50.48,
+    "antenas": 22
   },
   "3548104": {
     "nome": "Santo Antônio do Jardim",
     "uf": "SP",
     "populacao": 6243,
-    "lat": -22.1201,
-    "lon": -46.6857,
-    "antenas": 10
+    "lat": -22.1202,
+    "lon": -46.6858,
+    "antenas": 11
   },
   "3548203": {
     "nome": "Santo Antônio do Pinhal",
@@ -42626,9 +42626,9 @@
     "nome": "Santos",
     "uf": "SP",
     "populacao": 429547,
-    "lat": -23.9539,
-    "lon": -46.3258,
-    "antenas": 785
+    "lat": -23.954,
+    "lon": -46.3259,
+    "antenas": 791
   },
   "3548609": {
     "nome": "São Bento do Sapucaí",
@@ -42643,8 +42643,8 @@
     "uf": "SP",
     "populacao": 841154,
     "lat": -23.7168,
-    "lon": -46.5624,
-    "antenas": 1163
+    "lon": -46.5623,
+    "antenas": 1166
   },
   "3548807": {
     "nome": "São Caetano do Sul",
@@ -42658,9 +42658,9 @@
     "nome": "São Carlos",
     "uf": "SP",
     "populacao": 266427,
-    "lat": -22.0091,
-    "lon": -47.8892,
-    "antenas": 348
+    "lat": -22.0079,
+    "lon": -47.8893,
+    "antenas": 353
   },
   "3549003": {
     "nome": "São Francisco",
@@ -42746,9 +42746,9 @@
     "nome": "São José dos Campos",
     "uf": "SP",
     "populacao": 727078,
-    "lat": -23.2046,
-    "lon": -45.8712,
-    "antenas": 1074
+    "lat": -23.2045,
+    "lon": -45.8714,
+    "antenas": 1085
   },
   "3549953": {
     "nome": "São Lourenço da Serra",
@@ -42770,25 +42770,25 @@
     "nome": "São Manuel",
     "uf": "SP",
     "populacao": 38131,
-    "lat": -22.7448,
-    "lon": -48.5641,
-    "antenas": 57
+    "lat": -22.7447,
+    "lon": -48.5638,
+    "antenas": 58
   },
   "3550209": {
     "nome": "São Miguel Arcanjo",
     "uf": "SP",
     "populacao": 32924,
-    "lat": -23.8761,
-    "lon": -48.0107,
-    "antenas": 44
+    "lat": -23.879,
+    "lon": -48.008,
+    "antenas": 46
   },
   "3550308": {
     "nome": "São Paulo",
     "uf": "SP",
     "populacao": 11904961,
-    "lat": -23.5757,
+    "lat": -23.5758,
     "lon": -46.639,
-    "antenas": 17970
+    "antenas": 18042
   },
   "3550407": {
     "nome": "São Pedro",
@@ -42818,9 +42818,9 @@
     "nome": "São Sebastião",
     "uf": "SP",
     "populacao": 84280,
-    "lat": -23.7835,
-    "lon": -45.5532,
-    "antenas": 346
+    "lat": -23.7832,
+    "lon": -45.5559,
+    "antenas": 351
   },
   "3550803": {
     "nome": "São Sebastião da Grama",
@@ -42843,8 +42843,8 @@
     "uf": "SP",
     "populacao": 338326,
     "lat": -23.9627,
-    "lon": -46.4219,
-    "antenas": 396
+    "lon": -46.422,
+    "antenas": 397
   },
   "3551108": {
     "nome": "Sarapuí",
@@ -42898,9 +42898,9 @@
     "nome": "Sertãozinho",
     "uf": "SP",
     "populacao": 132176,
-    "lat": -21.1348,
-    "lon": -47.9897,
-    "antenas": 143
+    "lat": -21.1346,
+    "lon": -47.9896,
+    "antenas": 145
   },
   "3551801": {
     "nome": "Sete Barras",
@@ -42930,17 +42930,17 @@
     "nome": "Socorro",
     "uf": "SP",
     "populacao": 41527,
-    "lat": -22.6015,
-    "lon": -46.5332,
-    "antenas": 59
+    "lat": -22.6016,
+    "lon": -46.533,
+    "antenas": 60
   },
   "3552205": {
     "nome": "Sorocaba",
     "uf": "SP",
     "populacao": 762172,
-    "lat": -23.4807,
-    "lon": -47.4568,
-    "antenas": 1042
+    "lat": -23.4806,
+    "lon": -47.457,
+    "antenas": 1045
   },
   "3552304": {
     "nome": "Sud Mennucci",
@@ -42962,9 +42962,9 @@
     "nome": "Suzano",
     "uf": "SP",
     "populacao": 320261,
-    "lat": -23.5608,
-    "lon": -46.312,
-    "antenas": 334
+    "lat": -23.5607,
+    "lon": -46.3119,
+    "antenas": 335
   },
   "3552551": {
     "nome": "Suzanápolis",
@@ -42994,9 +42994,9 @@
     "nome": "Taboão da Serra",
     "uf": "SP",
     "populacao": 285307,
-    "lat": -23.6197,
-    "lon": -46.7817,
-    "antenas": 248
+    "lat": -23.6201,
+    "lon": -46.7821,
+    "antenas": 256
   },
   "3552908": {
     "nome": "Taciba",
@@ -43018,8 +43018,8 @@
     "nome": "Taiaçu",
     "uf": "SP",
     "populacao": 5744,
-    "lat": -21.1438,
-    "lon": -48.5112,
+    "lat": -21.1452,
+    "lon": -48.5099,
     "antenas": 6
   },
   "3553203": {
@@ -43042,9 +43042,9 @@
     "nome": "Tanabi",
     "uf": "SP",
     "populacao": 26071,
-    "lat": -20.5914,
-    "lon": -49.649,
-    "antenas": 40
+    "lat": -20.5886,
+    "lon": -49.6472,
+    "antenas": 41
   },
   "3553500": {
     "nome": "Tapiraí",
@@ -43074,9 +43074,9 @@
     "nome": "Taquaritinga",
     "uf": "SP",
     "populacao": 53264,
-    "lat": -21.4216,
-    "lon": -48.5435,
-    "antenas": 70
+    "lat": -21.4207,
+    "lon": -48.5418,
+    "antenas": 71
   },
   "3553807": {
     "nome": "Taquarituba",
@@ -43114,25 +43114,25 @@
     "nome": "Tatuí",
     "uf": "SP",
     "populacao": 129130,
-    "lat": -23.3475,
-    "lon": -47.8463,
-    "antenas": 169
+    "lat": -23.3477,
+    "lon": -47.8469,
+    "antenas": 174
   },
   "3554102": {
     "nome": "Taubaté",
     "uf": "SP",
     "populacao": 322397,
-    "lat": -23.0346,
-    "lon": -45.5664,
-    "antenas": 467
+    "lat": -23.0349,
+    "lon": -45.5666,
+    "antenas": 469
   },
   "3554201": {
     "nome": "Tejupá",
     "uf": "SP",
     "populacao": 4119,
-    "lat": -23.3529,
-    "lon": -49.3237,
-    "antenas": 19
+    "lat": -23.3553,
+    "lon": -49.3202,
+    "antenas": 20
   },
   "3554300": {
     "nome": "Teodoro Sampaio",
@@ -43258,9 +43258,9 @@
     "nome": "Ubatuba",
     "uf": "SP",
     "populacao": 97096,
-    "lat": -23.4517,
-    "lon": -45.0791,
-    "antenas": 312
+    "lat": -23.452,
+    "lon": -45.0794,
+    "antenas": 313
   },
   "3555505": {
     "nome": "Ubirajara",
@@ -43323,8 +43323,8 @@
     "uf": "SP",
     "populacao": 132258,
     "lat": -22.9751,
-    "lon": -46.9969,
-    "antenas": 175
+    "lon": -46.9971,
+    "antenas": 181
   },
   "3556305": {
     "nome": "Valparaíso",
@@ -43538,9 +43538,9 @@
     "nome": "Araguaína",
     "uf": "TO",
     "populacao": 183024,
-    "lat": -7.1944,
-    "lon": -48.2194,
-    "antenas": 207
+    "lat": -7.1942,
+    "lon": -48.2184,
+    "antenas": 212
   },
   "1702158": {
     "nome": "Araguanã",
@@ -44274,9 +44274,9 @@
     "nome": "Porto Nacional",
     "uf": "TO",
     "populacao": 69551,
-    "lat": -10.5865,
-    "lon": -48.4156,
-    "antenas": 74
+    "lat": -10.5895,
+    "lon": -48.4151,
+    "antenas": 77
   },
   "1718303": {
     "nome": "Praia Norte",

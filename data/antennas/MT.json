@@ -10827,6 +10827,24 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Sinop",
+    "lat": -11.87004,
+    "lon": -55.49081,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Sinop",
+    "lat": -11.87004,
+    "lon": -55.49081,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Lucas do Rio Verde",
@@ -23700,8 +23718,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Rondonópolis",
-    "lat": -16.44722,
-    "lon": -54.61583,
+    "lat": -16.4472,
+    "lon": -54.616014,
     "data": "15/07/2022",
     "nova": false
   },
@@ -23738,6 +23756,15 @@
     "municipio": "Rondonópolis",
     "lat": -16.464662,
     "lon": -54.620874,
+    "data": "15/07/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Rondonópolis",
+    "lat": -16.4472,
+    "lon": -54.616014,
     "data": "15/07/2022",
     "nova": false
   },
@@ -29706,7 +29733,7 @@
     "lat": -10.43045,
     "lon": -54.44327,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -29715,7 +29742,7 @@
     "lat": -10.43045,
     "lon": -54.44327,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -32136,7 +32163,7 @@
     "lat": -12.52424,
     "lon": -52.53182,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -32145,7 +32172,7 @@
     "lat": -12.52424,
     "lon": -52.53182,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -42649,6 +42676,24 @@
     "lon": -56.122944,
     "data": "30/04/2018",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Nossa Senhora do Livramento",
+    "lat": -15.78223,
+    "lon": -56.72616,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Nossa Senhora do Livramento",
+    "lat": -15.78223,
+    "lon": -56.72616,
+    "data": "30/04/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",

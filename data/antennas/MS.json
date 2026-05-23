@@ -201,8 +201,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Três Lagoas",
-    "lat": -20.80265,
-    "lon": -51.644089,
+    "lat": -20.804139,
+    "lon": -51.641639,
+    "data": "01/04/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Três Lagoas",
+    "lat": -20.804139,
+    "lon": -51.641639,
     "data": "01/04/2024",
     "nova": false
   },
@@ -6532,6 +6541,42 @@
     "lon": -53.0335,
     "data": "08/05/2025",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.52472,
+    "lon": -54.58657,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.41803,
+    "lon": -54.57182,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.52472,
+    "lon": -54.58657,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.41803,
+    "lon": -54.57182,
+    "data": "08/05/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",
@@ -14955,7 +15000,7 @@
     "lat": -19.67039,
     "lon": -51.17919,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -14964,7 +15009,7 @@
     "lat": -19.67039,
     "lon": -51.17919,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -20485,6 +20530,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Dourados",
+    "lat": -22.165678,
+    "lon": -54.656461,
+    "data": "21/09/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Nova Alvorada do Sul",
     "lat": -21.373889,
@@ -20949,7 +21003,7 @@
     "lat": -22.18204,
     "lon": -54.67288,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -20958,7 +21012,7 @@
     "lat": -22.18204,
     "lon": -54.67288,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -31669,6 +31723,24 @@
     "lon": -54.673261,
     "data": "30/04/2024",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Dourados",
+    "lat": -22.13547,
+    "lon": -54.61599,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Dourados",
+    "lat": -22.13547,
+    "lon": -54.61599,
+    "data": "30/04/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",

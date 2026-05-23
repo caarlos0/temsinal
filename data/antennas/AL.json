@@ -576,6 +576,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Arapiraca",
+    "lat": -9.74625,
+    "lon": -36.661639,
+    "data": "01/07/2014",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Belém",
@@ -5298,6 +5307,24 @@
     "lat": -9.155306,
     "lon": -36.0325,
     "data": "05/05/2000",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "2G",
+    "municipio": "Maceió",
+    "lat": -9.60531,
+    "lon": -35.73505,
+    "data": "05/05/2009",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Maceió",
+    "lat": -9.60531,
+    "lon": -35.73505,
+    "data": "05/05/2009",
     "nova": false
   },
   {
@@ -14649,7 +14676,7 @@
     "lat": -9.4369,
     "lon": -35.5243,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -14658,7 +14685,7 @@
     "lat": -9.4369,
     "lon": -35.5243,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -18543,8 +18570,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Arapiraca",
-    "lat": -9.761822,
-    "lon": -36.654469,
+    "lat": -9.761444,
+    "lon": -36.654194,
     "data": "20/11/2012",
     "nova": false
   },
@@ -18588,8 +18615,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Arapiraca",
-    "lat": -9.761822,
-    "lon": -36.654469,
+    "lat": -9.761444,
+    "lon": -36.654194,
     "data": "20/11/2012",
     "nova": false
   },
@@ -18633,8 +18660,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Arapiraca",
-    "lat": -9.761822,
-    "lon": -36.654469,
+    "lat": -9.761444,
+    "lon": -36.654194,
     "data": "20/11/2012",
     "nova": false
   },
@@ -18662,6 +18689,15 @@
     "municipio": "Arapiraca",
     "lat": -9.768111,
     "lon": -36.642417,
+    "data": "20/11/2012",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Arapiraca",
+    "lat": -9.761444,
+    "lon": -36.654194,
     "data": "20/11/2012",
     "nova": false
   },
@@ -19230,7 +19266,7 @@
     "lat": -10.27946,
     "lon": -36.54665,
     "data": "21/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

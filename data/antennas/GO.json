@@ -2224,6 +2224,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Santo Antônio do Descoberto",
+    "lat": -15.95944,
+    "lon": -48.27306,
+    "data": "02/08/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Uruaçu",
     "lat": -14.5359,
@@ -5942,6 +5951,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Novo Gama",
+    "lat": -16.074825,
+    "lon": -48.062433,
+    "data": "04/07/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Novo Gama",
     "lat": -16.074825,
     "lon": -48.062433,
@@ -18721,6 +18739,132 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Aparecida de Goiânia",
+    "lat": -16.78444,
+    "lon": -49.21644,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Aparecida de Goiânia",
+    "lat": -16.78444,
+    "lon": -49.21644,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Aparecida de Goiânia",
+    "lat": -16.78444,
+    "lon": -49.21644,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Goiânia",
+    "lat": -16.5905,
+    "lon": -49.31595,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Goiânia",
+    "lat": -16.634,
+    "lon": -49.23771,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Goiânia",
+    "lat": -16.60539,
+    "lon": -49.25004,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Goiânia",
+    "lat": -16.5905,
+    "lon": -49.31595,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Goiânia",
+    "lat": -16.634,
+    "lon": -49.23771,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Goiânia",
+    "lat": -16.60539,
+    "lon": -49.25004,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Goiânia",
+    "lat": -16.5905,
+    "lon": -49.31595,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Trindade",
+    "lat": -16.63604,
+    "lon": -49.47335,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Trindade",
+    "lat": -16.63604,
+    "lon": -49.47335,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Águas Lindas de Goiás",
+    "lat": -15.7697,
+    "lon": -48.28738,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Águas Lindas de Goiás",
+    "lat": -15.7697,
+    "lon": -48.28738,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Catalão",
     "lat": -18.19711,
@@ -20471,6 +20615,15 @@
     "municipio": "Catalão",
     "lat": -18.18975,
     "lon": -47.948778,
+    "data": "08/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Catalão",
+    "lat": -18.167778,
+    "lon": -47.965556,
     "data": "08/12/2010",
     "nova": false
   },
@@ -27352,6 +27505,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Goianésia",
+    "lat": -15.317806,
+    "lon": -49.127611,
+    "data": "11/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Goiatuba",
     "lat": -18.0144,
@@ -27578,6 +27740,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Novo Gama",
+    "lat": -16.0558,
+    "lon": -48.0369,
+    "data": "11/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Novo Gama",
     "lat": -16.0558,
     "lon": -48.0369,
@@ -28037,6 +28208,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Formosa",
+    "lat": -15.349611,
+    "lon": -47.428167,
+    "data": "11/10/2007",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Formosa",
     "lat": -15.349611,
     "lon": -47.428167,
@@ -29793,8 +29973,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Itumbiara",
-    "lat": -18.414128,
-    "lon": -49.235911,
+    "lat": -18.414138,
+    "lon": -49.235861,
     "data": "12/07/2005",
     "nova": false
   },
@@ -29802,8 +29982,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Itumbiara",
-    "lat": -18.414128,
-    "lon": -49.235911,
+    "lat": -18.414138,
+    "lon": -49.235861,
     "data": "12/07/2005",
     "nova": false
   },
@@ -29811,8 +29991,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Itumbiara",
-    "lat": -18.414128,
-    "lon": -49.235911,
+    "lat": -18.414138,
+    "lon": -49.235861,
+    "data": "12/07/2005",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Itumbiara",
+    "lat": -18.414138,
+    "lon": -49.235861,
     "data": "12/07/2005",
     "nova": false
   },
@@ -32968,6 +33157,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Formosa",
+    "lat": -15.548583,
+    "lon": -47.311028,
+    "data": "13/07/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Goianápolis",
     "lat": -16.507361,
@@ -33492,8 +33690,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Catalão",
-    "lat": -18.16167,
-    "lon": -47.93111,
+    "lat": -18.161917,
+    "lon": -47.931222,
+    "data": "13/09/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Catalão",
+    "lat": -18.161917,
+    "lon": -47.931222,
     "data": "13/09/2019",
     "nova": false
   },
@@ -35083,7 +35290,25 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Cidade Ocidental",
+    "lat": -16.0825,
+    "lon": -47.919361,
+    "data": "14/01/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Formosa",
+    "lat": -15.559889,
+    "lon": -47.344056,
+    "data": "14/01/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Formosa",
     "lat": -15.559889,
     "lon": -47.344056,
@@ -37098,6 +37323,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Catalão",
+    "lat": -18.160917,
+    "lon": -47.910361,
+    "data": "14/11/2022",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Guarinos",
@@ -38836,6 +39070,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Formosa",
+    "lat": -15.560194,
+    "lon": -47.366306,
+    "data": "15/07/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Goiânia",
     "lat": -16.7235,
@@ -39038,6 +39281,15 @@
     "municipio": "Novo Gama",
     "lat": -16.089022,
     "lon": -48.063253,
+    "data": "15/07/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Novo Gama",
+    "lat": -16.089472,
+    "lon": -48.063917,
     "data": "15/07/2004",
     "nova": false
   },
@@ -40483,6 +40735,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Cidade Ocidental",
+    "lat": -16.105861,
+    "lon": -47.928806,
+    "data": "15/12/2017",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Goiânia",
     "lat": -16.656417,
@@ -41307,7 +41568,7 @@
     "lat": -14.95416,
     "lon": -49.54957,
     "data": "16/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -43499,6 +43760,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Novo Gama",
+    "lat": -16.07722,
+    "lon": -48.03528,
+    "data": "17/07/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Novo Gama",
     "lat": -16.07722,
     "lon": -48.03528,
@@ -52530,7 +52800,7 @@
     "lat": -15.74556,
     "lon": -49.32627,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -52539,7 +52809,7 @@
     "lat": -16.168514,
     "lon": -47.925489,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -52548,7 +52818,7 @@
     "lat": -16.168514,
     "lon": -47.925489,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -56485,6 +56755,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Formosa",
+    "lat": -15.527,
+    "lon": -47.33028,
+    "data": "21/09/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Goiânia",
     "lat": -16.709639,
@@ -57516,7 +57795,7 @@
     "lat": -17.166819,
     "lon": -49.328011,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57525,7 +57804,7 @@
     "lat": -15.344478,
     "lon": -49.124458,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57534,7 +57813,7 @@
     "lat": -15.344478,
     "lon": -49.124458,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57543,7 +57822,7 @@
     "lat": -17.098969,
     "lon": -48.0721,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57552,7 +57831,7 @@
     "lat": -13.105177,
     "lon": -49.200669,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -57561,7 +57840,7 @@
     "lat": -18.43736,
     "lon": -50.44624,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57570,7 +57849,7 @@
     "lat": -15.616922,
     "lon": -49.567555,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57579,7 +57858,7 @@
     "lat": -15.73429,
     "lon": -48.249901,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -57588,7 +57867,7 @@
     "lat": -15.73429,
     "lon": -48.249901,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -64729,6 +65008,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Catalão",
+    "lat": -18.168917,
+    "lon": -47.947722,
+    "data": "25/01/2008",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Goiânia",
     "lat": -16.603361,
@@ -68077,6 +68365,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Valparaíso de Goiás",
+    "lat": -16.06028,
+    "lon": -47.98028,
+    "data": "26/08/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Águas Lindas de Goiás",
     "lat": -15.775194,
@@ -70733,6 +71030,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Catalão",
+    "lat": -18.155833,
+    "lon": -47.950028,
+    "data": "27/10/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Catalão",
     "lat": -18.155833,
     "lon": -47.950028,
@@ -77319,6 +77625,51 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Morrinhos",
+    "lat": -17.82952,
+    "lon": -49.21506,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Morrinhos",
+    "lat": -17.82952,
+    "lon": -49.21506,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Rubiataba",
+    "lat": -15.17002,
+    "lon": -49.81326,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Uruana",
+    "lat": -15.49544,
+    "lon": -49.6862,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Uruana",
+    "lat": -15.49544,
+    "lon": -49.6862,
+    "data": "30/04/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Bela Vista de Goiás",
@@ -77806,6 +78157,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Caldas Novas",
+    "lat": -17.772,
+    "lon": -48.581278,
+    "data": "30/09/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Catalão",
     "lat": -18.15444,
@@ -78005,6 +78365,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Trindade",
+    "lat": -16.616278,
+    "lon": -49.391389,
+    "data": "30/09/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Trindade",
     "lat": -16.616278,
     "lon": -49.391389,

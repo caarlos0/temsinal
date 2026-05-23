@@ -1872,6 +1872,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.20306,
+    "lon": -48.20028,
+    "data": "04/10/2019",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Gurupi",
@@ -4597,6 +4606,60 @@
     "lon": -48.59269,
     "data": "08/05/2025",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Araguaína",
+    "lat": -7.18469,
+    "lon": -48.16991,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Araguaína",
+    "lat": -7.18469,
+    "lon": -48.16991,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.18469,
+    "lon": -48.16991,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Porto Nacional",
+    "lat": -10.665,
+    "lon": -48.402,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Porto Nacional",
+    "lat": -10.665,
+    "lon": -48.402,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Porto Nacional",
+    "lat": -10.665,
+    "lon": -48.402,
+    "data": "08/05/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",
@@ -11760,7 +11823,7 @@
     "lat": -5.58702,
     "lon": -47.56109,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -11769,7 +11832,7 @@
     "lat": -5.58702,
     "lon": -47.56109,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -12228,7 +12291,7 @@
     "lat": -7.90379,
     "lon": -48.56146,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12237,7 +12300,7 @@
     "lat": -7.90379,
     "lon": -48.56146,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12246,7 +12309,7 @@
     "lat": -8.36607,
     "lon": -49.26825,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12255,7 +12318,7 @@
     "lat": -8.36607,
     "lon": -49.26825,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -12264,7 +12327,7 @@
     "lat": -11.049571,
     "lon": -48.427696,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12273,7 +12336,7 @@
     "lat": -5.87425,
     "lon": -47.47462,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12282,7 +12345,7 @@
     "lat": -5.87425,
     "lon": -47.47462,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -12291,7 +12354,7 @@
     "lat": -10.012298,
     "lon": -48.547462,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -12300,7 +12363,7 @@
     "lat": -10.397862,
     "lon": -48.368004,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12309,7 +12372,7 @@
     "lat": -12.3954,
     "lon": -48.81812,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -12318,7 +12381,7 @@
     "lat": -12.3954,
     "lon": -48.81812,
     "data": "22/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -14357,6 +14420,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Araguaína",
+    "lat": -7.184856,
+    "lon": -48.190656,
+    "data": "26/08/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Araguaína",
     "lat": -7.184856,
     "lon": -48.190656,

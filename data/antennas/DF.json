@@ -369,15 +369,6 @@
     "nova": false
   },
   {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.792583,
-    "lon": -47.936306,
-    "data": "01/07/2014",
-    "nova": false
-  },
-  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Brasília",
@@ -2908,15 +2899,6 @@
   },
   {
     "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.726194,
-    "lon": -47.8445,
-    "data": "02/12/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Brasília",
     "lat": -16.032639,
@@ -3413,15 +3395,6 @@
   {
     "operadora": "TIM",
     "tecnologia": "2G",
-    "municipio": "Brasília",
-    "lat": -15.807972,
-    "lon": -47.934667,
-    "data": "03/05/2010",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
     "municipio": "Brasília",
     "lat": -15.807972,
     "lon": -47.934667,
@@ -5036,15 +5009,6 @@
     "municipio": "Brasília",
     "lat": -15.78806,
     "lon": -47.88306,
-    "data": "04/02/2013",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.723317,
-    "lon": -47.869944,
     "data": "04/02/2013",
     "nova": false
   },
@@ -7023,15 +6987,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.800889,
-    "lon": -47.9325,
-    "data": "05/03/2015",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.796083,
     "lon": -47.862556,
     "data": "05/03/2015",
@@ -7320,15 +7275,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.943648,
-    "lon": -47.980433,
-    "data": "05/07/2022",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.87306,
     "lon": -48.05694,
     "data": "05/07/2022",
@@ -7340,24 +7286,6 @@
     "municipio": "Brasília",
     "lat": -15.866333,
     "lon": -47.960056,
-    "data": "05/07/2022",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.85417,
-    "lon": -47.85306,
-    "data": "05/07/2022",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.85088,
-    "lon": -47.87701,
     "data": "05/07/2022",
     "nova": false
   },
@@ -7385,15 +7313,6 @@
     "municipio": "Brasília",
     "lat": -15.770083,
     "lon": -47.936861,
-    "data": "05/07/2022",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.762167,
-    "lon": -47.780778,
     "data": "05/07/2022",
     "nova": false
   },
@@ -11145,6 +11064,15 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Brasília",
+    "lat": -15.79862,
+    "lon": -47.91406,
+    "data": "06/08/2025",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Brasília",
     "lat": -15.78671,
     "lon": -47.92145,
     "data": "06/08/2025",
@@ -11822,6 +11750,15 @@
     "municipio": "Brasília",
     "lat": -15.809,
     "lon": -47.893306,
+    "data": "07/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -15.807972,
+    "lon": -47.934667,
     "data": "07/08/2023",
     "nova": false
   },
@@ -12697,6 +12634,204 @@
     "lon": -47.912111,
     "data": "08/05/2024",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Brasília",
+    "lat": -15.7764,
+    "lon": -47.87594,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -15.94997,
+    "lon": -48.07811,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -15.87334,
+    "lon": -48.08942,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -15.58037,
+    "lon": -47.73938,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.94997,
+    "lon": -48.07811,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.87334,
+    "lon": -48.08942,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.83569,
+    "lon": -47.93879,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.81815,
+    "lon": -47.86738,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.8062,
+    "lon": -47.93751,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.79824,
+    "lon": -47.96024,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.78328,
+    "lon": -47.88495,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.7764,
+    "lon": -47.87594,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.58037,
+    "lon": -47.73938,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.94997,
+    "lon": -48.07811,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.87334,
+    "lon": -48.08942,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.83569,
+    "lon": -47.93879,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.81815,
+    "lon": -47.86738,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.8062,
+    "lon": -47.93751,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.79824,
+    "lon": -47.96024,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.78328,
+    "lon": -47.88495,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.7764,
+    "lon": -47.87594,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.58037,
+    "lon": -47.73938,
+    "data": "08/05/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",
@@ -13917,15 +14052,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.865278,
-    "lon": -48.081944,
-    "data": "08/12/2010",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.841136,
     "lon": -48.130558,
     "data": "08/12/2010",
@@ -13937,15 +14063,6 @@
     "municipio": "Brasília",
     "lat": -15.831111,
     "lon": -47.873917,
-    "data": "08/12/2010",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.828056,
-    "lon": -48.131117,
     "data": "08/12/2010",
     "nova": false
   },
@@ -14360,15 +14477,6 @@
     "municipio": "Brasília",
     "lat": -15.884167,
     "lon": -48.078611,
-    "data": "09/04/2012",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.793389,
-    "lon": -47.9205,
     "data": "09/04/2012",
     "nova": false
   },
@@ -14648,6 +14756,15 @@
     "municipio": "Brasília",
     "lat": -15.838816,
     "lon": -48.092622,
+    "data": "09/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -15.8218,
+    "lon": -47.9775,
     "data": "09/08/2023",
     "nova": false
   },
@@ -21513,15 +21630,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.887333,
-    "lon": -48.015833,
-    "data": "11/10/2007",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.865833,
     "lon": -48.023639,
     "data": "11/10/2007",
@@ -22874,15 +22982,6 @@
     "municipio": "Brasília",
     "lat": -15.851238,
     "lon": -47.84693,
-    "data": "12/07/2005",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.841889,
-    "lon": -47.876694,
     "data": "12/07/2005",
     "nova": false
   },
@@ -27075,6 +27174,15 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Brasília",
+    "lat": -15.900944,
+    "lon": -48.052389,
+    "data": "14/03/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
     "lat": -15.843261,
     "lon": -48.118397,
     "data": "14/03/2024",
@@ -27730,6 +27838,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Brasília",
+    "lat": -15.675667,
+    "lon": -48.192639,
+    "data": "14/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Brasília",
     "lat": -15.907,
@@ -27779,6 +27896,15 @@
     "municipio": "Brasília",
     "lat": -15.820631,
     "lon": -47.936861,
+    "data": "14/06/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.878167,
+    "lon": -48.004306,
     "data": "14/06/2023",
     "nova": false
   },
@@ -28040,15 +28166,6 @@
     "municipio": "Brasília",
     "lat": -15.869028,
     "lon": -48.037278,
-    "data": "15/01/2016",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.863778,
-    "lon": -48.089944,
     "data": "15/01/2016",
     "nova": false
   },
@@ -29163,15 +29280,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.792556,
-    "lon": -48.12775,
-    "data": "15/05/2015",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.75556,
     "lon": -47.8125,
     "data": "15/05/2015",
@@ -30000,15 +30108,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.8218,
-    "lon": -47.9775,
-    "data": "15/10/2007",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.80575,
     "lon": -47.898139,
     "data": "15/10/2007",
@@ -30020,24 +30119,6 @@
     "municipio": "Brasília",
     "lat": -15.799167,
     "lon": -47.878056,
-    "data": "15/10/2007",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.797583,
-    "lon": -48.11525,
-    "data": "15/10/2007",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.796139,
-    "lon": -47.9425,
     "data": "15/10/2007",
     "nova": false
   },
@@ -31078,15 +31159,6 @@
   },
   {
     "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.725,
-    "lon": -47.874194,
-    "data": "16/07/2014",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Brasília",
     "lat": -15.840694,
@@ -31856,15 +31928,6 @@
     "municipio": "Brasília",
     "lat": -15.806111,
     "lon": -48.078694,
-    "data": "16/12/2014",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.798472,
-    "lon": -47.923306,
     "data": "16/12/2014",
     "nova": false
   },
@@ -33026,15 +33089,6 @@
     "municipio": "Brasília",
     "lat": -15.788611,
     "lon": -47.87225,
-    "data": "18/01/2007",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.743833,
-    "lon": -47.852694,
     "data": "18/01/2007",
     "nova": false
   },
@@ -34869,15 +34923,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.864656,
-    "lon": -47.865317,
-    "data": "18/09/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.859667,
     "lon": -48.033139,
     "data": "18/09/2002",
@@ -34898,15 +34943,6 @@
     "municipio": "Brasília",
     "lat": -15.848944,
     "lon": -47.885694,
-    "data": "18/09/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.841833,
-    "lon": -47.832639,
     "data": "18/09/2002",
     "nova": false
   },
@@ -35004,24 +35040,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.814583,
-    "lon": -48.105583,
-    "data": "18/09/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.804333,
-    "lon": -47.940278,
-    "data": "18/09/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.8035,
     "lon": -47.950417,
     "data": "18/09/2002",
@@ -35051,15 +35069,6 @@
     "municipio": "Brasília",
     "lat": -15.799556,
     "lon": -47.883361,
-    "data": "18/09/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.797694,
-    "lon": -48.131306,
     "data": "18/09/2002",
     "nova": false
   },
@@ -35141,15 +35150,6 @@
     "municipio": "Brasília",
     "lat": -15.767083,
     "lon": -47.883639,
-    "data": "18/09/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.759278,
-    "lon": -47.831389,
     "data": "18/09/2002",
     "nova": false
   },
@@ -36498,24 +36498,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -16.017056,
-    "lon": -48.052861,
-    "data": "18/10/2016",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -16.010611,
-    "lon": -47.994,
-    "data": "18/10/2016",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.870639,
     "lon": -47.7685,
     "data": "18/10/2016",
@@ -36527,15 +36509,6 @@
     "municipio": "Brasília",
     "lat": -15.818444,
     "lon": -47.955778,
-    "data": "18/10/2016",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.675667,
-    "lon": -48.192639,
     "data": "18/10/2016",
     "nova": false
   },
@@ -37004,15 +36977,6 @@
     "municipio": "Brasília",
     "lat": -15.618167,
     "lon": -47.71575,
-    "data": "18/12/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.886139,
-    "lon": -47.982833,
     "data": "18/12/2003",
     "nova": false
   },
@@ -40899,15 +40863,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.8985,
-    "lon": -47.920444,
-    "data": "21/07/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.831194,
     "lon": -47.815139,
     "data": "21/07/2003",
@@ -41959,15 +41914,6 @@
   },
   {
     "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.921944,
-    "lon": -48.10325,
-    "data": "21/12/2016",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Brasília",
     "lat": -15.921944,
@@ -42575,15 +42521,6 @@
     "municipio": "Brasília",
     "lat": -15.873083,
     "lon": -47.974528,
-    "data": "22/06/2022",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.871278,
-    "lon": -48.066139,
     "data": "22/06/2022",
     "nova": false
   },
@@ -45174,24 +45111,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.894694,
-    "lon": -48.119917,
-    "data": "23/06/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.879583,
-    "lon": -48.017611,
-    "data": "23/06/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.835889,
     "lon": -48.112167,
     "data": "23/06/2003",
@@ -45212,15 +45131,6 @@
     "municipio": "Brasília",
     "lat": -15.829611,
     "lon": -47.90425,
-    "data": "23/06/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.824861,
-    "lon": -47.983028,
     "data": "23/06/2003",
     "nova": false
   },
@@ -45275,15 +45185,6 @@
     "municipio": "Brasília",
     "lat": -15.765525,
     "lon": -47.872375,
-    "data": "23/06/2003",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.68775,
-    "lon": -48.206806,
     "data": "23/06/2003",
     "nova": false
   },
@@ -45824,15 +45725,6 @@
     "municipio": "Brasília",
     "lat": -16.003056,
     "lon": -47.56,
-    "data": "23/08/2005",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.915278,
-    "lon": -48.063056,
     "data": "23/08/2005",
     "nova": false
   },
@@ -47012,15 +46904,6 @@
     "municipio": "Brasília",
     "lat": -15.784333,
     "lon": -47.936639,
-    "data": "24/06/2011",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.8675,
-    "lon": -47.98,
     "data": "24/06/2011",
     "nova": false
   },
@@ -48324,15 +48207,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.8745,
-    "lon": -47.995278,
-    "data": "25/01/2008",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.844361,
     "lon": -47.793472,
     "data": "25/01/2008",
@@ -49083,15 +48957,6 @@
     "lat": -15.804158,
     "lon": -48.001969,
     "data": "25/09/2014",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.907972,
-    "lon": -47.952139,
-    "data": "25/09/2015",
     "nova": false
   },
   {
@@ -50943,15 +50808,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.854556,
-    "lon": -47.902056,
-    "data": "26/11/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.80972,
     "lon": -47.89917,
     "data": "26/11/2002",
@@ -50972,15 +50828,6 @@
     "municipio": "Brasília",
     "lat": -15.762056,
     "lon": -47.889667,
-    "data": "26/11/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.748667,
-    "lon": -47.845222,
     "data": "26/11/2002",
     "nova": false
   },
@@ -51989,15 +51836,6 @@
     "municipio": "Brasília",
     "lat": -15.814417,
     "lon": -48.123444,
-    "data": "27/05/2004",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.749389,
-    "lon": -47.76025,
     "data": "27/05/2004",
     "nova": false
   },
@@ -55038,15 +54876,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -16.011111,
-    "lon": -48.081111,
-    "data": "29/07/2004",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.801694,
     "lon": -47.997722,
     "data": "29/07/2004",
@@ -56793,15 +56622,6 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Brasília",
-    "lat": -15.832389,
-    "lon": -48.089417,
-    "data": "30/12/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
     "lat": -15.818167,
     "lon": -47.899417,
     "data": "30/12/2002",
@@ -56813,15 +56633,6 @@
     "municipio": "Brasília",
     "lat": -15.68575,
     "lon": -47.861194,
-    "data": "30/12/2002",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Brasília",
-    "lat": -15.648167,
-    "lon": -47.824444,
     "data": "30/12/2002",
     "nova": false
   },

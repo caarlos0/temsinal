@@ -3712,7 +3712,7 @@
     "tecnologia": "2G",
     "municipio": "Fortaleza",
     "lat": -3.76432,
-    "lon": -38.48491,
+    "lon": -38.48492,
     "data": "03/05/2006",
     "nova": false
   },
@@ -3766,7 +3766,7 @@
     "tecnologia": "3G",
     "municipio": "Fortaleza",
     "lat": -3.76432,
-    "lon": -38.48491,
+    "lon": -38.48492,
     "data": "03/05/2006",
     "nova": false
   },
@@ -3820,7 +3820,7 @@
     "tecnologia": "4G",
     "municipio": "Fortaleza",
     "lat": -3.76432,
-    "lon": -38.48491,
+    "lon": -38.48492,
     "data": "03/05/2006",
     "nova": false
   },
@@ -3874,7 +3874,7 @@
     "tecnologia": "5G",
     "municipio": "Fortaleza",
     "lat": -3.76432,
-    "lon": -38.48491,
+    "lon": -38.48492,
     "data": "03/05/2006",
     "nova": false
   },
@@ -8668,33 +8668,6 @@
   },
   {
     "operadora": "TIM",
-    "tecnologia": "2G",
-    "municipio": "Juazeiro do Norte",
-    "lat": -7.226861,
-    "lon": -39.308597,
-    "data": "06/03/2024",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Juazeiro do Norte",
-    "lat": -7.226861,
-    "lon": -39.308597,
-    "data": "06/03/2024",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "4G",
-    "municipio": "Juazeiro do Norte",
-    "lat": -7.226861,
-    "lon": -39.308597,
-    "data": "06/03/2024",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Juazeiro do Norte",
     "lat": -7.226861,
@@ -12108,6 +12081,15 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Juazeiro do Norte",
+    "lat": -7.221111,
+    "lon": -39.333861,
+    "data": "08/02/2006",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "2G",
+    "municipio": "Juazeiro do Norte",
     "lat": -7.201694,
     "lon": -39.276222,
     "data": "08/02/2006",
@@ -12117,8 +12099,26 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Juazeiro do Norte",
+    "lat": -7.221111,
+    "lon": -39.333861,
+    "data": "08/02/2006",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Juazeiro do Norte",
     "lat": -7.201694,
     "lon": -39.276222,
+    "data": "08/02/2006",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Juazeiro do Norte",
+    "lat": -7.221111,
+    "lon": -39.333861,
     "data": "08/02/2006",
     "nova": false
   },
@@ -21856,7 +21856,7 @@
     "tecnologia": "2G",
     "municipio": "Juazeiro do Norte",
     "lat": -7.226861,
-    "lon": -39.308583,
+    "lon": -39.308597,
     "data": "12/05/2011",
     "nova": false
   },
@@ -21874,7 +21874,7 @@
     "tecnologia": "3G",
     "municipio": "Juazeiro do Norte",
     "lat": -7.226861,
-    "lon": -39.308583,
+    "lon": -39.308597,
     "data": "12/05/2011",
     "nova": false
   },
@@ -21892,7 +21892,7 @@
     "tecnologia": "4G",
     "municipio": "Juazeiro do Norte",
     "lat": -7.226861,
-    "lon": -39.308583,
+    "lon": -39.308597,
     "data": "12/05/2011",
     "nova": false
   },
@@ -48117,6 +48117,15 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Fortaleza",
+    "lat": -3.733472,
+    "lon": -38.556056,
+    "data": "19/01/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Fortaleza",
     "lat": -3.722139,
     "lon": -38.505361,
     "data": "19/01/2024",
@@ -52350,7 +52359,7 @@
     "lat": -7.215089,
     "lon": -40.143994,
     "data": "20/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -58476,8 +58485,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Limoeiro do Norte",
-    "lat": -5.136108,
-    "lon": -38.096358,
+    "lat": -5.136119,
+    "lon": -38.096127,
     "data": "21/10/2011",
     "nova": false
   },
@@ -58485,8 +58494,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Limoeiro do Norte",
-    "lat": -5.136108,
-    "lon": -38.096358,
+    "lat": -5.136119,
+    "lon": -38.096127,
     "data": "21/10/2011",
     "nova": false
   },
@@ -58494,8 +58503,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Limoeiro do Norte",
-    "lat": -5.136108,
-    "lon": -38.096358,
+    "lat": -5.136119,
+    "lon": -38.096127,
+    "data": "21/10/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Limoeiro do Norte",
+    "lat": -5.136119,
+    "lon": -38.096127,
     "data": "21/10/2011",
     "nova": false
   },
@@ -71542,6 +71560,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Iguatu",
+    "lat": -6.35139,
+    "lon": -39.30194,
+    "data": "26/08/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Itapipoca",
     "lat": -3.49083,
@@ -71939,6 +71966,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Crato",
+    "lat": -7.239081,
+    "lon": -39.395967,
+    "data": "26/10/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Crato",
     "lat": -7.239081,
     "lon": -39.395967,
