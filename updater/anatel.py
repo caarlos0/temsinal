@@ -245,6 +245,7 @@ def rows_to_antennas(rows: list[dict]) -> list[dict]:
         lon_s = normalize(row.get("Longitude", ""))
         date_s = normalize(row.get("DataPrimeiroLicenciamento", ""))
         municipio = normalize(row.get("Municipio.NomeMunicipio", ""))
+        cod_municipio = normalize(row.get("CodMunicipio", ""))
 
         if not lat_s or not lon_s:
             continue
@@ -281,6 +282,7 @@ def rows_to_antennas(rows: list[dict]) -> list[dict]:
                 "operadora": entity,
                 "tecnologia": tech,
                 "municipio": municipio if municipio else "Desconhecido",
+                "ibge": cod_municipio,
                 "lat": lat,
                 "lon": lon,
                 "data": date_fmt,

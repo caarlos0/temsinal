@@ -191,13 +191,14 @@ function buildSearchIndex() {
     });
   });
   if (municipalitiesIndex) {
-    for (const m of Object.values(municipalitiesIndex)) {
+    for (const [ibge, m] of Object.entries(municipalitiesIndex)) {
       if (!m.lat) continue;
       searchIndex.push({
         type: "city",
         label: `${m.nome} – ${m.uf}`,
         name: m.nome,
         uf: m.uf,
+        ibge,
         pop: m.populacao || 0,
         search: stripAccents(`${m.nome} ${m.uf}`).toLowerCase(),
       });
@@ -234,7 +235,7 @@ function initScopeSelector() {
     } else {
       if (selection.cities.length >= MAX_CITIES) return;
       selection.states.clear();
-      selection.cities.push({ name: data.name, uf: data.uf });
+      selection.cities.push({ name: data.name, uf: data.uf, ibge: data.ibge });
     }
     input.value = "";
     results.style.display = "none";
@@ -317,7 +318,7 @@ function initScopeSelector() {
         html += cityMatches
           .map(
             (e) =>
-              `<div class="scope-item" data-type="city" data-name="${e.name}" data-uf="${e.uf}">${e.label}</div>`,
+              `<div class="scope-item" data-type="city" data-name="${e.name}" data-uf="${e.uf}" data-ibge="${e.ibge}">${e.label}</div>`,
           )
           .join("");
       }
@@ -335,6 +336,7 @@ function initScopeSelector() {
       addItem("city", {
         name: item.dataset.name,
         uf: item.dataset.uf,
+        ibge: item.dataset.ibge,
       });
   });
 
@@ -434,14 +436,15 @@ function buildSingleStateRows(uf, antData) {
   const filtered = antData.filter((a) => ALL_TECHS.includes(a.tecnologia));
   const byCity = {};
   for (const a of filtered) {
-    if (!byCity[a.municipio]) byCity[a.municipio] = [];
-    byCity[a.municipio].push(a);
+    if (!a.ibge) continue;
+    if (!byCity[a.ibge]) byCity[a.ibge] = [];
+    byCity[a.ibge].push(a);
   }
   const muns = Object.entries(municipalitiesIndex).filter(
     ([, m]) => m.uf === uf,
   );
-  allRows = muns.map(([, info]) => {
-    const cityAntennas = byCity[info.nome] || [];
+  allRows = muns.map(([ibge, info]) => {
+    const cityAntennas = byCity[ibge] || [];
     const { techs, ops, sites } = buildAntennaAggregates(cityAntennas);
     return {
       city: info.nome,
@@ -476,13 +479,18 @@ async function buildMultiStateRows(states) {
 async function buildCityRows(cities) {
   const uniqueStates = [...new Set(cities.map((c) => c.uf))];
   await Promise.all(uniqueStates.map((uf) => loadStateAntennas(uf)));
-  allRows = cities.map(({ name, uf }) => {
+  allRows = cities.map(({ name, uf, ibge: ibgeHint }) => {
+    const ibge =
+      ibgeHint ||
+      Object.keys(municipalitiesIndex).find(
+        (k) =>
+          municipalitiesIndex[k].nome === name &&
+          municipalitiesIndex[k].uf === uf,
+      );
     const antennas = stateDataCache[uf].filter(
-      (a) => a.municipio === name && ALL_TECHS.includes(a.tecnologia),
+      (a) => a.ibge === ibge && ALL_TECHS.includes(a.tecnologia),
     );
-    const info = Object.values(municipalitiesIndex).find(
-      (m) => m.nome === name && m.uf === uf,
-    );
+    const info = ibge ? municipalitiesIndex[ibge] : undefined;
     const pop = info?.populacao || 0;
     const { techs, ops, sites } = buildAntennaAggregates(antennas);
     return {
