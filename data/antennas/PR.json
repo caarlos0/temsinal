@@ -13233,8 +13233,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Curitiba",
-    "lat": -25.470917,
-    "lon": -49.298194,
+    "lat": -25.470947,
+    "lon": -49.298213,
     "data": "04/11/1999",
     "nova": false
   },
@@ -13296,6 +13296,15 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Curitiba",
+    "lat": -25.454922,
+    "lon": -49.2707,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "2G",
+    "municipio": "Curitiba",
     "lat": -25.45472,
     "lon": -49.29917,
     "data": "04/11/1999",
@@ -13316,15 +13325,6 @@
     "municipio": "Curitiba",
     "lat": -25.453889,
     "lon": -49.279167,
-    "data": "04/11/1999",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "2G",
-    "municipio": "Curitiba",
-    "lat": -25.453333,
-    "lon": -49.267222,
     "data": "04/11/1999",
     "nova": false
   },
@@ -13926,8 +13926,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Curitiba",
-    "lat": -25.470917,
-    "lon": -49.298194,
+    "lat": -25.470947,
+    "lon": -49.298213,
     "data": "04/11/1999",
     "nova": false
   },
@@ -13989,6 +13989,15 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Curitiba",
+    "lat": -25.454922,
+    "lon": -49.2707,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Curitiba",
     "lat": -25.45472,
     "lon": -49.29917,
     "data": "04/11/1999",
@@ -14009,15 +14018,6 @@
     "municipio": "Curitiba",
     "lat": -25.453889,
     "lon": -49.279167,
-    "data": "04/11/1999",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "3G",
-    "municipio": "Curitiba",
-    "lat": -25.453333,
-    "lon": -49.267222,
     "data": "04/11/1999",
     "nova": false
   },
@@ -14619,8 +14619,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Curitiba",
-    "lat": -25.470917,
-    "lon": -49.298194,
+    "lat": -25.470947,
+    "lon": -49.298213,
     "data": "04/11/1999",
     "nova": false
   },
@@ -14682,6 +14682,15 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Curitiba",
+    "lat": -25.454922,
+    "lon": -49.2707,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Curitiba",
     "lat": -25.45472,
     "lon": -49.29917,
     "data": "04/11/1999",
@@ -14702,15 +14711,6 @@
     "municipio": "Curitiba",
     "lat": -25.453889,
     "lon": -49.279167,
-    "data": "04/11/1999",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "4G",
-    "municipio": "Curitiba",
-    "lat": -25.453333,
-    "lon": -49.267222,
     "data": "04/11/1999",
     "nova": false
   },
@@ -15303,8 +15303,8 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Curitiba",
-    "lat": -25.470917,
-    "lon": -49.298194,
+    "lat": -25.470947,
+    "lon": -49.298213,
     "data": "04/11/1999",
     "nova": false
   },
@@ -15357,6 +15357,15 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Curitiba",
+    "lat": -25.454922,
+    "lon": -49.2707,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Curitiba",
     "lat": -25.45472,
     "lon": -49.29917,
     "data": "04/11/1999",
@@ -15377,15 +15386,6 @@
     "municipio": "Curitiba",
     "lat": -25.453889,
     "lon": -49.279167,
-    "data": "04/11/1999",
-    "nova": false
-  },
-  {
-    "operadora": "TIM",
-    "tecnologia": "5G",
-    "municipio": "Curitiba",
-    "lat": -25.453333,
-    "lon": -49.267222,
     "data": "04/11/1999",
     "nova": false
   },
@@ -32113,6 +32113,24 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Nova Cantu",
+    "lat": -24.72427,
+    "lon": -52.63791,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Nova Cantu",
+    "lat": -24.72427,
+    "lon": -52.63791,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Paranaguá",
     "lat": -25.51155,
@@ -37217,6 +37235,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Pinhais",
+    "lat": -25.398053,
+    "lon": -49.148236,
+    "data": "08/12/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Pinhais",
     "lat": -25.398053,
     "lon": -49.148236,
@@ -63822,8 +63849,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Toledo",
-    "lat": -24.73222,
-    "lon": -53.70417,
+    "lat": -24.732352,
+    "lon": -53.70438,
+    "data": "13/12/2018",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.732352,
+    "lon": -53.70438,
     "data": "13/12/2018",
     "nova": false
   },
@@ -66684,8 +66720,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Guarapuava",
-    "lat": -25.359065,
-    "lon": -51.430905,
+    "lat": -25.385111,
+    "lon": -51.447139,
+    "data": "14/11/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Guarapuava",
+    "lat": -25.385111,
+    "lon": -51.447139,
     "data": "14/11/2022",
     "nova": false
   },
@@ -97302,8 +97347,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Toledo",
-    "lat": -24.7165,
-    "lon": -53.721972,
+    "lat": -24.716488,
+    "lon": -53.722008,
     "data": "21/02/2017",
     "nova": false
   },
@@ -97311,8 +97356,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Toledo",
-    "lat": -24.7165,
-    "lon": -53.721972,
+    "lat": -24.716488,
+    "lon": -53.722008,
+    "data": "21/02/2017",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Toledo",
+    "lat": -24.716488,
+    "lon": -53.722008,
     "data": "21/02/2017",
     "nova": false
   },
@@ -102846,8 +102900,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Paranaguá",
-    "lat": -25.559444,
-    "lon": -48.558083,
+    "lat": -25.559545,
+    "lon": -48.558237,
     "data": "22/05/2000",
     "nova": false
   },
@@ -102882,8 +102936,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Paranaguá",
-    "lat": -25.559444,
-    "lon": -48.558083,
+    "lat": -25.559545,
+    "lon": -48.558237,
     "data": "22/05/2000",
     "nova": false
   },
@@ -102918,8 +102972,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Paranaguá",
-    "lat": -25.559444,
-    "lon": -48.558083,
+    "lat": -25.559545,
+    "lon": -48.558237,
     "data": "22/05/2000",
     "nova": false
   },
@@ -102929,6 +102983,15 @@
     "municipio": "Paranaguá",
     "lat": -25.518194,
     "lon": -48.534028,
+    "data": "22/05/2000",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Paranaguá",
+    "lat": -25.559545,
+    "lon": -48.558237,
     "data": "22/05/2000",
     "nova": false
   },
@@ -109461,8 +109524,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Guarapuava",
-    "lat": -25.427778,
-    "lon": -51.49,
+    "lat": -25.427696,
+    "lon": -51.49004,
     "data": "24/01/2007",
     "nova": false
   },
@@ -109479,8 +109542,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Guarapuava",
-    "lat": -25.427778,
-    "lon": -51.49,
+    "lat": -25.427696,
+    "lon": -51.49004,
     "data": "24/01/2007",
     "nova": false
   },
@@ -109497,8 +109560,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Guarapuava",
-    "lat": -25.427778,
-    "lon": -51.49,
+    "lat": -25.427696,
+    "lon": -51.49004,
     "data": "24/01/2007",
     "nova": false
   },
@@ -109508,6 +109571,15 @@
     "municipio": "Guarapuava",
     "lat": -25.421972,
     "lon": -51.46725,
+    "data": "24/01/2007",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Guarapuava",
+    "lat": -25.427696,
+    "lon": -51.49004,
     "data": "24/01/2007",
     "nova": false
   },
@@ -110796,33 +110868,6 @@
     "lat": -25.521186,
     "lon": -49.202324,
     "data": "24/03/2017",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "2G",
-    "municipio": "Barbosa Ferraz",
-    "lat": -24.02361,
-    "lon": -51.99778,
-    "data": "24/04/2006",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "3G",
-    "municipio": "Barbosa Ferraz",
-    "lat": -24.02361,
-    "lon": -51.99778,
-    "data": "24/04/2006",
-    "nova": false
-  },
-  {
-    "operadora": "Vivo",
-    "tecnologia": "4G",
-    "municipio": "Barbosa Ferraz",
-    "lat": -24.02361,
-    "lon": -51.99778,
-    "data": "24/04/2006",
     "nova": false
   },
   {
@@ -127365,7 +127410,7 @@
     "lat": -25.423575,
     "lon": -49.270278,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -127374,7 +127419,7 @@
     "lat": -25.40981,
     "lon": -51.46778,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -127383,7 +127428,7 @@
     "lat": -25.40981,
     "lon": -51.46778,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -127392,7 +127437,7 @@
     "lat": -25.40981,
     "lon": -51.46778,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -127401,7 +127446,7 @@
     "lat": -23.32296,
     "lon": -51.15493,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -127410,7 +127455,7 @@
     "lat": -23.32296,
     "lon": -51.15493,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -127419,7 +127464,7 @@
     "lat": -23.32296,
     "lon": -51.15493,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

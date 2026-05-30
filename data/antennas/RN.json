@@ -10657,10 +10657,19 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Santa Cruz",
+    "lat": -6.22057,
+    "lon": -36.02517,
+    "data": "12/07/2017",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Santa Cruz",
-    "lat": -6.22056,
-    "lon": -36.025,
+    "lat": -6.22057,
+    "lon": -36.02517,
     "data": "12/07/2017",
     "nova": false
   },
@@ -10668,8 +10677,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Santa Cruz",
-    "lat": -6.22056,
-    "lon": -36.025,
+    "lat": -6.22057,
+    "lon": -36.02517,
     "data": "12/07/2017",
     "nova": false
   },
@@ -11338,6 +11347,24 @@
     "lon": -37.241775,
     "data": "13/05/2025",
     "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "São Gonçalo do Amarante",
+    "lat": -5.745722,
+    "lon": -35.345028,
+    "data": "13/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São Gonçalo do Amarante",
+    "lat": -5.745722,
+    "lon": -35.345028,
+    "data": "13/05/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",
@@ -31569,7 +31596,7 @@
     "lat": -5.89454,
     "lon": -35.20807,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -31578,7 +31605,7 @@
     "lat": -5.89454,
     "lon": -35.20807,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

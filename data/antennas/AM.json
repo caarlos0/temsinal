@@ -21321,6 +21321,15 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Manaus",
+    "lat": -2.98935,
+    "lon": -60.18388,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Manaus",
@@ -36087,7 +36096,7 @@
     "lat": -3.10342,
     "lon": -60.0497,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36096,7 +36105,7 @@
     "lat": -3.09281,
     "lon": -60.02091,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36105,7 +36114,7 @@
     "lat": -3.0632,
     "lon": -59.9502,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36114,7 +36123,7 @@
     "lat": -3.10342,
     "lon": -60.0497,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36123,7 +36132,7 @@
     "lat": -3.09281,
     "lon": -60.02091,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36132,7 +36141,7 @@
     "lat": -3.0632,
     "lon": -59.9502,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -36627,7 +36636,7 @@
     "lat": -3.06572,
     "lon": -59.91719,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36636,7 +36645,7 @@
     "lat": -3.06301,
     "lon": -59.97953,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36645,7 +36654,7 @@
     "lat": -3.02617,
     "lon": -60.00316,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36654,7 +36663,7 @@
     "lat": -3.079658,
     "lon": -59.942425,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36663,7 +36672,7 @@
     "lat": -3.053538,
     "lon": -59.9344,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36672,7 +36681,7 @@
     "lat": -3.043031,
     "lon": -60.00496,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36681,7 +36690,7 @@
     "lat": -3.06572,
     "lon": -59.91719,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36690,7 +36699,7 @@
     "lat": -3.06301,
     "lon": -59.97953,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -36699,7 +36708,7 @@
     "lat": -3.02617,
     "lon": -60.00316,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36708,7 +36717,7 @@
     "lat": -3.079658,
     "lon": -59.942425,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36717,7 +36726,7 @@
     "lat": -3.053538,
     "lon": -59.9344,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36726,7 +36735,7 @@
     "lat": -3.043031,
     "lon": -60.00496,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36735,7 +36744,7 @@
     "lat": -3.042614,
     "lon": -60.017111,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36744,7 +36753,7 @@
     "lat": -3.029956,
     "lon": -60.012219,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -36753,7 +36762,7 @@
     "lat": -2.983806,
     "lon": -60.0027,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

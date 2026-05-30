@@ -6274,6 +6274,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Caxias",
+    "lat": -4.837575,
+    "lon": -43.344869,
+    "data": "06/03/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Duque Bacelar",
     "lat": -4.107667,
@@ -10224,6 +10233,24 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Santa Helena",
+    "lat": -2.30697,
+    "lon": -45.27124,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Santa Helena",
+    "lat": -2.30697,
+    "lon": -45.27124,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "São Bento",
@@ -13132,6 +13159,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Chapadinha",
+    "lat": -3.749167,
+    "lon": -43.350583,
+    "data": "11/04/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Itinga do Maranhão",
     "lat": -4.453583,
@@ -13888,7 +13924,25 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "3G",
+    "municipio": "Pinheiro",
+    "lat": -2.53164,
+    "lon": -45.10088,
+    "data": "11/08/2021",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Pinheiro",
+    "lat": -2.53164,
+    "lon": -45.10088,
+    "data": "11/08/2021",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Pinheiro",
     "lat": -2.53164,
     "lon": -45.10088,
@@ -17623,6 +17677,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bacabal",
+    "lat": -4.225419,
+    "lon": -44.790672,
+    "data": "13/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Balsas",
     "lat": -7.518611,
@@ -19522,6 +19585,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São José de Ribamar",
+    "lat": -2.553361,
+    "lon": -44.123528,
+    "data": "15/05/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Lajeado Novo",
     "lat": -6.194189,
@@ -19541,6 +19613,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Caxias",
+    "lat": -4.878806,
+    "lon": -43.372389,
+    "data": "15/07/2020",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Caxias",
     "lat": -4.878806,
     "lon": -43.372389,
@@ -22420,6 +22501,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bacabal",
+    "lat": -4.214639,
+    "lon": -44.788361,
+    "data": "17/09/2009",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Balsas",
     "lat": -7.518539,
@@ -22469,6 +22559,15 @@
     "municipio": "Balsas",
     "lat": -7.510833,
     "lon": -46.038611,
+    "data": "17/09/2009",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Balsas",
+    "lat": -7.518539,
+    "lon": -46.051497,
     "data": "17/09/2009",
     "nova": false
   },
@@ -22601,6 +22700,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Balsas",
+    "lat": -7.54056,
+    "lon": -46.04222,
+    "data": "17/10/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Balsas",
     "lat": -7.54056,
     "lon": -46.04222,
@@ -23929,6 +24037,51 @@
     "lon": -46.519203,
     "data": "18/05/2022",
     "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "São Luís",
+    "lat": -2.659639,
+    "lon": -44.299083,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "São Luís",
+    "lat": -2.6215,
+    "lon": -44.295861,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "São Luís",
+    "lat": -2.659639,
+    "lon": -44.299083,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "São Luís",
+    "lat": -2.6215,
+    "lon": -44.295861,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Vitória do Mearim",
+    "lat": -3.5776,
+    "lon": -44.90605,
+    "data": "18/05/2026",
+    "nova": true
   },
   {
     "operadora": "TIM",
@@ -25949,6 +26102,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Pedreiras",
+    "lat": -4.57949,
+    "lon": -44.59279,
+    "data": "19/01/2021",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Pedreiras",
     "lat": -4.57949,
     "lon": -44.59279,
@@ -28551,6 +28713,15 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Timon",
+    "lat": -5.15028,
+    "lon": -42.83611,
+    "data": "20/02/2020",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Timon",
     "lat": -5.129972,
     "lon": -42.832778,
     "data": "20/02/2020",
@@ -29592,6 +29763,15 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Santa Rita",
+    "lat": -3.14,
+    "lon": -44.33194,
+    "data": "20/10/2014",
+    "nova": false
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "São Luís",
@@ -30341,6 +30521,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Barreirinhas",
+    "lat": -2.76338,
+    "lon": -42.83794,
+    "data": "21/01/2022",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Barreirinhas",
     "lat": -2.76338,
     "lon": -42.83794,
@@ -35470,6 +35659,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Grajaú",
+    "lat": -5.80472,
+    "lon": -46.15917,
+    "data": "23/10/2003",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Vargem Grande",
     "lat": -3.555,
@@ -36452,6 +36650,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Paço do Lumiar",
+    "lat": -2.536,
+    "lon": -44.119778,
+    "data": "24/05/2006",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Paço do Lumiar",
     "lat": -2.536,
     "lon": -44.119778,
@@ -38309,6 +38516,24 @@
     "municipio": "São José de Ribamar",
     "lat": -2.5305,
     "lon": -44.054778,
+    "data": "25/10/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São José de Ribamar",
+    "lat": -2.580583,
+    "lon": -44.158861,
+    "data": "25/10/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São José de Ribamar",
+    "lat": -2.561722,
+    "lon": -44.124306,
     "data": "25/10/2024",
     "nova": false
   },
@@ -40803,7 +41028,7 @@
     "lat": -2.57421,
     "lon": -44.20373,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -40812,7 +41037,7 @@
     "lat": -2.49147,
     "lon": -44.25531,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -40821,7 +41046,7 @@
     "lat": -2.57421,
     "lon": -44.20373,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -40830,7 +41055,7 @@
     "lat": -2.49147,
     "lon": -44.25531,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -41724,6 +41949,24 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Timon",
+    "lat": -5.143889,
+    "lon": -42.847556,
+    "data": "28/03/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Timon",
+    "lat": -5.125472,
+    "lon": -42.844306,
+    "data": "28/03/2022",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "São Luís",
@@ -41748,7 +41991,7 @@
     "lat": -2.926306,
     "lon": -44.251667,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -41757,7 +42000,7 @@
     "lat": -2.926306,
     "lon": -44.251667,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41766,7 +42009,7 @@
     "lat": -2.5643,
     "lon": -44.32661,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41775,7 +42018,7 @@
     "lat": -2.55428,
     "lon": -44.32035,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41784,7 +42027,7 @@
     "lat": -2.55389,
     "lon": -44.305,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41793,7 +42036,7 @@
     "lat": -2.50111,
     "lon": -44.25194,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -41802,7 +42045,7 @@
     "lat": -2.59866,
     "lon": -44.22993,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -41811,7 +42054,7 @@
     "lat": -2.5954,
     "lon": -44.221419,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -41820,7 +42063,7 @@
     "lat": -2.542731,
     "lon": -44.299031,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -41829,7 +42072,7 @@
     "lat": -2.502609,
     "lon": -44.222851,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41838,7 +42081,7 @@
     "lat": -2.5643,
     "lon": -44.32661,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41847,7 +42090,7 @@
     "lat": -2.55428,
     "lon": -44.32035,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41856,7 +42099,7 @@
     "lat": -2.55389,
     "lon": -44.305,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -41865,7 +42108,7 @@
     "lat": -2.50111,
     "lon": -44.25194,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -41874,7 +42117,7 @@
     "lat": -2.59866,
     "lon": -44.22993,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -41883,7 +42126,7 @@
     "lat": -2.5954,
     "lon": -44.221419,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -41892,7 +42135,7 @@
     "lat": -2.542731,
     "lon": -44.299031,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -41901,7 +42144,7 @@
     "lat": -2.502609,
     "lon": -44.222851,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -42184,6 +42427,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Itapecuru Mirim",
+    "lat": -3.39986,
+    "lon": -44.345,
+    "data": "28/07/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Lago da Pedra",
     "lat": -4.56778,
@@ -42347,6 +42599,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Paço do Lumiar",
+    "lat": -2.478364,
+    "lon": -44.174758,
+    "data": "28/09/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Paço do Lumiar",
     "lat": -2.478364,
     "lon": -44.174758,
@@ -42751,6 +43012,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Caxias",
+    "lat": -4.85056,
+    "lon": -43.35583,
+    "data": "29/03/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Imperatriz",
     "lat": -5.550278,
@@ -42878,6 +43148,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Itapecuru Mirim",
+    "lat": -3.395392,
+    "lon": -44.356742,
+    "data": "29/03/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Itapecuru Mirim",
     "lat": -3.395392,
     "lon": -44.356742,

@@ -20377,6 +20377,15 @@
   },
   {
     "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Itapipoca",
+    "lat": -3.14921,
+    "lon": -39.44111,
+    "data": "11/09/2024",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Itapipoca",
     "lat": -3.51194,
@@ -20417,15 +20426,6 @@
     "municipio": "Itapipoca",
     "lat": -3.4973,
     "lon": -39.58075,
-    "data": "11/09/2024",
-    "nova": false
-  },
-  {
-    "operadora": "Claro",
-    "tecnologia": "5G",
-    "municipio": "Itapipoca",
-    "lat": -3.14921,
-    "lon": -39.44111,
     "data": "11/09/2024",
     "nova": false
   },
@@ -65476,6 +65476,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Crato",
+    "lat": -7.231389,
+    "lon": -39.371972,
+    "data": "24/03/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Eusébio",
     "lat": -3.859731,
@@ -67277,6 +67286,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Maracanaú",
+    "lat": -3.847194,
+    "lon": -38.644056,
+    "data": "24/07/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Maracanaú",
     "lat": -3.847194,
     "lon": -38.644056,
@@ -73671,7 +73689,7 @@
     "lat": -3.776507,
     "lon": -38.489479,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -73680,7 +73698,7 @@
     "lat": -3.776507,
     "lon": -38.489479,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -73689,7 +73707,7 @@
     "lat": -3.769453,
     "lon": -38.545544,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -73698,7 +73716,7 @@
     "lat": -3.75576,
     "lon": -38.456218,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -73707,7 +73725,7 @@
     "lat": -3.750019,
     "lon": -38.579961,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -73716,7 +73734,7 @@
     "lat": -3.724906,
     "lon": -38.500303,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -76767,7 +76785,7 @@
     "lat": -3.91883,
     "lon": -38.38201,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76776,7 +76794,7 @@
     "lat": -3.91883,
     "lon": -38.38201,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76785,7 +76803,7 @@
     "lat": -3.91883,
     "lon": -38.38201,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -76794,7 +76812,7 @@
     "lat": -3.863139,
     "lon": -38.472,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -76803,7 +76821,7 @@
     "lat": -3.863139,
     "lon": -38.472,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76812,7 +76830,7 @@
     "lat": -3.51215,
     "lon": -39.56461,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76821,7 +76839,7 @@
     "lat": -3.48727,
     "lon": -39.61397,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76830,7 +76848,7 @@
     "lat": -3.47153,
     "lon": -39.5661,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76839,7 +76857,7 @@
     "lat": -3.51215,
     "lon": -39.56461,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76848,7 +76866,7 @@
     "lat": -3.48727,
     "lon": -39.61397,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -76857,7 +76875,7 @@
     "lat": -3.47153,
     "lon": -39.5661,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",

@@ -1063,6 +1063,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.182222,
+    "lon": -48.23,
+    "data": "02/12/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Gurupi",
     "lat": -11.729778,
@@ -3970,6 +3979,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Araguatins",
+    "lat": -5.71977,
+    "lon": -48.14662,
+    "data": "06/11/2024",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Formoso do Araguaia",
     "lat": -11.642289,
@@ -4987,6 +5005,24 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.22056,
+    "lon": -48.245,
+    "data": "08/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.15444,
+    "lon": -48.20444,
+    "data": "08/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Presidente Kennedy",
     "lat": -8.53139,
@@ -5808,8 +5844,35 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Araguaína",
+    "lat": -7.2703,
+    "lon": -48.2624,
+    "data": "11/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.2008,
+    "lon": -48.2089,
+    "data": "11/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
     "lat": -7.1875,
     "lon": -48.2208,
+    "data": "11/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.1581,
+    "lon": -48.19,
     "data": "11/08/2022",
     "nova": false
   },
@@ -11226,6 +11289,105 @@
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Araguaína",
+    "lat": -7.21873,
+    "lon": -48.23914,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Araguaína",
+    "lat": -7.21873,
+    "lon": -48.23914,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Araguaína",
+    "lat": -7.20069,
+    "lon": -48.17274,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.21873,
+    "lon": -48.23914,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Araguaína",
+    "lat": -7.20069,
+    "lon": -48.17274,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Colinas do Tocantins",
+    "lat": -8.0417,
+    "lon": -48.46205,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Colinas do Tocantins",
+    "lat": -8.0417,
+    "lon": -48.46205,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Colinas do Tocantins",
+    "lat": -8.0417,
+    "lon": -48.46205,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Palmas",
+    "lat": -10.17591,
+    "lon": -48.30386,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Palmas",
+    "lat": -10.17591,
+    "lon": -48.30386,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Praia Norte",
+    "lat": -5.50805,
+    "lon": -47.73821,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Araguaína",
     "lat": -7.1866,
     "lon": -48.213,
     "data": "19/07/2021",
@@ -15572,6 +15734,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Araguaína",
+    "lat": -7.195056,
+    "lon": -48.195306,
+    "data": "28/09/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Araguaína",
     "lat": -7.195056,
     "lon": -48.195306,

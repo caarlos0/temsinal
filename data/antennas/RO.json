@@ -568,6 +568,24 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.887056,
+    "lon": -61.911528,
+    "data": "02/12/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.874194,
+    "lon": -61.949139,
+    "data": "02/12/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Ouro Preto do Oeste",
     "lat": -10.71917,
@@ -1352,6 +1370,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Ouro Preto do Oeste",
+    "lat": -10.72028,
+    "lon": -62.26028,
+    "data": "04/11/1999",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Ouro Preto do Oeste",
     "lat": -10.72028,
     "lon": -62.26028,
@@ -3287,6 +3314,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.8945,
+    "lon": -61.929056,
+    "data": "06/03/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Ji-Paraná",
     "lat": -10.8945,
     "lon": -61.929056,
@@ -5923,6 +5959,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.8889,
+    "lon": -61.9181,
+    "data": "11/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Machadinho D'Oeste",
     "lat": -9.425631,
@@ -6059,6 +6104,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.864167,
+    "lon": -61.96975,
+    "data": "11/10/2007",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Ji-Paraná",
     "lat": -10.864167,
     "lon": -61.96975,
@@ -7673,6 +7727,15 @@
     "municipio": "Porto Velho",
     "lat": -8.794278,
     "lon": -63.822389,
+    "data": "14/03/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Porto Velho",
+    "lat": -8.7639,
+    "lon": -63.87056,
     "data": "14/03/2024",
     "nova": false
   },
@@ -9882,6 +9945,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Porto Velho",
+    "lat": -8.73754,
+    "lon": -63.83487,
+    "data": "19/05/2017",
+    "nova": false
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Ji-Paraná",
@@ -9893,6 +9965,24 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.86268,
+    "lon": -61.9798,
+    "data": "19/05/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.89625,
+    "lon": -61.90317,
+    "data": "19/05/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Ji-Paraná",
     "lat": -10.86268,
     "lon": -61.9798,
@@ -9916,6 +10006,78 @@
     "lon": -63.83487,
     "data": "19/05/2023",
     "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Cacoal",
+    "lat": -11.435153,
+    "lon": -61.622928,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Cacoal",
+    "lat": -11.376775,
+    "lon": -61.676706,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Jaru",
+    "lat": -10.394917,
+    "lon": -62.514639,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Pimenta Bueno",
+    "lat": -11.841064,
+    "lon": -61.021156,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Pimenta Bueno",
+    "lat": -11.770014,
+    "lon": -61.079653,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Pimenta Bueno",
+    "lat": -11.73385,
+    "lon": -61.123325,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Porto Velho",
+    "lat": -9.65449,
+    "lon": -65.7389,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Porto Velho",
+    "lat": -9.65449,
+    "lon": -65.7389,
+    "data": "19/05/2026",
+    "nova": true
   },
   {
     "operadora": "Vivo",
@@ -10873,6 +11035,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Buritis",
+    "lat": -10.20813,
+    "lon": -63.83957,
+    "data": "20/11/2020",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Candeias do Jamari",
     "lat": -8.784028,
@@ -11543,6 +11714,15 @@
     "municipio": "Ji-Paraná",
     "lat": -10.86222,
     "lon": -61.93972,
+    "data": "22/06/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.88083,
+    "lon": -61.94556,
     "data": "22/06/2022",
     "nova": false
   },
@@ -13131,6 +13311,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Vilhena",
+    "lat": -12.71806,
+    "lon": -60.13528,
+    "data": "25/11/2019",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Ji-Paraná",
@@ -14169,6 +14358,15 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Porto Velho",
+    "lat": -8.74282,
+    "lon": -63.84696,
+    "data": "28/01/2011",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Porto Velho",
     "lat": -8.72737,
     "lon": -63.87213,
     "data": "28/01/2011",
@@ -14370,7 +14568,7 @@
     "lat": -8.810339,
     "lon": -63.888306,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -14379,7 +14577,7 @@
     "lat": -8.808089,
     "lon": -63.8085,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -14388,7 +14586,7 @@
     "lat": -8.722617,
     "lon": -63.854419,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -14397,7 +14595,7 @@
     "lat": -8.810339,
     "lon": -63.888306,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -14406,7 +14604,7 @@
     "lat": -8.808089,
     "lon": -63.8085,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -14415,7 +14613,7 @@
     "lat": -8.722617,
     "lon": -63.854419,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -14528,6 +14726,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Buritis",
+    "lat": -10.20861,
+    "lon": -63.82722,
+    "data": "28/11/2000",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Buritis",
     "lat": -10.20861,
     "lon": -63.82722,
@@ -15392,6 +15599,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Ji-Paraná",
+    "lat": -10.862306,
+    "lon": -61.939778,
+    "data": "30/01/2024",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Ji-Paraná",
     "lat": -10.862306,
     "lon": -61.939778,

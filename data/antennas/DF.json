@@ -37440,6 +37440,123 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Brasília",
+    "lat": -15.93404,
+    "lon": -47.75305,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.93404,
+    "lon": -47.75305,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.955778,
+    "lon": -48.054861,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.931889,
+    "lon": -47.770194,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.8889,
+    "lon": -47.75267,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.88709,
+    "lon": -47.91794,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Brasília",
+    "lat": -15.857028,
+    "lon": -48.074472,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.93404,
+    "lon": -47.75305,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.955778,
+    "lon": -48.054861,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.931889,
+    "lon": -47.770194,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.8889,
+    "lon": -47.75267,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.88709,
+    "lon": -47.91794,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Brasília",
+    "lat": -15.857028,
+    "lon": -48.074472,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Brasília",
@@ -52008,7 +52125,7 @@
     "lat": -15.81693,
     "lon": -47.99269,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -52017,7 +52134,7 @@
     "lat": -15.7936,
     "lon": -47.85692,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -52026,7 +52143,7 @@
     "lat": -15.81693,
     "lon": -47.99269,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -52035,7 +52152,7 @@
     "lat": -15.7936,
     "lon": -47.85692,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -52044,7 +52161,7 @@
     "lat": -15.81693,
     "lon": -47.99269,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -52053,7 +52170,7 @@
     "lat": -15.7936,
     "lon": -47.85692,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -53619,7 +53736,7 @@
     "lat": -15.80242,
     "lon": -47.92132,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -53628,7 +53745,7 @@
     "lat": -15.80242,
     "lon": -47.92132,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -53637,7 +53754,7 @@
     "lat": -15.809893,
     "lon": -47.84485,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -53646,7 +53763,7 @@
     "lat": -15.799603,
     "lon": -47.864244,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -53655,7 +53772,7 @@
     "lat": -15.783689,
     "lon": -47.899078,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -53664,7 +53781,7 @@
     "lat": -15.80242,
     "lon": -47.92132,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -53673,7 +53790,7 @@
     "lat": -15.799603,
     "lon": -47.864244,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -53682,7 +53799,7 @@
     "lat": -15.783689,
     "lon": -47.899078,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

@@ -3162,8 +3162,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Bento Gonçalves",
-    "lat": -29.17083,
-    "lon": -51.51222,
+    "lat": -29.171016,
+    "lon": -51.511991,
     "data": "01/09/2022",
     "nova": false
   },
@@ -3173,6 +3173,15 @@
     "municipio": "Bento Gonçalves",
     "lat": -29.16556,
     "lon": -51.48806,
+    "data": "01/09/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bento Gonçalves",
+    "lat": -29.171016,
+    "lon": -51.511991,
     "data": "01/09/2022",
     "nova": false
   },
@@ -39852,6 +39861,24 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Encruzilhada do Sul",
+    "lat": -30.53792,
+    "lon": -52.5168,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Encruzilhada do Sul",
+    "lat": -30.53792,
+    "lon": -52.5168,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Gramado",
@@ -48359,6 +48386,42 @@
   {
     "operadora": "TIM",
     "tecnologia": "2G",
+    "municipio": "Bento Gonçalves",
+    "lat": -29.166019,
+    "lon": -51.494944,
+    "data": "09/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "3G",
+    "municipio": "Bento Gonçalves",
+    "lat": -29.166019,
+    "lon": -51.494944,
+    "data": "09/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Bento Gonçalves",
+    "lat": -29.166019,
+    "lon": -51.494944,
+    "data": "09/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bento Gonçalves",
+    "lat": -29.166019,
+    "lon": -51.494944,
+    "data": "09/08/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "2G",
     "municipio": "Boa Vista do Buricá",
     "lat": -27.669028,
     "lon": -54.112139,
@@ -48773,6 +48836,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "São Leopoldo",
+    "lat": -29.76917,
+    "lon": -51.14639,
+    "data": "09/09/2016",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "São Leopoldo",
     "lat": -29.76917,
     "lon": -51.14639,
@@ -54822,8 +54894,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Sapucaia do Sul",
-    "lat": -29.807389,
-    "lon": -51.166583,
+    "lat": -29.807306,
+    "lon": -51.1665,
     "data": "10/05/2023",
     "nova": false
   },
@@ -54831,8 +54903,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Sapucaia do Sul",
-    "lat": -29.807389,
-    "lon": -51.166583,
+    "lat": -29.807306,
+    "lon": -51.1665,
     "data": "10/05/2023",
     "nova": false
   },
@@ -54840,8 +54912,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Sapucaia do Sul",
-    "lat": -29.807389,
-    "lon": -51.166583,
+    "lat": -29.807306,
+    "lon": -51.1665,
+    "data": "10/05/2023",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Sapucaia do Sul",
+    "lat": -29.807306,
+    "lon": -51.1665,
     "data": "10/05/2023",
     "nova": false
   },
@@ -69471,6 +69552,24 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "Santo Cristo",
+    "lat": -27.789383,
+    "lon": -54.761988,
+    "data": "13/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
+    "municipio": "São Nicolau",
+    "lat": -28.067794,
+    "lon": -55.407752,
+    "data": "13/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Cerro Grande do Sul",
@@ -76422,8 +76521,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.69194,
-    "lon": -52.41778,
+    "lat": -29.691886,
+    "lon": -52.418168,
     "data": "15/07/2004",
     "nova": false
   },
@@ -76431,8 +76530,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.69194,
-    "lon": -52.41778,
+    "lat": -29.691886,
+    "lon": -52.418168,
     "data": "15/07/2004",
     "nova": false
   },
@@ -76440,8 +76539,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.69194,
-    "lon": -52.41778,
+    "lat": -29.691886,
+    "lon": -52.418168,
+    "data": "15/07/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Santa Cruz do Sul",
+    "lat": -29.691886,
+    "lon": -52.418168,
     "data": "15/07/2004",
     "nova": false
   },
@@ -94638,6 +94746,15 @@
     "operadora": "TIM",
     "tecnologia": "5G",
     "municipio": "Novo Hamburgo",
+    "lat": -29.766022,
+    "lon": -51.038922,
+    "data": "18/12/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Novo Hamburgo",
     "lat": -29.653639,
     "lon": -51.107278,
     "data": "18/12/2003",
@@ -99129,8 +99246,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Mostardas",
-    "lat": -31.15152,
-    "lon": -50.81045,
+    "lat": -31.14929,
+    "lon": -50.81051,
     "data": "19/12/2025",
     "nova": true
   },
@@ -99138,8 +99255,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Mostardas",
-    "lat": -31.15152,
-    "lon": -50.81045,
+    "lat": -31.14929,
+    "lon": -50.81051,
     "data": "19/12/2025",
     "nova": true
   },
@@ -106581,8 +106698,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.72361,
-    "lon": -52.42667,
+    "lat": -29.72377,
+    "lon": -52.427252,
     "data": "21/07/2003",
     "nova": false
   },
@@ -106608,8 +106725,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.72361,
-    "lon": -52.42667,
+    "lat": -29.72377,
+    "lon": -52.427252,
     "data": "21/07/2003",
     "nova": false
   },
@@ -106626,8 +106743,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Santa Cruz do Sul",
-    "lat": -29.72361,
-    "lon": -52.42667,
+    "lat": -29.72377,
+    "lon": -52.427252,
     "data": "21/07/2003",
     "nova": false
   },
@@ -106637,6 +106754,15 @@
     "municipio": "Santa Cruz do Sul",
     "lat": -29.702528,
     "lon": -52.432861,
+    "data": "21/07/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Santa Cruz do Sul",
+    "lat": -29.72377,
+    "lon": -52.427252,
     "data": "21/07/2003",
     "nova": false
   },
@@ -111981,8 +112107,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Bagé",
-    "lat": -31.34222,
-    "lon": -54.08083,
+    "lat": -31.342306,
+    "lon": -54.08116,
     "data": "22/06/2022",
     "nova": false
   },
@@ -111999,8 +112125,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Bagé",
-    "lat": -31.34222,
-    "lon": -54.08083,
+    "lat": -31.342306,
+    "lon": -54.08116,
     "data": "22/06/2022",
     "nova": false
   },
@@ -112026,8 +112152,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Bagé",
-    "lat": -31.34222,
-    "lon": -54.08083,
+    "lat": -31.342306,
+    "lon": -54.08116,
     "data": "22/06/2022",
     "nova": false
   },
@@ -112037,6 +112163,15 @@
     "municipio": "Bagé",
     "lat": -31.327362,
     "lon": -54.105803,
+    "data": "22/06/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bagé",
+    "lat": -31.342306,
+    "lon": -54.08116,
     "data": "22/06/2022",
     "nova": false
   },
@@ -116345,6 +116480,15 @@
   {
     "operadora": "Claro",
     "tecnologia": "4G",
+    "municipio": "Canoas",
+    "lat": -29.8893,
+    "lon": -51.1679,
+    "data": "23/03/2006",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
     "municipio": "Canoas",
     "lat": -29.8893,
     "lon": -51.1679,
@@ -130344,7 +130488,7 @@
     "lat": -29.5187,
     "lon": -53.29358,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130353,7 +130497,7 @@
     "lat": -29.5187,
     "lon": -53.29358,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130362,7 +130506,7 @@
     "lat": -29.16651,
     "lon": -51.489,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130371,7 +130515,7 @@
     "lat": -29.16651,
     "lon": -51.489,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130380,7 +130524,7 @@
     "lat": -30.09606,
     "lon": -51.64916,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130389,7 +130533,7 @@
     "lat": -30.09606,
     "lon": -51.64916,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130398,7 +130542,7 @@
     "lat": -29.2214,
     "lon": -51.8861,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130407,7 +130551,7 @@
     "lat": -29.87832,
     "lon": -51.28091,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130416,7 +130560,7 @@
     "lat": -29.87832,
     "lon": -51.28091,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130425,7 +130569,7 @@
     "lat": -29.48083,
     "lon": -50.6975,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130434,7 +130578,7 @@
     "lat": -29.48083,
     "lon": -50.6975,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130443,7 +130587,7 @@
     "lat": -30.28343,
     "lon": -51.01991,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130452,7 +130596,7 @@
     "lat": -30.28343,
     "lon": -51.01991,
     "data": "26/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -130863,8 +131007,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Cachoeirinha",
-    "lat": -29.91056,
-    "lon": -51.06611,
+    "lat": -29.911222,
+    "lon": -51.066602,
     "data": "26/08/2022",
     "nova": false
   },
@@ -130874,6 +131018,15 @@
     "municipio": "Cachoeirinha",
     "lat": -29.90972,
     "lon": -51.08139,
+    "data": "26/08/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Cachoeirinha",
+    "lat": -29.911222,
+    "lon": -51.066602,
     "data": "26/08/2022",
     "nova": false
   },
@@ -136380,8 +136533,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Bento Gonçalves",
-    "lat": -29.16528,
-    "lon": -51.51722,
+    "lat": -29.165528,
+    "lon": -51.517417,
     "data": "27/09/2005",
     "nova": false
   },
@@ -136389,8 +136542,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Bento Gonçalves",
-    "lat": -29.16528,
-    "lon": -51.51722,
+    "lat": -29.165528,
+    "lon": -51.517417,
     "data": "27/09/2005",
     "nova": false
   },
@@ -136398,8 +136551,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Bento Gonçalves",
-    "lat": -29.16528,
-    "lon": -51.51722,
+    "lat": -29.165528,
+    "lon": -51.517417,
+    "data": "27/09/2005",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bento Gonçalves",
+    "lat": -29.165528,
+    "lon": -51.517417,
     "data": "27/09/2005",
     "nova": false
   },
@@ -138768,7 +138930,7 @@
     "lat": -29.178767,
     "lon": -51.135831,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -138777,7 +138939,7 @@
     "lat": -29.137833,
     "lon": -51.19275,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -138786,7 +138948,7 @@
     "lat": -29.127878,
     "lon": -51.221883,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -138795,7 +138957,7 @@
     "lat": -29.178767,
     "lon": -51.135831,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -138804,7 +138966,7 @@
     "lat": -29.137833,
     "lon": -51.19275,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -138813,7 +138975,7 @@
     "lat": -31.75211,
     "lon": -52.32925,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -138822,7 +138984,7 @@
     "lat": -31.75211,
     "lon": -52.32925,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -138831,7 +138993,7 @@
     "lat": -30.080069,
     "lon": -51.247692,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -138840,7 +139002,7 @@
     "lat": -30.080069,
     "lon": -51.247692,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -145211,6 +145373,15 @@
     "municipio": "Bagé",
     "lat": -31.305315,
     "lon": -54.122319,
+    "data": "29/09/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Bagé",
+    "lat": -31.334322,
+    "lon": -54.117682,
     "data": "29/09/2003",
     "nova": false
   },

@@ -1125,6 +1125,15 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Parnaíba",
+    "lat": -2.89971,
+    "lon": -41.71838,
+    "data": "02/03/2016",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Alagoinha do Piauí",
@@ -19938,8 +19947,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Luzilândia",
-    "lat": -3.462278,
-    "lon": -42.372139,
+    "lat": -3.460722,
+    "lon": -42.369053,
     "data": "20/11/2012",
     "nova": false
   },
@@ -19947,8 +19956,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Luzilândia",
-    "lat": -3.462278,
-    "lon": -42.372139,
+    "lat": -3.460722,
+    "lon": -42.369053,
     "data": "20/11/2012",
     "nova": false
   },

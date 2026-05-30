@@ -2179,6 +2179,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Cruzeiro do Sul",
+    "lat": -7.634147,
+    "lon": -72.665506,
+    "data": "09/09/2020",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Rio Branco",
     "lat": -9.930103,
@@ -4419,6 +4428,24 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Rio Branco",
+    "lat": -10.029592,
+    "lon": -67.800925,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Rio Branco",
+    "lat": -10.029592,
+    "lon": -67.800925,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Brasiléia",
@@ -6490,6 +6517,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Senador Guiomard",
+    "lat": -10.168119,
+    "lon": -67.721761,
+    "data": "27/11/2018",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Bujari",
     "lat": -9.82972,
@@ -6927,7 +6963,7 @@
     "lat": -9.942414,
     "lon": -67.796131,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -6936,7 +6972,7 @@
     "lat": -9.942414,
     "lon": -67.796131,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

@@ -7557,7 +7557,7 @@
     "lat": 0.04018,
     "lon": -51.05278,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -7566,7 +7566,7 @@
     "lat": 0.04018,
     "lon": -51.05278,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7647,7 +7647,7 @@
     "lat": 0.01346,
     "lon": -51.06385,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7656,7 +7656,7 @@
     "lat": -0.0247166,
     "lon": -51.0791583,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7665,7 +7665,7 @@
     "lat": -0.004727,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7674,7 +7674,7 @@
     "lat": -0.004726,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7683,7 +7683,7 @@
     "lat": -0.004725,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7692,7 +7692,7 @@
     "lat": -0.004724,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7701,7 +7701,7 @@
     "lat": -0.004723,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7710,7 +7710,7 @@
     "lat": -0.004722,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7719,7 +7719,7 @@
     "lat": 0.078342,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7728,7 +7728,7 @@
     "lat": 0.078343,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7737,7 +7737,7 @@
     "lat": 0.078344,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7746,7 +7746,7 @@
     "lat": 0.078345,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7755,7 +7755,7 @@
     "lat": 0.078346,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7764,7 +7764,7 @@
     "lat": 0.078347,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7773,7 +7773,7 @@
     "lat": 0.088722,
     "lon": -51.057492,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7782,7 +7782,7 @@
     "lat": 0.093633,
     "lon": -51.054994,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -7791,7 +7791,7 @@
     "lat": 0.01346,
     "lon": -51.06385,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7800,7 +7800,7 @@
     "lat": -0.0247166,
     "lon": -51.0791583,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7809,7 +7809,7 @@
     "lat": -0.004724,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7818,7 +7818,7 @@
     "lat": -0.004723,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7827,7 +7827,7 @@
     "lat": -0.004722,
     "lon": -51.093281,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7836,7 +7836,7 @@
     "lat": 0.078342,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7845,7 +7845,7 @@
     "lat": 0.078343,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7854,7 +7854,7 @@
     "lat": 0.078344,
     "lon": -51.078736,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7863,7 +7863,7 @@
     "lat": 0.088722,
     "lon": -51.057492,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -7872,7 +7872,7 @@
     "lat": 0.093633,
     "lon": -51.054994,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

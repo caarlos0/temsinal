@@ -1893,8 +1893,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Colatina",
-    "lat": -19.528533,
-    "lon": -40.703125,
+    "lat": -19.527861,
+    "lon": -40.700478,
     "data": "01/12/2004",
     "nova": false
   },
@@ -1902,8 +1902,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Colatina",
-    "lat": -19.528533,
-    "lon": -40.703125,
+    "lat": -19.527861,
+    "lon": -40.700478,
     "data": "01/12/2004",
     "nova": false
   },
@@ -1911,8 +1911,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Colatina",
-    "lat": -19.528533,
-    "lon": -40.703125,
+    "lat": -19.527861,
+    "lon": -40.700478,
+    "data": "01/12/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Colatina",
+    "lat": -19.527861,
+    "lon": -40.700478,
     "data": "01/12/2004",
     "nova": false
   },
@@ -4593,8 +4602,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "São Mateus",
-    "lat": -18.717528,
-    "lon": -39.843108,
+    "lat": -18.717944,
+    "lon": -39.842944,
     "data": "03/06/2019",
     "nova": false
   },
@@ -4602,8 +4611,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "São Mateus",
-    "lat": -18.717528,
-    "lon": -39.843108,
+    "lat": -18.717944,
+    "lon": -39.842944,
+    "data": "03/06/2019",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São Mateus",
+    "lat": -18.717944,
+    "lon": -39.842944,
     "data": "03/06/2019",
     "nova": false
   },
@@ -9975,8 +9993,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Colatina",
-    "lat": -19.522042,
-    "lon": -40.591364,
+    "lat": -19.522056,
+    "lon": -40.591361,
     "data": "08/01/2018",
     "nova": false
   },
@@ -9993,8 +10011,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Colatina",
-    "lat": -19.522042,
-    "lon": -40.591364,
+    "lat": -19.522056,
+    "lon": -40.591361,
     "data": "08/01/2018",
     "nova": false
   },
@@ -10004,6 +10022,15 @@
     "municipio": "Colatina",
     "lat": -19.527417,
     "lon": -40.667556,
+    "data": "08/01/2018",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Colatina",
+    "lat": -19.522056,
+    "lon": -40.591361,
     "data": "08/01/2018",
     "nova": false
   },
@@ -10384,6 +10411,33 @@
     "lon": -39.7674,
     "data": "08/05/2025",
     "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Vitória",
+    "lat": -20.30262,
+    "lon": -40.28388,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Vitória",
+    "lat": -20.30262,
+    "lon": -40.28388,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Vitória",
+    "lat": -20.30262,
+    "lon": -40.28388,
+    "data": "08/05/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",
@@ -12638,6 +12692,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "3G",
+    "municipio": "Cachoeiro de Itapemirim",
+    "lat": -20.676181,
+    "lon": -41.201419,
+    "data": "10/07/2015",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "4G",
     "municipio": "Cachoeiro de Itapemirim",
     "lat": -20.676181,
     "lon": -41.201419,
@@ -15319,6 +15382,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Aracruz",
+    "lat": -19.689194,
+    "lon": -40.285917,
+    "data": "11/06/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Cariacica",
     "lat": -20.346611,
@@ -15590,6 +15662,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Aracruz",
+    "lat": -19.830639,
+    "lon": -40.061278,
+    "data": "11/07/2011",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Aracruz",
     "lat": -19.830639,
     "lon": -40.061278,
@@ -15860,6 +15941,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "São Mateus",
+    "lat": -18.495472,
+    "lon": -40.089722,
+    "data": "11/11/2021",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "São Mateus",
     "lat": -18.495472,
     "lon": -40.089722,
@@ -19762,6 +19852,15 @@
     "lon": -41.004639,
     "data": "13/03/2024",
     "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Cachoeiro de Itapemirim",
+    "lat": -20.913306,
+    "lon": -41.073806,
+    "data": "13/05/2026",
+    "nova": true
   },
   {
     "operadora": "Claro",
@@ -30303,6 +30402,42 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Aracruz",
+    "lat": -20.00892,
+    "lon": -40.15699,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Aracruz",
+    "lat": -20.00892,
+    "lon": -40.15699,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Linhares",
+    "lat": -19.32394,
+    "lon": -40.05725,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Marataízes",
+    "lat": -21.03689,
+    "lon": -40.83535,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Cariacica",
@@ -33530,6 +33665,15 @@
     "municipio": "Aracruz",
     "lat": -19.82056,
     "lon": -40.27278,
+    "data": "18/12/2003",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Aracruz",
+    "lat": -19.937389,
+    "lon": -40.138944,
     "data": "18/12/2003",
     "nova": false
   },
@@ -43995,8 +44139,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Sooretama",
-    "lat": -19.19028,
-    "lon": -40.09806,
+    "lat": -19.190361,
+    "lon": -40.098055,
     "data": "22/03/2004",
     "nova": false
   },
@@ -44004,8 +44148,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Sooretama",
-    "lat": -19.19028,
-    "lon": -40.09806,
+    "lat": -19.190361,
+    "lon": -40.098055,
     "data": "22/03/2004",
     "nova": false
   },
@@ -44013,8 +44157,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Sooretama",
-    "lat": -19.19028,
-    "lon": -40.09806,
+    "lat": -19.190361,
+    "lon": -40.098055,
     "data": "22/03/2004",
     "nova": false
   },
@@ -54609,7 +54753,7 @@
     "lat": -20.206361,
     "lon": -40.23913,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -54618,7 +54762,7 @@
     "lat": -20.206361,
     "lon": -40.23913,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -54627,7 +54771,7 @@
     "lat": -20.195194,
     "lon": -40.248917,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -54636,7 +54780,7 @@
     "lat": -20.19482,
     "lon": -40.25326,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -54645,7 +54789,7 @@
     "lat": -20.194417,
     "lon": -40.248469,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -54654,7 +54798,7 @@
     "lat": -20.149056,
     "lon": -40.184944,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -54663,7 +54807,7 @@
     "lat": -20.143222,
     "lon": -40.183278,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
@@ -56404,7 +56548,7 @@
   },
   {
     "operadora": "Claro",
-    "tecnologia": "3G",
+    "tecnologia": "4G",
     "municipio": "Aracruz",
     "lat": -19.9831,
     "lon": -40.14725,
@@ -56413,7 +56557,7 @@
   },
   {
     "operadora": "Claro",
-    "tecnologia": "4G",
+    "tecnologia": "5G",
     "municipio": "Aracruz",
     "lat": -19.9831,
     "lon": -40.14725,
@@ -63633,8 +63777,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "São Mateus",
-    "lat": -18.727614,
-    "lon": -39.825089,
+    "lat": -18.727083,
+    "lon": -39.824861,
     "data": "30/01/2018",
     "nova": false
   },
@@ -63642,8 +63786,17 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "São Mateus",
-    "lat": -18.727614,
-    "lon": -39.825089,
+    "lat": -18.727083,
+    "lon": -39.824861,
+    "data": "30/01/2018",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "São Mateus",
+    "lat": -18.727083,
+    "lon": -39.824861,
     "data": "30/01/2018",
     "nova": false
   },

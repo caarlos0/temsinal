@@ -2061,6 +2061,24 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Corumbá",
+    "lat": -19.00222,
+    "lon": -57.65139,
+    "data": "03/09/2022",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Corumbá",
+    "lat": -19.00139,
+    "lon": -57.6675,
+    "data": "03/09/2022",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Campo Grande",
@@ -9783,6 +9801,15 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Rio Brilhante",
+    "lat": -21.804897,
+    "lon": -54.534053,
+    "data": "11/08/2021",
+    "nova": false
+  },
+  {
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Aquidauana",
@@ -11536,6 +11563,15 @@
     "lon": -51.88475,
     "data": "13/05/2025",
     "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Corumbá",
+    "lat": -19.037208,
+    "lon": -57.656928,
+    "data": "13/05/2026",
+    "nova": true
   },
   {
     "operadora": "Vivo",
@@ -18675,6 +18711,150 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Campo Grande",
+    "lat": -20.48662,
+    "lon": -54.60193,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Campo Grande",
+    "lat": -20.46292,
+    "lon": -54.5505,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.48662,
+    "lon": -54.60193,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.48296,
+    "lon": -54.66557,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.46292,
+    "lon": -54.5505,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Campo Grande",
+    "lat": -20.438796,
+    "lon": -54.576034,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.48662,
+    "lon": -54.60193,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.48296,
+    "lon": -54.66557,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.46292,
+    "lon": -54.5505,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.438796,
+    "lon": -54.576034,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Dourados",
+    "lat": -22.2423,
+    "lon": -54.74423,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Dourados",
+    "lat": -22.2423,
+    "lon": -54.74423,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Ponta Porã",
+    "lat": -22.54419,
+    "lon": -55.70441,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Ponta Porã",
+    "lat": -22.48595,
+    "lon": -55.72996,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Ponta Porã",
+    "lat": -22.54419,
+    "lon": -55.70441,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Ponta Porã",
+    "lat": -22.48595,
+    "lon": -55.72996,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Corumbá",
@@ -21173,6 +21353,15 @@
     "municipio": "Campo Grande",
     "lat": -20.42743,
     "lon": -54.56399,
+    "data": "22/06/2010",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Campo Grande",
+    "lat": -20.40016,
+    "lon": -54.5779,
     "data": "22/06/2010",
     "nova": false
   },
@@ -24400,6 +24589,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Três Lagoas",
+    "lat": -20.763889,
+    "lon": -51.705556,
+    "data": "24/11/2014",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Ponta Porã",
     "lat": -22.556011,
@@ -25346,6 +25544,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Três Lagoas",
+    "lat": -20.751167,
+    "lon": -51.668611,
+    "data": "26/03/2015",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Três Lagoas",
     "lat": -20.751167,
     "lon": -51.668611,

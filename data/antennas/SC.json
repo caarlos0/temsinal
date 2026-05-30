@@ -25193,6 +25193,42 @@
   {
     "operadora": "Claro",
     "tecnologia": "2G",
+    "municipio": "Piratuba",
+    "lat": -27.44723,
+    "lon": -51.85844,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Piratuba",
+    "lat": -27.44723,
+    "lon": -51.85844,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Rio das Antas",
+    "lat": -26.96944,
+    "lon": -51.11888,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Rio das Antas",
+    "lat": -26.96944,
+    "lon": -51.11888,
+    "data": "08/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
     "municipio": "São João Batista",
     "lat": -27.26115,
     "lon": -48.84369,
@@ -52284,8 +52320,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Florianópolis",
-    "lat": -27.69444,
-    "lon": -48.49528,
+    "lat": -27.412778,
+    "lon": -48.424722,
     "data": "15/10/2019",
     "nova": false
   },
@@ -63243,6 +63279,24 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Itapiranga",
+    "lat": -27.18365,
+    "lon": -53.63347,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Itapiranga",
+    "lat": -27.18365,
+    "lon": -53.63347,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Barra Velha",
@@ -72615,8 +72669,8 @@
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Blumenau",
-    "lat": -26.85248,
-    "lon": -49.07111,
+    "lat": -26.85036,
+    "lon": -49.076,
     "data": "23/01/2025",
     "nova": false
   },
@@ -72624,8 +72678,8 @@
     "operadora": "Claro",
     "tecnologia": "4G",
     "municipio": "Blumenau",
-    "lat": -26.85248,
-    "lon": -49.07111,
+    "lat": -26.85036,
+    "lon": -49.076,
     "data": "23/01/2025",
     "nova": false
   },
@@ -72633,8 +72687,8 @@
     "operadora": "Claro",
     "tecnologia": "5G",
     "municipio": "Blumenau",
-    "lat": -26.85248,
-    "lon": -49.07111,
+    "lat": -26.85036,
+    "lon": -49.076,
     "data": "23/01/2025",
     "nova": false
   },
@@ -86070,8 +86124,8 @@
     "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Florianópolis",
-    "lat": -27.60194,
-    "lon": -48.5475,
+    "lat": -27.603222,
+    "lon": -48.547778,
     "data": "27/07/2001",
     "nova": false
   },
@@ -86097,8 +86151,8 @@
     "operadora": "TIM",
     "tecnologia": "3G",
     "municipio": "Florianópolis",
-    "lat": -27.60194,
-    "lon": -48.5475,
+    "lat": -27.603222,
+    "lon": -48.547778,
     "data": "27/07/2001",
     "nova": false
   },
@@ -86124,8 +86178,8 @@
     "operadora": "TIM",
     "tecnologia": "4G",
     "municipio": "Florianópolis",
-    "lat": -27.60194,
-    "lon": -48.5475,
+    "lat": -27.603222,
+    "lon": -48.547778,
     "data": "27/07/2001",
     "nova": false
   },
@@ -89241,7 +89295,7 @@
     "lat": -26.86401,
     "lon": -49.07223,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -89250,7 +89304,7 @@
     "lat": -26.86401,
     "lon": -49.07223,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -89259,7 +89313,7 @@
     "lat": -26.86401,
     "lon": -49.07223,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",

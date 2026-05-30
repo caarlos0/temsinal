@@ -3952,6 +3952,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Boa Vista",
+    "lat": 2.829189,
+    "lon": -60.718381,
+    "data": "19/12/2024",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "5G",
     "municipio": "Boa Vista",
     "lat": 2.816583,
@@ -5307,7 +5316,7 @@
     "lat": 2.886289,
     "lon": -60.693097,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",
@@ -5316,7 +5325,7 @@
     "lat": 2.886289,
     "lon": -60.693097,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",

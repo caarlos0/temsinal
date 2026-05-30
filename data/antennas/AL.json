@@ -15696,6 +15696,42 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Arapiraca",
+    "lat": -9.70331,
+    "lon": -36.6886,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Arapiraca",
+    "lat": -9.70331,
+    "lon": -36.6886,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Maribondo",
+    "lat": -9.57679,
+    "lon": -36.30634,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Maribondo",
+    "lat": -9.57679,
+    "lon": -36.30634,
+    "data": "18/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "São Sebastião",
@@ -26340,7 +26376,7 @@
     "lat": -9.58169,
     "lon": -35.78361,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -26349,7 +26385,7 @@
     "lat": -9.58169,
     "lon": -35.78361,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -26358,7 +26394,7 @@
     "lat": -9.53117,
     "lon": -35.80634,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -26367,7 +26403,7 @@
     "lat": -9.53117,
     "lon": -35.80634,
     "data": "28/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "TIM",

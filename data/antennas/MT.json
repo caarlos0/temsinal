@@ -424,6 +424,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Primavera do Leste",
+    "lat": -15.565969,
+    "lon": -54.333531,
+    "data": "01/04/2019",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Rondonópolis",
     "lat": -16.432425,
@@ -4969,6 +4978,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Barra do Bugres",
+    "lat": -15.07472,
+    "lon": -57.20306,
+    "data": "05/03/2015",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "3G",
     "municipio": "Cuiabá",
     "lat": -15.67944,
@@ -6440,6 +6458,15 @@
     "municipio": "Cuiabá",
     "lat": -15.621324,
     "lon": -56.061727,
+    "data": "05/09/2025",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Cuiabá",
+    "lat": -15.589833,
+    "lon": -56.075472,
     "data": "05/09/2025",
     "nova": true
   },
@@ -10737,6 +10764,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Tangará da Serra",
+    "lat": -14.63306,
+    "lon": -57.52222,
+    "data": "08/05/2006",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "3G",
     "municipio": "Chapada dos Guimarães",
@@ -12263,6 +12299,15 @@
     "municipio": "Lucas do Rio Verde",
     "lat": -13.050028,
     "lon": -55.921444,
+    "data": "08/12/2010",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Lucas do Rio Verde",
+    "lat": -13.078506,
+    "lon": -55.911119,
     "data": "08/12/2010",
     "nova": false
   },
@@ -13916,6 +13961,15 @@
   {
     "operadora": "Vivo",
     "tecnologia": "4G",
+    "municipio": "Primavera do Leste",
+    "lat": -15.529389,
+    "lon": -54.32525,
+    "data": "10/07/2015",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
     "municipio": "Primavera do Leste",
     "lat": -15.529389,
     "lon": -54.32525,
@@ -18604,6 +18658,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Barra do Garças",
+    "lat": -15.871472,
+    "lon": -52.260111,
+    "data": "13/09/2004",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Cuiabá",
     "lat": -15.657667,
@@ -20584,6 +20647,15 @@
   },
   {
     "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Barra do Bugres",
+    "lat": -15.06333,
+    "lon": -57.19389,
+    "data": "14/02/2013",
+    "nova": false
+  },
+  {
+    "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Cuiabá",
     "lat": -15.62833,
@@ -22358,6 +22430,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Barra do Garças",
+    "lat": -15.87194,
+    "lon": -52.25972,
+    "data": "15/03/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Barra do Garças",
     "lat": -15.87194,
     "lon": -52.25972,
@@ -28935,6 +29016,204 @@
     "nova": false
   },
   {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Cuiabá",
+    "lat": -15.45099,
+    "lon": -56.08828,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cuiabá",
+    "lat": -15.45099,
+    "lon": -56.08828,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Cuiabá",
+    "lat": -15.637869,
+    "lon": -56.038533,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Cuiabá",
+    "lat": -15.45099,
+    "lon": -56.08828,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Cuiabá",
+    "lat": -15.637869,
+    "lon": -56.038533,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Cáceres",
+    "lat": -16.10632,
+    "lon": -57.6903,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Cáceres",
+    "lat": -16.10632,
+    "lon": -57.6903,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Guarantã do Norte",
+    "lat": -9.95364,
+    "lon": -54.89153,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Guarantã do Norte",
+    "lat": -9.95364,
+    "lon": -54.89153,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Guarantã do Norte",
+    "lat": -9.95364,
+    "lon": -54.89153,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "2G",
+    "municipio": "Lucas do Rio Verde",
+    "lat": -13.10046,
+    "lon": -55.92552,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Lucas do Rio Verde",
+    "lat": -13.10046,
+    "lon": -55.92552,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Lucas do Rio Verde",
+    "lat": -13.10046,
+    "lon": -55.92552,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Peixoto de Azevedo",
+    "lat": -10.25447,
+    "lon": -55.00171,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Peixoto de Azevedo",
+    "lat": -10.25447,
+    "lon": -55.00171,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "3G",
+    "municipio": "Rondonópolis",
+    "lat": -16.48987,
+    "lon": -54.58271,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Rondonópolis",
+    "lat": -16.48987,
+    "lon": -54.58271,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "4G",
+    "municipio": "Rondonópolis",
+    "lat": -16.44655,
+    "lon": -54.6768,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Rondonópolis",
+    "lat": -16.48987,
+    "lon": -54.58271,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Rondonópolis",
+    "lat": -16.44655,
+    "lon": -54.6768,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "4G",
+    "municipio": "Várzea Grande",
+    "lat": -15.6886,
+    "lon": -56.183122,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Várzea Grande",
+    "lat": -15.6886,
+    "lon": -56.183122,
+    "data": "19/05/2026",
+    "nova": true
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "4G",
     "municipio": "Rondonópolis",
@@ -29179,10 +29458,10 @@
   },
   {
     "operadora": "TIM",
-    "tecnologia": "4G",
+    "tecnologia": "5G",
     "municipio": "Sinop",
-    "lat": -11.92086,
-    "lon": -55.51278,
+    "lat": -11.920861,
+    "lon": -55.512778,
     "data": "19/08/2019",
     "nova": false
   },
@@ -31455,6 +31734,15 @@
     "nova": false
   },
   {
+    "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Tangará da Serra",
+    "lat": -14.62639,
+    "lon": -57.49472,
+    "data": "21/07/2003",
+    "nova": false
+  },
+  {
     "operadora": "Vivo",
     "tecnologia": "2G",
     "municipio": "Cuiabá",
@@ -31754,6 +32042,15 @@
   {
     "operadora": "TIM",
     "tecnologia": "4G",
+    "municipio": "Sinop",
+    "lat": -11.987889,
+    "lon": -55.518861,
+    "data": "21/09/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
+    "tecnologia": "5G",
     "municipio": "Sinop",
     "lat": -11.987889,
     "lon": -55.518861,
@@ -34277,6 +34574,15 @@
     "municipio": "Cuiabá",
     "lat": -15.56297,
     "lon": -56.11549,
+    "data": "24/03/2011",
+    "nova": false
+  },
+  {
+    "operadora": "Claro",
+    "tecnologia": "5G",
+    "municipio": "Cuiabá",
+    "lat": -15.63235,
+    "lon": -55.94273,
     "data": "24/03/2011",
     "nova": false
   },
@@ -38835,6 +39141,15 @@
     "nova": false
   },
   {
+    "operadora": "Vivo",
+    "tecnologia": "5G",
+    "municipio": "Sinop",
+    "lat": -11.829583,
+    "lon": -55.5229,
+    "data": "27/03/2020",
+    "nova": false
+  },
+  {
     "operadora": "Claro",
     "tecnologia": "2G",
     "municipio": "Acorizal",
@@ -39115,6 +39430,15 @@
   },
   {
     "operadora": "TIM",
+    "tecnologia": "5G",
+    "municipio": "Sinop",
+    "lat": -11.853722,
+    "lon": -55.500806,
+    "data": "27/05/2004",
+    "nova": false
+  },
+  {
+    "operadora": "TIM",
     "tecnologia": "2G",
     "municipio": "Sorriso",
     "lat": -12.543639,
@@ -39174,7 +39498,7 @@
     "lat": -15.66187,
     "lon": -56.09865,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Claro",
@@ -39183,7 +39507,7 @@
     "lat": -15.66187,
     "lon": -56.09865,
     "data": "27/05/2025",
-    "nova": true
+    "nova": false
   },
   {
     "operadora": "Vivo",
