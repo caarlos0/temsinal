@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
       - name: Clean existing data
         run: rm -f data/antennas/*.json data/population.json data/municipalities.json
       - name: Fetch ANATEL data
@@ -48,7 +48,7 @@ jobs:
         with:
           commit_message: "chore: update antennas and population data"
       - name: Upload PMTiles to R2
-        uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4.0.0
+        uses: cloudflare/wrangler-action@953926a2e2182532811c01a25e53647d93bf07c0 # v4.1.3
         with:
           command: r2 object put temsinal-data/towers.pmtiles --file=data/towers.pmtiles
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
