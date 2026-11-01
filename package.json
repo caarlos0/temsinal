@@ -5,8 +5,8 @@
     "update": "cd updater && uv run anatel.py && uv run ibge.py && uv run municipalities.py && uv run pmtiles.py"
   },
   "dependencies": {
-    "chart.js": "4.5.1",
-    "maplibre-gl": "6.4.1",
-    "pmtiles": "4.4.1"
+    "chart.js": "4.6.1",
+    "maplibre-gl": "6.16.0",
+    "pmtiles": "4.5.0"
   }
 }
