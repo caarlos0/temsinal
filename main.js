@@ -1,3 +1,5 @@
+import * as maplibregl from "./vendor/maplibre-gl.mjs";
+
 // ── Constants ──────────────────────────────────────────────────────────────
 const TECH_COLOR = {
   "5G": "#f04",
