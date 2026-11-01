@@ -196,6 +196,19 @@ function buildPopup(props) {
 }
 
 // ── Map layers ─────────────────────────────────────────────────────────────
+function dismissLoading() {
+  const overlay = document.getElementById("map-loading");
+  if (overlay && !overlay.classList.contains("hidden")) {
+    overlay.classList.add("hidden");
+    overlay.addEventListener("transitionend", () => overlay.remove());
+  }
+}
+
+// Dismiss once the basemap style + tiles are rendered
+map.once("idle", dismissLoading);
+// Safety fallback in case idle never fires (e.g. tile source errors)
+setTimeout(dismissLoading, 10000);
+
 map.on("load", () => {
   map.addSource("towers", {
     type: "vector",
