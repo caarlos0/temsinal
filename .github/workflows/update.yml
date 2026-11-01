@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
       - name: Clean existing data
         run: rm -f data/antennas/*.json data/population.json data/municipalities.json
       - name: Fetch ANATEL data
@@ -44,7 +44,7 @@ jobs:
       - name: Generate PMTiles
         run: uv run pmtiles.py
         working-directory: updater
-      - uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
+      - uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
         with:
           commit_message: "chore: update antennas and population data"
       - name: Upload PMTiles to R2
