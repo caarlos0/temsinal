@@ -81,6 +81,12 @@ const fmtF = (n, d = 1) =>
     maximumFractionDigits: d,
   });
 const stripAccents = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const escapeHtml = (s) =>
+  s.replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 
 const CHART_SCALES = {
   x: {
@@ -222,7 +228,7 @@ function initScopeSelector() {
     selection.cities.forEach((c, i) => {
       const chip = document.createElement("span");
       chip.className = "scope-chip city";
-      chip.innerHTML = `${c.name} <span style="color:var(--muted)">(${c.uf})</span> <button data-type="city" data-idx="${i}" aria-label="Remover ${c.name}">\u00d7</button>`;
+      chip.innerHTML = `${escapeHtml(c.name)} <span style="color:var(--muted)">(${escapeHtml(c.uf)})</span> <button data-type="city" data-idx="${i}" aria-label="Remover ${escapeHtml(c.name)}">\u00d7</button>`;
       wrap.insertBefore(chip, input);
     });
   };
@@ -1042,7 +1048,7 @@ function renderDetailTable(data, maxPer10k, barColor) {
     .map(
       (r) => `
           <tr>
-            <td class="city-name">${r.city}${r.has5g ? '<span class="badge-5g">5G</span>' : ""}${viewMode === "single-state" && r.pop < POP_THRESHOLD ? ' <span style="color:var(--muted);font-size:.7rem" title="Pop. < ' + fmt(POP_THRESHOLD) + '">*</span>' : ""}</td>
+            <td class="city-name">${escapeHtml(r.city)}${r.has5g ? '<span class="badge-5g">5G</span>' : ""}${viewMode === "single-state" && r.pop < POP_THRESHOLD ? ' <span style="color:var(--muted);font-size:.7rem" title="Pop. < ' + fmt(POP_THRESHOLD) + '">*</span>' : ""}</td>
             <td class="num">${fmt(r.pop)}</td>
             <td class="num hl">${r.total}</td>
             <td class="num">
